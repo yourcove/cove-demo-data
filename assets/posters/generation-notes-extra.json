@@ -1,0 +1,319 @@
+{
+  "schema_version": 1,
+  "workflow": "Built-in image generation; every accepted raw output was inspected at full size before export.",
+  "normalization": {
+    "raw_dimensions": "1672x941",
+    "center_trim": "1664x936 (4 px left/right, 2 px top, 3 px bottom)",
+    "resize": "1600x900 Lanczos",
+    "stretch": false
+  },
+  "assets": [
+    {
+      "asset": "negative-space-1992.jpg",
+      "slug": "negative-space",
+      "depicted_date": "2014-10-16",
+      "full_cast_ages": [
+        {
+          "name": "Kenji Watanari",
+          "birthdate": "1980-12-14",
+          "age": 33
+        }
+      ],
+      "depicted_performers": [
+        "Kenji Watanari"
+      ],
+      "generation_steps": [
+        "Use case: historical-scene\nAsset type: true 16:9 fictional movie poster / cinematic key art\nPrimary request: Create the theatrical poster for the fictional independent mystery \"Negative Space\", set exactly 2014-10-16. Kenji Watanari is exactly age 33 (birthdate 1980-12-14). He is a working still photographer who discovers the same stranger in the margins of unrelated assignments.\nInput images: Image 1 is the canonical identity reference for Kenji Watanari. Preserve his distinct fictional Japanese face, lean build, side-swept black hair, and quiet observant presence; age him naturally to exactly 33. Do not copy the reference sheet pose, wardrobe, cream background, or illustration layout.\nScene/backdrop: an austere 2014 concrete photography archive with towering flat-file cabinets and one long fluorescent aisle; several pinned contact prints recede toward a tiny ambiguous human shadow at the far margin.\nSubject: Kenji alone, caught in profile at the extreme lower-left edge while holding a medium-format camera and studying a contact strip; he occupies less than one quarter of the frame, with enormous intentional empty architectural space.\nStyle/medium: restrained 2010s photochemical thriller key art, realistic cinematic photography, subtle digital grain, no retro cosplay.\nComposition/framing: unusual high oblique viewpoint, deep one-point perspective, wide environmental frame; the literal negative space is the focal idea. No centered portrait and no evenly spaced cast.\nLighting/mood: cold fluorescent cyan-gray with a single narrow red darkroom spill, tense and cerebral.\nColor palette: slate, concrete white, cyan, one controlled darkroom red accent.\nText (verbatim): \"NEGATIVE SPACE\" in small widely tracked white sans-serif letters placed in the upper-right empty field.\nConstraints: exact adult age 33; period-accurate 2014 camera and archive materials; natural anatomy; one recognizable Kenji only; no other readable text, no logos, no watermark, no border, no collage panels; landscape 16:9.\nAvoid: warm brown grade, camera-facing glamour pose, giant floating head, generic contemporary influencer styling, modern mirrorless gear introduced after 2014, malformed hands, duplicate people."
+      ],
+      "period_art_brief": {
+        "depicts_date": "2014-10-16",
+        "decade": "2010s",
+        "photography": "2010s theatrical key art or editorial photography with era-appropriate digital color and retouching",
+        "wardrobe": "2010s silhouettes, tailoring, casualwear, hair, and makeup",
+        "environment": "2010s architecture, signage, vehicles, phones, computers, and cameras; avoid distinctly 2020s trends unless intentionally noted",
+        "flexibility": "Subtle forward-looking or individual style is welcome when plausible; any deliberate major anachronism must be named in intentional_anachronisms."
+      },
+      "composition": "High oblique architecture-led one-point perspective with Kenji confined to the lower-left margin and a distant ambiguous silhouette.",
+      "hairstyle": "Kenji retains side-swept short black hair, naturally styled for 2014.",
+      "expression": "Kenji looks down in absorbed concentration; the distant figure is unreadable.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        {
+          "path": "assets/performers/kenji-watanari.jpg",
+          "role": "Canonical identity reference for Kenji Watanari"
+        }
+      ],
+      "raw_dimensions": "1672x941",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then Lanczos resize",
+      "final_dimensions": "1600x900"
+    },
+    {
+      "asset": "dial-m-for-makeover-1991.jpg",
+      "slug": "dial-m-for-makeover",
+      "depicted_date": "2016-02-14",
+      "full_cast_ages": [
+        {
+          "name": "Amina Shaw",
+          "birthdate": "1992-09-08",
+          "age": 23
+        },
+        {
+          "name": "Darius King",
+          "birthdate": "1978-02-18",
+          "age": 37
+        },
+        {
+          "name": "Julian March",
+          "birthdate": "1966-05-30",
+          "age": 49
+        },
+        {
+          "name": "Beatrix Havenly",
+          "birthdate": "1972-06-12",
+          "age": 43
+        }
+      ],
+      "depicted_performers": [
+        "Amina Shaw",
+        "Darius King",
+        "Julian March",
+        "Beatrix Havenly"
+      ],
+      "generation_steps": [
+        "Use case: historical-scene\nAsset type: true 16:9 fictional movie poster / graphic theatrical key art\nPrimary request: Create the poster for the fictional 2016 workplace farce \"Dial M for Makeover\", dated exactly 2016-02-14. Amina Shaw is 23, Darius King 37, Julian March 49, and Beatrix Havenly 43. An image consultancy must make one client more recognizable and another considerably less so.\nInput images: Image 1 canonical identity for Amina; Image 2 for Darius; Image 3 for Julian; Image 4 for Beatrix. Preserve each distinct fictional face, age, body shape, hair, and skin tone. Do not copy reference poses, outfits, cream sheet backgrounds, or illustration style.\nScene/backdrop: a sharp white 2016 image-consultancy studio strewn with rolling wardrobe racks, color cards, mirrors, and a rotary-style red desk phone used as an intentionally theatrical office prop.\nSubject/action: a witty overhead tableau in active chaos: Amina stands on a low fitting platform marking a clipboard, Darius crosses frame carrying an absurd stack of hat boxes, Julian is half-hidden behind a rolling mirror as he changes jackets, and Beatrix reaches from beneath a clothing rack to answer the ringing red phone. Everyone looks toward their task or another character, never uniformly at the camera.\nStyle/medium: crisp 2010s magazine-editorial comedy key art with mild graphic flattening and realistic faces.\nComposition/framing: bird's-eye diagonal composition, bodies and props forming a large letter M through the frame; no lineup, no floating heads. Keep faces large enough to identify.\nLighting/mood: bright high-key daylight studio, brisk, elegant, screwball energy.\nColor palette: optic white, cobalt, lemon yellow, lipstick red, and black; absolutely no sepia or brown wash.\nText (verbatim): \"DIAL M FOR MAKEOVER\" set vertically along the left edge in bold condensed cobalt capitals, with the single letter M in red.\nConstraints: exact adult ages; plausible 2016 wardrobe and equipment; natural hands/anatomy; exactly these four recognizable people; landscape 16:9; no other readable text, no logos, no watermark, no border.\nAvoid: evenly spaced ensemble, everyone facing camera, warm brown lighting, generic glamour, same wardrobe as references, duplicated faces, malformed hands, extra people, contemporary post-2020 phones or styling.",
+        "Use case: identity-preserve\nAsset type: correction to the fictional 16:9 movie poster \"Dial M for Makeover\"\nPrimary request: Change only the woman at the bottom-right answering the red telephone so she is unmistakably Beatrix Havenly at exact age 43. Give her the canonical short glossy black bob with blunt bangs, warm tan complexion, large dark eyes, rounded cheeks and compact curvy silhouette from Image 2. Keep her active phone-reaching pose and teal 2016 jumpsuit.\nInput images: Image 1 is the edit target and must otherwise remain unchanged. Image 2 is the canonical identity reference for Beatrix Havenly; use it only for her face, hair, complexion and body identity, translated into realistic cinematic photography at age 43.\nConstraints: preserve the complete composition, exact vertical title \"DIAL M FOR MAKEOVER\", Amina at upper-left, Darius at center, Julian in the mirror, all props, colors, lighting, camera angle, and 16:9 framing from Image 1. Edit only Beatrix at bottom-right. Natural anatomy and hands. No extra people, no added text, no logos, no watermark.\nAvoid: making Beatrix resemble Amina, long hair, side-parted hair, changing any other face, changing title spelling, changing crop or layout.",
+        "Use case: identity-preserve\nAsset type: final realism correction to the fictional 16:9 movie poster \"Dial M for Makeover\"\nPrimary request: Change only Beatrix Havenly at bottom-right from an illustrated/cartoon rendering into a fully photorealistic live-action adult woman at exact age 43. Keep her canonical short blunt black bob, warm tan skin, large dark eyes, rounded facial structure, compact curvy build, teal jumpsuit, red telephone, pose, gaze, scale and placement. Translate the identity design from Image 2 into natural human facial proportions, pores, hair strands, photographic shadows and realistic skin; she must match the live-action photographic medium of the other three actors.\nInput images: Image 1 is the edit target. Image 2 is a stylized canonical identity design reference only; preserve identity traits without preserving its illustration medium.\nConstraints: edit only Beatrix at bottom-right. Preserve every pixel-level layout choice elsewhere as closely as possible: exact title \"DIAL M FOR MAKEOVER\", Amina, Darius, Julian, clothing racks, props, palette, lighting, overhead camera and 16:9 crop. No cartoon, animation, painted outline, doll-like skin, extra people, added text, logo or watermark.\nAvoid: illustrated face, anime eyes, childlike appearance, long hair, resemblance to Amina, changing any other face or title."
+      ],
+      "period_art_brief": {
+        "depicts_date": "2016-02-14",
+        "decade": "2010s",
+        "photography": "2010s theatrical key art or editorial photography with era-appropriate digital color and retouching",
+        "wardrobe": "2010s silhouettes, tailoring, casualwear, hair, and makeup",
+        "environment": "2010s architecture, signage, vehicles, phones, computers, and cameras; avoid distinctly 2020s trends unless intentionally noted",
+        "flexibility": "Subtle forward-looking or individual style is welcome when plausible; any deliberate major anachronism must be named in intentional_anachronisms."
+      },
+      "composition": "Bird's-eye diagonal workplace tableau organized by racks, mirror, hat boxes, fitting platform and telephone rather than a cast lineup.",
+      "hairstyle": "Amina has shoulder-length black hair; Darius a short high-top; Julian loose sandy hair; Beatrix a blunt short black bob with bangs.",
+      "expression": "All four react to tasks or one another off-axis; no one presents uniformly to the camera.",
+      "intentional_anachronisms": [
+        "A vintage rotary desk telephone is intentionally retained as the consultancy's theatrical boutique set-dressing prop in 2016."
+      ],
+      "identity_references": [
+        {
+          "path": "assets/performers/amina-shaw.jpg",
+          "role": "Canonical identity reference for Amina Shaw"
+        },
+        {
+          "path": "assets/performers/darius-king.jpg",
+          "role": "Canonical identity reference for Darius King"
+        },
+        {
+          "path": "assets/performers/julian-march.jpg",
+          "role": "Canonical identity reference for Julian March"
+        },
+        {
+          "path": "assets/performers/beatrix-havenly.jpg",
+          "role": "Canonical identity reference for Beatrix Havenly"
+        }
+      ],
+      "raw_dimensions": "1672x941",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then Lanczos resize",
+      "final_dimensions": "1600x900"
+    },
+    {
+      "asset": "exposure-compensation-1997.jpg",
+      "slug": "exposure-compensation",
+      "depicted_date": "2019-05-09",
+      "full_cast_ages": [
+        { "name": "Rafael Sato", "birthdate": "1993-10-03", "age": 25 },
+        { "name": "Tess North", "birthdate": "1996-04-26", "age": 23 }
+      ],
+      "depicted_performers": ["Rafael Sato", "Tess North"],
+      "generation_steps": [
+        "Use case: historical-scene\nAsset type: true 16:9 fictional movie poster / action-romance key art\nPrimary request: Create the theatrical poster for the fictional romantic action comedy \"Exposure Compensation\", dated exactly 2019-05-09. Rafael Sato is exactly 25 (birthdate 1993-10-03) and Tess North exactly 23 (birthdate 1996-04-26). During an album-cover photo shoot, a musician accidentally photographs a covert exchange.\nInput images: Image 1 is Rafael's canonical identity reference; Image 2 is Tess's. Preserve Rafael's distinct Brazilian-Japanese fictional face, wavy black hair and lean musician build, and Tess's distinct freckled fair face, short tousled blonde hair and athletic build. Age both exactly as stated. Do not copy reference poses, outfits, cream background or illustration layout.\nScene/backdrop: a windy 2019 city rooftop at blue hour, with a portable seamless backdrop, light stands, analog guitar case and a long-lens camera; two distant anonymous figures exchange a small envelope far behind the shoot.\nSubject/action: Rafael pivots mid-stride while lowering his camera in surprise; Tess lunges across frame to pull him behind the backdrop, one hand gripping its edge. Both are caught in motion and look toward the distant exchange, not at the viewer.\nStyle/medium: kinetic live-action 2010s theatrical still, realistic faces, crisp editorial detail and subtle motion blur.\nComposition/framing: low Dutch angle from behind a fallen light stand; strong diagonals, fabric whipping across the frame, the covert exchange tiny but legible in the distance; no centered duo pose.\nLighting/mood: cobalt dusk, magenta practical light, sharp white flash spill; romantic tension and comic danger.\nColor palette: electric cobalt, magenta, silver and clean white, with skin tones natural.\nText (verbatim): \"EXPOSURE COMPENSATION\" in compact white uppercase lettering integrated along the diagonal edge of the seamless backdrop.\nConstraints: exact adult ages 25 and 23; plausible 2019 camera, wardrobe and rooftop equipment; exactly these two recognizable foreground performers; natural anatomy; landscape 16:9; no other readable text, logos, watermark or border.\nAvoid: warm brown grade, evenly posed couple, both facing camera, embrace, glamour portrait, duplicated faces, extra foreground people, malformed hands, post-2019 devices."
+      ],
+      "period_art_brief": {
+        "depicts_date": "2019-05-09",
+        "decade": "2010s",
+        "photography": "Polished late-2010s live-action action-comedy key art with realistic editorial detail and restrained digital grain.",
+        "wardrobe": "Plausible spring 2019 musician and photographer wardrobe with no post-2019 styling.",
+        "environment": "A 2019 rooftop photo set with period-appropriate long-lens camera, light stands and portable seamless backdrop.",
+        "flexibility": "The magenta practical light heightens genre energy without altering the depicted date."
+      },
+      "composition": "Low Dutch-angle rooftop action moment driven by a fallen stand, diagonal backdrop and two performers moving across the frame.",
+      "hairstyle": "Rafael retains wavy black hair; Tess retains short tousled blonde hair, both wind-disrupted by the rooftop action.",
+      "expression": "Rafael reacts in surprise while Tess looks alert and urgent toward the distant exchange.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        { "path": "assets/performers/rafael-sato.jpg", "role": "Canonical identity reference for Rafael Sato" },
+        { "path": "assets/performers/tess-north.jpg", "role": "Canonical identity reference for Tess North" }
+      ],
+      "raw_dimensions": "1672x941",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then Lanczos resize",
+      "final_dimensions": "1600x900"
+    },
+    {
+      "asset": "room-service-for-two-2000.jpg",
+      "slug": "room-service-for-two",
+      "depicted_date": "2021-04-14",
+      "full_cast_ages": [
+        { "name": "Rafael Sato", "birthdate": "1993-10-03", "age": 27 },
+        { "name": "Sofia Calderon", "birthdate": "2001-03-11", "age": 20 }
+      ],
+      "depicted_performers": ["Rafael Sato", "Sofia Calderon"],
+      "generation_steps": [
+        "Use case: historical-scene\nAsset type: true 16:9 fictional movie poster / romantic comedy key art\nPrimary request: Create the theatrical poster for the fictional romantic comedy \"Room Service for Two\", dated exactly 2021-04-14. Rafael Sato is exactly 27 (birthdate 1993-10-03) and Sofia Calderon exactly 20 (birthdate 2001-03-11). A musician and a travel critic are repeatedly assigned the same hotel room.\nInput images: Image 1 is Rafael's canonical identity reference; Image 2 is Sofia's. Preserve Rafael's distinct wavy black hair, lean build and fictional Brazilian-Japanese face, and Sofia's distinct Uruguayan fictional face, dark brown ponytail, strong brows and slim build. Age them naturally to exactly 27 and 20. Do not copy reference poses, outfits or illustration medium.\nScene/backdrop: a colorful but plausible 2021 boutique hotel room seen straight down from the ceiling, split visually by a narrow bed, with two open suitcases, a room-service cart, guitar, review notebook, key cards and mismatched travel clutter.\nSubject/action: Rafael and Sofia stand on opposite sides of the cart simultaneously reaching for the same covered plate while each braces a suitcase with one foot; they look at each other with startled annoyance, not at camera.\nStyle/medium: polished live-action romantic comedy poster with graphic overhead organization and natural facial detail.\nComposition/framing: exact bird's-eye symmetrical room geometry disrupted by the diagonal cart and crossed reaching arms; full environmental frame, faces visible in tilted profile; no standing front-facing couple.\nLighting/mood: sunny window light mixed with playful hotel lamps, buoyant and precise.\nColor palette: swimming-pool aqua, coral, butter yellow, white linen and a small navy accent; no brown or sepia wash.\nText (verbatim): \"ROOM SERVICE FOR TWO\" embroidered in clean navy uppercase letters across the white bed runner.\nConstraints: exact adult ages; plausible 2021 travel objects; exactly these two recognizable people; natural hands/anatomy; landscape 16:9; no other readable text, logos, watermark or border.\nAvoid: generic luxury glamour, kissing pose, camera-facing lineup, warm brown grade, same wardrobe as references, duplicate faces, extra people, malformed hands."
+      ],
+      "period_art_brief": {
+        "depicts_date": "2021-04-14",
+        "decade": "2020s",
+        "photography": "Bright early-2020s live-action romantic-comedy key art with graphic overhead organization.",
+        "wardrobe": "Plausible 2021 travel clothes with distinct silhouettes and no reference-sheet costume reuse.",
+        "environment": "A colorful 2021 boutique hotel with key cards, travel cases, room-service cart, review notebook and guitar.",
+        "flexibility": "The carefully color-blocked room is heightened production design within a plausible 2021 hotel."
+      },
+      "composition": "Straight-down room geometry interrupted by a diagonal service cart and two crossed reaching arms.",
+      "hairstyle": "Rafael retains loose wavy black hair; Sofia wears her dark brown hair in a practical ponytail.",
+      "expression": "Both performers exchange startled annoyance across the service cart rather than looking at camera.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        { "path": "assets/performers/rafael-sato.jpg", "role": "Canonical identity reference for Rafael Sato" },
+        { "path": "assets/performers/sofia-calderon.jpg", "role": "Canonical identity reference for Sofia Calderon" }
+      ],
+      "raw_dimensions": "1672x941",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then Lanczos resize",
+      "final_dimensions": "1600x900"
+    },
+    {
+      "asset": "half-light-at-closing-2008.jpg",
+      "slug": "half-light-at-closing",
+      "depicted_date": "2018-11-07",
+      "full_cast_ages": [
+        { "name": "Ellis Ward", "birthdate": "1991-08-07", "age": 27 }
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: historical-scene\nAsset type: true 16:9 fictional movie poster / architecture-led chamber drama key art\nPrimary request: Create the theatrical poster for the fictional chamber drama \"Half-Light at Closing\", dated exactly 2018-11-07. Ellis Ward is exactly 27 (birthdate 1991-08-07). A radio actor records a theatre's rooms on its final night while following the voice of an absent veteran announcer.\nInput images: Image 1 is Ellis Ward's canonical identity reference. Preserve Ellis's distinct fictional face, slim build, pale skin, blue eyes and curly brown hair at exact age 27. Do not copy the reference pose, tweed wardrobe, microphone stance, cream background or illustration style.\nScene/backdrop: a real worn 2018 repertory theatre after closing, viewed from high in the fly tower toward rows of empty blue seats, dusty stage machinery, work lights and a faint EXIT sign appropriate to the building.\nSubject/action: Ellis is a small solitary figure crossing the stage far below, seen in side profile carrying a compact field recorder and coiled headphones; one ghostly cone of booth light suggests the absent voice but contains no person.\nStyle/medium: sober live-action architectural cinema still, restrained 2010s digital photography with fine grain.\nComposition/framing: extreme high-angle wide shot dominated by theatre architecture, ropes and empty seats; Ellis occupies less than ten percent of the frame, no floating head.\nLighting/mood: deep indigo half-light, one amber work lamp, quiet grief and attentive suspense.\nColor palette: indigo, faded theatre blue, charcoal and a single amber pool.\nText (verbatim): \"HALF-LIGHT AT CLOSING\" projected faintly in pale gray across the closed upstage fire curtain, perfectly legible but integrated into the scene.\nConstraints: exact adult age 27; plausible 2018 recorder and theatre fixtures; one recognizable Ellis only; natural anatomy; landscape 16:9; no other readable text, logos, watermark or border.\nAvoid: warm brown grade, centered portrait, face-to-camera pose, horror ghost, supernatural figure, concert imagery, generic recording studio, malformed body, extra people."
+      ],
+      "period_art_brief": {
+        "depicts_date": "2018-11-07",
+        "decade": "2010s",
+        "photography": "Restrained 2018 architectural cinema still with fine digital grain and natural theatre contrast.",
+        "wardrobe": "Ellis wears unobtrusive late-2010s work clothes suitable for field recording.",
+        "environment": "A worn repertory theatre with period-appropriate field recorder, work lights, fly system and safety signage.",
+        "flexibility": "The empty cone of booth light is a visual metaphor rather than a supernatural event."
+      },
+      "composition": "Extreme high-angle architecture-led theatre view; a small solitary figure crosses the stage beneath dominant ropes and empty seats.",
+      "hairstyle": "The distant figure retains Ellis Ward's short curly brown hair, though the wide framing does not expose identity detail.",
+      "expression": "The performer is too distant for a legible expression and is absorbed in crossing the stage.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        { "path": "assets/performers/ellis-ward.jpg", "role": "Canonical identity guidance for the small narrative figure; the accepted wide image does not make Ellis visually recognizable" }
+      ],
+      "raw_dimensions": "1672x941",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then Lanczos resize",
+      "final_dimensions": "1600x900"
+    },
+    {
+      "asset": "the-unreliable-dress-rehearsal-2012.jpg",
+      "slug": "the-unreliable-dress-rehearsal",
+      "depicted_date": "2021-10-12",
+      "full_cast_ages": [
+        { "name": "Imani Cole", "birthdate": "1999-05-16", "age": 22 }
+      ],
+      "depicted_performers": ["Imani Cole"],
+      "generation_steps": [
+        "Use case: historical-scene\nAsset type: true 16:9 fictional movie poster / graphic backstage drama-comedy key art\nPrimary request: Create the theatrical poster for the fictional backstage drama-comedy \"The Unreliable Dress Rehearsal\", dated exactly 2021-10-12. Imani Cole is exactly 22 (birthdate 1999-05-16). An actor reconstructs an unfinished production from contradictory rehearsal notes.\nInput images: Image 1 is Imani Cole's canonical identity reference. Preserve her distinct fictional Black face, deep brown skin, dense shoulder-length natural coils, strong facial structure and slim build at exact age 22. Do not copy the reference pose, clothing, cream background, or illustration style.\nScene/backdrop: a plausible 2021 black-box rehearsal room with a matte black floor, lime and red tape marks, a rolling costume rail, rehearsal cube, work light, pencil, and scattered script pages whose text is too small to read.\nSubject/action: Imani is kneeling in active three-quarter profile near the lower-left, one knee on the floor as she compares two contradictory page sequences and reaches to move a strip of floor tape; she is intent on solving the scene, never looking at the viewer.\nStyle/medium: realistic live-action editorial photography overlaid with disciplined graphic blocking like a contemporary theatre program; natural skin and anatomy, not collage faces.\nComposition/framing: extreme overhead view. Tape lines, page stacks, costume shadows, and Imani's diagonal body form an incomplete stage diagram across the full frame. Keep Imani large enough for her identity to read while the room and evidence dominate. No centered portrait.\nLighting/mood: one hard circular white rehearsal lamp from above, dense matte blacks, playful uncertainty and investigative momentum.\nColor palette: carbon black, paper white, acid lime, signal red, and natural skin tones; no brown or sepia grade.\nText (verbatim): \"THE UNRELIABLE DRESS REHEARSAL\" assembled in bold black uppercase letters across four clean white rehearsal labels near the upper-right; the title must be perfectly spelled and fully legible.\nConstraints: exact adult age 22; plausible 2021 rehearsal objects and wardrobe; exactly one recognizable Imani; natural hands and limbs; landscape 16:9; no other readable text, logos, watermark, border, extra people, or duplicated face.\nAvoid: camera-facing glamour portrait, smiling headshot, warm brown lighting, theatre audience, red curtain cliché, musical-performance imagery, malformed hands, generic contemporary influencer styling."
+      ],
+      "period_art_brief": {
+        "depicts_date": "2021-10-12",
+        "decade": "2020s",
+        "photography": "Realistic 2021 overhead editorial photography with restrained contemporary theatre-program graphics.",
+        "wardrobe": "Practical black-box rehearsal clothes and boots appropriate to a working actor in 2021.",
+        "environment": "A 2021 rehearsal room with contemporary work light, costume rail, marked scripts and taped floor diagram.",
+        "flexibility": "The acid-lime and signal-red tape arrangement is heightened graphic organization built from plausible rehearsal materials."
+      },
+      "composition": "Extreme overhead evidence-map composition with Imani kneeling diagonally among contradictory pages and incomplete tape marks.",
+      "hairstyle": "Imani's dense shoulder-length natural coils are gathered loosely away from her working face.",
+      "expression": "Imani studies the mismatched pages with concentrated skepticism, fully occupied and off camera.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        { "path": "assets/performers/imani-cole.jpg", "role": "Canonical identity reference for Imani Cole" }
+      ],
+      "raw_dimensions": "1672x941",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then Lanczos resize",
+      "final_dimensions": "1600x900"
+    },
+    {
+      "asset": "everyone-is-muted-2022.jpg",
+      "slug": "everyone-is-muted",
+      "depicted_date": "2022-12-09",
+      "full_cast_ages": [
+        { "name": "Amara Okoye", "birthdate": "2003-04-05", "age": 19 },
+        { "name": "Elias Grant", "birthdate": "2004-10-15", "age": 18 },
+        { "name": "Rafael Sato", "birthdate": "1993-10-03", "age": 29 }
+      ],
+      "depicted_performers": ["Amara Okoye", "Elias Grant", "Rafael Sato"],
+      "generation_steps": [
+        "Use case: historical-scene\nAsset type: true 16:9 fictional movie poster / remote ensemble comedy key art\nPrimary request: Create the theatrical poster for the fictional remote ensemble comedy \"Everyone Is Muted\", dated exactly 2022-12-09. Amara Okoye is exactly 19 (birthdate 2003-04-05), Elias Grant exactly 18 (birthdate 2004-10-15), and Rafael Sato exactly 29 (birthdate 1993-10-03). A remote radio play cannot tell which silences belong to the script.\nInput images: Image 1 is Amara's canonical identity reference; Image 2 is Elias's; Image 3 is Rafael's. Preserve Amara's distinct fictional Nigerian face, deep brown skin, long braids gathered low and youthful composer presence; Elias's distinct fictional Black British face, short black hair, close trimmed beard and lean build; and Rafael's distinct fictional Brazilian-Japanese face, wavy black hair and lean musician build. Age them naturally and exactly to 19, 18 and 29. Do not copy reference poses, outfits, cream backgrounds, microphones or illustration style.\nScene/backdrop: three plausible late-2022 remote-work rooms presented as one continuous architectural cutaway: Amara in a compact sound-editing bedroom with laptop and small MIDI keyboard; Elias in a narrow kitchen voicing pages beside a towel-draped chair; Rafael in a bright laundry room holding an unplugged cable beside a portable field recorder. Screens show only abstract blank interface shapes, no readable UI.\nSubject/action: each person is occupied in a different off-axis action at the same frozen instant of confusion: Amara leans close to one headphone cup while reaching for a control, Elias pauses mid-page-turn and listens toward the ceiling, Rafael crouches to trace the disconnected cable. No one looks at camera and none are posed as performers.\nStyle/medium: vivid realistic live-action 2022 streaming-era comedy key art, clean photographic faces, with a restrained graphic split-screen rhythm.\nComposition/framing: three unequal vertical room slices, separated by thin audio-wave gaps; Amara's slice is largest and central, Elias seen from a slightly high angle, Rafael from floor height. Distinct camera distances prevent a lineup.\nLighting/mood: Amara in cyan monitor light with warm desk lamp, Elias in soft lilac kitchen dawn, Rafael in acid-lime daylight; bright, dry and absurd.\nColor palette: cyan, lilac, acid lime, clean white and charcoal; natural skin tones, no brown or sepia wash.\nText (verbatim): \"EVERYONE IS MUTED\" in bold white uppercase letters running horizontally through the negative audio-wave gap across the lower third; exactly spelled and fully legible.\nConstraints: exact adult ages 19, 18 and 29; plausible 2022 laptop, recording objects and wardrobe; exactly these three recognizable people; natural hands/anatomy; landscape 16:9; no other readable text, platform logo, mute icon brand, watermark or border.\nAvoid: webcam headshot grid, uniform face size, everyone facing viewer, concert or song-performance imagery, warm brown grade, duplicated faces, extra people, futuristic equipment, malformed hands.",
+        "Use case: text-removal correction\nAsset type: final correction to the true 16:9 fictional movie poster \"Everyone Is Muted\"\nPrimary request: Remove only the unwanted date text \"2022-12-09\" beneath the title. Replace that date lettering and its immediate black strip area with a seamless continuation of the existing black audio-wave negative space and room edges. Keep the exact main title \"EVERYONE IS MUTED\" fully unchanged and perfectly legible.\nInput image: Image 1 is the edit target and authoritative composition. Preserve the three performers, their faces and ages, rooms, actions, wardrobe, equipment, palette, waveform separators, main title, lighting, camera angles, framing and every other element as closely as possible.\nConstraints: edit only the unwanted date line and the immediate background behind it. Do not alter the three faces, hands, identities, main title spelling, 16:9 crop, or visual arrangement. No added text, logos, watermark, date, credits, symbols or border.\nAvoid: changing the main title, replacing a performer, changing facial identity, introducing text, cropping, or redesigning the poster.",
+        "Use case: identity-preserving age correction\nAsset type: targeted final correction to the true 16:9 fictional movie poster \"Everyone Is Muted\"\nPrimary request: Change only the center performer, Elias Grant, so he reads unmistakably as an 18-year-old adult on exactly 2022-12-09 (birthdate 2004-10-15), while retaining his distinct fictional Black British identity. Give him youthful facial volume through the cheeks, a smooth young brow and jaw, short natural black curls, and only very sparse youthful mustache-and-chin stubble. Remove the mature full beard, gaunt cheeks, forehead creases and late-twenties appearance. Preserve his upward puzzled gaze, page-turning action, dark teal sweater, body placement, scale and lighting.\nInput images: Image 1 is the authoritative edit target; preserve its complete poster composition. Image 2 is Elias's canonical identity design reference, used for his stable face shape, skin tone, short hair and fictional identity but not its mature beard styling. Image 3 is a live-action profile of Elias at age 21, used as the closest realistic identity and youth reference; age him three years younger to exactly 18, keep only sparse facial hair, and do not copy its rust shirt, desk pose, microphone or room.\nConstraints: edit only Elias's face, facial hair and immediately adjacent hairline in the center panel. Preserve Amara Okoye at left, Rafael Sato at right, all hands, script pages, rooms, equipment, audio-wave dividers, palette, framing, exact title \"EVERYONE IS MUTED\", and all other pixels as closely as possible. Elias must remain a clearly adult 18-year-old. Natural skin and anatomy. Landscape 16:9. No added text, date, logos, watermark or border.\nAvoid: full beard, gaunt mature cheeks, deep forehead lines, childlike features, changing Elias into a different person, altering Amara or Rafael, changing the title, cropping, redesigning the rooms, extra people or extra text."
+      ],
+      "period_art_brief": {
+        "depicts_date": "2022-12-09",
+        "decade": "2020s",
+        "photography": "Vivid, realistic late-2022 ensemble-comedy key art with photographic faces and restrained graphic room divisions.",
+        "wardrobe": "Distinct practical 2022 indoor casualwear for three remote collaborators.",
+        "environment": "Three late-2022 domestic work spaces using a laptop, compact MIDI keyboard, script pages, cable and portable recorder without branded interfaces.",
+        "flexibility": "The audio-wave room separators are graphic key-art devices rather than literal architecture."
+      },
+      "composition": "Three unequal room slices at different camera heights, divided by audio waveforms; each performer handles a separate task rather than forming a webcam grid.",
+      "hairstyle": "Amara wears long braids gathered low; Elias has short black hair and a trimmed beard; Rafael has loose wavy black hair.",
+      "expression": "Amara listens critically, Elias looks upward in puzzled attention, and Rafael frowns at a disconnected cable; all gazes remain off camera.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        { "path": "assets/performers/amara-okoye.jpg", "role": "Canonical identity reference for Amara Okoye" },
+        { "path": "assets/performers/elias-grant.jpg", "role": "Canonical identity reference for Elias Grant" },
+        { "path": "assets/performers/rafael-sato.jpg", "role": "Canonical identity reference for Rafael Sato" }
+      ],
+      "raw_dimensions": "1672x941",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then Lanczos resize",
+      "final_dimensions": "1600x900"
+    },
+    {
+      "asset": "a-favor-between-professionals-2026.jpg",
+      "slug": "a-favor-between-professionals",
+      "depicted_date": "2026-02-20",
+      "full_cast_ages": [
+        { "name": "Elias Grant", "birthdate": "2004-10-15", "age": 21 },
+        { "name": "Lucia Ferrer", "birthdate": "2002-09-12", "age": 23 },
+        { "name": "Darius King", "birthdate": "1978-02-18", "age": 48 }
+      ],
+      "depicted_performers": ["Lucia Ferrer", "Darius King"],
+      "generation_steps": [
+        "Use case: historical-scene\nAsset type: true 16:9 fictional movie poster / contemporary espionage-thriller key art\nPrimary request: Create the theatrical poster for the fictional espionage thriller \"A Favor Between Professionals\", dated exactly 2026-02-20. Lucia Ferrer is exactly 23 (birthdate 2002-09-12), Darius King exactly 48 (birthdate 1978-02-18), and full-cast character Elias Grant is exactly 21 (birthdate 2004-10-15). The new Rook delivers an unofficial case years overdue; a practical escort and retired handler know different reasons it must never arrive. Depict Lucia and Darius recognizably; Elias does not appear in this poster.\nInput images: Image 1 is Lucia's canonical identity sheet and Image 2 her live-action profile identity reference. Preserve her beautiful distinct Spanish fictional face, strong brows, long dark braid, visibly muscular athletic female bodybuilder physique and powerful but natural proportions at exact age 23. Images 3 and 4 are Darius's canonical sheet and live-action profile identity reference. Preserve his distinct fictional South African Black face, short high-top black hair, neat mustache, athletic build and mature features at exact age 48. Use the live-action images for facial realism and the sheets for stable body and identity traits. Do not copy any reference pose, tan suit, brown jacket, shoulder bag, black vest, outdoor portrait background or cream illustration layout.\nScene/backdrop: the lower vehicle deck of a contemporary cross-channel ferry at cold dawn, with steel ribs, painted lane markings, safety-yellow watertight door, a few anonymous parked freight containers and gray sea visible through a side opening. No readable vessel branding.\nSubject/action: Lucia dominates the near foreground in a dynamic full-body three-quarter profile, feet braced wide as she catches and holds a heavy sliding watertight door with both arms, visibly using her bodybuilder strength while turning her alert face toward Darius. Darius is farther through the narrowing doorway, crouched beside a compact silver transit case and urgently reaching one open hand back to signal a change of plan. They interact across the closing threshold rather than posing. No handbags or overcoats.\nStyle/medium: precise live-action contemporary espionage cinema still with realistic skin, faces, fabric, steel and anatomy; restrained high-end theatrical key art.\nComposition/framing: very low camera at deck level looking diagonally through the closing doorway. Lucia's strong full-body silhouette and the yellow diagonal door dominate left and center; Darius and the small hard case sit in a compressed deep-right pocket. Large cold negative space toward the sea carries the title. No ensemble lineup, floating heads or evenly balanced people.\nLighting/mood: hard blue-gray dawn, cool fluorescent deck strips, sharp yellow safety color and one small red emergency light; physical urgency, wary cooperation and procedural realism.\nColor palette: steel blue, cold gray, safety yellow, white sea glare and a pin of emergency red; natural skin tones, no brown or sepia wash.\nText (verbatim): \"A FAVOR BETWEEN PROFESSIONALS\" in compact white uppercase letters with generous tracking, placed in the upper-right gray sea negative space; exact spelling, one clean title only.\nConstraints: exact adult ages 23 and 48 for the two recognizable performers; Lucia must read as a beautiful female bodybuilder and capable stunt performer, not a generic slim model; plausible February 2026 ferry architecture, safety equipment and wardrobe; natural hands, muscles and limbs; exactly Lucia and Darius visible; Elias absent; landscape 16:9; no other readable text, logos, credits, watermark or border.\nAvoid: handbags, tan suit, brown jacket, trench coats, camera-facing glamour, static handoff pose, fighting one another, guns, superhero costume, sexualized bodybuilding, evenly posed cast, warm brown grade, duplicated faces, extra people, malformed hands, modern luxury terminal cliché."
+      ],
+      "period_art_brief": {
+        "depicts_date": "2026-02-20",
+        "decade": "2020s",
+        "photography": "Precise contemporary live-action espionage key art with realistic steel, fabric, skin and cold dawn contrast.",
+        "wardrobe": "Practical contemporary workwear for an escort and retired handler, free of costume-spy trench coats and formal tailoring.",
+        "environment": "A plausible February 2026 cross-channel ferry vehicle deck with freight containers, safety door, fluorescent strips and gray open sea.",
+        "flexibility": "The especially empty vehicle deck is a controlled thriller staging choice within the contemporary setting."
+      },
+      "composition": "Deck-level diagonal through a closing yellow ferry door; Lucia's braced full body dominates the foreground while Darius signals beside the case in deep space.",
+      "hairstyle": "Lucia's long dark hair is secured in a practical heavy braid; Darius retains his short high-top haircut and neat mustache.",
+      "expression": "Lucia turns toward Darius with alert resolve while Darius urgently signals a change of plan.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        { "path": "assets/performers/lucia-ferrer.jpg", "role": "Canonical identity and body-design reference for Lucia Ferrer" },
+        { "path": "assets/performer-portraits/lucia-ferrer.jpg", "role": "Live-action facial and body realism reference for Lucia Ferrer" },
+        { "path": "assets/performers/darius-king.jpg", "role": "Canonical identity reference for Darius King" },
+        { "path": "assets/performer-portraits/darius-king.jpg", "role": "Live-action facial realism reference for Darius King" }
+      ],
+      "raw_dimensions": "1672x941",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then Lanczos resize",
+      "final_dimensions": "1600x900"
+    }
+  ]
+}

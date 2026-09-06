@@ -1,0 +1,50 @@
+{
+  "performer": "Cressida Maraschino",
+  "asset": "assets/performer-portraits/cressida-maraschino.jpg",
+  "birth_date": "1937-03-17",
+  "depicts_date": "1969-11-03",
+  "age": 32,
+  "fictional": true,
+  "generation_workflow": "built-in image editing, one deliberate call for the accepted asset",
+  "input_images": [
+    {
+      "filename": "assets/performer-portraits/cressida-maraschino.jpg",
+      "role": "exact photorealistic edit target"
+    },
+    {
+      "filename": "assets/performers/cressida-maraschino.jpg",
+      "role": "unchanged canonical illustrated identity and hourglass-design reference"
+    }
+  ],
+  "refinement_goal": "Adjust the late-1960s dress tailoring toward the fuller hourglass silhouette established by the canonical design while retaining the accepted face, pose, setting, and photographic treatment.",
+  "invariants": [
+    "fictional facial identity and exact apparent age",
+    "copper rolled hairstyle, gaze, expression, head angle, and shoulder position",
+    "black opera gloves and red satin dress identity",
+    "square crop, camera distance, paparazzi setting, lighting, grain, and color grade"
+  ],
+  "accepted_prompt_lines": [
+    "Use case: identity-preserve.",
+    "Asset type: refined canonical square profile portrait for fictional performer Cressida Maraschino, depicted 1969-11-03 at exact age 32.",
+    "Input images: Image 1 is the exact photorealistic edit target. Image 2 is the unchanged canonical illustrated identity reference supporting her original fictional face and hourglass costume design.",
+    "Primary request: Make one restrained period-costume adjustment to Image 1. Give the red satin dress a fuller, naturally rounded upper-body silhouette consistent with Cressida's hourglass design, and replace the high bateau neck with a modest softly draped late-1960s V-neck. The dress remains secure, opaque, elegant, and appropriate for a mainstream film premiere. Render believable tailoring, support, fabric weight, tension, and folds.",
+    "Invariants: Preserve exactly the same fictional face, pale green eyes, brows, nose, mouth, jaw, age-32 skin, makeup, copper rolled hairstyle, head angle, gaze, half-smile, shoulders, arm position, black opera gloves, square crop, camera distance, perspective, paparazzi, flashbulbs, velvet ropes, background, lighting, grain, color grade, and late-1960s press-photo character. Do not change identity, apparent age, pose, setting, hairstyle, expression, or any background person or object.",
+    "Constraints: tasteful fully clothed adult formalwear, no transparency, no lingerie styling, no exaggerated proportions, no text, no logos, no watermark, no real-person resemblance, no extra limbs, no malformed anatomy."
+  ],
+  "rejected_attempt": {
+    "outcome": "The image service rejected the request before generation; no output was accepted or saved to the project.",
+    "prompt_lines": [
+      "Use case: identity-preserve.",
+      "Asset type: refined canonical square profile portrait for fictional performer Cressida Maraschino, depicted 1969-11-03 at exact age 32.",
+      "Input images: Image 1 is the exact photorealistic edit target. Image 2 is the unchanged canonical illustrated identity reference supporting her original fictional face and naturally buxom hourglass design.",
+      "Primary request: Edit Image 1 only to give Cressida a naturally fuller, buxom bust and a tasteful period-appropriate neckline with clearly visible but restrained cleavage. Change the red satin dress from its high bateau neckline to an elegant late-1960s softly draped sweetheart neckline, securely fitted and fully clothed, PG-13. Use believable bust weight, support, fabric tension, folds, and natural anatomy consistent with her fuller hourglass figure.",
+      "Invariants: Preserve exactly the same fictional face, pale green eyes, brows, nose, mouth, jaw, age-32 skin, red lipstick, copper rolled hairstyle, head angle, off-camera gaze, half-smile, shoulders, arm position, black opera gloves, square crop, camera distance, perspective, paparazzi, flashbulbs, velvet ropes, background, lighting, grain, color grade, and late-1960s press-photo character. Do not change her identity, apparent age, pose, setting, hairstyle, expression, or any background person or object.",
+      "Constraints: one adult fictional woman, tasteful clothed cleavage only, no nudity, no exposed areola, no transparent fabric, no lingerie styling, no excessive or gravity-defying proportions, no text, no logos, no watermark, no real celebrity resemblance, no extra limbs, no malformed anatomy."
+    ]
+  },
+  "review": {
+    "output": "accepted after full-resolution inspection",
+    "dimensions": "1024x1024",
+    "findings": "The accepted edit keeps the established face, age, pose, gloves, press setting, and square composition while giving the dress a fuller natural silhouette and restrained draped neckline."
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "workflow": "One deliberate asset concept per film-production audio record; corrective prompts only removed unwanted pseudo-text, marks or labels.",
+  "normalization": "All accepted raw files were 1672x941 and were minimally center-trimmed to 1664x936 before proportional 1600x900 export.",
+  "contact_sheet": "gitignored/audit/audio-covers-final-contact-sheet.jpg",
+  "assets": [
+    {
+      "asset": "assets/audio-covers/everyone-is-muted.jpg",
+      "video_slug": "everyone-is-muted",
+      "audio_title": "Everyone Is Muted: The remote rehearsal roundtable",
+      "depicted_date": "2022-12-09",
+      "audio_participants": [
+        "Amara Okoye",
+        "Elias Grant",
+        "Ellis Ward",
+        "Rafael Sato"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: Everyone Is Muted production-audio cover\nDepicted date: 2022-12-09\nCreate one realistic, true 16:9 landscape cover for a behind-the-scenes remote-rehearsal roundtable connected to the fictional film Everyone Is Muted. No people are visible. Build three unequal vertical domestic-work panels as one clean editorial composition: the largest left panel shows a compact MIDI control surface and one earcup resting beside it in cyan window light; the narrow middle panel shows a turned-over script page and capped pencil in a lilac kitchen; the right panel shows a loose audio cable ending just short of a portable field recorder in acid-lime laundry-room daylight. Use different camera heights in each panel and narrow black room-tone gaps between them. The visual should suggest three collaborators comparing connection delays, written pauses, accompaniment, and room tone. Contemporary late-2022 objects only, plausible unbranded equipment, dry tactile documentary photography, crisp but natural surfaces. Palette: cyan, lilac, acid lime, charcoal, clean white. Exact 16:9 landscape. No poster background, no centered waveform, no title, no readable writing, no date text, no people, no faces, no logos, no brands, no watermark, no music album styling, no concert imagery, no malformed equipment, no futuristic devices.",
+        "Use case: targeted correction to a fictional film-production audio cover\nAsset: Everyone Is Muted production-audio cover\nInput image: Image 1 is the authoritative edit target. Preserve its exact three-panel composition, audio equipment, cyan/lilac/acid-lime palette, lighting, camera geometry, black separators and 16:9 framing.\nChange only the middle panel: remove every printed or generated word and line of text from the script pages. Replace the visible pages with three plain unprinted rehearsal cards containing only a few large abstract solid rectangles and dots in gray and muted violet, with no alphabetic characters, numbers, symbols that resemble writing, or legible interface. Keep the capped pencil and kitchen context.\nAlso inspect the full image and remove any accidental logo, brand, watermark, signature, date or title if present. No other redesign. Do not add people, faces, waveform graphics, music-album styling or text. Preserve natural equipment and exact landscape aspect."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2020s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Three unequal vertical domestic-work panels separated by dark gaps, each using a distinct camera height.",
+      "objects": "MIDI control and earcup; abstract rehearsal cards and pencil; loose cable and portable recorder.",
+      "palette": "Cyan, lilac, acid lime, charcoal and clean white.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/everyone-is-muted.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "027ce0dc95f3121a3677ac57096f204c6d3e2cd642c50b379cec500dcbe321d7",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    },
+    {
+      "asset": "assets/audio-covers/the-supporting-evidence.jpg",
+      "video_slug": "the-supporting-evidence",
+      "audio_title": "The Supporting Evidence: Scoring around an interview",
+      "depicted_date": "2022-09-30",
+      "audio_participants": [
+        "Dev Malik"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: The Supporting Evidence production-audio cover\nDepicted date: 2022-09-30\nCreate one realistic, true 16:9 landscape cover for a behind-the-scenes documentary interview about scoring around testimony in the fictional film The Supporting Evidence. No people are visible. View a modest documentary edit suite from behind and slightly above an empty interview chair. A dark editing desk occupies the lower-right diagonal with one compact unbranded monitor showing only abstract muted audio blocks and long intentional gaps, not readable UI and not a decorative waveform. A small tabletop microphone points toward the vacant chair; a pair of closed headphones rests on a marked paper folder. The empty chair and removed musical passages are the focal story. Cool steel daylight enters from frame left, with restrained cyan monitor spill and one warm practical lamp deep in the room. Naturalistic 2022 production photography, sober editorial texture, generous negative space, no glamour. Exact 16:9 landscape. No movie-poster reuse, no centered yellow waveform, no title, no readable text, no date, no people, no faces, no logos, no brands, no watermark, no concert, no album-cover clichés, no duplicated objects, no malformed equipment.",
+        "Use case: targeted correction to a fictional film-production audio cover\nAsset: The Supporting Evidence production-audio cover\nInput image: Image 1 is the authoritative edit target. Preserve the exact empty interview chair, edit-suite desk, microphone, headphones, abstract cyan monitor blocks, cool window light, warm distant lamp, negative space, sober photographic texture and 16:9 composition.\nRemove the unwanted gray emblem or watermark in the bottom-right corner completely. Reconstruct that small area as a seamless continuation of the existing dark wooden desk and shadow. Remove any other accidental logo, brand, signature, title, date or readable text if present, while leaving the monitor as abstract unlabeled audio blocks.\nEdit only unwanted marks and their immediate backgrounds. No people, faces, new objects, waveform decoration, yellow graphic, album styling, text, logos or watermarks."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2020s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Empty interview chair dominates left negative space while the edit desk enters on a lower-right diagonal.",
+      "objects": "Interview microphone, headphones, edit control surface and abstract muted monitor blocks.",
+      "palette": "Cool steel daylight, restrained cyan and one distant warm lamp.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/the-supporting-evidence.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "43e1b4254e0fbecd6f68d14bfc0a305fef07d8a68a667b8c8effe6a8310153e0",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    },
+    {
+      "asset": "assets/audio-covers/rook-new-orders.jpg",
+      "video_slug": "rook-new-orders",
+      "audio_title": "Rook: New Orders: Revisiting Rook’s sound",
+      "depicted_date": "2024-10-18",
+      "audio_participants": [
+        "Dev Malik"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: Rook: New Orders production-audio cover\nDepicted date: 2024-10-18\nCreate one realistic true 16:9 landscape audio cover for a behind-the-scenes interview about revisiting an inherited sound motif for the fictional courier thriller Rook: New Orders. No people are visible. Use an unusual low viewpoint from inside a modern train luggage rack looking lengthwise down brushed steel bars. In the near foreground, a compact unbranded field recorder is strapped beside a weathered charcoal cue notebook with a completely blank cover and one narrow red elastic band. Far below, the train aisle and a closed red hard-shell courier case recede out of focus, implying the film without copying its poster. Severe contemporary railway geometry, precise 2024 equipment, cold navy shadows, brushed steel highlights, one signal-red accent, subtle vibration and rain-muted window light. The recorder and notebook form an asymmetric diagonal; generous dark negative space occupies the upper right. Tactile location-sound documentary photography, restrained grain. Exact 16:9 landscape. No title, no writing, no date, no logo, no brand, no watermark, no people, no faces, no waveform, no yellow audio graphic, no movie-poster background, no album art, no concert imagery, no chess symbols, no malformed equipment, no futuristic train."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2020s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Low axial view from inside a train luggage rack with equipment close and courier case far below.",
+      "objects": "Strapped field recorder, blank charcoal cue notebook with red elastic, distant red hard-shell case.",
+      "palette": "Severe navy, brushed steel, black and signal red.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/rook-new-orders.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "97d258f590797a5e61984bc3cbac9f9f4d5a4135821214981e689063839d8f2f",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    },
+    {
+      "asset": "assets/audio-covers/the-last-take-was-perfect.jpg",
+      "video_slug": "the-last-take-was-perfect",
+      "audio_title": "The Last Take Was Perfect: Two accounts of the final take",
+      "depicted_date": "2025-06-13",
+      "audio_participants": [
+        "Arun Sen",
+        "Amara Okoye"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: The Last Take Was Perfect production-audio cover\nDepicted date: 2025-06-13\nCreate one realistic true 16:9 landscape audio cover for a behind-the-scenes conversation comparing two memories of the final rehearsal for the fictional film The Last Take Was Perfect. No recognizable people are visible. Observe a working film sound cart in soft available daylight from waist height and slightly behind it: compact unbranded recorder, neatly coiled cables, two mismatched closed headphones, a slate-gray canvas pouch, and two small blank cue cards angled differently as if representing conflicting accounts. The cart occupies the left third; an open studio floor extends into luminous negative space on the right. Two distant collaborators may appear only as soft, indistinct back-facing silhouettes with no visible facial identity, gesturing toward different marks on the floor. Quiet documentary production-still realism rather than key art. Neutral daylight, canvas beige, slate gray, muted blue tape, one faded red cable; natural wear and no glamour. Exact 16:9 landscape. No title, no readable slate, no writing, no date, no logo, no brand, no watermark, no visible face, no waveform, no yellow audio graphic, no reused movie poster, no album-cover styling, no concert, no malformed cables or equipment."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2020s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Working sound cart fills the left third; luminous studio floor and two indistinct back-facing collaborators recede right.",
+      "objects": "Recorder, coiled cables, mismatched headphones, canvas pouch and two blank cue cards.",
+      "palette": "Available-light beige, slate gray, muted blue tape and faded red cable.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/the-last-take-was-perfect.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "d70ee2911aa41d9e98170b1fe85eb20f53d6463c933b5b97f93ddd1f520127eb",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    },
+    {
+      "asset": "assets/audio-covers/a-favor-between-professionals.jpg",
+      "video_slug": "a-favor-between-professionals",
+      "audio_title": "A Favor Between Professionals: A companion film’s sound diary",
+      "depicted_date": "2026-02-20",
+      "audio_participants": [
+        "Dev Malik"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: A Favor Between Professionals production-audio cover\nDepicted date: 2026-02-20\nCreate one realistic true 16:9 landscape cover for a location-sound diary connected to the fictional courier film A Favor Between Professionals. No people are visible. Photograph two materially different closed cases on rain-wet industrial concrete from a very low oblique angle: a scuffed black location-sound case with one neatly coiled cable and compact recorder visible in its foam-lined open lid at far left, and a sealed mustard-yellow courier case farther right near a warehouse threshold. A thin puddle reflection visually connects them while a long loading-bay corridor vanishes beyond. The sound case is clearly production equipment; the delivery case remains narratively ambiguous. Cold February 2026 daylight, industrial blue-gray walls, narrow amber reflection, wet texture, restrained realistic grain. Compose asymmetrically with the open sound case close and the delivery case small and distant; no poster action pose. Exact 16:9 landscape. No title, no labels, no readable text, no date, no logos, no brands, no watermark, no people, no faces, no waveform, no yellow audio graphic, no movie-poster background, no album or concert styling, no weapons, no malformed cases or cables."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2020s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Very low oblique loading-bay view connecting a close open sound case to a distant closed courier case through puddle reflection.",
+      "objects": "Location recorder, coiled cable, foam-lined black case and mustard courier case.",
+      "palette": "Cold industrial blue-gray, black, mustard and narrow amber reflection.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/a-favor-between-professionals.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "d17908b8a35025efb828edc34486bf5337c51c73804c9a312d34c0ef8d34fd83",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    },
+    {
+      "asset": "assets/audio-covers/soft-launch.jpg",
+      "video_slug": "soft-launch",
+      "audio_title": "Soft Launch: Notes from the first test audience",
+      "depicted_date": "2021-04-23",
+      "audio_participants": [
+        "Amara Okoye"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: Soft Launch production-audio cover\nDepicted date: 2021-04-23\nCreate one realistic true 16:9 landscape cover for a behind-the-scenes discussion of the first test audience for the fictional film Soft Launch. No people are visible. Make a straight-down editorial still life over an informal screening-room worktable after the audience has left: a tiny unbranded portable projector at the lower-left casts a soft trapezoid of pale light; irregular blank feedback cards scatter loosely across the center, marked only with large solid circles and simple colored bars with no letters or numbers; a closed cobalt audio notebook, one mint pencil, two paper cups and a small coiled headphone cable occupy separate edges. Avoid radial symmetry or a perfect grid. Bright but soft 2021 workspace realism, paper texture and practical wear. Palette: mint, cobalt, warm paper, charcoal and a small coral accent. The projected light and overlapping cards create the composition rather than a waveform. Exact 16:9 landscape. No title, no readable writing, no date, no logo, no brand, no watermark, no people, no faces, no poster reuse, no centered waveform, no yellow audio motif, no album-cover or concert imagery, no malformed projector or cable."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2020s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Irregular straight-down screening-table still life organized by projector spill and overlapping cards.",
+      "objects": "Portable projector, abstract feedback cards, closed notebook, pencil, cups and headphone cable.",
+      "palette": "Mint, cobalt, warm paper, charcoal and small coral accents.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/soft-launch.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "2f0695d15da9dd24b1bb1a9bc3c199f95d590a934dbfc19260f909747217ebe0",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    },
+    {
+      "asset": "assets/audio-covers/rooms-with-an-alibi.jpg",
+      "video_slug": "rooms-with-an-alibi",
+      "audio_title": "Rooms with an Alibi: Finding the sound of the missing room",
+      "depicted_date": "2024-09-08",
+      "audio_participants": [
+        "Arun Sen"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: Rooms with an Alibi production-audio cover\nDepicted date: 2024-09-08\nCreate one realistic true 16:9 landscape cover for a behind-the-scenes location-sound interview about making an absent hotel room feel present in the fictional film Rooms with an Alibi. No people are visible. Use a floor-level long-lens view down a contemporary hotel corridor whose patterned olive carpet and repeating brass wall lights create strong perspective. Near the camera, slightly left of center, place a compact unbranded portable recorder and one boundary microphone aimed toward a clean patch of wall between two doors where a room should be. The gap has no room number, label, sign or readable text. One distant housekeeping cart sits partly hidden around a corner, reinforcing shifting geography without becoming the focal point. Cold September window light cuts across the corridor from an unseen end, opposed by small warm brass practicals. Natural 2024 location-recording photography, muted olive, tobacco brass, cold gray-blue and deep shadow; low viewpoint and long empty geometry unlike a poster. Exact 16:9 landscape. No title, no writing, no numbers, no date, no logo, no brand, no watermark, no people, no faces, no waveform, no yellow audio motif, no reused poster, no music-album or concert imagery, no horror gore, no malformed doors or recorder."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2020s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Floor-level long corridor perspective aimed at an unnumbered wall gap between hotel doors.",
+      "objects": "Portable recorder, boundary microphone and distant housekeeping cart.",
+      "palette": "Muted olive carpet, tobacco brass, cold gray-blue light and deep shadow.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/rooms-with-an-alibi.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "d4ff8ca47a8ce24e92519da2aa34ca2aae471b508343690a3684af02cd56987c",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    },
+    {
+      "asset": "assets/audio-covers/undercover-overdressed.jpg",
+      "video_slug": "undercover-overdressed",
+      "audio_title": "Undercover, Overdressed: Choreographing the convention-floor chase",
+      "depicted_date": "2024-07-24",
+      "audio_participants": [
+        "Dev Malik",
+        "Rafael Sato"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: Undercover, Overdressed production-audio cover\nDepicted date: 2024-07-24\nCreate one realistic true 16:9 landscape cover for a film-production discussion about choreographing and scoring a convention-floor chase in the fictional film Undercover, Overdressed. No people are visible. Photograph a rehearsal movement map from an extreme diagonal overhead angle across a bright convention-hall service table. Use a blank violet floor-plan board with only bold geometric aisle blocks, curved arrows and colored tape marks—no letters, numbers, room labels or readable symbols. Place a coiled clear-tube radio earpiece at one corner, two strips of yellow safe-mark tape crossing the table edge, a compact metronome-like timing device with a blank face, and one coral fabric swatch. Let the actual glass-and-steel convention floor blur far below through the table’s open side. High-key July 2024 daylight with hard architectural reflections. Palette: saturated violet, safety yellow, coral, cool glass blue and clean white. Dynamic diagonal composition and shallow depth, energetic without depicting action performers. Exact 16:9 landscape. No title, no readable writing, no date, no logo, no brand, no watermark, no people, no faces, no waveform, no poster background, no generic yellow waveform, no album or concert styling, no weapons, no malformed equipment.",
+        "Use case: targeted correction to a fictional film-production audio cover\nAsset: Undercover, Overdressed production-audio cover\nInput image: Image 1 is the authoritative edit target. Preserve the exact violet movement-map board, coral and yellow arrows, white aisle tape, diagonal glass-convention-hall viewpoint, clear radio earpiece, coral cloth, palette, lighting and 16:9 framing.\nRemove every tiny white brand-like marking, label, letter and number from the black timing device near the lower-left. Give it a completely blank dark face with one plain unlabeled round dial and one blank gray display. Remove the partial white paper with faint writing at the extreme upper-left edge by extending the violet board cleanly into that corner. Inspect the rest of the image and remove any other accidental word, number, logo, signature or watermark.\nDo not redesign the composition. No people, faces, readable symbols, brands, title, date, waveform, poster background, music-album styling, new objects or malformed equipment."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2020s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Extreme diagonal overhead movement map with convention architecture falling away beyond the table edge.",
+      "objects": "Abstract taped route map, clear-tube earpiece, blank timing device and coral fabric swatch.",
+      "palette": "Saturated violet, safety yellow, coral, cool glass blue and white.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/undercover-overdressed.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "f35011e7b1034573244bf3b5b2151e2d3711610a8b297e3c2efe7d56e2ed79b7",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    },
+    {
+      "asset": "assets/audio-covers/love-in-the-time-of-voicemail.jpg",
+      "video_slug": "love-in-the-time-of-voicemail",
+      "audio_title": "Love in the Time of Voicemail: Making the messages sound lived-in",
+      "depicted_date": "2023-02-09",
+      "audio_participants": [
+        "Dev Malik"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: Love in the Time of Voicemail production-audio cover\nDepicted date: 2023-02-09\nCreate one realistic true 16:9 landscape cover for a film-production interview about making recycled-number voice messages sound lived-in for the fictional film Love in the Time of Voicemail. No people are visible. Use a lateral cutaway composition across two modest neighboring apartments divided by a thick salmon-painted wall edge near the center. On the left, an older gray answering machine with completely blank buttons sits low on a pale peach hallway table beside one loosely coiled telephone cord. On the right, a different compact sage-green answering machine sits farther back on a kitchen shelf beside an empty mug. Each device faces a different direction and receives different natural light; the rooms do not mirror each other. A narrow shadow gap through the dividing wall visually connects the spaces without any heart shape. Contemporary 2023 production still with plausible reused analog devices, muted peach, sage, telephone gray, soft cream and dusty blue. Calm domestic realism, modest wear, asymmetric distances. Exact 16:9 landscape. No title, no readable labels, no digits, no date, no logo, no brand, no watermark, no people, no faces, no waveform, no yellow audio graphic, no poster background, no album art, no concert imagery, no heart symbol, no duplicated device, no malformed cord."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2020s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Asymmetric lateral cutaway through two neighboring rooms separated by a thick salmon wall edge.",
+      "objects": "Two distinct reused answering machines, coiled phone cord and an empty mug.",
+      "palette": "Muted peach, sage, telephone gray, soft cream and dusty blue.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/love-in-the-time-of-voicemail.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "824be1e0b89cd305a9c8e96f3b7cbd73eb34b8a8e9be8231c43a47abd0b97e26",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    },
+    {
+      "asset": "assets/audio-covers/half-light-at-closing.jpg",
+      "video_slug": "half-light-at-closing",
+      "audio_title": "Half-Light at Closing: Walking the empty theatre",
+      "depicted_date": "2018-11-07",
+      "audio_participants": [
+        "Ellis Ward"
+      ],
+      "depicted_performers": [],
+      "generation_steps": [
+        "Use case: fictional film-production audio cover\nAsset: Half-Light at Closing production-audio cover\nDepicted date: 2018-11-07\nCreate one realistic true 16:9 landscape cover for an acoustic walk and room-tone recording made for the fictional film Half-Light at Closing. No people are visible. Look from the extreme left edge of a dark theatre stage out into a vast empty auditorium at closing time, camera nearly at floor level behind a worn black curtain. A very small unbranded portable recorder stands alone halfway down the center aisle on a short tripod; it must remain subordinate to the architecture. One weak amber work light grazes a few seat backs while cool indigo spill leaks from a high rear exit, leaving most of the frame in textured darkness. The stage floor, curtain edge and empty seats form long converging diagonals; quiet air and scale are the subject. Native 2018 low-light documentary photography with restrained sensor grain and no theatrical glamour. Palette: deep indigo, charcoal, old burgundy upholstery and one dim amber pool. Exact 16:9 landscape. No title, no writing, no date, no logo, no brand, no watermark, no people, no faces, no waveform, no poster background, no yellow audio motif, no album or concert styling, no ghostly figure, no malformed architecture or recorder."
+      ],
+      "prompt_source": "session-exact",
+      "period_art_brief": {
+        "decade": "2010s",
+        "environment": "Plausible production-sound objects and working environments for the exact depicted date.",
+        "photographic_process": "Natural contemporary film-production editorial photography with asset-specific color and camera treatment.",
+        "intentional_anachronisms": []
+      },
+      "composition": "Extreme stage-edge viewpoint through a worn curtain toward a vast empty auditorium and tiny aisle recorder.",
+      "objects": "Small recorder on short tripod, empty seats, stage floor and curtain.",
+      "palette": "Deep indigo, charcoal, old burgundy and one dim amber pool.",
+      "identity_references": [],
+      "intentional_anachronisms": [],
+      "raw_dimensions": "1672x941",
+      "archived_raw": "gitignored/audit/audio-cover-raw/half-light-at-closing.png",
+      "normalization_applied": "center trim to 1664x936 (4 px left/right, 2 px top, 3 px bottom), then proportional Lanczos resize; no stretch",
+      "final_dimensions": "1600x900",
+      "sha256": "44a22f04cbe2b1508496c6c09e236b77403e4b52eebd0c178b8a01af77a084f6",
+      "full_size_review": {
+        "accepted": true,
+        "no_readable_text_or_logos": true,
+        "no_recognizable_people": true,
+        "equipment_and_architecture_coherent": true
+      }
+    }
+  ]
+}

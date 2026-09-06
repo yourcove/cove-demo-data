@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "fictional": true,
+  "generation_workflow": "built-in image generation, one deliberate call per asset with targeted correction after rejection when documented",
+  "portraits": [
+    {
+      "asset": "performer:lucia-ferrer:portrait",
+      "filename": "lucia-ferrer.jpg",
+      "depicts_date": "2025-05-15",
+      "birth_date": "2002-09-12",
+      "age": 22,
+      "identity_reference_files": [
+        {
+          "filename": "assets/performers/lucia-ferrer.jpg",
+          "role": "sole primary canonical illustrated identity reference"
+        }
+      ],
+      "intended_distinguishing_traits": "Athletic build and shoulders, broad angular lower face, prominent nose, thick straighter brows, long practical crown braid, minimal makeup, and cool utilitarian wardrobe; visually distinct from Sofia Calderon's softer coastal documentary portrait.",
+      "composition": "Square waist-up working portrait at a stunt backlot; slightly low camera; strong shoulder angle; both hands occupied taping a wrist.",
+      "hairstyle": "Single long tight practical braid from the crown with flyaways; no loose low ponytail or soft coastal tendrils.",
+      "expression": "Focused closed mouth with gaze just past the camera.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Use case: photorealistic-natural",
+        "Asset type: primary square Cove profile portrait for the fictional performer Lucia Ferrer, depicted 2025-05-15",
+        "Primary request: Generate a distinctive contemporary environmental portrait of Lucia Ferrer at exact age 22, calculated from fictional birthdate 2002-09-12. Preserve her canonical identity while making her immediately distinguishable from Sofia Calderon.",
+        "Input images: Image 1 is the sole primary canonical illustrated identity reference. Preserve Lucia's own face, athletic physicality, practical long-braid identity, strong brow line, angular jaw, olive complexion, and stunt-work character. Do not reproduce the input's turnaround-sheet layout.",
+        "Scene/backdrop: a contemporary stunt-rehearsal backlot under cool overcast daylight, with soft out-of-focus crash mats, rigging cable, and an unmarked industrial wall; no coast, marina, flowers, event venue, or red carpet.",
+        "Subject: the same fictional adult woman at age 22, visibly athletic shoulders and forearms, broad angular lower face, prominent straight-to-slightly-aquiline nose, thick straighter dark brows, deep-set dark eyes, natural skin texture, minimal practical makeup.",
+        "Style/medium: candid high-resolution contemporary editorial photography with real pores, flyaway hair, worn fabric, and restrained color grading.",
+        "Composition/framing: true square 1:1 profile image; waist-up from a slightly low camera at close conversational distance; shoulders angled strongly across frame while her face turns only partway toward the lens; she is tightening athletic tape around one wrist with both hands naturally visible.",
+        "Hair: dark brown hair pulled into one long tight practical braid beginning at the crown, braid falling forward over one shoulder; wind-loosened strands; no loose low ponytail, soft romantic tendrils, glossy blowout, or shoulder-length waves.",
+        "Expression/gaze: focused closed-mouth half-squint directed just past the camera, concentrated and self-possessed; no laughing, beauty smile, or dreamy waterfront gaze.",
+        "Wardrobe: charcoal crew-neck performance shirt under a weathered slate-green cropped utility vest, dark wrist tape, no rust-red or burgundy leather jacket.",
+        "Lighting/mood: cool broad daylight with slight top light and honest contrast; capable, kinetic, unpolished.",
+        "Constraints: clearly adult age 22; maintain Lucia's canonical reference identity and muscular working build; contemporary 2025 environment and clothing; natural hands and anatomy; no text, logos, watermark, border, collage, contact sheet, or extra people in focus.",
+        "Avoid: Sofia Calderon's softer oval face, delicate tapered jaw, low loose ponytail, burgundy leather, camera-journalist props, marina background, seated coastal smile, same head angle as the old portraits; avoid generic glamour, plastic skin, celebrity resemblance, exaggerated muscles, malformed fingers.",
+        "Intentional anachronisms: none."
+      ],
+      "review": {
+        "initial_output": "rejected because the apparent age was substantially older than 22",
+        "correction": "targeted identity-preserving age correction accepted after full-resolution inspection"
+      },
+      "correction_prompt_lines": [
+        "Use case: identity-preserve",
+        "Asset type: correction to the newly generated Lucia Ferrer square profile portrait",
+        "Primary request: Correct only Lucia's apparent age so she unmistakably reads as exactly 22 years old on 2025-05-15. The current face appears substantially older than 22.",
+        "Input images: The most recent generated Lucia portrait is the edit target. Preserve her fictional identity and every successful scene and composition choice.",
+        "Changes: soften age-related forehead and eye-area lines to natural 22-year-old skin; slightly restore youthful facial volume around the cheeks and temples; keep realistic pores, subtle outdoor texture, and a serious adult expression. She must remain an adult and must not become childlike.",
+        "Invariants: keep the exact square composition, body angle, athletic build, broad angular jaw, prominent nose, thick straight brows, long practical braid, flyaways, focused off-axis gaze, wrist-taping action, hands, charcoal shirt, slate utility vest, backlot, crash mats, overcast light, and neutral color grade unchanged.",
+        "Constraints: change age appearance only; no glamour retouching, no smoothing to plastic skin, no text, no logos, no watermark, no extra people, no anatomy changes.",
+        "Avoid: appearance older than late twenties, juvenile appearance, Sofia Calderon's soft coastal glamour, malformed hands."
+      ]
+    },
+    {
+      "asset": "performer:nia-hart:portrait",
+      "filename": "nia-hart.jpg",
+      "depicts_date": "2024-07-24",
+      "birth_date": "1996-12-01",
+      "age": 27,
+      "identity_reference_files": [
+        {
+          "filename": "assets/performers/nia-hart.jpg",
+          "role": "sole primary canonical illustrated identity reference"
+        }
+      ],
+      "intended_distinguishing_traits": "Long narrow oval face, high forehead, wide attentive eyes, small microbraids in a high asymmetric knot, matte workwear, and frontal skeptical reserve; visually distinct from Imani Cole's curl halo and glamorous harbor portrait.",
+      "composition": "Square frontal seated medium close-up at a rehearsal-office worktable; both forearms and writing hand visible; eye-height camera.",
+      "hairstyle": "Microbraids gathered high with clean sides and one temple braid; no loose shoulder-curl halo.",
+      "expression": "Calm skeptical direct gaze, closed mouth, and subtly raised brow.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Use case: photorealistic-natural",
+        "Asset type: primary square Cove profile portrait for the fictional performer Nia Hart, depicted 2024-07-24",
+        "Primary request: Generate a distinctive contemporary working portrait of Nia Hart at exact age 27, calculated from fictional birthdate 1996-12-01. Preserve her canonical identity while making her immediately distinguishable from Imani Cole.",
+        "Input images: Image 1 is the sole primary canonical illustrated identity reference. Preserve Nia's own long oval face, wide almond eyes, poised bearing, deep brown complexion, and recognizable nose, mouth, and jaw. Do not reproduce the input's turnaround-sheet layout.",
+        "Scene/backdrop: a bright contemporary rehearsal-office or production room with flat north-window daylight; softly blurred corkboard, paper edges, and a practical desk lamp; no harbor, hillside, premiere crowd, or luxury event.",
+        "Subject: the same fictional adult woman at age 27, long narrow oval face, slightly high forehead, wide attentive almond eyes, softly defined cheekbones, natural deep-brown skin texture, minimal practical makeup; visibly thoughtful rather than glamorous.",
+        "Style/medium: high-resolution contemporary editorial photography with real pores, fine hair texture, lightly worn fabric, restrained neutral color, and modest depth of field.",
+        "Composition/framing: true square 1:1 profile image; frontal seated medium close-up from mid-torso; shoulders nearly level and face centered; one forearm rests on a worktable while the other hand holds a capped pen low in frame; camera at eye height.",
+        "Hair: small neat microbraids gathered into a high asymmetric sculptural knot with clean sides and one short braid near the temple; no loose side-parted shoulder curls, twist-out halo, or voluminous corporate-event hairstyle.",
+        "Expression/gaze: calm, skeptical closed-mouth look directly into the lens, one brow subtly lifted; no broad smile or dreamy off-camera gaze.",
+        "Wardrobe: matte mustard crew-neck knit under a deep navy canvas chore jacket with a simple collar; tiny spherical gold studs; no teal blazer, copper satin cowl, evening lapels, or deep neckline.",
+        "Lighting/mood: broad cool window light with gentle shadow, observant, intelligent, grounded, work-in-progress rather than camera-ready glamour.",
+        "Constraints: clearly adult age 27; maintain Nia's canonical facial identity; contemporary 2024 environment and clothing; natural anatomy and hands; no text, logos, watermark, border, collage, contact sheet, or extra people in focus.",
+        "Avoid: Imani Cole's rounder face, dense loose shoulder curls, teal blazer, copper satin, gold hoops, hillside/harbor background, glamorous event lighting, same three-quarter head angle as the old profiles; avoid generic corporate headshot, plastic skin, celebrity resemblance, malformed fingers.",
+        "Intentional anachronisms: none."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection",
+        "corrections": []
+      }
+    },
+    {
+      "asset": "performer:tess-north:portrait",
+      "filename": "tess-north.jpg",
+      "depicts_date": "2026-04-26",
+      "birth_date": "1996-04-26",
+      "age": 30,
+      "identity_reference_files": [
+        {
+          "filename": "assets/performers/tess-north.jpg",
+          "role": "sole primary canonical illustrated identity reference"
+        }
+      ],
+      "intended_distinguishing_traits": "Angular square jaw, green eyes, freckles, compact athletic build, short damp ash-blonde hair, grounded asymmetric seated posture, and practical rehearsal styling.",
+      "composition": "Square waist-up candid immediately after movement rehearsal; seated sideways on a crash-mat edge while rewrapping red athletic tape; slightly low camera and off-frame listening gaze.",
+      "hairstyle": "Short damp irregular ash-blonde crop pushed away from the forehead.",
+      "expression": "Concentrated off-camera half-smile after rehearsal.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one square 1:1 photorealistic in-universe editorial portrait dated 2026-04-26 of fictional performer and stunt coordinator Tess North, exactly age 30.",
+        "The supplied illustrated character reference sheet is the sole canonical identity and design reference: preserve her angular square jaw, green eyes, light freckles, fair weathered complexion, compact athletic build, and short tousled ash-blonde hair. Translate the same fictional person into a natural photograph; she must clearly read as 30, with youthful facial volume and only credible outdoor texture, never middle-aged.",
+        "Scene and composition: a candid waist-up photograph immediately after a movement rehearsal in a practical contemporary soundstage. Tess sits sideways on the low edge of a crash mat, one forearm resting loosely across a raised knee while the other hand rewraps red athletic tape around her wrist. Camera is slightly below her eye line at medium distance. Her shoulders and face turn away from the lens toward an off-frame colleague; she is listening with a small concentrated half-smile, not posing. A softly blurred rigging line and folded safety pad establish the work environment. The pose must feel physically grounded and asymmetric.",
+        "Wardrobe and styling: charcoal sleeveless rehearsal top, loose dark olive work trousers, scuffed training shoes only partly visible, no leather jacket, no glamour makeup, hair damp and pushed irregularly off her forehead. Natural post-rehearsal flush and realistic skin. Soft side daylight through a stage door mixed with neutral practical light; restrained slate, olive, and faded red palette. Contemporary 2020s equipment only. Polished documentary photography with subtle digital grain, realistic hands and anatomy.",
+        "Do not include text, captions, logos, watermarks, duplicated limbs, malformed fingers, beauty-ad retouching, red-carpet styling, a generic headshot pose, direct eye contact, crossed arms, or the conventional three-quarter smile used in other catalog portraits. No intentional anachronisms."
+      ],
+      "review": {
+        "initial_output": "rejected after full-resolution inspection because the facial texture read older than 30",
+        "correction": "targeted age-only correction accepted at full resolution; exported separately to the profile and dated standalone-photo paths"
+      },
+      "correction_prompt_lines": [
+        "Edit only the just-generated Tess North portrait. Preserve the same fictional woman's identity, angular square jaw, green eyes, freckles, compact athletic build, short damp ash-blonde hair, seated crash-mat composition, wrist-wrapping action, wardrobe, off-camera listening gaze, lighting, soundstage environment, square framing, and realistic documentary style.",
+        "Correct her apparent age to exactly 30 on 2026-04-26. Restore youthful facial volume at the temples, cheeks, and under-eyes; soften the deep forehead creasing, crow's-feet, nasolabial folds, neck creasing, and heavily weathered skin that currently make her look over 40. Keep subtle freckles, natural pores, a mild post-rehearsal flush, and a few fine expression lines appropriate to a physically active 30-year-old. Do not make her airbrushed, adolescent, glamorous, or a different person. Keep every other visual decision unchanged. No text, logos, watermarks, or anatomy changes."
+      ]
+    },
+    {
+      "asset": "performer:sofia-calderon:portrait",
+      "filename": "sofia-calderon.jpg",
+      "depicts_date": "2025-05-15",
+      "birth_date": "2001-03-11",
+      "age": 24,
+      "identity_reference_files": [
+        {
+          "filename": "assets/performers/sofia-calderon.jpg",
+          "role": "sole primary canonical illustrated identity reference"
+        }
+      ],
+      "intended_distinguishing_traits": "Oval face, strong dark brows, deep brown eyes, straight narrow nose, full lower lip, olive complexion, chin-length blunt dark wavy bob, and thoughtful documentary-editor presence distinct from Lucia Ferrer.",
+      "composition": "Square intimate edit-room portrait from a slightly high camera; near-profile shoulders, cheek resting against one hand, grease pencil over a transcript, gaze fixed on an off-frame monitor.",
+      "hairstyle": "Chin-length blunt dark wavy bob tucked behind one ear.",
+      "expression": "Alert, questioning, unsmiling off-screen concentration.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one square 1:1 photorealistic in-universe profile portrait dated 2025-05-15 of fictional Uruguayan performer and documentary producer Sofia Calderon, exactly age 24.",
+        "The supplied illustrated character reference sheet is the sole canonical identity and design reference. Preserve Sofia's own oval face, strong dark brows, deep brown eyes, straight narrow nose, full lower lip, warm olive complexion, slender build, and dark wavy hair. Translate that same fictional person into photography with youthful cheek and under-eye volume appropriate to 24. Do not borrow the face, athletic build, long braid, slate workwear, wrist tape, or backlot look of Lucia Ferrer or any other performer.",
+        "Composition and action: intimate square environmental portrait in a contemporary documentary edit room. Sofia is seated very close to a desk and seen from a slightly high camera angle, shoulders in near profile while her face turns only partway toward a monitor outside frame. One hand rests against her chin and the other holds a grease pencil above a paper transcript, as if pausing to reconsider an edit. Her gaze stays on the off-frame screen, expression alert, questioning, and unsmiling. Frame head, torso, forearms, transcript, and the soft glow of one editing monitor edge; avoid a conventional centered headshot.",
+        "Distinct styling: chin-length blunt dark wavy bob tucked behind one ear, visibly different from her reference-sheet ponytail and from Lucia's long braid; small plain silver stud earrings; loose cream cotton shirt under a boxy moss-green overshirt; no burgundy leather, no glamour makeup. Natural brows and skin texture. Mixed cool monitor light and warm desk-lamp spill, quiet muted cream/green/blue palette, contemporary 2025 editing equipment kept indistinct and free of readable interface text. Natural 35mm-equivalent documentary photography, realistic anatomy and hands.",
+        "Do not include text, captions, logos, watermarks, cameras held toward the viewer, coastal scenery, direct eye contact, smiling glamour posing, three-quarter studio headshot lighting, exaggerated ethnic markers, beauty-ad retouching, malformed hands, or intentional anachronisms."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection; age 24 and identity separation from Lucia Ferrer are plausible",
+        "corrections": []
+      }
+    },
+    {
+      "asset": "performer:ellis-ward:portrait",
+      "filename": "ellis-ward.jpg",
+      "depicts_date": "2024-11-07",
+      "birth_date": "1991-08-07",
+      "age": 33,
+      "identity_reference_files": [
+        {
+          "filename": "assets/performers/ellis-ward.jpg",
+          "role": "sole primary canonical illustrated identity reference"
+        }
+      ],
+      "intended_distinguishing_traits": "Narrow long face, blue-grey eyes, prominent straight nose, dense brown curls with a modest high hairline, clean-shaven face, and an intimate voice-booth working context.",
+      "composition": "Square waist-up near-profile in a compact voice booth; one headphone cup held away while the other hand marks a script beside a suspended microphone.",
+      "hairstyle": "Dense unruly brown curls fuller at the sides with a modest natural high hairline.",
+      "expression": "Dry privately amused look with lips parted and gaze lowered to the script.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one square 1:1 photorealistic in-universe profile portrait dated 2024-11-07 of fictional British voice performer and script editor Ellis Ward, exactly age 33.",
+        "The supplied illustrated character reference sheet is the sole canonical identity and design reference. Preserve Ellis's recognizable narrow long face, blue-grey eyes, slightly asymmetrical brows, prominent but straight nose, fine mouth, lean build, and dense brown curls with a modest natural high hairline. Translate him into a real 33-year-old, retaining character without the deep forehead furrows, hollow cheeks, pronounced eye bags, or mature skin that would make him appear in his late forties. Keep realistic pores, a faint tiredness, and small expression lines appropriate to 33.",
+        "Composition and action: square waist-up environmental portrait inside a compact contemporary voice booth. Camera is at shoulder height from his left side, framing him in strong near profile rather than the catalog's usual three-quarter headshot. Ellis leans slightly toward a suspended studio microphone, one headphone cup held away from his ear with his left hand while his right hand marks a paper script on a waist-high music stand. He is caught between takes, lips slightly parted, gaze lowered to the script, with a dry privately amused expression. The microphone remains clearly separate from his face and both hands are anatomically credible.",
+        "Distinct styling: curls left a little unruly and fuller at the sides; clean-shaven; soft indigo collarless work shirt with sleeves rolled once, no blazer, no brown tweed, no wristwatch. Booth acoustic panels in faded clay and deep navy create geometric background shapes; a narrow neutral task light defines the face without glamour. Contemporary 2024 recording equipment, natural digital documentary texture, subtle grain, quiet intimate atmosphere.",
+        "Do not include readable text, captions, logos, watermarks, direct eye contact, a centered front-facing pose, a smiling corporate headshot, red-carpet styling, heavy beard, identical wardrobe or face treatment to Julian March, beauty retouching, malformed hands, duplicated equipment, or intentional anachronisms."
+      ],
+      "review": {
+        "initial_output": "rejected after full-resolution inspection because it still read closer to 40",
+        "correction": "targeted age-only correction accepted at full resolution as a plausible 33"
+      },
+      "correction_prompt_lines": [
+        "Edit only the just-generated Ellis Ward voice-booth portrait. Preserve the same fictional man's identity, narrow long face, blue-grey eyes, prominent straight nose, dense brown curls and modest high hairline, the exact near-profile recording-booth composition, both hand actions, microphone, headphones, indigo shirt, clay-and-navy panels, lighting, square crop, and documentary realism.",
+        "Make his apparent age precisely 33 on 2024-11-07. The current rendering still reads closer to 40 because of pronounced forehead lines, crow's-feet, under-eye creasing, cheek hollowness, and overall mature skin. Restore modest youthful volume beneath the eyes and through the cheeks, soften those deeper creases, and retain only fine expression lines, subtle tiredness, natural pores, and light beard shadow credible for a working 33-year-old. Do not alter his distinctive nose, jaw, curl pattern, expression, pose, or equipment; do not make him adolescent, glossy, airbrushed, or a different person. No text, logos, watermarks, or anatomy changes."
+      ]
+    },
+    {
+      "asset": "performer:imani-cole:portrait",
+      "filename": "imani-cole.jpg",
+      "depicts_date": "2024-09-08",
+      "birth_date": "1999-05-16",
+      "age": 25,
+      "identity_reference_files": [
+        {
+          "filename": "assets/performers/imani-cole.jpg",
+          "role": "sole primary canonical illustrated identity reference"
+        }
+      ],
+      "intended_distinguishing_traits": "Broad heart-shaped face, wide-set eyes, full lips, rich deep-brown complexion, rounded short coil halo, open working expression, and grounded regional-theatre context distinct from Nia Hart.",
+      "composition": "Square three-quarter-body candid in a theatre wing; kneeling to press spike tape while holding a folded script and looking up toward an off-frame stage manager.",
+      "hairstyle": "Short rounded halo of individual coils above the jaw with one slim copper hair pin.",
+      "expression": "Quick open grin toward an off-frame colleague.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one square 1:1 photorealistic in-universe working portrait dated 2024-09-08 of fictional American stage and screen performer Imani Cole, exactly age 25.",
+        "The supplied illustrated character reference sheet is the sole canonical identity and design reference. Preserve Imani's own broad heart-shaped face, rounded jaw, wide-set dark brown eyes, full lips, rich deep-brown complexion with warm undertones, medium build, and dense natural tightly coiled hair. Translate the same fictional person into photography with youthful cheek volume and skin appropriate to 25. Do not borrow Nia Hart's narrower facial proportions, skeptical direct gaze, microbraided high knot, navy chore jacket, mustard knit, seated writing pose, or office setting.",
+        "Composition and action: candid square three-quarter-body photograph in the wing of a small regional theatre during rehearsal. Camera is waist-high and slightly behind the curtain line. Imani kneels on one knee beside the stage edge, pressing a short strip of fluorescent spike tape to the floor with one hand while the other steadies a folded rehearsal script against her thigh. She has just looked up toward an off-frame stage manager and wears a quick open grin, gaze high to camera-left rather than into the lens. Frame her diagonally with a foreground rope and the empty stage receding behind; this should feel like a useful working photograph, not formal publicity.",
+        "Distinct styling: short rounded halo of soft individual coils cropped above the jaw, one slim copper hair pin visible; washed plum crew-neck T-shirt, loose tan carpenter trousers, flat black rehearsal shoes, small copper hoops, no blazer, no teal, no glamour makeup. Warm tungsten worklight from the stage meets cooler spill from the auditorium; muted plum, amber, black, and wood palette. Contemporary 2024 theatre rigging and tape. Natural documentary photography with slightly imperfect focus falloff, realistic pores, hands, and anatomy.",
+        "Do not include readable text, captions, logos, watermarks, front-facing corporate portraiture, crossed arms, direct eye contact, a serious executive expression, the same curl silhouette or clothing as the old portrait, any resemblance to Nia Hart, beauty-ad retouching, stereotyped styling, malformed fingers, or intentional anachronisms."
+      ],
+      "review": {
+        "initial_output": "rejected after full-resolution inspection because the face still read over 30",
+        "correction": "targeted age-only correction accepted at full resolution as a plausible 25"
+      },
+      "correction_prompt_lines": [
+        "Edit only the just-generated Imani Cole theatre-wing photograph. Preserve the same fictional woman's identity, broad heart-shaped face, wide-set eyes, full lips, deep warm-brown complexion, short coiled halo with copper pin, kneeling spike-tape action, open off-camera grin, plum T-shirt, tan trousers, script, theatre environment, lighting, square framing, and documentary realism.",
+        "Correct her apparent age to exactly 25 on 2024-09-08. The current rendering reads over 30 because the eye area, smile lines, cheeks, and skin texture are too mature. Restore youthful fullness beneath her eyes and in her cheeks, subtly soften nasolabial and under-eye creases, and keep smooth but naturally porous skin appropriate to a working 25-year-old. Retain the expressive smile, distinctive face shape, nose, lips, curl pattern, and body type; do not make her adolescent, airbrushed, glamorous, slimmer, or a different person. Keep all limbs, props, camera angle, and background unchanged. No text, logos, watermarks, or anatomy changes."
+      ]
+    },
+    {
+      "asset": "performer:elias-grant:portrait",
+      "filename": "elias-grant.jpg",
+      "depicts_date": "2026-06-20",
+      "birth_date": "2004-10-15",
+      "age": 21,
+      "identity_reference_files": [
+        {
+          "filename": "assets/performers/elias-grant.jpg",
+          "role": "sole primary canonical illustrated identity reference"
+        }
+      ],
+      "intended_distinguishing_traits": "Long oval face, high cheekbones, deep-set dark eyes, broad straight nose, defined lips, close-cropped coils, sparse youthful stubble, and reserved table-read presence.",
+      "composition": "Square tabletop-height environmental portrait at a community-studio radio table read; leaning over script pages with both hands engaged and gaze sideways to an off-frame reader.",
+      "hairstyle": "Very short natural tightly coiled line-up with sparse jaw and upper-lip stubble.",
+      "expression": "Attentive, cautious, almost amused sideways glance.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one square 1:1 photorealistic in-universe profile portrait dated 2026-06-20 of fictional British radio and screen performer Elias Grant, exactly age 21, an adult.",
+        "The supplied illustrated character reference sheet is the sole canonical identity and design reference. Preserve Elias's own long oval face, high cheekbones, deep-set dark brown eyes, straight broad nose, defined lips, dark-brown complexion, lean tall build, close-cropped tightly coiled black hair, and reserved presence. Translate that same fictional person into a clearly 21-year-old adult: full youthful cheeks and under-eyes, smooth naturally porous skin, an unlined forehead, and only sparse close beard stubble along the jaw and upper lip. Do not reproduce the reference sheet's mature full beard, hollow cheeks, or facial creases that make him look over 30.",
+        "Composition and action: a modest square environmental portrait during a contemporary radio-drama table read in an ordinary community studio. Camera is close to tabletop height from his right, creating an unusual slightly upward view. Elias leans forward with both forearms on the table, one hand lightly pinching the bridge of a pencil while the other turns a script page. His head is angled down but his eyes glance sideways toward an off-frame reader; expression attentive, cautious, and almost amused, mouth relaxed. Include the lower edge of a simple tabletop microphone at far left, a ceramic water cup, and out-of-focus empty chairs; no formal publicity backdrop.",
+        "Distinct styling: very short clean line-up with natural coil texture; sparse youthful stubble rather than a sculpted adult beard; faded rust-orange overshirt worn open over a pale grey crew-neck T-shirt; no teal overcoat, no turtleneck, no suit. Diffuse window light across one cheek and neutral overhead room light, contemporary 2026 equipment, restrained rust/grey/soft-green palette, honest low-budget documentary photography, slightly wide 35mm perspective, realistic hands and anatomy.",
+        "Do not include readable text, captions, logos, watermarks, direct eye contact, a heroic or intimidating pose, luxury styling, a mature beard, deep wrinkles, hollow aging, glamour retouching, stereotyped styling, malformed fingers, duplicated props, or intentional anachronisms. He must look like the same fictional identity at exactly 21, not a child and not a man in his thirties."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection as a plausible 21-year-old adult",
+        "corrections": []
+      }
+    },
+    {
+      "asset": "performer:noor-haddad:portrait",
+      "filename": "noor-haddad.jpg",
+      "depicts_date": "2026-03-22",
+      "birth_date": "2000-12-06",
+      "age": 25,
+      "identity_reference_files": [
+        {
+          "filename": "assets/performers/noor-haddad.jpg",
+          "role": "sole primary canonical illustrated identity reference"
+        }
+      ],
+      "intended_distinguishing_traits": "Softly angular oval face, prominent dark brows, large almond eyes, gently arched nose, full lips, warm olive complexion, loosely clipped dense curls, and documentary-sound work context.",
+      "composition": "Square overhead diagonal on an apartment landing; seated asymmetrically while adjusting a field recorder and monitoring with one headphone cup.",
+      "hairstyle": "Dense curls loosely gathered at the nape with a matte-black clip and several ringlets framing the face.",
+      "expression": "Downward focused gaze with lips pursed in concentration.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one square 1:1 photorealistic in-universe working portrait dated 2026-03-22 of fictional Lebanese documentary sound editor and occasional performer Noor Haddad, exactly age 25.",
+        "The supplied illustrated character reference sheet is the sole canonical identity and design reference. Preserve Noor's distinctive softly angular oval face, prominent dark brows, large almond-shaped brown eyes, gently arched nose, full defined lips, warm olive complexion, slim build, and dense shoulder-length dark curls. Translate the same fictional person into photography with full youthful cheeks and under-eyes, smooth naturally porous skin, and no mature facial creases. Noor must clearly read as 25.",
+        "Composition and action: candid square environmental portrait during a documentary location recording on the shaded landing of a contemporary apartment building. Camera looks slightly downward from the next stair turn, producing an overhead diagonal composition. Noor sits sideways on one concrete step with knees drawn at different heights, torso bent over a compact field recorder resting in a canvas bag. One hand adjusts a real rotary gain dial while the other lifts a single headphone cup from one ear; their gaze is down on the levels, lips pursed in concentration, entirely occupied with work rather than posing. A coiled cable crosses the lower foreground and bright afternoon street light falls through the open doorway behind, with no identifiable signage.",
+        "Distinct styling: curls gathered loosely at the nape with a broad matte-black clip, leaving several natural ringlets around the face and creating a low asymmetric silhouette unlike the old loose bob; oversized faded saffron button-up shirt over a charcoal tank, loose black trousers, small geometric brass earrings, practical canvas shoes. No burgundy blazer, no formal tailoring, no glamour makeup. Cool concrete shade against sunlit ochre doorway, contemporary 2026 portable sound equipment, natural documentary color, lightly grainy 35mm-equivalent photography, realistic hands and anatomy.",
+        "Do not include readable text, captions, logos, watermarks, direct eye contact, smiling glamour posing, a centered headshot, studio microphone glamour, tablet posing, exaggerated ethnic markers, beauty-ad retouching, mature wrinkles or hollow cheeks, malformed fingers, impossible cables, duplicated equipment, or intentional anachronisms."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection as a plausible 25-year-old with realistic equipment and anatomy",
+        "corrections": []
+      }
+    }
+  ]
+}

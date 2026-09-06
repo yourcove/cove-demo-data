@@ -1,0 +1,145 @@
+{
+  "performer": "Lucia Ferrer",
+  "birth_date": "2002-09-12",
+  "fictional": true,
+  "generation_workflow": "built-in image generation, one deliberate prompt per asset with targeted age correction after a rejected pass when documented",
+  "identity_reference_files": [
+    {
+      "filename": "assets/performers/lucia-ferrer.jpg",
+      "role": "primary canonical illustrated identity and design reference"
+    },
+    {
+      "filename": "assets/performer-portraits/lucia-ferrer.jpg",
+      "role": "secondary accepted photorealistic face and natural-skin reference"
+    }
+  ],
+  "stable_identity_traits": [
+    "same fictional adult woman",
+    "broad angular lower face",
+    "pronounced straight nose",
+    "thick straight dark brows",
+    "deep-set brown eyes",
+    "warm olive complexion",
+    "powerful shoulders and muscular athletic build",
+    "grounded practical presence"
+  ],
+  "photos": [
+    {
+      "filename": "2022-06-18-first-location-call.jpg",
+      "depicts_date": "2022-06-18",
+      "age": 19,
+      "intended_distinguishing_traits": "Youthful early-career reserve, athletic rather than bodybuilding presentation, messy low bun, dawn minibus step, travel mug, and an uncertain off-frame gaze.",
+      "composition": "Horizontal 3:2 environmental medium-wide at cool dawn; half turned while stepping from a production minibus with one boot on the step and both hands occupied.",
+      "hairstyle": "Compact messy low bun at the nape with wind-loosened wisps; no braid.",
+      "expression": "Reserved sideways early-call look toward a crew member, closed mouth and slightly raised brows.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one horizontal 3:2 photorealistic in-universe early-career location candid dated 2022-06-18 of fictional Spanish performer Lucia Ferrer, exactly age 19 and clearly an adult.",
+        "Image 1 is the primary canonical illustrated identity/design reference: preserve Lucia's broad angular lower face, pronounced straight nose, thick straight dark brows, deep-set brown eyes, warm olive complexion, strong shoulders, muscular athletic build, and practical presence. Image 2 is the accepted photorealistic face/skin reference: preserve that same recognizable fictional face and natural skin, but portray her three years younger with youthful cheek and under-eye volume appropriate to 19. Do not copy the profile portrait's long crown braid, wrist-taping action, body angle, wardrobe, or backlot framing.",
+        "Scene and composition: an unposed first-location-call photograph at cool dawn beside a modest production minibus on a scrubby hillside. Camera is at standing chest height in a horizontal environmental medium-wide. Lucia is half turned away as she steps down from the open side door, one boot still on the vehicle step. One hand grips a plain stainless travel mug and the other holds a folded, completely unreadable call sheet against her thigh. She looks far left toward a crew member calling her name, brows slightly raised, mouth caught in a nervous closed-lip almost-smile. The vehicle, two stacked unbranded equipment cases, pale morning sky, and hillside establish scale without making her face too small.",
+        "Hair and styling: dark hair twisted into a compact messy low bun at the nape with wind-loosened wisps, no visible braid. Faded forest-green zip hoodie open over a plain charcoal T-shirt, straight dark utility trousers, worn brown work boots, no makeup beyond natural set-ready skin, no jewelry. Athletic but not bodybuilding presentation at age 19. Soft blue dawn with a weak warm interior van light, natural 2022 digital documentary color and fine grain, believable hands and vehicle geometry.",
+        "Do not include readable text, logos, watermarks, extra fingers, malformed limbs, a glamour pose, direct eye contact, a braid, wrist tape, swimsuit styling, red-carpet lighting, heroic action staging, a contemporary social-media beauty look, or intentional anachronisms."
+      ],
+      "review": {
+        "initial_output": "rejected after full-resolution inspection because the face read several years older than 19",
+        "correction": "targeted age-only correction accepted at full resolution as a plausible 19-year-old adult"
+      },
+      "correction_prompt_lines": [
+        "Edit only the just-generated Lucia Ferrer first-location-call photograph. Preserve the same fictional identity, broad angular lower face, pronounced nose, thick brows, dark eyes, olive complexion, athletic shoulders, messy low bun with no braid, minibus-step action, travel mug, folded blank call sheet, forest hoodie, charcoal clothing, boots, equipment cases, hillside, cool dawn light, horizontal 3:2 composition, off-frame gaze, and realistic documentary style.",
+        "Correct Lucia's apparent age to exactly 19 on 2022-06-18, clearly an adult. The current face reads closer to the late twenties because the under-eyes, cheeks, forehead, mouth area, and skin texture are too mature. Restore youthful cheek and temple fullness, smooth the deeper forehead and under-eye creasing, soften nasolabial definition, and retain only natural pores, faint early-call tiredness, and a few tiny expression lines plausible at 19. Keep her strong jaw, nose, brows, athletic build, serious adult presence, and all other scene details unchanged. Do not make her childlike, airbrushed, glamorous, or a different person. No text, logos, watermarks, anatomy changes, braid, or wrist tape."
+      ]
+    },
+    {
+      "filename": "2024-03-09-strength-training.jpg",
+      "depicts_date": "2024-03-09",
+      "age": 21,
+      "intended_distinguishing_traits": "Respectful bodybuilder editorial, real muscular definition, high natural puff, concentrated downward gaze, full-body low camera, and mechanically plausible strength training.",
+      "composition": "Vertical 2:3 full-body low-angle editorial at the top of a controlled trap-bar deadlift; both hands, feet, bar, and plates visible.",
+      "hairstyle": "Compact high natural puff secured with a plain black band; no braid or low bun.",
+      "expression": "Focused exertion with gaze down and right, lips parted on an exhale.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one vertical 2:3 photorealistic PG-13 athletic training editorial dated 2024-03-09 of fictional Spanish performer and bodybuilder Lucia Ferrer, exactly age 21.",
+        "Image 1 is the primary canonical illustrated identity/design reference: preserve Lucia's broad angular lower face, pronounced straight nose, thick dark brows, deep-set brown eyes, olive complexion, powerful shoulders, muscular arms and legs, and grounded practical bearing. Image 2 is the accepted photorealistic face/skin reference: preserve the same recognizable fictional face with natural age-21 skin. Use both only for stable identity. Do not repeat the profile's long crown braid, wrist-taping action, waist-up backlot composition, grey utility vest, or off-camera standing pose.",
+        "Composition and action: a vertical full-body low-angle editorial in a plain independent strength gym. Lucia is captured at the top of a controlled trap-bar deadlift, feet planted shoulder-width, knees and hips naturally aligned, arms straight at her sides gripping the real hexagonal bar, shoulders engaged without exaggeration. Camera is near floor height several metres away, giving the bar and worn rubber platform foreground weight while keeping her entire body and both hands visible. She looks down and slightly right at a chalk mark on the floor, exhaling through parted lips with focused effort, not looking at the lens. Old iron plates, a faded squat rack, concrete wall, and high frosted windows establish an unglamorous training space.",
+        "Hair and styling: dense dark hair gathered into a compact high natural puff secured by a plain black band, no braid and no low bun. Deep cobalt racerback training top with full coverage, high-waisted charcoal compression shorts ending mid-thigh, flat black lifting shoes, bare forearms and wrists, a small amount of honest hand chalk, no jewelry and minimal makeup. Respectfully emphasize the athletic bodybuilder identity through real muscle definition and capable posture, never sexualized posing. Cool March daylight from high windows with warm practical spill, high-detail contemporary 2024 sports-editorial photography, restrained color, faint sweat and realistic skin pores.",
+        "Do not include text, logos, watermarks, wrist wraps, athletic tape, a braid, glamour lighting, pin-up posing, extreme or implausible musculature, a tiny waist distortion, revealing cleavage, direct eye contact, mirrored duplicates, malformed plates, bent bar geometry, extra fingers, broken joints, or intentional anachronisms."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection with plausible age, anatomy, muscle definition, and equipment geometry",
+        "corrections": []
+      }
+    },
+    {
+      "filename": "2025-08-22-festival-conversation.jpg",
+      "depicts_date": "2025-08-22",
+      "age": 22,
+      "intended_distinguishing_traits": "Dressed but unglamorous festival presence, visible muscular shoulders, sleek high ponytail, forward seated engagement, animated hand gesture, and direct interaction with an interviewer.",
+      "composition": "Horizontal 3:2 seated environmental medium-wide under a festival pavilion; body angled and leaning forward with interviewer blurred in the foreground.",
+      "hairstyle": "Sleek high ponytail with straight loose length behind one shoulder; no braid, bun, or romantic tendrils.",
+      "expression": "Animated crooked smile and raised brow directed fully toward the interviewer.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one horizontal 3:2 photorealistic in-universe festival conversation photograph dated 2025-08-22 of fictional Spanish performer and bodybuilder Lucia Ferrer, exactly age 22.",
+        "Image 1 is the primary canonical illustrated identity/design reference: preserve Lucia's broad angular lower face, pronounced straight nose, thick dark brows, deep-set brown eyes, warm olive complexion, powerful shoulders, muscular arms, and grounded physical confidence. Image 2 is the accepted photorealistic face/skin reference: preserve that exact recognizable fictional face and natural youthful skin at age 22. Do not copy either reference's long braid, wrist taping, utility vest, standing pose, cool backlot, or three-quarter profile setup.",
+        "Composition and interaction: horizontal seated environmental medium-wide during a late-summer film-festival conversation under an open-sided canvas pavilion. Lucia sits angled sideways in a low modern timber chair, one ankle tucked behind the other and torso leaning forward toward an interviewer whose blurred shoulder and hand enter only the far-left foreground. Lucia's left elbow rests on her knee while that hand gestures open-palmed mid-answer; her right hand loosely holds an unbranded handheld microphone low near her lap. Her gaze is fully toward the interviewer, not camera, and she is caught in an animated crooked smile with one eyebrow raised. Include audience silhouettes, pale canvas, and soft trees beyond, but no readable banners.",
+        "Hair and styling: long dark hair pulled into a sleek high ponytail with a clean wrapped base and straight loose length moving behind one shoulder, no braid, bun, or romantic tendrils. Dress her nicely but individually in an ivory sleeveless tailored long vest over a deep teal square-neck knit top with full coverage and wide charcoal trousers; small brushed-silver ear cuffs and one simple ring, no high heels visible, polished minimal makeup that leaves freckles and real pores. Her muscular shoulders and arms remain visible and respectful, with natural seated compression rather than glamour shaping. Warm filtered afternoon daylight, gentle reflected fill, contemporary 2025 editorial photography with truthful skin and cloth texture.",
+        "Do not include readable text, logos, watermarks, red-carpet backdrop, step-and-repeat wall, direct eye contact, crossed arms, a braid, wrist wraps, gym props, glamour beauty lighting, conventional headshot framing, implausible muscles, sexualized posture, malformed hands, duplicated microphone, extra people in focus, or intentional anachronisms."
+      ],
+      "review": {
+        "initial_output": "rejected after full-resolution inspection because the face read late twenties to early thirties",
+        "correction": "targeted age-only correction accepted at full resolution as a plausible 22"
+      },
+      "correction_prompt_lines": [
+        "Edit only the just-generated Lucia Ferrer festival-conversation photograph. Preserve the same fictional identity, broad angular lower face, pronounced nose, thick brows, deep-set eyes, olive complexion, muscular shoulders and arms, high ponytail with no braid, seated forward interaction, interviewer foreground, hand gesture, microphone placement, ivory vest, teal top, charcoal trousers, canvas pavilion, audience, warm daylight, horizontal 3:2 crop, and realistic editorial texture.",
+        "Correct Lucia's apparent age to exactly 22 on 2025-08-22. The current face reads closer to the late twenties or early thirties because the forehead, eye area, cheeks, mouth lines, and skin texture are too mature. Restore youthful cheek and temple fullness, soften forehead and under-eye creasing and nasolabial definition, and retain natural pores, freckles, athletic outdoor texture, and a few fine expression lines appropriate to 22. Keep her recognizable strong jaw and nose, adult muscular build, animated crooked smile, raised brow, gaze toward the interviewer, and every successful scene detail. Do not make her childlike, glossy, airbrushed, slimmer, glamorous, or a different person. No text, logos, watermarks, anatomy changes, braid, or wrist tape."
+      ]
+    },
+    {
+      "filename": "2026-06-20-rainy-location-wrap.jpg",
+      "depicts_date": "2026-06-20",
+      "age": 23,
+      "intended_distinguishing_traits": "High-angle rainy-night work candid, hair covered by a knit cap, strong kneeling diagonal, both hands securing equipment, practical outerwear, and an exhausted open laugh.",
+      "composition": "Horizontal 3:2 high-angle environmental frame; kneeling beside a rolling cart and pulling a waterproof cover over lighting cases amid wet cables and crew activity.",
+      "hairstyle": "Hair tucked fully under a charcoal knit cap with short wet wisps at the temples and nape; no braid, bun, or ponytail.",
+      "expression": "Open laugh of exhausted relief directed upward toward an off-camera crew member.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one horizontal 3:2 photorealistic in-universe rainy nighttime location-wrap candid dated 2026-06-20 of fictional Spanish performer and bodybuilder Lucia Ferrer, exactly age 23.",
+        "Image 1 is the primary canonical illustrated identity/design reference: preserve Lucia's broad angular lower face, pronounced straight nose, thick dark brows, deep-set brown eyes, warm olive complexion, powerful shoulders, muscular build, and practical competence. Image 2 is the accepted photorealistic face/skin reference: preserve the same recognizable fictional face, natural age-23 skin, and grounded presence. Do not repeat the profile's braid or wrist taping, the first-call vehicle step, the strength portrait's centered standing lift, or the festival image's seated interview and high ponytail.",
+        "Scene and composition: a high-angle horizontal environmental photograph at the end of a rainy night shoot. Camera looks down from a short loading-platform stair. Lucia kneels on one knee beside a low rolling equipment cart, pulling a dark waterproof cover taut over two unbranded lighting cases with both hands naturally separated. Her body forms a strong diagonal across the lower-left frame while wet cables, folded flags, a dim light stand, and two blurred crew silhouettes under an awning recede through the right background. She has turned her face upward toward a crew member above and behind camera, laughing with exhausted relief, eyes off-axis. Rain streaks through a hard work lamp and reflections break across wet asphalt; the scene feels occupied and transitional rather than staged.",
+        "Hair and styling: dark hair fully tucked into a charcoal ribbed knit cap with only short rain-darkened wisps at the temples and nape, no visible braid, bun, or ponytail. Burnt-orange waterproof shell with hood down over a black fleece layer, loose navy work trousers, muddy waterproof lace-up boots, bare hands and wrists, no jewelry or makeup beyond wet natural skin. Her athletic body remains evident through shoulder width and working posture, without glamour or sexualization. Contemporary 2026 production equipment, sodium-vapor amber mixed with cool LED work light, realistic rain, documentary high-ISO grain and slight background motion blur.",
+        "Do not include readable text, logos, watermarks, direct eye contact, a braid, wrist tape or wraps, an umbrella pose, red-carpet styling, dry hair, glamour lighting, heroic action-poster framing, malformed fingers, fused hands, impossible cables, duplicated equipment, modern consumer phones in view, or intentional anachronisms."
+      ],
+      "review": {
+        "initial_output": "rejected after full-resolution inspection because the laughing face read into the thirties",
+        "correction": "targeted age-only correction accepted at full resolution as a plausible 23"
+      },
+      "correction_prompt_lines": [
+        "Edit only the just-generated Lucia Ferrer rainy location-wrap photograph. Preserve the same fictional identity, broad angular jaw, pronounced nose, thick brows, dark eyes, olive complexion, muscular build, knit cap and wet wisps, high-angle kneeling composition, both hands pulling the rain cover, burnt-orange shell, navy work trousers, wet equipment cart, crew, cables, rain, amber/cool work lights, off-axis upward laugh, horizontal 3:2 crop, and documentary high-ISO texture.",
+        "Correct Lucia's apparent age to exactly 23 on 2026-06-20. The current face reads into the thirties because of deep forehead, eye-area, cheek, and mouth creasing. Restore youthful cheek and temple fullness, soften forehead and under-eye lines and nasolabial folds, and keep only natural pores, rain-wet skin, mild fatigue, and fine expression lines appropriate to an athletic 23-year-old laughing after a long shoot. Preserve the strong jaw, nose, eyebrows, adult muscular body, expressive open smile, and every other scene decision. Do not make her childlike, airbrushed, glamorous, slimmer, dry, or a different person. No text, logos, watermarks, anatomy changes, braid, or wrist tape."
+      ]
+    },
+    {
+      "filename": "2026-08-30-pull-up-training-post.jpg",
+      "depicts_date": "2026-08-30",
+      "age": 23,
+      "intended_distinguishing_traits": "A daring but non-explicit social fitness post whose direct rear view and dramatic side light emphasize Lucia’s unusually developed back, shoulders, lats and arms.",
+      "composition": "Vertical 4:5 centered rear view from the hips to above the pull-up bar at the top of a strict repetition; symmetrical rack framing and no reflective surfaces.",
+      "hairstyle": "Long practical dark braid centered down the back, matching the canonical identity reference.",
+      "expression": "Face turned fully away from camera; concentration is conveyed through the controlled pull-up posture.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create a striking PG-13 fitness portrait dated 2026-08-30 of fictional Spanish performer and bodybuilder Lucia Ferrer, exactly age 23 and clearly an adult, doing a strict pull-up and photographed entirely from directly behind, with the visual emphasis on her exceptionally strong muscular back, shoulders, lats and arms.",
+        "Use the canonical Lucia Ferrer identity sheet as the appearance reference. Preserve her adult build, dark brown hair, athletic presence and practical character styling; her face need not be visible from this rear angle.",
+        "Place her in a clean industrial training gym on a matte black pull-up bar against a neutral concrete wall with subtle out-of-focus equipment. Show her at the top of the repetition with arms overhead and credible scapular and back definition, wearing high-waisted dark athletic shorts and a minimal but fully opaque black cross-back athletic top that exposes most of the upper and mid back while keeping the chest completely covered.",
+        "Use highly realistic contemporary sports-editorial photography, natural skin texture, credible anatomy, a premium smartphone fitness-post aesthetic and dramatic soft side lighting. Keep the vertical 4:5 frame centered and symmetrical. Do not include nudity, visible breasts or nipples, genitals, transparent clothing, explicit posing, text, logos, watermarks, borders, social-media interface, malformed hands or impossible anatomy."
+      ],
+      "review": {
+        "initial_request": "A bare-back variation was rejected by the image-generation safety system before an image was produced.",
+        "correction": "The accepted pass used a minimal opaque cross-back athletic top while preserving the requested rear composition and muscular-back emphasis.",
+        "output": "Accepted after full-resolution inspection with complete coverage, plausible adult anatomy, clear pull-up mechanics and strong visual distinction from the earlier deadlift editorial."
+      }
+    }
+  ]
+}

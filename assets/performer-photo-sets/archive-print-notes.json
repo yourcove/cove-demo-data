@@ -1,0 +1,104 @@
+[
+  {
+    "asset": "assets/performer-photo-sets/velvet-thunder/2007-06-15-between-sets.jpg",
+    "depicts_date": "2007-06-15",
+    "birth_date": "1967-11-02",
+    "age": 39,
+    "provenance": "Existing accepted profile photograph retained as an independently browsable archive print; profile export remains a separate asset.",
+    "source": "assets/performer-portraits/velvet-thunder.jpg",
+    "period": {
+      "depicts_date": "2007-06-15",
+      "decade": "2000s",
+      "photography": "2000s theatrical key art or editorial photography with period color grading and plausible early-digital or film texture",
+      "wardrobe": "2000s silhouettes, tailoring, casualwear, hair, and makeup without present-day restyling",
+      "environment": "period interiors, signage, vehicles, phones, computers, and cameras; avoid technology introduced later",
+      "flexibility": "Subtle forward-looking or individual style is welcome when plausible; any deliberate major anachronism must be named in intentional_anachronisms."
+    },
+    "intentional_anachronisms": []
+  },
+  {
+    "asset": "assets/performer-photo-sets/beatrix-havenly/2008-08-19-writers-festival-walk.jpg",
+    "depicts_date": "2008-08-19",
+    "birth_date": "1972-06-12",
+    "age": 36,
+    "provenance": "Existing accepted profile photograph retained as an independently browsable archive print; profile export remains a separate asset.",
+    "source": "assets/performer-portraits/beatrix-havenly.jpg",
+    "period": {
+      "depicts_date": "2008-08-19",
+      "decade": "2000s",
+      "photography": "2000s theatrical key art or editorial photography with period color grading and plausible early-digital or film texture",
+      "wardrobe": "2000s silhouettes, tailoring, casualwear, hair, and makeup without present-day restyling",
+      "environment": "period interiors, signage, vehicles, phones, computers, and cameras; avoid technology introduced later",
+      "flexibility": "Subtle forward-looking or individual style is welcome when plausible; any deliberate major anachronism must be named in intentional_anachronisms."
+    },
+    "intentional_anachronisms": []
+  },
+  {
+    "asset": "assets/performer-photo-sets/rafael-sato/2024-05-09-roof-rehearsal.jpg",
+    "depicts_date": "2024-05-09",
+    "birth_date": "1993-10-03",
+    "age": 30,
+    "provenance": "Existing accepted profile photograph retained as an independently browsable archive print; profile export remains a separate asset.",
+    "source": "assets/performer-portraits/rafael-sato.jpg",
+    "period": {
+      "depicts_date": "2024-05-09",
+      "decade": "2020s",
+      "photography": "contemporary theatrical key art or editorial photography with polished but natural digital detail",
+      "wardrobe": "2020s silhouettes, tailoring, casualwear, hair, and makeup appropriate to the story",
+      "environment": "contemporary architecture, signage, vehicles, devices, and cameras",
+      "flexibility": "Subtle forward-looking or individual style is welcome when plausible; any deliberate major anachronism must be named in intentional_anachronisms."
+    },
+    "intentional_anachronisms": []
+  },
+  {
+    "asset": "assets/performer-photo-sets/tess-north/2026-04-26-after-movement-rehearsal.jpg",
+    "depicts_date": "2026-04-26",
+    "birth_date": "1996-04-26",
+    "age": 30,
+    "provenance": "Regenerated exact-age-30 working portrait exported as an independently browsable dated archive print; the profile portrait and standalone photo remain separate canonical records. See assets/performer-portraits/generation-notes.json for the identity reference, prompt, rejected first pass, accepted correction, and review notes.",
+    "source": "assets/performer-portraits/tess-north.jpg",
+    "period": {
+      "depicts_date": "2026-04-26",
+      "decade": "2020s",
+      "photography": "contemporary theatrical key art or editorial photography with polished but natural digital detail",
+      "wardrobe": "2020s silhouettes, tailoring, casualwear, hair, and makeup appropriate to the story",
+      "environment": "contemporary architecture, signage, vehicles, devices, and cameras",
+      "flexibility": "Subtle forward-looking or individual style is welcome when plausible; any deliberate major anachronism must be named in intentional_anachronisms."
+    },
+    "intentional_anachronisms": []
+  },
+  {
+    "asset": "assets/performer-photo-sets/julian-march/2006-10-08-radio-interview.jpg",
+    "depicts_date": "2006-10-08",
+    "birth_date": "1966-05-30",
+    "age": 40,
+    "provenance": "Existing accepted profile photograph retained as an independently browsable archive print; profile export remains a separate asset.",
+    "source": "assets/performer-portraits/julian-march.jpg",
+    "period": {
+      "depicts_date": "2006-10-08",
+      "decade": "2000s",
+      "photography": "2000s theatrical key art or editorial photography with period color grading and plausible early-digital or film texture",
+      "wardrobe": "2000s silhouettes, tailoring, casualwear, hair, and makeup without present-day restyling",
+      "environment": "period interiors, signage, vehicles, phones, computers, and cameras; avoid technology introduced later",
+      "flexibility": "Subtle forward-looking or individual style is welcome when plausible; any deliberate major anachronism must be named in intentional_anachronisms."
+    },
+    "intentional_anachronisms": []
+  },
+  {
+    "asset": "assets/performer-photo-sets/amara-okoye/2026-03-22-collective-exhibition-opening.jpg",
+    "depicts_date": "2026-03-22",
+    "birth_date": "2003-04-05",
+    "age": 22,
+    "provenance": "Existing accepted profile photograph retained as an independently browsable archive print; profile export remains a separate asset.",
+    "source": "assets/performer-portraits/amara-okoye.jpg",
+    "period": {
+      "depicts_date": "2026-03-22",
+      "decade": "2020s",
+      "photography": "contemporary theatrical key art or editorial photography with polished but natural digital detail",
+      "wardrobe": "2020s silhouettes, tailoring, casualwear, hair, and makeup appropriate to the story",
+      "environment": "contemporary architecture, signage, vehicles, devices, and cameras",
+      "flexibility": "Subtle forward-looking or individual style is welcome when plausible; any deliberate major anachronism must be named in intentional_anachronisms."
+    },
+    "intentional_anachronisms": []
+  }
+]

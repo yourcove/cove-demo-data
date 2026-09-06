@@ -1,0 +1,105 @@
+{
+  "performer": "Darius King",
+  "birth_date": "1978-02-18",
+  "fictional": true,
+  "generation_workflow": "built-in image generation, one deliberate call per asset",
+  "identity_reference_files": [
+    {
+      "filename": "assets/performers/darius-king.jpg",
+      "role": "primary canonical illustrated identity and design reference"
+    },
+    {
+      "filename": "assets/performer-portraits/darius-king.jpg",
+      "role": "secondary live-action face and natural-skin reference only"
+    }
+  ],
+  "stable_identity_traits": [
+    "same fictional adult South African Black man",
+    "deep brown skin with natural texture",
+    "long oval face and strong cheekbones",
+    "dark eyes",
+    "short high-top black hair",
+    "neat mustache",
+    "athletic build"
+  ],
+  "photos": [
+    {
+      "filename": "2018-08-19-publicity-interview.jpg",
+      "depicts_date": "2018-08-19",
+      "age": 40,
+      "intended_distinguishing_traits": "Measured monochrome interview presence, three-quarter seated pose, off-axis explanation, and spare concrete negative space.",
+      "composition": "Vertical 2:3 three-quarter-length seated portrait from slightly below eye level, Darius on the right third with negative space above-left and a recorder low in foreground.",
+      "hairstyle": "Clean short high-top with a soft natural curl line and unchanged neat mustache; no beard.",
+      "expression": "Thoughtful mid-sentence expression directed toward an unseen interviewer well off-axis.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Use case: historical-scene",
+        "Asset type: standalone fictional monochrome publicity-interview photograph dated exactly 2018-08-19",
+        "Primary request: Generate a restrained black-and-white interview portrait of Darius King at exact age 40, calculated from fictional birthdate 1978-02-18. This is a new independent photograph, not an edit, poster, collage or contact sheet.",
+        "Input images: Image 1 is Darius's primary canonical illustrated identity and design reference. Image 2 is his secondary live-action facial realism reference. Preserve the same distinct fictional South African Black man: deep brown skin rendered naturally in monochrome, long oval face, strong cheekbones, dark eyes, short high-top black hair, neat mustache, athletic build, and exact age 40. Use Image 2 for natural skin and facial realism only. Do not copy either reference pose, tan suit, brown airport jacket, shoulder bag, broad smile, cream background, outdoor terminal, lighting or camera angle.",
+        "Scene/backdrop: a quiet 2018 press interview in a spare concrete screening-room foyer, with one upholstered chair, a small side table, an out-of-focus handheld recorder low at the extreme foreground, and no readable signage.",
+        "Subject/action: Darius sits sideways near the right third of frame, torso turned partly away from the camera, one elbow resting low on the chair arm and one hand loosely open mid-explanation. He looks past the left edge toward an unseen interviewer. Both hands are naturally visible and relaxed.",
+        "Style/medium: authentic contemporary black-and-white editorial portrait on fine-grain digital monochrome, natural pores and fabric texture, restrained contrast, minimal retouching.",
+        "Composition/framing: true vertical 2:3 frame from slightly below seated eye level; three-quarter-length seated portrait with asymmetrical negative concrete space above-left; no square crop, headshot, symmetrical shoulders or direct gaze.",
+        "Hair: clean short high-top with a slightly softer natural curl line than the canonical sheet, neat mustache unchanged, no beard.",
+        "Expression/gaze: thoughtful and measured mid-sentence expression, brows gently raised, mouth just parting, eyes fixed on the interviewer off-axis; no smile at the lens.",
+        "Wardrobe: charcoal open-collar knit polo and dark pleated trousers, no jacket, suit, tie, watch display or shoulder bag.",
+        "Lighting/mood: broad window light from far left, soft falloff, quiet intelligence and reserve; no glamour rim light.",
+        "Constraints: clearly adult age 40; preserve fictional facial identity; plausible 2018 interview environment and styling; natural hands and anatomy; exactly one person; no text, logos, watermark, border, split panels, collage or contact sheet.",
+        "Avoid: direct camera gaze, broad smile, airport, tan or brown outerwear, standing pose, crossed arms, microphone held near face, warm sepia, celebrity resemblance, plastic skin, malformed hands, extra limbs."
+      ]
+    },
+    {
+      "filename": "2022-05-28-rehearsal-break.jpg",
+      "depicts_date": "2022-05-28",
+      "age": 44,
+      "intended_distinguishing_traits": "Loose full-body floor posture, spontaneous open laugh, saturated casual wardrobe, visible marked pages, and a handheld environmental frame.",
+      "composition": "Horizontal 3:2 environmental wide from standing height and partly behind a blurred chair; Darius sits on the floor at left while the rehearsal room extends right.",
+      "hairstyle": "Short high-top grown slightly softer at the edges, neat mustache, and the first subtle salt flecks at the temples.",
+      "expression": "Uncontrolled open laugh toward a colleague far off-axis, with eyes nearly closed and no awareness of the camera.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Use case: historical-scene",
+        "Asset type: standalone fictional informal rehearsal-break photograph dated exactly 2022-05-28",
+        "Primary request: Generate an unposed color candid of Darius King at exact age 44, calculated from fictional birthdate 1978-02-18, caught mid-laugh during an informal rehearsal break while still carrying pages he has marked. This is a new independent photograph, not an edit, poster, collage or contact sheet.",
+        "Input images: Image 1 is Darius's primary canonical illustrated identity and design reference. Image 2 is his secondary live-action facial realism reference. Preserve the same distinct fictional South African Black man: deep brown skin, long oval face, strong cheekbones, dark eyes, short high-top black hair, neat mustache, athletic build and exact age 44. Use Image 2 for natural skin only. Do not copy either reference pose, tan suit, brown airport jacket, shoulder bag, controlled smile, cream background, terminal setting, lighting or camera angle.",
+        "Scene/backdrop: a plausible 2022 rehearsal room during a break, with scuffed pale floor, stacked folding chairs, one rehearsal cube, paper cups, and taped floor marks; any script writing remains too small and blurred to read.",
+        "Subject/action: Darius sits casually on the floor against a rehearsal cube at the far left, one knee raised, a loosely rolled marked script balanced against that knee. He twists toward an unseen colleague well to the right, caught in a spontaneous full open laugh, with one hand lifting as if surrendering to the joke. He is unaware of the photographer.",
+        "Style/medium: authentic candid 2022 company-archive color photograph, handheld documentary timing, subtle high-ISO grain, natural skin, slight motion blur in the lifted hand.",
+        "Composition/framing: true horizontal 3:2 environmental wide from standing eye height and partly behind a blurred chair back; Darius occupies the left third and the empty working room extends right; full seated body visible, no portrait crop or symmetrical shoulders.",
+        "Hair: short natural high-top grown slightly softer and fuller at the edges than in the 2018 interview, neat mustache with the first subtle salt flecks at the temples; no beard.",
+        "Expression/gaze: uncontrolled warm laugh with eyes squeezed nearly closed, face turned far off-axis toward a colleague; no camera engagement and no posed publicity smile.",
+        "Wardrobe: faded cobalt crewneck sweatshirt, olive work trousers and clean white trainers; no jacket, suit, polo, watch display or bag.",
+        "Lighting/mood: mixed daylight and overhead fluorescent rehearsal light, informal, generous and genuinely funny without glamour polish.",
+        "Constraints: clearly adult age 44; preserve fictional facial identity; plausible 2022 rehearsal environment and styling; natural hands, legs and anatomy; one clearly featured person only; no readable text, logos, watermark, border, split panels, collage or contact sheet.",
+        "Avoid: direct camera gaze, airport setting, monochrome, seated interview chair, tan or brown outerwear, crossed arms, microphone, generic headshot, celebrity resemblance, plastic skin, malformed hands or extra limbs."
+      ]
+    },
+    {
+      "filename": "2026-06-16-location-arrival.jpg",
+      "depicts_date": "2026-06-16",
+      "age": 48,
+      "intended_distinguishing_traits": "Full-body uphill stride, mature salt detail, focused acknowledgement, practical script satchel carried low, and a wide coastal production environment.",
+      "composition": "Horizontal 3:2 environmental wide from an elevated position beside road cases; Darius walks diagonally uphill in the lower-right quarter amid vans and grip equipment.",
+      "hairstyle": "Closely tapered high-top with subtle salt-and-pepper at the temples and mustache; no beard.",
+      "expression": "Focused squint and restrained greeting toward a crew member above-left rather than the camera.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Use case: historical-scene",
+        "Asset type: standalone fictional environmental location-arrival photograph dated exactly 2026-06-16",
+        "Primary request: Generate a wide unposed daylight candid of Darius King at exact age 48, calculated from fictional birthdate 1978-02-18, arriving at a working film location with a worn script bag rather than posing for press. This is a new independent photograph, not an edit, poster, collage or contact sheet.",
+        "Input images: Image 1 is Darius's primary canonical illustrated identity and design reference. Image 2 is his secondary live-action facial realism reference. Preserve the same distinct fictional South African Black man: deep brown skin, long oval face, strong cheekbones, dark eyes, short high-top black hair, neat mustache, athletic build and exact age 48. Use Image 2 for natural skin and face only. Do not copy either reference pose, tan suit, brown bomber jacket, shoulder-carried leather bag, direct smile, cream background, airport terminal, yellow taxi, lighting or camera angle.",
+        "Scene/backdrop: a plausible June 2026 independent-film location on a windy coastal headland in daylight, with a gravel access track, two anonymous white grip vans, folded light stands, cable cases and a distant weathered concrete building; no readable vehicle or production branding and no sea-ferry deck.",
+        "Subject/action: Darius walks diagonally uphill across the gravel from lower-right toward the distant building, photographed between steps in a full-body three-quarter profile. He carries a battered charcoal canvas script satchel low in one hand and folded marked pages in the other, turning his face upward toward an unseen crew member who has called to him. He is occupied in arriving, not presenting to the camera.",
+        "Style/medium: naturalistic 2026 unit-stills documentary photograph, crisp daylight, honest skin and fabric texture, moderate telephoto compression and a little wind movement.",
+        "Composition/framing: true horizontal 3:2 environmental wide from an elevated camera beside stacked road cases; Darius occupies about one quarter of the image at lower-right, the diagonal gravel path and practical equipment lead toward the location. Most of his full body and both hands remain visible. No close portrait, terminal framing or centered subject.",
+        "Hair: closely tapered high-top with subtle salt-and-pepper at temples and mustache appropriate to age 48, wind touching only the shirt fabric; no beard.",
+        "Expression/gaze: focused, slightly squinting acknowledgement toward someone above and left, closed mouth with the hint of a greeting; no direct gaze and no broad publicity smile.",
+        "Wardrobe: weathered sage-green chore overshirt left open over a muted maroon T-shirt, dark straight jeans and gray work boots; no coat, suit, polo, formal watch display, brown jacket or tan palette.",
+        "Lighting/mood: clear cool late-morning daylight after coastal rain, brisk wind, matter-of-fact arrival and experienced ease.",
+        "Constraints: clearly adult age 48; preserve fictional facial identity; plausible 2026 production vehicles, grip equipment and clothing; natural hands, feet and anatomy; exactly one clearly featured person, any crew only distant unrecognizable silhouettes if needed; no readable text, logos, watermark, border, split panels, collage or contact sheet.",
+        "Avoid: airport or ferry, yellow taxi, posing beside a vehicle, bag over shoulder, camera-facing smile, monochrome interview, rehearsal-room floor, warm brown grade, celebrity resemblance, plastic skin, malformed hands, extra limbs or duplicated person."
+      ]
+    }
+  ]
+}

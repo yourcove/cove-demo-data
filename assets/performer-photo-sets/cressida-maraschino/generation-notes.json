@@ -1,0 +1,300 @@
+{
+  "performer": "Cressida Maraschino",
+  "birth_date": "1937-03-17",
+  "fictional": true,
+  "generation_workflow": "built-in image generation, one deliberate call per asset",
+  "identity_reference_files": [
+    {
+      "filename": "assets/performers/cressida-maraschino.jpg",
+      "role": "primary canonical illustrated identity and design reference"
+    },
+    {
+      "filename": "assets/performer-portraits/cressida-maraschino.jpg",
+      "role": "secondary photorealistic face and natural-skin reference only"
+    }
+  ],
+  "stable_identity_traits": [
+    "same fictional adult woman",
+    "pale green eyes",
+    "high arched brows",
+    "straight narrow nose",
+    "defined cheekbones",
+    "recognizable mouth and jaw",
+    "fair skin with natural texture",
+    "copper-red hair identity"
+  ],
+  "photos": [
+    {
+      "filename": "1961-04-12-debut-publicity.jpg",
+      "depicts_date": "1961-04-12",
+      "age": 24,
+      "intended_distinguishing_traits": "Quiet early-career reserve, lowered gaze, compact bob, modest day dress, and a seated silhouette unlike every other image in the set.",
+      "composition": "Vertical 2:3 seated three-quarter-length monochrome portrait; body nearly in side profile; hands relaxed together low in frame; camera slightly above seated waist height; generous negative space.",
+      "hairstyle": "Compact early-1961 brushed-under chin-length bob with a clean side part; no rolled forelock or shoulder-length wave set.",
+      "expression": "Thoughtful closed-mouth expression with eyes lowered toward an off-camera floor mark.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Use case: historical-scene",
+        "Asset type: standalone fictional archival performer photograph dated 1961-04-12",
+        "Primary request: Generate a restrained black-and-white debut publicity photograph of Cressida Maraschino at exact age 24, calculated from fictional birthdate 1937-03-17. This is a new photograph, not an edit or contact sheet.",
+        "Input images: Image 1 is the primary canonical illustrated identity and design reference; preserve its fictional facial identity. Image 2 is a secondary photorealistic face and natural-skin reference only; do not copy its red-carpet pose, hair arrangement, wardrobe, expression, lighting, or background.",
+        "Scene/backdrop: plain early-1961 film-studio cyclorama and a simple armless chair, with generous negative space.",
+        "Subject: the same recognizable fictional adult woman, pale green eyes rendered naturally in monochrome, high arched brows, straight narrow nose, defined cheekbones, recognizable mouth and jaw, fair skin with visible natural texture, copper-red hair identity rendered in monochrome.",
+        "Style/medium: authentic 1961 gelatin-silver studio print, subtle fine grain, restrained period retouching, no contemporary polish.",
+        "Composition/framing: true vertical 2:3 frame; seated three-quarter-length portrait; body nearly in side profile; hands relaxed together low in frame; camera slightly above seated waist height; no standing pin-up pose.",
+        "Hair: compact brushed-under chin-length bob with a clean side part; no rolled forelock, no shoulder-length wave set.",
+        "Expression/gaze: thoughtful closed-mouth expression, eyes lowered toward an off-camera floor mark; no engagement with the lens.",
+        "Wardrobe: simple dark bateau-neck day dress with modest early-1961 tailoring; no gloves, cherry jewelry, or premiere styling.",
+        "Lighting/mood: broad soft key, restrained fill, minimal hair light; quiet, intelligent, self-possessed.",
+        "Constraints: clearly adult age 24; preserve identity traits from Image 1 without copying its pose; period-accurate 1961 hair, makeup, wardrobe, furniture, and photographic process; natural anatomy and hands; one person only; no text, logos, watermark, border, collage, contact sheet, or extra panels.",
+        "Avoid: direct gaze, broad smile, rolled hairstyle, glamour half-turn, red-carpet flash, modern makeup, plastic skin, celebrity resemblance, malformed hands, extra limbs.",
+        "Intentional anachronisms: none."
+      ]
+    },
+    {
+      "filename": "1964-07-18-resort-editorial.jpg",
+      "depicts_date": "1964-07-18",
+      "age": 27,
+      "intended_distinguishing_traits": "Athletic motion, off-axis open laugh, scarf-tied ponytail, wind and water texture, and a wide environmental composition rather than a static glamour pose.",
+      "composition": "Horizontal 3:2 environmental wide from a low camera near the waterline; full body captured mid-stride through shallow surf; moving wrap and splashing water.",
+      "hairstyle": "Copper hair secured in a short wind-tossed ponytail under a narrow period head scarf, with loose strands lifted by movement.",
+      "expression": "Spontaneous open laugh toward someone well outside frame; moving profile rather than lens-facing beauty turn.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Use case: historical-scene",
+        "Asset type: standalone fictional archival resort-fashion editorial dated 1964-07-18",
+        "Primary request: Generate an energetic, tasteful seaside fashion photograph of Cressida Maraschino at exact age 27, calculated from fictional birthdate 1937-03-17. This is a new photograph, not an edit or contact sheet.",
+        "Input images: Image 1 is the primary canonical illustrated identity and design reference; preserve its fictional facial identity. Image 2 is a secondary photorealistic face and natural-skin reference only; do not copy its red-carpet pose, hair arrangement, wardrobe, expression, lighting, or background.",
+        "Scene/backdrop: period-plausible Mediterranean-style shore in 1964 with pale sand, shallow turquoise surf, distant weathered cabanas, no modern objects and no crowd.",
+        "Subject: the same recognizable fictional adult woman, pale green eyes, high arched brows, straight narrow nose, defined cheekbones, recognizable mouth and jaw, fair skin with realistic texture, copper-red hair identity.",
+        "Style/medium: authentic mid-1960s color-negative magazine photography, natural body proportions, fine film grain, lightly sun-warmed color, imperfect real-world texture.",
+        "Composition/framing: true horizontal 3:2 environmental wide from a low camera near the waterline; full body visible and relatively small in the frame; caught mid-stride splashing through shallow surf; one arm balances a lightweight wrap; clear motion in water and fabric; not a posed portrait.",
+        "Hair: copper hair secured in a short wind-tossed ponytail under a narrow period head scarf, with loose strands lifted by movement; no rolled forelock, bouffant, or sculpted shoulder wave.",
+        "Expression/gaze: spontaneous open laugh toward someone well outside frame; face in moving profile, not turned to the lens.",
+        "Wardrobe: elegant cherry-red 1964 one-piece bathing suit with modest square neckline and full coverage, ivory chiffon wrap; family-safe PG-13 fashion editorial.",
+        "Lighting/mood: clear late-afternoon sun, sea breeze, joyful athletic motion, sophisticated magazine craft without modern retouching.",
+        "Constraints: clearly adult age 27; preserve identity traits from Image 1 without copying its pose; period-accurate 1964 swimwear, hair, makeup, shore, cabanas, and photographic process; natural anatomy, hands, and feet; one person only; no text, logos, watermark, border, collage, contact sheet, or extra panels.",
+        "Avoid: static contrapposto, direct gaze, pin-up presentation, high heels, modern beachwear or furniture, smartphones, plastic skin, celebrity resemblance, malformed hands or feet, extra limbs.",
+        "Intentional anachronisms: none."
+      ]
+    },
+    {
+      "filename": "1967-09-06-on-set-candid.jpg",
+      "depicts_date": "1967-09-06",
+      "age": 30,
+      "intended_distinguishing_traits": "Absorbed technical work, downturned gaze, practical clipped bob, worn clothing, occupied hands, and a layered documentary-wide frame.",
+      "composition": "Horizontal 3:2 environmental wide; crouched beside an analog 35mm camera dolly while marking a paper shot list; face in three-quarter profile; both hands occupied; equipment and crew form layered context.",
+      "hairstyle": "Practical short copper 1967 bob held back with a plain clip; no glamour roll, bouffant, or shoulder wave.",
+      "expression": "Focused, lightly pursed lips and eyes down on the shot list; no awareness of the photographer.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Use case: historical-scene",
+        "Asset type: standalone fictional archival on-set candid dated 1967-09-06",
+        "Primary request: Generate an unposed working photograph of Cressida Maraschino at exact age 30, calculated from fictional birthdate 1937-03-17, occupied behind the camera between takes. This is a new photograph, not an edit or contact sheet.",
+        "Input images: Image 1 is the primary canonical illustrated identity and design reference; preserve its fictional facial identity. Image 2 is a secondary photorealistic face and natural-skin reference only; do not copy its red-carpet pose, hair arrangement, wardrobe, expression, lighting, or background.",
+        "Scene/backdrop: exterior 1967 film set with a period 35mm motion-picture camera on a dolly or wooden support, focus tape, paper shot list, weathered practical walls, cable and grip equipment that is mechanically plausible for the date.",
+        "Subject: the same recognizable fictional adult woman, pale green eyes, high arched brows, straight narrow nose, defined cheekbones, recognizable mouth and jaw, fair skin with realistic texture, copper-red hair identity.",
+        "Style/medium: authentic candid 1967 color-reversal press photograph, visible fine grain, gentle warmth, slightly imperfect off-center documentary framing, honest skin and fabric texture.",
+        "Composition/framing: true horizontal 3:2 layered environmental wide from behind part of a camera cart; she crouches beside the camera dolly marking a paper shot list or checking focus tape; face in three-quarter profile and only one part of a busy working frame; both hands naturally occupied; equipment remains secondary but clearly analog.",
+        "Hair: practical short geometric 1967 crop or tucked chin-length bob held back with a plain clip; no rolled forelock, bouffant, or shoulder wave.",
+        "Expression/gaze: absorbed concentration with lightly pursed lips, looking down at equipment or notes; completely unaware of the photographer.",
+        "Wardrobe: faded rust work shirt with sleeves rolled to the elbows, high-waisted dark trousers, flat leather shoes, pencil or small utility pouch; practical, worn, and period accurate.",
+        "Lighting/mood: mixed open shade and hard set spill, capable and focused, no beauty light.",
+        "Constraints: clearly adult age 30; preserve identity traits from Image 1 without copying its pose; period-accurate 1967 wardrobe, paper materials, motion-picture camera, lenses, dolly, grip equipment, and photographic process; natural anatomy and hands; one clearly featured person; no text, logos, watermark, border, collage, contact sheet, or extra panels.",
+        "Avoid: posing with a light meter near her face, smiling at camera, direct gaze, glamour styling, modern digital cameras, LCD screens, autofocus lenses, smartphones, plastic skin, celebrity resemblance, malformed hands or equipment.",
+        "Intentional anachronisms: none."
+      ]
+    },
+    {
+      "filename": "1969-11-03-premiere-arrival.jpg",
+      "depicts_date": "1969-11-03",
+      "age": 32,
+      "intended_distinguishing_traits": "Dynamic arrival action, reporter interaction, animated speech, low chignon, ivory trouser suit, emerald graphic coat, hard flash, and layered foreground cameras.",
+      "composition": "Vertical 2:3 low curbside frame; halfway out of a period saloon car with one foot on pavement and hands naturally braced; torso turns toward reporters; most of the figure, vehicle, and press context remain visible.",
+      "hairstyle": "Sleek copper low chignon with a deep side part and clean late-1969 silhouette; no rolled forelock or shoulder wave.",
+      "expression": "Animated mid-sentence, surprised-delighted, looking toward a reporter well off-axis.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Use case: historical-scene",
+        "Asset type: standalone fictional archival premiere-arrival press photograph dated 1969-11-03",
+        "Primary request: Generate a dynamic city-cinema arrival photograph of Cressida Maraschino at exact age 32, calculated from fictional birthdate 1937-03-17, caught while exiting a period vehicle and responding to reporters. This is a new photograph, not an edit or contact sheet.",
+        "Input images: Image 1 is the primary canonical illustrated identity and design reference; preserve its fictional facial identity. Image 2 is a secondary photorealistic face and natural-skin reference only; do not copy its red-carpet pose, hair arrangement, red dress, black gloves, expression, lighting, or background.",
+        "Scene/backdrop: evening entrance of a late-1960s city cinema; a black 1965-1969 luxury saloon car stopped at curb; warm marquee bulbs rendered as soft shapes; reporters with period analog flash cameras create partial foreground layers; no readable venue or film names.",
+        "Subject: the same recognizable fictional adult woman, pale green eyes, high arched brows, straight narrow nose, defined cheekbones, recognizable mouth and jaw, fair skin with natural texture, copper-red hair identity.",
+        "Style/medium: authentic late-1960s color press photography on tungsten-balanced negative, gentle grain, hard flash, slight motion blur, rich shadows, imperfect news-photo timing.",
+        "Composition/framing: true vertical 2:3 frame from a slightly low curbside camera; she is halfway out of the rear car door with one foot on pavement, one hand naturally braced on the door frame, torso twisting toward reporters; camera distance shows most of her figure plus vehicle and press context; not a static red-carpet portrait.",
+        "Hair: sleek low chignon with a deep side part, clean late-1969 silhouette; no rolled forelock, bouffant, or repeated shoulder wave.",
+        "Expression/gaze: animated mid-sentence, surprised-delighted, eyes directed toward a reporter well off-axis; no controlled half-smile and no direct lens gaze.",
+        "Wardrobe: sophisticated ivory 1969 trouser suit under a long graphic emerald evening coat, minimal geometric gold earrings, no black gown, red satin, gloves, or clutch.",
+        "Lighting/mood: mixed warm marquee spill and harsh reporter flash, kinetic, witty, self-possessed.",
+        "Constraints: clearly adult age 32; preserve identity traits from Image 1 without copying its pose; period-accurate late-1969 hair, makeup, tailoring, car, cinema architecture, analog press cameras, and photographic process; natural anatomy and hands; one clearly featured person; no readable text, logos, watermark, border, collage, contact sheet, or extra panels.",
+        "Avoid: standing pose against a cinema wall, velvet-rope lineup, direct gaze, black column gown, red clutch, repeated half-smile, modern step-and-repeat, smartphones, digital cameras, modern cars, plastic skin, celebrity resemblance, malformed hands or vehicle geometry.",
+        "Intentional anachronisms: none."
+      ]
+    },
+    {
+      "filename": "2025-06-13-return-to-the-set.jpg",
+      "depicts_date": "2025-06-13",
+      "age": 88,
+      "intended_distinguishing_traits": "Truthful late-life continuity at age 88, silver-white hair with muted copper remnants, deeply weathered skin and hands, alert pale-green eyes, relaxed seated conversation, and an ordinary contemporary working set.",
+      "composition": "Horizontal 3:2 environmental medium-wide; seated sideways in a padded folding chair with closed script on lap, one hand resting and one making a precise storytelling gesture toward a director crouched at conversational height.",
+      "hairstyle": "Fine chin-length silver-white side-parted bob with muted copper strands remaining at the underside and nape; no sculpted roll.",
+      "expression": "Relaxed wry half-smile and lively gaze directed toward the director, never toward the camera.",
+      "intentional_anachronisms": [],
+      "prompt_lines": [
+        "Create one horizontal 3:2 photorealistic contemporary in-universe photograph dated 2025-06-13 of fictional performer Cressida Maraschino returning to a film set, exactly age 88.",
+        "Image 1 is the primary canonical illustrated identity/design reference: preserve Cressida's pale green eyes, high arched brows, straight narrow nose, defined cheekbones, recognizable mouth and jaw, fair complexion, copper-red hair identity, expressive intelligence, and compact hourglass-derived frame as naturally changed by age.",
+        "Image 2 is the secondary photorealistic face/skin reference for the same fictional person at age 32: preserve that recognizable facial geometry while aging it forward truthfully by 56 years. Do not copy either input's youthful red-carpet polish, rolled hairstyle, direct beauty angle, pose, wardrobe, or background.",
+        "Age portrayal: Cressida is a real, dignified 88-year-old adult with naturally weathered thin skin, deep forehead and eye lines, soft jowls, age spots, visible veins and tendons on slender hands, slightly reduced muscle mass, gentle shoulder stoop, and alert lively eyes.",
+        "Her chin-length hair is fine silver-white with believable muted copper strands remaining around the underside and nape, arranged in a softly brushed side-parted bob with no sculpted roll. Do not de-age her, smooth away age, or preserve a young body.",
+        "Scene and composition: quiet horizontal environmental medium-wide between takes on a contemporary interior soundstage. Cressida sits sideways in a plain padded folding chair beside a practical set wall, feet firmly on the floor, a closed unreadable script resting across her lap.",
+        "A middle-aged director in work clothes crouches at conversational height on the right edge, shown only from the back and soft profile. Cressida leans slightly toward them, one slender hand resting on the script and the other lifted in a small precise storytelling gesture.",
+        "She looks directly at the director rather than the camera, wearing a relaxed wry half-smile as if correcting a remembered detail. Keep both hands anatomically clear. In the background, softly blurred contemporary camera track, a flag, cable mats, and one crew member establish a working set without spectacle.",
+        "Styling and light: soft charcoal wide-leg trousers, flat leather shoes, a pale blue collarless blouse, and a loose textured plum cardigan with sleeves pushed just above the wrists; one small pair of pearl studs, understated age-appropriate makeup, no gown, gloves, cherries, or signature black-and-red costume.",
+        "Broad window-like key light from the set, neutral fill, gentle shadow, natural 2025 digital documentary detail with restrained color and fine grain. The mood is warm, ordinary, respected, and engaged rather than memorial or frail.",
+        "Do not include readable text, captions, logos, watermarks, red carpet, press flashes, a period vehicle, a 1960s set, direct eye contact with camera, a posed glamour portrait, young smooth skin, dark saturated red hair, exaggerated decrepitude, medical equipment, a wheelchair, caricature, malformed hands, duplicated limbs, impossible camera gear, or intentional anachronisms."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection as a recognizable, dignified, naturally aged 88-year-old with clean anatomy and contemporary set context",
+        "corrections": []
+      }
+    }
+  ],
+  "refinements": [
+    {
+      "filename": "1961-04-12-debut-publicity.jpg",
+      "depicts_date": "1961-04-12",
+      "age": 24,
+      "input_images": [
+        {
+          "filename": "assets/performer-photo-sets/cressida-maraschino/1961-04-12-debut-publicity.jpg",
+          "role": "exact photorealistic edit target"
+        },
+        {
+          "filename": "assets/performers/cressida-maraschino.jpg",
+          "role": "unchanged canonical illustrated identity and hourglass-design reference"
+        }
+      ],
+      "prompt_lines": [
+        "Use case: identity-preserve.",
+        "Asset type: refined standalone fictional 1961 monochrome publicity portrait, dated 1961-04-12, Cressida Maraschino exactly age 24.",
+        "Input images: Image 1 is the exact photorealistic edit target. Image 2 is the unchanged canonical illustrated identity reference supporting Cressida's original fictional face and hourglass costume design.",
+        "Primary request: Make one restrained early-1960s wardrobe-tailoring adjustment to Image 1. Preserve the simple dark day dress but give it a fuller naturally rounded upper-body silhouette consistent with Cressida's hourglass design. Lower the current bateau neckline into an elegant softly curved portrait neckline that shows a tasteful amount of upper décolletage while remaining opaque, secure, fully clothed, and appropriate for a mainstream 1961 publicity sitting. Render believable structured undergarment support, fabric weight, seams, tension, and natural anatomy.",
+        "Invariants: Preserve exactly the same fictional face, lowered gaze, age-24 skin, brows, nose, mouth, jaw, compact brushed-under bob, head angle, reserved expression, seated near-profile pose, shoulder position, hands folded low in her lap, chair, negative space, vertical 2:3 framing, camera height, monochrome gelatin-silver process, grain, studio backdrop, and lighting. Do not alter identity, apparent age, pose, hair, expression, hands, chair, crop, or background.",
+        "Constraints: tasteful fully clothed adult daywear, no transparency, no lingerie presentation, no exaggerated proportions, no glamour pin-up pose, no text, no logos, no watermark, no real-person resemblance, no extra limbs, no malformed anatomy."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection",
+        "findings": "The face, lowered gaze, seated pose, hands, monochrome process, and negative-space composition remain stable; the dress now has a fuller natural silhouette and restrained curved neckline."
+      }
+    },
+    {
+      "filename": "1964-07-18-resort-editorial.jpg",
+      "depicts_date": "1964-07-18",
+      "age": 27,
+      "input_images": [
+        {
+          "filename": "assets/performer-photo-sets/cressida-maraschino/1964-07-18-resort-editorial.jpg",
+          "role": "exact photorealistic edit target"
+        },
+        {
+          "filename": "assets/performers/cressida-maraschino.jpg",
+          "role": "unchanged canonical illustrated identity and hourglass-design reference"
+        }
+      ],
+      "prompt_lines": [
+        "Use case: identity-preserve.",
+        "Asset type: refined standalone fictional 1964 resort-fashion editorial, dated 1964-07-18, Cressida Maraschino exactly age 27.",
+        "Input images: Image 1 is the exact photorealistic edit target. Image 2 is the unchanged canonical illustrated identity reference supporting Cressida's original fictional face and fuller hourglass proportions.",
+        "Primary request: Make one restrained mid-1960s swimwear-tailoring adjustment to Image 1. Keep the same red one-piece but give its upper bodice a fuller naturally rounded silhouette consistent with Cressida's buxom hourglass design. Refine the square neckline into a slightly lower, softly curved square shape showing tasteful upper décolletage, while remaining opaque, secure, fully clothed, family-safe PG-13, and practical for movement through surf. Render believable period foundation support, wet fabric weight, seams, tension, and natural anatomy.",
+        "Invariants: Preserve exactly the same fictional face, age-27 skin, copper hair and scarf, running stride, head turn, open laugh, gaze, arm positions, ivory wrap, legs, feet, water splash, shoreline, huts, rocks, sky, horizontal 3:2 framing, camera distance, perspective, sunlight, film grain, and 1964 color-negative character. Do not alter identity, apparent age, pose, movement, hair, expression, setting, crop, or background.",
+        "Constraints: tasteful fully clothed adult swim editorial, no transparency, no lingerie styling, no exaggerated proportions, no static pose, no text, no logos, no watermark, no real-person resemblance, no extra limbs, no malformed anatomy or fabric."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection",
+        "findings": "The running stride, face, scarf, expression, wrap, surf, landscape, and period color treatment remain stable; the one-piece has a fuller supported bodice and tasteful curved-square neckline."
+      }
+    },
+    {
+      "filename": "1967-09-06-on-set-candid.jpg",
+      "depicts_date": "1967-09-06",
+      "age": 30,
+      "input_images": [
+        {
+          "filename": "assets/performer-photo-sets/cressida-maraschino/1967-09-06-on-set-candid.jpg",
+          "role": "exact photorealistic edit target"
+        },
+        {
+          "filename": "assets/performers/cressida-maraschino.jpg",
+          "role": "unchanged canonical illustrated identity and hourglass-design reference"
+        }
+      ],
+      "prompt_lines": [
+        "Use case: identity-preserve.",
+        "Asset type: refined standalone fictional 1967 on-set candid, dated 1967-09-06, Cressida Maraschino exactly age 30.",
+        "Input images: Image 1 is the exact photorealistic edit target. Image 2 is the unchanged canonical illustrated identity reference supporting Cressida's original fictional face and fuller hourglass proportions.",
+        "Primary request: Make one restrained late-1960s workwear-tailoring adjustment to Image 1. Keep the same rust-colored practical button-front shirt, but tailor it over a fuller naturally rounded upper-body silhouette consistent with Cressida's hourglass design. Open and reshape only the top of the collar into a modest secure V showing tasteful upper décolletage while remaining opaque, fully clothed, and credible for active film-set work. Render believable period foundation support, shirt seams, button placement, fabric weight, tension, folds, and natural anatomy.",
+        "Invariants: Preserve exactly the same fictional face, age-30 skin, auburn rolled half-up hairstyle, absorbed downward gaze, serious working expression, crouched pose, shoulder and torso angle, arms and hands, pencil, shot list, foreground film camera, crew and equipment, set walls, horizontal 3:2 framing, camera height, focal distance, warm color-negative process, grain, and 1967 production atmosphere. Do not alter identity, apparent age, pose, hair, expression, hands, equipment, setting, crop, or background.",
+        "Constraints: tasteful fully clothed adult workwear, no transparency, no lingerie styling, no exaggerated proportions, no posed glamour treatment, no text, no logos, no watermark, no real-person resemblance, no extra limbs, no malformed anatomy or equipment."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection",
+        "findings": "The face, crouch, occupied hands, camera equipment, crew, backdrop, and documentary framing remain stable; the rust shirt has a fuller naturally tailored silhouette and modest open collar."
+      }
+    },
+    {
+      "filename": "1969-11-03-premiere-arrival.jpg",
+      "depicts_date": "1969-11-03",
+      "age": 32,
+      "input_images": [
+        {
+          "filename": "assets/performer-photo-sets/cressida-maraschino/1969-11-03-premiere-arrival.jpg",
+          "role": "exact photorealistic edit target"
+        },
+        {
+          "filename": "assets/performers/cressida-maraschino.jpg",
+          "role": "unchanged canonical illustrated identity and hourglass-design reference"
+        }
+      ],
+      "prompt_lines": [
+        "Use case: identity-preserve.",
+        "Asset type: refined standalone fictional 1969 premiere-arrival photograph, dated 1969-11-03, Cressida Maraschino exactly age 32.",
+        "Input images: Image 1 is the exact photorealistic edit target. Image 2 is the unchanged canonical illustrated identity reference supporting Cressida's original fictional face and fuller hourglass proportions.",
+        "Primary request: Make one restrained late-1969 evening-suit tailoring adjustment to Image 1. Keep the same ivory trouser suit and dark green coat, but tailor the wrap jacket over a fuller naturally rounded upper-body silhouette consistent with Cressida's hourglass design. Refine its existing wrap neckline into a slightly lower, secure softly draped V showing tasteful upper décolletage, while remaining opaque, elegant, fully clothed, and appropriate for a mainstream film premiere. Render believable period foundation support, lapels, overlap closure, fabric weight, tension, folds, and natural anatomy.",
+        "Invariants: Preserve exactly the same fictional face, age-32 skin, makeup, copper rolled chignon, alert sideways gaze, bright responsive smile, body twist, stepping motion from the dark period sedan, hand positions, dark green coat, reporters, bulbs and microphones, wet pavement, marquee light, nighttime setting, vertical 2:3 framing, camera height, focal distance, perspective, grain, flash lighting, and 1969 press-photo character. Do not alter identity, apparent age, pose, movement, hair, expression, hands, vehicle, setting, crop, or background.",
+        "Constraints: tasteful fully clothed adult formalwear, no transparency, no lingerie styling, no exaggerated proportions, no static pose, no text, no logos, no watermark, no real-person resemblance, no extra limbs, no malformed anatomy, clothing, or vehicle."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection",
+        "findings": "The stepping action, face, hands, suit and coat identity, sedan, press foreground, and vertical composition remain stable; the wrap jacket now has a fuller silhouette and secure draped neckline."
+      }
+    },
+    {
+      "filename": "2025-06-13-return-to-the-set.jpg",
+      "depicts_date": "2025-06-13",
+      "age": 88,
+      "input_images": [
+        {
+          "filename": "assets/performer-photo-sets/cressida-maraschino/2025-06-13-return-to-the-set.jpg",
+          "role": "exact photorealistic edit target"
+        },
+        {
+          "filename": "assets/performers/cressida-maraschino.jpg",
+          "role": "unchanged canonical illustrated identity and lifelong hourglass-design reference"
+        }
+      ],
+      "prompt_lines": [
+        "Use case: identity-preserve.",
+        "Asset type: refined standalone fictional contemporary on-set portrait, dated 2025-06-13, Cressida Maraschino exactly age 88.",
+        "Input images: Image 1 is the exact photorealistic edit target. Image 2 is the unchanged canonical illustrated identity reference supporting Cressida's original fictional face and lifelong hourglass design.",
+        "Primary request: Make one restrained contemporary blouse-tailoring adjustment to Image 1. Keep the same pale blue blouse and plum cardigan, but tailor the blouse over a fuller naturally rounded upper-body silhouette appropriate to this same woman at age 88, including believable age-related softness and gravity. Refine the blouse's existing open collar into a modest, softly draped neckline showing a tasteful amount of upper décolletage while remaining opaque, secure, comfortable, fully clothed, and appropriate for a quiet working conversation between takes. Render believable supportive tailoring, fabric weight, seams, tension, folds, and natural elderly anatomy.",
+        "Invariants: Preserve exactly the same recognizable fictional face, age-88 deeply lined skin and weathered texture, pale green eyes, brows, nose, mouth, jaw, silver-copper swept-back hair, relaxed attentive expression, seated three-quarter pose, gaze toward the crew member, shoulder and hand positions, scarf, cardigan, dark trousers, tea cup, folding chairs, conversation partner, crew, camera, sound blanket, horizontal 3:2 framing, camera height, focal distance, perspective, soft contemporary digital color, and on-set afternoon light. Do not alter identity, apparent age, elderly body, face lines, hands, pose, hair, expression, setting, crop, or background. Do not rejuvenate or beautify her.",
+        "Constraints: tasteful fully clothed adult daywear, no transparency, no lingerie styling, no exaggerated proportions, no glamour pose, no text, no logos, no watermark, no real-person resemblance, no extra limbs, no malformed anatomy or equipment."
+      ],
+      "review": {
+        "output": "accepted after full-resolution inspection",
+        "findings": "The recognizable age-88 face, lines, hands, seated conversation, crew context, and documentary framing remain stable; the blouse now follows a fuller age-plausible silhouette without rejuvenating her."
+      }
+    }
+  ]
+}

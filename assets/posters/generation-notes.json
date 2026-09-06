@@ -1,0 +1,726 @@
+{
+  "schema_version": 1,
+  "workflow": "Built-in image generation; every accepted raw output was inspected at full size before export.",
+  "normalization": {
+    "raw_dimensions": "1672x941",
+    "center_trim": "1664x936 (4 px left/right, 2 px top, 3 px bottom)",
+    "resize": "1600x900 Lanczos",
+    "stretch": false
+  },
+  "assets": [
+    {
+      "asset": "a-very-public-secret-2015.jpg",
+      "depicted_date": "2025-05-15",
+      "full_cast_ages": [
+        "Bella Bloom|1983-11-23|41",
+        "Sofia Calderon|2001-03-11|24",
+        "Arun Sen|1995-01-29|30",
+        "Lucia Ferrer|2002-09-12|22",
+        "Amina Shaw|1992-09-08|32",
+        "Julian March|1966-05-30|58"
+      ],
+      "depicted_performers": [
+        "Bella Bloom",
+        "Sofia Calderon"
+      ],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster, native 2048x1152 canvas.\nPrimary request: Create key art for the fictional 2025 ensemble mystery comedy \"A Very Public Secret\", depicted on 2025-05-15. Everyone knows a confidential agreement, but nobody will acknowledge it on camera.\nInput images: Image 1 is Bella Bloom's primary canonical illustrated identity reference; Image 2 is Bella's supporting photoreal facial reference only; Image 3 is Sofia Calderon's primary canonical illustrated identity reference; Image 4 is Sofia's supporting photoreal facial reference only. Preserve each fictional person's facial proportions, eye shape, nose, jaw, and individual identity. Do not preserve any reference clothing, hairstyle, pose, jewelry, background, or prop.\nSubjects: Bella Bloom, born 1983-11-23, exactly age 41; Sofia Calderon, born 2001-03-11, exactly age 24. Depict only these two credited poster subjects as recognizable principals.\nScene/backdrop: a contemporary 2025 press venue observed through the edge of a shoulder-mounted television camera viewfinder, with blurred reporters and practical media equipment behind.\nComposition/framing: asymmetric layered candid. Bella stands at a side lectern in middle-distance three-quarter profile, cool and controlled, while Sofia occupies the near foreground in side profile checking a handheld audio recorder and looking away from camera. Their bodies sit on different planes and at different scales. Leave clean negative space high center for title. No table, no seated panel, no two-person lineup, no matching pose.\nWardrobe/identity variation: Bella wears a black architectural suit with a slate silk blouse, auburn shoulder-length waves brushed behind one ear, restrained makeup, composed expression. Sofia wears a pale blue structured blouse and charcoal trousers, dark hair in a crisp short bob, minimal makeup, alert concentrated expression. They must look like clearly different people and different generations.\nStyle/medium: polished but natural 2025 digital theatrical photography, real skin texture, plausible press-camera optics, subtle Fourth Wall theatrical blocking without glamour staging.\nLighting/mood: mixed neutral venue light and one off-axis press flash, witty tension, restrained navy and ivory palette with a small red accent.\nText (verbatim): \"A VERY PUBLIC SECRET\" in compact clean uppercase typography in the high-center negative space. Spell exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: exact 16:9, native 2048x1152; 2025 cameras, microphones, recorder, architecture, and clothing; natural anatomy and hands; no logos, no watermark; no extra recognizable principal performers.\nAvoid: Sofia resembling Lucia Ferrer; matching red-brown jackets; tied-back matching hair; everyone facing camera; evenly spaced faces; generic contemporary glamour photograph; orange/teal blockbuster grade; malformed press equipment; misspelled or extra text.",
+      "distinguishing_traits": "Bella's angular mature face and auburn waves; Sofia's younger narrow face, long nose and short dark bob.",
+      "composition": "Asymmetric reportage frame with Bella left-midground and Sofia large right-foreground, neither facing the viewer.",
+      "hairstyle": "Bella: loose auburn waves; Sofia: short tucked bob.",
+      "expression": "Bella alert and guarded; Sofia privately focused on her recorder.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/bella-bloom.jpg|canonical identity",
+        "assets/performer-portraits/bella-bloom.jpg|texture support",
+        "assets/performers/sofia-calderon.jpg|canonical identity",
+        "assets/performer-portraits/sofia-calderon.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-68123239-a1a3-4023-ae86-019115f9cd0f.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-bfe3d7e5-8331-4124-ba2b-c8109a7a5000.png",
+          "status": "superseded: misspelled title",
+          "exact_prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster, native 2048x1152 canvas.\nPrimary request: Create key art for the fictional 2025 ensemble mystery comedy \"A Very Public Secret\", depicted on 2025-05-15. Everyone knows a confidential agreement, but nobody will acknowledge it on camera.\nInput images: Image 1 is Bella Bloom's primary canonical illustrated identity reference; Image 2 is Bella's supporting photoreal facial reference only; Image 3 is Sofia Calderon's primary canonical illustrated identity reference; Image 4 is Sofia's supporting photoreal facial reference only. Preserve each fictional person's facial proportions, eye shape, nose, jaw, and individual identity. Do not preserve any reference clothing, hairstyle, pose, jewelry, background, or prop.\nSubjects: Bella Bloom, born 1983-11-23, exactly age 41; Sofia Calderon, born 2001-03-11, exactly age 24. Depict only these two credited poster subjects as recognizable principals.\nScene/backdrop: a contemporary 2025 press venue observed through the edge of a shoulder-mounted television camera viewfinder, with blurred reporters and practical media equipment behind.\nComposition/framing: asymmetric layered candid. Bella stands at a side lectern in middle-distance three-quarter profile, cool and controlled, while Sofia occupies the near foreground in side profile checking a handheld audio recorder and looking away from camera. Their bodies sit on different planes and at different scales. Leave clean negative space high center for title. No table, no seated panel, no two-person lineup, no matching pose.\nWardrobe/identity variation: Bella wears a black architectural suit with a slate silk blouse, auburn shoulder-length waves brushed behind one ear, restrained makeup, composed expression. Sofia wears a pale blue structured blouse and charcoal trousers, dark hair in a crisp short bob, minimal makeup, alert concentrated expression. They must look like clearly different people and different generations.\nStyle/medium: polished but natural 2025 digital theatrical photography, real skin texture, plausible press-camera optics, subtle Fourth Wall theatrical blocking without glamour staging.\nLighting/mood: mixed neutral venue light and one off-axis press flash, witty tension, restrained navy and ivory palette with a small red accent.\nText (verbatim): \"A VERY PUBLIC SECRET\" in compact clean uppercase typography in the high-center negative space. Spell exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: exact 16:9, native 2048x1152; 2025 cameras, microphones, recorder, architecture, and clothing; natural anatomy and hands; no logos, no watermark; no extra recognizable principal performers.\nAvoid: Sofia resembling Lucia Ferrer; matching red-brown jackets; tied-back matching hair; everyone facing camera; evenly spaced faces; generic contemporary glamour photograph; orange/teal blockbuster grade; malformed press equipment; misspelled or extra text."
+        },
+        {
+          "raw_generation_file": "exec-c00225a2-85f8-4ce7-a5e5-5fdf4955ea0c.png",
+          "status": "superseded: title repair remained misspelled",
+          "exact_prompt": "Use case: text-localization.\nAsset type: exact 16:9 landscape theatrical movie poster.\nInput images: Image 1 is the edit target and complete approved composition.\nPrimary request: Change only the misspelled title at upper center from \"A VERI PUBLIC SECRET\" to the exact verbatim title \"A VERY PUBLIC SECRET\".\nText (verbatim): \"A VERY PUBLIC SECRET\".\nTypography: preserve the same compact navy uppercase typography, line breaks, scale, placement, tracking, and clean negative-space treatment.\nConstraints: keep every other pixel-level visual decision unchanged as closely as possible: preserve both fictional performers' identities, ages, faces, skin texture, hair, wardrobe, poses, gaze, hands, recorder, lectern, press cameras, lighting, colors, framing, background, and depth of field. No new text, no logos, no watermark.\nAvoid: changing either person, changing composition, changing wardrobe, moving title, adding letters or words, malformed hands, identity drift."
+        },
+        {
+          "raw_generation_file": "exec-68123239-a1a3-4023-ae86-019115f9cd0f.png",
+          "status": "accepted titleless correction",
+          "exact_prompt": "Use case: precise poster cleanup. Image 1 is the edit target. Remove the entire incorrect title and all lettering from the upper central wall, replacing it seamlessly with the same neutral pale press-room wall texture and lighting. The accepted final is intentionally titleless. Preserve absolutely everything else unchanged: Bella Bloom at the lectern, Sofia Calderon in the foreground with recorder, exact facial identities and ages, wardrobe, expressions, gestures, hands, press cameras, background people, architectural lines, asymmetric composition, daylight, color grade, and skin texture. Do not add any text, logos, symbols, people, or objects. No beauty retouching and no anatomy changes."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "Bella: loose auburn waves; Sofia: short tucked bob. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Asymmetric reportage frame with Bella left-midground and Sofia large right-foreground, neither facing the viewer. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "the-usual-accessories-1994.jpg",
+      "depicted_date": "2018-08-19",
+      "full_cast_ages": [
+        "Amina Shaw|1992-09-08|25",
+        "Darius King|1978-02-18|40",
+        "Rafael Sato|1993-10-03|24",
+        "Tess North|1996-04-26|22"
+      ],
+      "depicted_performers": [
+        "Amina Shaw",
+        "Darius King"
+      ],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create key art for the fictional 2018 ensemble caper comedy \"The Usual Accessories\", depicted on 2018-08-19. Four auction guests leave with the wrong coats and evidence from four crimes, but this poster features only two principals.\nInput images: Image 1 is Amina Shaw's primary canonical illustrated identity reference; Image 2 is Amina's supporting photoreal facial reference only; Image 3 is Darius King's primary canonical illustrated identity reference; Image 4 is Darius's supporting photoreal facial reference only. Preserve their distinct facial proportions, eyes, nose, jaw, skin texture/tone, and individual identity. Do not preserve reference clothing, hairstyle, pose, jewelry, background, or props.\nSubjects: Amina Shaw, born 1992-09-08, exactly age 25; Darius King, born 1978-02-18, exactly age 40. Depict only these two credited poster subjects as recognizable principals.\nScene/backdrop: a contemporary 2018 auction-house coat-check cage just after a crowded gala, with rolling racks, numbered claim tickets, mismatched evening coats, polished wood, and a convex security mirror.\nComposition/framing: unusual high-angle viewpoint from inside the coat-check cage. Amina reaches upward toward a numbered ticket while twisting away from a sliding rack; Darius is lower and deeper in frame, stopping a falling evidence envelope with one polished shoe while holding a mismatched overcoat. Faces differ in scale and angle. Strong diagonal motion and layered racks; no shoulder-to-shoulder lineup, no matching gesture, no front-facing pose.\nWardrobe/hair/expression: Amina wears a sharp silver evening jumpsuit beneath a dark teal overcoat, hair in a sleek high braided ponytail, startled concentration. Darius wears an aubergine dinner jacket, black open-collar shirt, and charcoal trousers, close-cropped hair and mustache retained, dry amused alarm. Neither uses canonical plum/cream or tan/black clothing.\nStyle/medium: witty saturated 2018 caper key art with real photographic texture; Electric Marquee energy expressed through small cyan, magenta, and yellow claim-ticket accents rather than a logo.\nLighting/mood: gala practicals, crisp flash spill, playful kinetic tension.\nText (verbatim): \"THE USUAL ACCESSORIES\" in clean bold uppercase on a blank claim-ticket-shaped title field at lower left. Spell every word exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: contemporary 2018 architecture, clothing, analog claim tickets, and security mirror; natural hands and anatomy; no logos, no watermark; no extra recognizable principal performers; keep critical subjects/title away from the outermost 8 pixels for deterministic center trim.\nAvoid: four-person lineup; opening jackets at camera; notebooks hidden in coats; reference wardrobe; equal face scale; contemporary influencer glamour; orange/teal blockbuster grade; malformed racks or hands; misspelled or extra text.",
+      "distinguishing_traits": "Amina's long face and high braided ponytail; Darius's rectangular face, close crop and moustache.",
+      "composition": "Steep overhead action frame divided by coat-check rails and numbered tags.",
+      "hairstyle": "Amina: high braided ponytail; Darius: close crop.",
+      "expression": "Amina intent and quick; Darius surprised and reaching.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/amina-shaw.jpg|canonical identity",
+        "assets/performer-portraits/amina-shaw.jpg|texture support",
+        "assets/performers/darius-king.jpg|canonical identity",
+        "assets/performer-portraits/darius-king.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-16933054-74eb-44fd-bb97-9014f29356b3.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-16933054-74eb-44fd-bb97-9014f29356b3.png",
+          "status": "accepted",
+          "exact_prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create key art for the fictional 2018 ensemble caper comedy \"The Usual Accessories\", depicted on 2018-08-19. Four auction guests leave with the wrong coats and evidence from four crimes, but this poster features only two principals.\nInput images: Image 1 is Amina Shaw's primary canonical illustrated identity reference; Image 2 is Amina's supporting photoreal facial reference only; Image 3 is Darius King's primary canonical illustrated identity reference; Image 4 is Darius's supporting photoreal facial reference only. Preserve their distinct facial proportions, eyes, nose, jaw, skin texture/tone, and individual identity. Do not preserve reference clothing, hairstyle, pose, jewelry, background, or props.\nSubjects: Amina Shaw, born 1992-09-08, exactly age 25; Darius King, born 1978-02-18, exactly age 40. Depict only these two credited poster subjects as recognizable principals.\nScene/backdrop: a contemporary 2018 auction-house coat-check cage just after a crowded gala, with rolling racks, numbered claim tickets, mismatched evening coats, polished wood, and a convex security mirror.\nComposition/framing: unusual high-angle viewpoint from inside the coat-check cage. Amina reaches upward toward a numbered ticket while twisting away from a sliding rack; Darius is lower and deeper in frame, stopping a falling evidence envelope with one polished shoe while holding a mismatched overcoat. Faces differ in scale and angle. Strong diagonal motion and layered racks; no shoulder-to-shoulder lineup, no matching gesture, no front-facing pose.\nWardrobe/hair/expression: Amina wears a sharp silver evening jumpsuit beneath a dark teal overcoat, hair in a sleek high braided ponytail, startled concentration. Darius wears an aubergine dinner jacket, black open-collar shirt, and charcoal trousers, close-cropped hair and mustache retained, dry amused alarm. Neither uses canonical plum/cream or tan/black clothing.\nStyle/medium: witty saturated 2018 caper key art with real photographic texture; Electric Marquee energy expressed through small cyan, magenta, and yellow claim-ticket accents rather than a logo.\nLighting/mood: gala practicals, crisp flash spill, playful kinetic tension.\nText (verbatim): \"THE USUAL ACCESSORIES\" in clean bold uppercase on a blank claim-ticket-shaped title field at lower left. Spell every word exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: contemporary 2018 architecture, clothing, analog claim tickets, and security mirror; natural hands and anatomy; no logos, no watermark; no extra recognizable principal performers; keep critical subjects/title away from the outermost 8 pixels for deterministic center trim.\nAvoid: four-person lineup; opening jackets at camera; notebooks hidden in coats; reference wardrobe; equal face scale; contemporary influencer glamour; orange/teal blockbuster grade; malformed racks or hands; misspelled or extra text."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2010s",
+        "wardrobe_and_hair": "Amina: high braided ponytail; Darius: close crop. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Steep overhead action frame divided by coat-check rails and numbered tags. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "terms-and-conditions-apply-2002.jpg",
+      "depicted_date": "2019-03-22",
+      "full_cast_ages": [
+        "Nia Hart|1996-12-01|22",
+        "Dev Malik|1993-06-19|25",
+        "Ellis Ward|1991-08-07|27",
+        "Amina Shaw|1992-09-08|26"
+      ],
+      "depicted_performers": [],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create cast-free prop-led key art for the fictional 2019 workplace comedy \"Terms and Conditions Apply\", depicted on 2019-03-22. A forgotten clause promises every subscriber a personal consultation.\nInput images: none. This poster intentionally depicts no performer.\nScene/backdrop: a recently vacated contemporary 2019 customer-service office after hours. A single malfunctioning legacy continuous-feed printer has sent one absurd ribbon of fine-print contract paper through otherwise plausible modern cubicles, flat-panel monitors, wired headsets, desk phones, reusable mugs, and fluorescent fixtures. The paper crosses chairs, snakes under glass partitions, and leads to one tiny circled clause beside a ringing phone.\nComposition/framing: very low floor-level wide view down a diagonal office aisle. The paper ribbon is the visual protagonist and guides the eye from extreme foreground to the lone lit desk in deep background. No people, no faces, no silhouettes. Strong depth and asymmetric negative space; no desk-row portrait composition.\nStyle/medium: believable 2019 production-still photography with dry physical comedy, natural office wear, tactile paper texture, restrained Open Secret Features document-and-communication visual language.\nLighting/mood: cool fluorescent office light with one warm desk lamp and green exit glow, lightly absurd and lonely rather than thriller-dark.\nText (verbatim): \"TERMS AND CONDITIONS APPLY\" printed clearly and exactly on a broad blank section of the paper ribbon in the lower-middle safe area. No other readable text; surrounding fine print must be indistinct.\nIntentional anachronisms: one legacy dot-matrix continuous-feed printer retained in service in 2019 as a documented plot device; all surrounding equipment is period-appropriate 2019.\nConstraints: exact 16:9 landscape; no performers or identifiable people; natural perspective; flat screens and 2019 office equipment; title and key props at least 8 pixels inside all edges; no logos, no watermark.\nAvoid: wall-to-wall 1980s beige terminals; three people behind a desk; repeated phones held to ears; faces; silhouettes; generic startup glamour; orange/teal blockbuster grade; malformed paper path; misspelled or extra title text.",
+      "distinguishing_traits": "No performer depicted.",
+      "composition": "Low floor-level still life following the paper trail through deep office space.",
+      "hairstyle": "Not applicable; no person is depicted.",
+      "expression": "Not applicable; no face is depicted.",
+      "intentional_anachronisms": [
+        "A legacy continuous-feed printer remains in service as the story's deliberate plot device."
+      ],
+      "identity_references": [],
+      "raw_generation_file": "exec-1f61fdbf-cd86-4ae8-bd04-7d47c0c633d6.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-1f61fdbf-cd86-4ae8-bd04-7d47c0c633d6.png",
+          "status": "accepted",
+          "exact_prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create cast-free prop-led key art for the fictional 2019 workplace comedy \"Terms and Conditions Apply\", depicted on 2019-03-22. A forgotten clause promises every subscriber a personal consultation.\nInput images: none. This poster intentionally depicts no performer.\nScene/backdrop: a recently vacated contemporary 2019 customer-service office after hours. A single malfunctioning legacy continuous-feed printer has sent one absurd ribbon of fine-print contract paper through otherwise plausible modern cubicles, flat-panel monitors, wired headsets, desk phones, reusable mugs, and fluorescent fixtures. The paper crosses chairs, snakes under glass partitions, and leads to one tiny circled clause beside a ringing phone.\nComposition/framing: very low floor-level wide view down a diagonal office aisle. The paper ribbon is the visual protagonist and guides the eye from extreme foreground to the lone lit desk in deep background. No people, no faces, no silhouettes. Strong depth and asymmetric negative space; no desk-row portrait composition.\nStyle/medium: believable 2019 production-still photography with dry physical comedy, natural office wear, tactile paper texture, restrained Open Secret Features document-and-communication visual language.\nLighting/mood: cool fluorescent office light with one warm desk lamp and green exit glow, lightly absurd and lonely rather than thriller-dark.\nText (verbatim): \"TERMS AND CONDITIONS APPLY\" printed clearly and exactly on a broad blank section of the paper ribbon in the lower-middle safe area. No other readable text; surrounding fine print must be indistinct.\nIntentional anachronisms: one legacy dot-matrix continuous-feed printer retained in service in 2019 as a documented plot device; all surrounding equipment is period-appropriate 2019.\nConstraints: exact 16:9 landscape; no performers or identifiable people; natural perspective; flat screens and 2019 office equipment; title and key props at least 8 pixels inside all edges; no logos, no watermark.\nAvoid: wall-to-wall 1980s beige terminals; three people behind a desk; repeated phones held to ears; faces; silhouettes; generic startup glamour; orange/teal blockbuster grade; malformed paper path; misspelled or extra title text."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2010s",
+        "wardrobe_and_hair": "No performer wardrobe; environment and props carry the date.",
+        "environment_and_technology": "Low floor-level still life following the paper trail through deep office space. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": [
+          "A legacy continuous-feed printer remains in service as the story's deliberate plot device."
+        ]
+      }
+    },
+    {
+      "asset": "rooms-with-an-alibi-2017.jpg",
+      "depicted_date": "2024-09-08",
+      "full_cast_ages": [
+        "Imani Cole|1999-05-16|25",
+        "Arun Sen|1995-01-29|29",
+        "Lucia Ferrer|2002-09-12|21"
+      ],
+      "depicted_performers": [
+        "Imani Cole"
+      ],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create architecture-led key art for the fictional 2024 hotel mystery comedy \"Rooms with an Alibi\", depicted on 2024-09-08. Three guests claim to have stayed in a room missing from the floor plan, but this poster intentionally features only Imani Cole.\nInput images: Image 1 is Imani Cole's primary canonical illustrated identity reference; Image 2 is Imani's supporting photoreal facial reference only. Preserve her facial proportions, eyes, nose, jaw, skin texture/tone, and individual identity. Do not preserve the reference blazer, shirt, shoulder-length curl silhouette, pose, earrings, binder, background, or props.\nSubject: Imani Cole, born 1999-05-16, exactly age 25. She is the only recognizable performer.\nScene/backdrop: an elegant but slightly worn contemporary 2024 hotel corridor that bends impossibly around the place where a room should be. Modern key-card readers coexist with one anomalous brass key; patterned carpet and warm sconces create forced perspective.\nComposition/framing: high view from a stair landing, strongly architecture-led. Imani is small in the lower-left quadrant, seated sideways on the carpet comparing a brass key to an impossible folded floor plan. The corridor, an open service panel, and a convex service mirror dominate the image. Her face is seen in concentrated three-quarter profile, not toward camera. Leave upper-right wall space for a small title. No other people, no reflected duplicate person, no lineup.\nWardrobe/hair/expression: cream sleeveless utility trench over a navy-and-white striped knit, dark practical trousers, short natural twists swept back from the forehead, no hoop earrings, focused skeptical expression.\nStyle/medium: contemporary 2024 theatrical photography with Fourth Wall Pictures' intelligent stage-space and forced-perspective visual language, natural skin and architectural texture.\nLighting/mood: warm practical sconces with a thin cool daylight leak from the stairwell, curious and dryly comic rather than horror-dark.\nText (verbatim): \"ROOMS WITH AN ALIBI\" in small elegant uppercase typography along an upper-right vanishing line. Spell exactly. No other readable text.\nIntentional anachronisms: one brass room key is an in-story anomaly; all ordinary hotel fixtures are contemporary 2024.\nConstraints: exact age 25; one recognizable subject only; exact 16:9; natural hands and anatomy; title and subject safely inside trim edges; no logos, no watermark.\nAvoid: Imani resembling Nia Hart; shoulder-length rounded curls; green blazer and gray tee; standing portrait; eye-level hallway lineup; duplicated mirror face; generic glamour; horror poster clichés; malformed floor plan; misspelled or extra text.",
+      "distinguishing_traits": "Imani's narrow oval face, strong brows and close asymmetrical twists, kept distinct from Nia.",
+      "composition": "High architectural view with Imani in the lower-left and a corridor bending into the center.",
+      "hairstyle": "Closely cropped 2–3 inch natural twists swept back asymmetrically.",
+      "expression": "Absorbed and skeptical, gaze on key and plan.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/imani-cole.jpg|canonical identity",
+        "assets/performer-portraits/imani-cole.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-57de0884-9149-4add-8a5e-ce29f9086939.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-66af425b-a64d-4d67-afc0-2d194b217cb2.png",
+          "status": "superseded: hair silhouette too close to Nia Hart",
+          "exact_prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create architecture-led key art for the fictional 2024 hotel mystery comedy \"Rooms with an Alibi\", depicted on 2024-09-08. Three guests claim to have stayed in a room missing from the floor plan, but this poster intentionally features only Imani Cole.\nInput images: Image 1 is Imani Cole's primary canonical illustrated identity reference; Image 2 is Imani's supporting photoreal facial reference only. Preserve her facial proportions, eyes, nose, jaw, skin texture/tone, and individual identity. Do not preserve the reference blazer, shirt, shoulder-length curl silhouette, pose, earrings, binder, background, or props.\nSubject: Imani Cole, born 1999-05-16, exactly age 25. She is the only recognizable performer.\nScene/backdrop: an elegant but slightly worn contemporary 2024 hotel corridor that bends impossibly around the place where a room should be. Modern key-card readers coexist with one anomalous brass key; patterned carpet and warm sconces create forced perspective.\nComposition/framing: high view from a stair landing, strongly architecture-led. Imani is small in the lower-left quadrant, seated sideways on the carpet comparing a brass key to an impossible folded floor plan. The corridor, an open service panel, and a convex service mirror dominate the image. Her face is seen in concentrated three-quarter profile, not toward camera. Leave upper-right wall space for a small title. No other people, no reflected duplicate person, no lineup.\nWardrobe/hair/expression: cream sleeveless utility trench over a navy-and-white striped knit, dark practical trousers, short natural twists swept back from the forehead, no hoop earrings, focused skeptical expression.\nStyle/medium: contemporary 2024 theatrical photography with Fourth Wall Pictures' intelligent stage-space and forced-perspective visual language, natural skin and architectural texture.\nLighting/mood: warm practical sconces with a thin cool daylight leak from the stairwell, curious and dryly comic rather than horror-dark.\nText (verbatim): \"ROOMS WITH AN ALIBI\" in small elegant uppercase typography along an upper-right vanishing line. Spell exactly. No other readable text.\nIntentional anachronisms: one brass room key is an in-story anomaly; all ordinary hotel fixtures are contemporary 2024.\nConstraints: exact age 25; one recognizable subject only; exact 16:9; natural hands and anatomy; title and subject safely inside trim edges; no logos, no watermark.\nAvoid: Imani resembling Nia Hart; shoulder-length rounded curls; green blazer and gray tee; standing portrait; eye-level hallway lineup; duplicated mirror face; generic glamour; horror poster clichés; malformed floor plan; misspelled or extra text."
+        },
+        {
+          "raw_generation_file": "exec-57de0884-9149-4add-8a5e-ce29f9086939.png",
+          "status": "accepted identity-preserving hair correction",
+          "exact_prompt": "Use case: precise identity-preserving poster correction. Image 1 is the edit target and must remain otherwise unchanged. Change only the featured woman Imani Cole's hair: replace the shoulder-length rounded ringlets with closely cropped natural twists, approximately 2–3 inches long, swept back asymmetrically, with both ears and the back of her neck clearly visible. Preserve her exact facial identity, age 25, skin tone, facial structure, expression, gaze, seated pose, body, hands, brass room key, impossible floor plan, rust-red sleeveless blouse, navy trousers, hotel architecture, mirror reflection, high-angle composition, lighting, color grade, and every other element. Preserve the exact title text ROOMS WITH AN ALIBI with correct spelling and typography. Do not add, remove, or alter any people or text. No beauty retouching, no extra logos, no malformed anatomy."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "Closely cropped 2–3 inch natural twists swept back asymmetrically. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "High architectural view with Imani in the lower-left and a corridor bending into the center. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "the-last-take-was-perfect-2025.jpg",
+      "depicted_date": "2025-06-13",
+      "full_cast_ages": [
+        "Amara Okoye|2003-04-05|22",
+        "June Park|1998-07-27|26",
+        "Noor Haddad|2000-12-06|24",
+        "Cressida Maraschino|1937-03-17|88",
+        "Bella Bloom|1983-11-23|41",
+        "Simona Valewood|1974-01-21|51"
+      ],
+      "depicted_performers": [
+        "Amara Okoye"
+      ],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create candid key art for the fictional 2025 production comedy-drama \"The Last Take Was Perfect\", depicted on 2025-06-13. A missing final take is remembered differently by every collaborator, but this poster intentionally features only Amara Okoye.\nInput images: Image 1 is Amara Okoye's primary canonical illustrated identity reference; Image 2 is Amara's supporting photoreal facial reference only. Preserve her facial proportions, eyes, nose, jaw, skin texture/tone, braided-hair identity, and individual identity. Do not preserve reference clothing, long blue vest, rust blouse, neck headphones, pose, tablet, background, or props.\nSubject: Amara Okoye, born 2003-04-05, exactly age 22. She is the only recognizable performer.\nScene/backdrop: a contemporary 2025 film soundstage during a search for a missing take, with stacked empty set flats, a playback monitor, camera track, labeled-but-unreadable film cases, dust, and a shaft of real window light.\nComposition/framing: documentary observation through a narrow gap between foreground set flats. Amara is seen in mid-distance three-quarter profile, standing on the second rung of a short ladder and comparing a clapperboard to a shot list pinned high on a flat. She is occupied with work and unaware of camera. The production camera remains small and deep in background. Layered partial foreground obstruction, strong depth, lots of natural negative space; no cast row and no centered camera podium.\nWardrobe/hair/expression: olive utility coveralls over a cream crew-neck tee, sleeves rolled, small practical tool pouch, braids gathered into a high compact knot, no headphones, focused puzzled expression.\nStyle/medium: naturalistic 2025 documentary-style theatrical photography with Available Light Cooperative's observational identity, real skin and fabric texture, mild imperfection, restrained color.\nLighting/mood: one broad shaft of window daylight plus dim soundstage practicals, collaborative mystery with gentle comedy.\nText (verbatim): \"THE LAST TAKE WAS PERFECT\" in small white grease-pencil-style uppercase on the dark edge of a foreground slate at lower right. Spell exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: exact age 22; one recognizable subject only; current 2025 production equipment; natural anatomy and hands; exact 16:9; keep title/subject inside trim-safe area; no logos, no watermark.\nAvoid: blue vest and rust blouse; neck headphones; three-person row; giant top banner; centered hero pose; modern glamour portrait; orange/teal grade; malformed ladder or clapperboard; misspelled or extra text.",
+      "distinguishing_traits": "Amara's youthful long face, dark skin, narrow nose and fine braids.",
+      "composition": "Environmental wide framed through unfinished flats, with camera track leading toward Amara.",
+      "hairstyle": "Fine braids gathered into a high work knot.",
+      "expression": "Quietly intent, looking at the posted shot list.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/amara-okoye.jpg|canonical identity",
+        "assets/performer-portraits/amara-okoye.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-11326069-a0a1-48f6-9e48-21452e558791.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-11326069-a0a1-48f6-9e48-21452e558791.png",
+          "status": "accepted",
+          "exact_prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create candid key art for the fictional 2025 production comedy-drama \"The Last Take Was Perfect\", depicted on 2025-06-13. A missing final take is remembered differently by every collaborator, but this poster intentionally features only Amara Okoye.\nInput images: Image 1 is Amara Okoye's primary canonical illustrated identity reference; Image 2 is Amara's supporting photoreal facial reference only. Preserve her facial proportions, eyes, nose, jaw, skin texture/tone, braided-hair identity, and individual identity. Do not preserve reference clothing, long blue vest, rust blouse, neck headphones, pose, tablet, background, or props.\nSubject: Amara Okoye, born 2003-04-05, exactly age 22. She is the only recognizable performer.\nScene/backdrop: a contemporary 2025 film soundstage during a search for a missing take, with stacked empty set flats, a playback monitor, camera track, labeled-but-unreadable film cases, dust, and a shaft of real window light.\nComposition/framing: documentary observation through a narrow gap between foreground set flats. Amara is seen in mid-distance three-quarter profile, standing on the second rung of a short ladder and comparing a clapperboard to a shot list pinned high on a flat. She is occupied with work and unaware of camera. The production camera remains small and deep in background. Layered partial foreground obstruction, strong depth, lots of natural negative space; no cast row and no centered camera podium.\nWardrobe/hair/expression: olive utility coveralls over a cream crew-neck tee, sleeves rolled, small practical tool pouch, braids gathered into a high compact knot, no headphones, focused puzzled expression.\nStyle/medium: naturalistic 2025 documentary-style theatrical photography with Available Light Cooperative's observational identity, real skin and fabric texture, mild imperfection, restrained color.\nLighting/mood: one broad shaft of window daylight plus dim soundstage practicals, collaborative mystery with gentle comedy.\nText (verbatim): \"THE LAST TAKE WAS PERFECT\" in small white grease-pencil-style uppercase on the dark edge of a foreground slate at lower right. Spell exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: exact age 22; one recognizable subject only; current 2025 production equipment; natural anatomy and hands; exact 16:9; keep title/subject inside trim-safe area; no logos, no watermark.\nAvoid: blue vest and rust blouse; neck headphones; three-person row; giant top banner; centered hero pose; modern glamour portrait; orange/teal grade; malformed ladder or clapperboard; misspelled or extra text."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "Fine braids gathered into a high work knot. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Environmental wide framed through unfinished flats, with camera track leading toward Amara. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "dangerously-overdressed-1986.jpg",
+      "depicted_date": "2009-09-12",
+      "full_cast_ages": [
+        "Marisol Vega|1979-07-04|30",
+        "Kenji Watanari|1980-12-14|28",
+        "Julian March|1966-05-30|43",
+        "Velvet Thunder|1967-11-02|41"
+      ],
+      "depicted_performers": [
+        "Marisol Vega",
+        "Kenji Watanari"
+      ],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create prop-led key art for the fictional 2009 fashion caper \"Dangerously Overdressed\", depicted on 2009-09-12. Strangers discover pieces of a stolen design portfolio sewn into evening clothes. This poster features Marisol Vega and Kenji Watanari.\nInput images: Image 1 is Marisol Vega's primary canonical illustrated identity reference; Image 2 is Marisol's supporting photoreal facial reference only; Image 3 is Kenji Watanari's primary canonical illustrated identity reference; Image 4 is Kenji's supporting photoreal facial reference only. Preserve each face's proportions, eyes, nose, jaw, skin texture/tone, and individual identity. Do not preserve reference clothing, hairstyles, pose, jewelry, background, cameras, or props.\nSubjects: Marisol Vega, born 1979-07-04, exactly age 30; Kenji Watanari, born 1980-12-14, exactly age 28. Depict only these two recognizable principals.\nScene/backdrop: a stylish but working 2009 couture atelier after hours, with dress forms, rolling garment racks, acetate patterns, cutting tools, and one half-finished silver evening coat.\nComposition/framing: camera placed very low at cutting-table height. A large translucent paper pattern containing a hidden map dominates sharp foreground. Marisol in the middle plane pulls the half-finished silver coat sideways from a mannequin while turning in profile toward Kenji; Kenji stands high on a short rolling ladder in far plane photographing sewn markings with a period digital SLR. Their bodies form a deep diagonal and differ in scale. Neither faces the camera. No lineup, no open jackets, no mirrored gestures.\nWardrobe/hair/expression: Marisol wears a black sleeveless utility jumpsuit over a narrow cobalt belt, hair in a sculptural asymmetrical pinned updo, urgent skeptical expression. Kenji wears a loose cream shirt with rolled sleeves and pleated charcoal trousers, hair shorter and slightly disordered, intent concentration. No cobalt jacket/coral wrap top and no charcoal blazer/sage polo.\nStyle/medium: sophisticated 2009 theatrical photography with practical atelier texture, early-digital color response and subtle flash, Barely Dressed Pictures' legacy-noir elegance without art-deco logo imagery.\nLighting/mood: tungsten work lights, one direct camera flash reflection, metallic silver and ink-black palette with cobalt accent, urgent comic intrigue.\nText (verbatim): \"DANGEROUSLY OVERDRESSED\" in elegant condensed uppercase gold lettering across clear upper-left negative space. Spell exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: exact ages 30 and 28; period-appropriate 2009 DSLR, atelier, clothes, and tools; natural hands/anatomy; exact 16:9; trim-safe title and faces; no logos, no watermark, no extra recognizable principal cast.\nAvoid: reference outfits; open-jacket reveal; three evenly spaced people; both looking at camera; contemporary 2020s fashion; orange/teal blockbuster grade; malformed pattern, camera, ladder, hands; misspelled or extra text.",
+      "distinguishing_traits": "Marisol's angular expressive face and curly pinned updo; Kenji's narrow face and loose dark hair.",
+      "composition": "Low table foreground, Marisol crossing center, silver dress form and elevated Kenji making a diagonal.",
+      "hairstyle": "Marisol: curly pinned updo; Kenji: loose medium dark hair.",
+      "expression": "Marisol alert toward off-screen movement; Kenji concentrated through camera.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/marisol-vega.jpg|canonical identity",
+        "assets/performer-portraits/marisol-vega.jpg|texture support",
+        "assets/performers/kenji-watanari.jpg|canonical identity",
+        "assets/performer-portraits/kenji-watanari.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-489f074d-ab79-4f07-96b7-88f92a049a85.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-489f074d-ab79-4f07-96b7-88f92a049a85.png",
+          "status": "accepted",
+          "exact_prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create prop-led key art for the fictional 2009 fashion caper \"Dangerously Overdressed\", depicted on 2009-09-12. Strangers discover pieces of a stolen design portfolio sewn into evening clothes. This poster features Marisol Vega and Kenji Watanari.\nInput images: Image 1 is Marisol Vega's primary canonical illustrated identity reference; Image 2 is Marisol's supporting photoreal facial reference only; Image 3 is Kenji Watanari's primary canonical illustrated identity reference; Image 4 is Kenji's supporting photoreal facial reference only. Preserve each face's proportions, eyes, nose, jaw, skin texture/tone, and individual identity. Do not preserve reference clothing, hairstyles, pose, jewelry, background, cameras, or props.\nSubjects: Marisol Vega, born 1979-07-04, exactly age 30; Kenji Watanari, born 1980-12-14, exactly age 28. Depict only these two recognizable principals.\nScene/backdrop: a stylish but working 2009 couture atelier after hours, with dress forms, rolling garment racks, acetate patterns, cutting tools, and one half-finished silver evening coat.\nComposition/framing: camera placed very low at cutting-table height. A large translucent paper pattern containing a hidden map dominates sharp foreground. Marisol in the middle plane pulls the half-finished silver coat sideways from a mannequin while turning in profile toward Kenji; Kenji stands high on a short rolling ladder in far plane photographing sewn markings with a period digital SLR. Their bodies form a deep diagonal and differ in scale. Neither faces the camera. No lineup, no open jackets, no mirrored gestures.\nWardrobe/hair/expression: Marisol wears a black sleeveless utility jumpsuit over a narrow cobalt belt, hair in a sculptural asymmetrical pinned updo, urgent skeptical expression. Kenji wears a loose cream shirt with rolled sleeves and pleated charcoal trousers, hair shorter and slightly disordered, intent concentration. No cobalt jacket/coral wrap top and no charcoal blazer/sage polo.\nStyle/medium: sophisticated 2009 theatrical photography with practical atelier texture, early-digital color response and subtle flash, Barely Dressed Pictures' legacy-noir elegance without art-deco logo imagery.\nLighting/mood: tungsten work lights, one direct camera flash reflection, metallic silver and ink-black palette with cobalt accent, urgent comic intrigue.\nText (verbatim): \"DANGEROUSLY OVERDRESSED\" in elegant condensed uppercase gold lettering across clear upper-left negative space. Spell exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: exact ages 30 and 28; period-appropriate 2009 DSLR, atelier, clothes, and tools; natural hands/anatomy; exact 16:9; trim-safe title and faces; no logos, no watermark, no extra recognizable principal cast.\nAvoid: reference outfits; open-jacket reveal; three evenly spaced people; both looking at camera; contemporary 2020s fashion; orange/teal blockbuster grade; malformed pattern, camera, ladder, hands; misspelled or extra text."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2000s",
+        "wardrobe_and_hair": "Marisol: curly pinned updo; Kenji: loose medium dark hair. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Low table foreground, Marisol crossing center, silver dress form and elevated Kenji making a diagonal. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "curtain-call-collect-1984.jpg",
+      "depicted_date": "2007-06-15",
+      "full_cast_ages": [
+        "Simona Valewood|1974-01-21|33",
+        "Marisol Vega|1979-07-04|27",
+        "Beatrix Havenly|1972-06-12|35"
+      ],
+      "depicted_performers": [],
+      "prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create cast-free architecture-and-action key art for the fictional 2007 backstage comedy \"Curtain Call Collect\", depicted on 2007-06-15. A producer and choreographer keep a touring musical open after its creditors arrive during final rehearsal.\nInput images: none. This poster intentionally depicts no recognizable performer.\nScene/backdrop: a worn touring theatre during a frantic 2007 final rehearsal, seen from the high fly gallery. The stage below contains scattered dancers and stagehands as small unidentifiable moving figures, taped floor marks, a red velvet curtain, fly ropes, work lights, a cash box abandoned on a piano, invoices spilling from a clipboard, and two suited creditors visible only as tiny back-facing silhouettes at the apron.\nComposition/framing: steep high-angle diagonal from within ropes and counterweights. The architecture, curtain sweep, and geometric movement of the anonymous ensemble dominate. No face is legible; no person is a recognizable principal. The cash box and invoice trail form a second diagonal toward the stage. Avoid a foreground cast row or hero portrait.\nStyle/medium: actor-driven 2007 independent-film naturalism with tactile theatre dust, practical stage lighting, slight early-digital grain and restrained dynamic range; Second Take Features expressed through candid rehearsal observation rather than a logo.\nLighting/mood: warm analog work lights across the stage, dark fly-space foreground, active dry comedy rather than spectacle glamour.\nText (verbatim): \"CURTAIN CALL COLLECT\" in clean condensed cream uppercase on the broad upper section of the red curtain. Spell exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: contemporary 2007 theatre equipment, rehearsal clothing, invoices and cash box; exact 16:9; no recognizable performers or faces; title/props safely inside trim edges; natural anonymous bodies; no logos, no watermark.\nAvoid: Simona or Marisol likenesses; eye-level two-person scene; evenly spaced cast; generic musical glamour; modern LED walls, smartphones, 2020s clothing; close faces; malformed bodies or rigging; misspelled or extra text.",
+      "distinguishing_traits": "No performer depicted.",
+      "composition": "Extreme high angle through ropes, pulleys and catwalk machinery toward the stage.",
+      "hairstyle": "Not applicable; no person is depicted.",
+      "expression": "Not applicable; no face is depicted.",
+      "intentional_anachronisms": [],
+      "identity_references": [],
+      "raw_generation_file": "exec-661597ec-7334-4cc7-9a8f-c0c8a5876213.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-661597ec-7334-4cc7-9a8f-c0c8a5876213.png",
+          "status": "accepted",
+          "exact_prompt": "Use case: photorealistic-natural.\nAsset type: exact 16:9 landscape theatrical movie poster; compose safely for a minimal center trim to 1664x936 and proportional export to 1600x900.\nPrimary request: Create cast-free architecture-and-action key art for the fictional 2007 backstage comedy \"Curtain Call Collect\", depicted on 2007-06-15. A producer and choreographer keep a touring musical open after its creditors arrive during final rehearsal.\nInput images: none. This poster intentionally depicts no recognizable performer.\nScene/backdrop: a worn touring theatre during a frantic 2007 final rehearsal, seen from the high fly gallery. The stage below contains scattered dancers and stagehands as small unidentifiable moving figures, taped floor marks, a red velvet curtain, fly ropes, work lights, a cash box abandoned on a piano, invoices spilling from a clipboard, and two suited creditors visible only as tiny back-facing silhouettes at the apron.\nComposition/framing: steep high-angle diagonal from within ropes and counterweights. The architecture, curtain sweep, and geometric movement of the anonymous ensemble dominate. No face is legible; no person is a recognizable principal. The cash box and invoice trail form a second diagonal toward the stage. Avoid a foreground cast row or hero portrait.\nStyle/medium: actor-driven 2007 independent-film naturalism with tactile theatre dust, practical stage lighting, slight early-digital grain and restrained dynamic range; Second Take Features expressed through candid rehearsal observation rather than a logo.\nLighting/mood: warm analog work lights across the stage, dark fly-space foreground, active dry comedy rather than spectacle glamour.\nText (verbatim): \"CURTAIN CALL COLLECT\" in clean condensed cream uppercase on the broad upper section of the red curtain. Spell exactly. No other readable text.\nIntentional anachronisms: none.\nConstraints: contemporary 2007 theatre equipment, rehearsal clothing, invoices and cash box; exact 16:9; no recognizable performers or faces; title/props safely inside trim edges; natural anonymous bodies; no logos, no watermark.\nAvoid: Simona or Marisol likenesses; eye-level two-person scene; evenly spaced cast; generic musical glamour; modern LED walls, smartphones, 2020s clothing; close faces; malformed bodies or rigging; misspelled or extra text."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2000s",
+        "wardrobe_and_hair": "No performer wardrobe; environment and props carry the date.",
+        "environment_and_technology": "Extreme high angle through ropes, pulleys and catwalk machinery toward the stage. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "neon-alibi-1982.jpg",
+      "depicted_date": "2005-10-08",
+      "full_cast_ages": [
+        "Simona Valewood|1974-01-21|31",
+        "Julian March|1966-05-30|39",
+        "Velvet Thunder|1967-11-02|37"
+      ],
+      "depicted_performers": [
+        "Simona Valewood"
+      ],
+      "prompt": "Create one final 16:9 cinematic movie poster for NEON ALIBI, depicted date 2005-10-08, urban mystery comedy by Second Take Features. Identity references: Image 1 is Simona Valewood's canonical illustrated reference sheet and controls stable facial structure, nose, eyes, skin tone, and identity; Image 2 is her profile portrait and supports realistic facial texture only. Depict Simona exactly age 31. Scene: an ultra-wide street-level view through the rain-streaked window of a cramped after-hours nightclub, camera outside at ankle height beside a glowing puddle. Simona is the only identifiable principal, small in the midground, seen in profile interrogating a coat-check attendant while holding three identical black coats; she does not face camera. Give her a sharp chin-length dark bob tucked behind one ear, skeptical expression, cobalt raincoat over a simple cream 2005 blouse, practical boots. Keep generic patrons as indistinct silhouettes only. Cool cyan and saturated magenta neon reflected in wet pavement, crisp 2005 digital-cinema texture, native period signage and flip phones only, no smartphones, no contemporary social-media styling. Composition led by the window frame and reflections, deep focus, strong negative space. Use restrained classic poster lettering NEON ALIBI vertically along the far left margin, correctly spelled and trim-safe; no other readable text, no logos, no billing block. Preserve realistic anatomy and hands. Do not copy Simona's canonical outfit, pose, expression, or reference-sheet background. Do not make a cast row, head montage, centered glamour portrait, or warm tungsten image. Output a single edge-to-edge 16:9 landscape image with critical content inside a safe central 98% frame.",
+      "distinguishing_traits": "Simona's high cheekbones, deep-set eyes, medium-brown skin and sharp short bob.",
+      "composition": "Street-level exterior wide with the window frame and wet reflections dominant.",
+      "hairstyle": "Sharp chin-length dark bob tucked behind one ear.",
+      "expression": "Skeptical, gaze fixed on attendant.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/simona-valewood.jpg|canonical identity",
+        "assets/performer-portraits/simona-valewood.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-6e7adacf-bee7-4727-9bdd-e2f45c00af34.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-6e7adacf-bee7-4727-9bdd-e2f45c00af34.png",
+          "status": "accepted",
+          "exact_prompt": "Create one final 16:9 cinematic movie poster for NEON ALIBI, depicted date 2005-10-08, urban mystery comedy by Second Take Features. Identity references: Image 1 is Simona Valewood's canonical illustrated reference sheet and controls stable facial structure, nose, eyes, skin tone, and identity; Image 2 is her profile portrait and supports realistic facial texture only. Depict Simona exactly age 31. Scene: an ultra-wide street-level view through the rain-streaked window of a cramped after-hours nightclub, camera outside at ankle height beside a glowing puddle. Simona is the only identifiable principal, small in the midground, seen in profile interrogating a coat-check attendant while holding three identical black coats; she does not face camera. Give her a sharp chin-length dark bob tucked behind one ear, skeptical expression, cobalt raincoat over a simple cream 2005 blouse, practical boots. Keep generic patrons as indistinct silhouettes only. Cool cyan and saturated magenta neon reflected in wet pavement, crisp 2005 digital-cinema texture, native period signage and flip phones only, no smartphones, no contemporary social-media styling. Composition led by the window frame and reflections, deep focus, strong negative space. Use restrained classic poster lettering NEON ALIBI vertically along the far left margin, correctly spelled and trim-safe; no other readable text, no logos, no billing block. Preserve realistic anatomy and hands. Do not copy Simona's canonical outfit, pose, expression, or reference-sheet background. Do not make a cast row, head montage, centered glamour portrait, or warm tungsten image. Output a single edge-to-edge 16:9 landscape image with critical content inside a safe central 98% frame."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2000s",
+        "wardrobe_and_hair": "Sharp chin-length dark bob tucked behind one ear. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Street-level exterior wide with the window frame and wet reflections dominant. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "one-more-number-before-dawn-1988.jpg",
+      "depicted_date": "2011-04-22",
+      "full_cast_ages": [
+        "Marisol Vega|1979-07-04|31",
+        "Velvet Thunder|1967-11-02|43"
+      ],
+      "depicted_performers": [
+        "Marisol Vega"
+      ],
+      "prompt": "Create one final 16:9 cinematic movie poster for ONE MORE NUMBER BEFORE DAWN, depicted date 2011-04-22, musical comedy-drama by Second Take Features. Identity references: Image 1 is Marisol Vega's canonical illustrated identity sheet and controls her stable facial structure, eyes, nose, skin tone, and identity; Image 2 is her profile portrait and supports realistic facial texture only. Depict Marisol exactly age 31. Capture a wide, low-angle single exposure at blue-hour dawn inside a rooftop nightclub after closing: glass doors open to a pale peach city sunrise, chairs stacked, paper streamers across a scuffed dance floor. Marisol is the only identifiable principal, alone in the far right third, mid-step rehearsing one final number while carrying her heels in one hand, looking toward the rising light rather than the camera. Give her a loose collarbone-length wavy haircut moving with the step, relieved half-smile, sleeveless saffron rehearsal dress over black leggings, bare feet. Native 2011 furnishings and compact music player, no modern phones. Use cool blue ambient light with a clean peach sunrise and one saturated yellow wardrobe accent; airy, hopeful, grainy 35mm finish, no tungsten brown grade. Title ONE MORE NUMBER BEFORE DAWN in small understated uppercase across the open sky, correctly spelled, trim-safe; no other readable text, logos, credits, or billing. Realistic anatomy and hands. Do not copy her reference outfit, upright reference pose, or glamour expression. No cast lineup, face montage, spotlight stage, centered portrait, or direct gaze. Output one edge-to-edge 16:9 landscape poster with critical content inside the central 98%.",
+      "distinguishing_traits": "Marisol's angular jaw, large eyes, curly dark hair and athletic movement.",
+      "composition": "Low wide dawn interior with stacked chairs, open glass doors and city horizon.",
+      "hairstyle": "Loose collarbone-length waves moving with the step.",
+      "expression": "Relieved half-smile toward dawn.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/marisol-vega.jpg|canonical identity",
+        "assets/performer-portraits/marisol-vega.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-e0315289-d235-4eb0-829e-5b50c98bc76d.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-e0315289-d235-4eb0-829e-5b50c98bc76d.png",
+          "status": "accepted",
+          "exact_prompt": "Create one final 16:9 cinematic movie poster for ONE MORE NUMBER BEFORE DAWN, depicted date 2011-04-22, musical comedy-drama by Second Take Features. Identity references: Image 1 is Marisol Vega's canonical illustrated identity sheet and controls her stable facial structure, eyes, nose, skin tone, and identity; Image 2 is her profile portrait and supports realistic facial texture only. Depict Marisol exactly age 31. Capture a wide, low-angle single exposure at blue-hour dawn inside a rooftop nightclub after closing: glass doors open to a pale peach city sunrise, chairs stacked, paper streamers across a scuffed dance floor. Marisol is the only identifiable principal, alone in the far right third, mid-step rehearsing one final number while carrying her heels in one hand, looking toward the rising light rather than the camera. Give her a loose collarbone-length wavy haircut moving with the step, relieved half-smile, sleeveless saffron rehearsal dress over black leggings, bare feet. Native 2011 furnishings and compact music player, no modern phones. Use cool blue ambient light with a clean peach sunrise and one saturated yellow wardrobe accent; airy, hopeful, grainy 35mm finish, no tungsten brown grade. Title ONE MORE NUMBER BEFORE DAWN in small understated uppercase across the open sky, correctly spelled, trim-safe; no other readable text, logos, credits, or billing. Realistic anatomy and hands. Do not copy her reference outfit, upright reference pose, or glamour expression. No cast lineup, face montage, spotlight stage, centered portrait, or direct gaze. Output one edge-to-edge 16:9 landscape poster with critical content inside the central 98%."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2010s",
+        "wardrobe_and_hair": "Loose collarbone-length waves moving with the step. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Low wide dawn interior with stacked chairs, open glass doors and city horizon. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "the-last-honest-mirror-1989.jpg",
+      "depicted_date": "2013-11-03",
+      "full_cast_ages": [
+        "Simona Valewood|1974-01-21|39",
+        "Kenji Watanari|1980-12-14|32"
+      ],
+      "depicted_performers": [
+        "Simona Valewood",
+        "Kenji Watanari"
+      ],
+      "prompt": "Create one final 16:9 cinematic poster for THE LAST HONEST MIRROR, depicted date 2013-11-03, dramatic mystery by Second Take Features. Reference roles: Image 1 is Simona Valewood's canonical identity sheet and Image 3 her texture-support portrait; preserve her stable face and depict her exactly age 39. Image 2 is Kenji Watanari's canonical identity sheet and Image 4 his texture-support portrait; preserve his stable face and depict him exactly age 32. Scene: a cold daylight photographic conservation lab seen through the reflection of one enormous antique mirror lying horizontally on a worktable. The camera sees mostly the silver-blue mirror surface and gloved hands entering from opposite edges. Simona appears only as a sharply focused partial reflection in the upper left, leaning in with a severe analytical expression, straight jaw-length bob, steel-gray work jacket. Kenji appears in the actual room at lower right, three-quarter back, adjusting a large-format camera under a black cloth, tousled medium hair, indigo knit shirt; he does not face camera. A mysterious third empty chair appears only in the mirror reflection. Silver, ice blue, and white palette with pale natural north light, precise contemporary 2013 conservation tools, no phones. Avoid warm brown grading. Place the exact title THE LAST HONEST MIRROR in a small block of black type on a white evidence label at bottom center, correctly spelled and trim-safe; no other readable text, logos, credits, or billing. Realistic hands, reflections, optics, and anatomy. Do not reproduce either reference outfit, pose, background, or expression. No evenly spaced cast, floating heads, centered glamour portraits, duplicate faces, or direct gaze. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%.",
+      "distinguishing_traits": "Simona's mature angular face and straight bob; Kenji's lean profile and tousled dark hair.",
+      "composition": "Mirror surface fills the foreground, with Simona reflected left and Kenji actual right.",
+      "hairstyle": "Simona: straight jaw-length bob; Kenji: tousled medium hair.",
+      "expression": "Simona analytical; Kenji absorbed in camera setup.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/simona-valewood.jpg|canonical identity",
+        "assets/performer-portraits/simona-valewood.jpg|texture support",
+        "assets/performers/kenji-watanari.jpg|canonical identity",
+        "assets/performer-portraits/kenji-watanari.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-d0807405-cb31-4572-8f9c-3606fc5f1016.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-d0807405-cb31-4572-8f9c-3606fc5f1016.png",
+          "status": "accepted",
+          "exact_prompt": "Create one final 16:9 cinematic poster for THE LAST HONEST MIRROR, depicted date 2013-11-03, dramatic mystery by Second Take Features. Reference roles: Image 1 is Simona Valewood's canonical identity sheet and Image 3 her texture-support portrait; preserve her stable face and depict her exactly age 39. Image 2 is Kenji Watanari's canonical identity sheet and Image 4 his texture-support portrait; preserve his stable face and depict him exactly age 32. Scene: a cold daylight photographic conservation lab seen through the reflection of one enormous antique mirror lying horizontally on a worktable. The camera sees mostly the silver-blue mirror surface and gloved hands entering from opposite edges. Simona appears only as a sharply focused partial reflection in the upper left, leaning in with a severe analytical expression, straight jaw-length bob, steel-gray work jacket. Kenji appears in the actual room at lower right, three-quarter back, adjusting a large-format camera under a black cloth, tousled medium hair, indigo knit shirt; he does not face camera. A mysterious third empty chair appears only in the mirror reflection. Silver, ice blue, and white palette with pale natural north light, precise contemporary 2013 conservation tools, no phones. Avoid warm brown grading. Place the exact title THE LAST HONEST MIRROR in a small block of black type on a white evidence label at bottom center, correctly spelled and trim-safe; no other readable text, logos, credits, or billing. Realistic hands, reflections, optics, and anatomy. Do not reproduce either reference outfit, pose, background, or expression. No evenly spaced cast, floating heads, centered glamour portraits, duplicate faces, or direct gaze. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2010s",
+        "wardrobe_and_hair": "Simona: straight jaw-length bob; Kenji: tousled medium hair. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Mirror surface fills the foreground, with Simona reflected left and Kenji actual right. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "tomorrow-never-rsvpd-1999.jpg",
+      "depicted_date": "2020-12-17",
+      "full_cast_ages": [
+        "Amina Shaw|1992-09-08|28",
+        "Darius King|1978-02-18|42",
+        "Tess North|1996-04-26|24",
+        "Velvet Thunder|1967-11-02|53",
+        "Julian March|1966-05-30|54"
+      ],
+      "depicted_performers": [
+        "Amina Shaw",
+        "Darius King"
+      ],
+      "prompt": "Create one final 16:9 cinematic movie poster for TOMORROW NEVER RSVP'D, depicted date 2020-12-17, millennium-party workplace comedy by Electric Marquee. Identity roles: Image 1 is Amina Shaw's canonical identity sheet and Image 3 texture-support portrait; preserve stable face and depict her exactly age 28. Image 2 is Darius King's canonical identity sheet and Image 4 texture-support portrait; preserve stable face and depict him exactly age 42. Use a straight-down overhead composition of an extravagantly prepared but completely empty modern hotel ballroom: hundreds of turquoise place cards radiate around circular white tables like a graphic pattern, one glaring gap where the guest list should be. Amina and Darius are the only people, very small at opposite ends of the same long table, both bent over searching through boxes rather than facing camera. Amina wears a bright vermilion trouser suit, long rope twists gathered into a low practical bun, focused frown. Darius wears a crisp cream dinner jacket with emerald shirt, close-cropped hair and moustache, holding one blank clipboard with both hands. Include subtle period-accurate 2020 event precautions—boxed face masks and spaced place settings—as native context, not a joke. Bright high-key white, turquoise, vermilion, and emerald palette, cool clean overhead light, graphic precision, no brown/tungsten grade. Render the exact title TOMORROW NEVER RSVP'D as elegant navy type formed in the open central aisle, correctly spelled with apostrophe and trim-safe; no other readable text, logos, credits, or billing. Realistic anatomy. Do not copy reference outfits, upright poses, or expressions. No cast row, evenly spaced faces, head montage, direct gaze, centered portraits, confetti glamour, or repeated press/office imagery. Output a single edge-to-edge true 16:9 landscape poster with critical content inside the central 98%.",
+      "distinguishing_traits": "Amina's long face and practical low bun; Darius's rectangular face, moustache and close crop.",
+      "composition": "Straight-down graphic view of an empty prepared ballroom with the pair separated along one service table.",
+      "hairstyle": "Amina: rope twists in a low bun; Darius: close crop.",
+      "expression": "Both focused on the missing paperwork, never facing camera.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/amina-shaw.jpg|canonical identity",
+        "assets/performer-portraits/amina-shaw.jpg|texture support",
+        "assets/performers/darius-king.jpg|canonical identity",
+        "assets/performer-portraits/darius-king.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-64f5cb80-cd22-4faf-8884-6a3461565c50.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-64f5cb80-cd22-4faf-8884-6a3461565c50.png",
+          "status": "accepted",
+          "exact_prompt": "Create one final 16:9 cinematic movie poster for TOMORROW NEVER RSVP'D, depicted date 2020-12-17, millennium-party workplace comedy by Electric Marquee. Identity roles: Image 1 is Amina Shaw's canonical identity sheet and Image 3 texture-support portrait; preserve stable face and depict her exactly age 28. Image 2 is Darius King's canonical identity sheet and Image 4 texture-support portrait; preserve stable face and depict him exactly age 42. Use a straight-down overhead composition of an extravagantly prepared but completely empty modern hotel ballroom: hundreds of turquoise place cards radiate around circular white tables like a graphic pattern, one glaring gap where the guest list should be. Amina and Darius are the only people, very small at opposite ends of the same long table, both bent over searching through boxes rather than facing camera. Amina wears a bright vermilion trouser suit, long rope twists gathered into a low practical bun, focused frown. Darius wears a crisp cream dinner jacket with emerald shirt, close-cropped hair and moustache, holding one blank clipboard with both hands. Include subtle period-accurate 2020 event precautions—boxed face masks and spaced place settings—as native context, not a joke. Bright high-key white, turquoise, vermilion, and emerald palette, cool clean overhead light, graphic precision, no brown/tungsten grade. Render the exact title TOMORROW NEVER RSVP'D as elegant navy type formed in the open central aisle, correctly spelled with apostrophe and trim-safe; no other readable text, logos, credits, or billing. Realistic anatomy. Do not copy reference outfits, upright poses, or expressions. No cast row, evenly spaced faces, head montage, direct gaze, centered portraits, confetti glamour, or repeated press/office imagery. Output a single edge-to-edge true 16:9 landscape poster with critical content inside the central 98%."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "Amina: rope twists in a low bun; Darius: close crop. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Straight-down graphic view of an empty prepared ballroom with the pair separated along one service table. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "the-supporting-evidence-2005.jpg",
+      "depicted_date": "2022-09-30",
+      "full_cast_ages": [
+        "Sofia Calderon|2001-03-11|21",
+        "Ellis Ward|1991-08-07|31",
+        "Beatrix Havenly|1972-06-12|50",
+        "Kenji Watanari|1980-12-14|41"
+      ],
+      "depicted_performers": [
+        "Sofia Calderon"
+      ],
+      "prompt": "Create one final 16:9 cinematic movie poster for THE SUPPORTING EVIDENCE, depicted date 2022-09-30, investigative comedy-drama by Open Secret Features. Identity references: Image 1 is Sofia Calderon's canonical illustrated identity sheet and controls stable facial structure, long narrow nose, jaw, eyes, olive skin tone, and identity; Image 2 is her profile portrait and supports realistic texture only. Depict Sofia exactly age 21. Scene: photographed from behind the perforated screen inside a modern documentary screening room, so the foreground is a luminous field of tiny white screen holes and a diagonal tear. Beyond it, Sofia is the only identifiable principal, seen in sharp side profile at a projection console, freezing two contradictory interview frames on side-by-side monitors. She wears a boxy cobalt crew jacket over an orange cotton T-shirt, blunt ear-length bob with one side clipped flat, no glamour makeup, intent slightly incredulous expression, gaze on the monitors. Other cast are not depicted. Bright cold white and saturated cobalt/orange palette, crisp 2022 digital projection equipment, daylight spill from a high window, restrained graphic realism. No brown or amber grade. Integrate the exact title THE SUPPORTING EVIDENCE as white sans-serif type crossing the screen's torn diagonal, correctly spelled and trim-safe; no other readable text, logos, credits, or billing. Realistic hands and equipment. Do not copy Sofia's reference wardrobe, long hairstyle, pose, direct gaze, or background. Ensure she cannot be mistaken for Lucia Ferrer: keep Sofia's distinct blunt short bob, narrow nose, longer jaw, and younger age. No cast row, face montage, symmetrical lineup, centered glamour portrait, or duplicated interview faces. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%.",
+      "distinguishing_traits": "Sofia's narrow face, long nose, blunt short bob and youthful age, distinct from Lucia.",
+      "composition": "A single profile at a projection console framed by a torn perforated screen, empty chair and waveform behind.",
+      "hairstyle": "Blunt ear-length bob with one side clipped flat.",
+      "expression": "Intent and slightly incredulous, gaze on monitors.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/sofia-calderon.jpg|canonical identity",
+        "assets/performer-portraits/sofia-calderon.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-a8689da5-bb0b-4454-b9f7-278b4cc2b926.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-d0cdb029-0b7d-4de7-8021-246d9cbf6f14.png",
+          "status": "superseded: duplicate face on monitors",
+          "exact_prompt": "Create one final 16:9 cinematic movie poster for THE SUPPORTING EVIDENCE, depicted date 2022-09-30, investigative comedy-drama by Open Secret Features. Identity references: Image 1 is Sofia Calderon's canonical illustrated identity sheet and controls stable facial structure, long narrow nose, jaw, eyes, olive skin tone, and identity; Image 2 is her profile portrait and supports realistic texture only. Depict Sofia exactly age 21. Scene: photographed from behind the perforated screen inside a modern documentary screening room, so the foreground is a luminous field of tiny white screen holes and a diagonal tear. Beyond it, Sofia is the only identifiable principal, seen in sharp side profile at a projection console, freezing two contradictory interview frames on side-by-side monitors. She wears a boxy cobalt crew jacket over an orange cotton T-shirt, blunt ear-length bob with one side clipped flat, no glamour makeup, intent slightly incredulous expression, gaze on the monitors. Other cast are not depicted. Bright cold white and saturated cobalt/orange palette, crisp 2022 digital projection equipment, daylight spill from a high window, restrained graphic realism. No brown or amber grade. Integrate the exact title THE SUPPORTING EVIDENCE as white sans-serif type crossing the screen's torn diagonal, correctly spelled and trim-safe; no other readable text, logos, credits, or billing. Realistic hands and equipment. Do not copy Sofia's reference wardrobe, long hairstyle, pose, direct gaze, or background. Ensure she cannot be mistaken for Lucia Ferrer: keep Sofia's distinct blunt short bob, narrow nose, longer jaw, and younger age. No cast row, face montage, symmetrical lineup, centered glamour portrait, or duplicated interview faces. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%."
+        },
+        {
+          "raw_generation_file": "exec-a8689da5-bb0b-4454-b9f7-278b4cc2b926.png",
+          "status": "accepted correction",
+          "exact_prompt": "Use case: precise poster correction. Image 1 is the edit target. Preserve Sofia Calderon's single real figure at the console exactly as shown: same identity, age 21, face, short hair, profile, clothes, hands, pose and expression. Replace both monitor images behind her so neither monitor shows Sofia or any human face: left monitor must show an empty interview chair against a gray backdrop; right monitor must show only a monochrome audio waveform and time ruler with no readable words or numbers. Preserve the torn perforated-screen framing, cold cobalt/orange palette, console, architecture, and exact correctly spelled title THE SUPPORTING EVIDENCE unchanged. Do not add or remove anything else. No new people, faces, logos, text, anatomy changes, beauty retouching, or color-grade changes."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "Blunt ear-length bob with one side clipped flat. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "A single profile at a projection console framed by a torn perforated screen, empty chair and waveform behind. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "love-in-the-time-of-voicemail-2007.jpg",
+      "depicted_date": "2023-02-09",
+      "full_cast_ages": [
+        "Ellis Ward|1991-08-07|31",
+        "Sofia Calderon|2001-03-11|21"
+      ],
+      "depicted_performers": [
+        "Ellis Ward"
+      ],
+      "prompt": "Create one final true 16:9 cinematic key image for LOVE IN THE TIME OF VOICEMAIL, depicted date 2023-02-09, romantic comedy by Open Secret Features. Identity references: Image 1 is Ellis Ward's canonical illustrated identity sheet and controls stable facial structure, eye shape, jaw, skin tone, and identity; Image 2 is his profile portrait and supports realistic texture only. Depict Ellis exactly age 31. Make this an intentionally titleless poster. Composition: a bright architectural cutaway seen in a single wide lateral frame across two neighboring apartment balconies separated by a pale coral wall. Ellis is the only identifiable principal, left balcony, crouched in profile while pushing a small handwritten note under the divider with one hand and listening to a plain contemporary smartphone held loosely away from his ear with the other. He has close-cropped textured hair, round translucent-green reading glasses, an amused private smile, lavender cardigan over a striped cream T-shirt, loose navy trousers and socks. The right balcony is empty except for a ringing phone casting a tiny waveform reflection in a glass of water; Sofia is not depicted. Clear cool February daylight, coral, lavender, mint and sky-blue palette, gentle 2023 production design, airy romantic-comedy realism, no warm brown grade. No readable screen text, title, words, logos, credits, or billing. Realistic anatomy, fingers and phone. Do not copy Ellis's reference-sheet outfit, upright pose, serious expression, or background. No cast row, face montage, centered glamour portrait, direct gaze, split-screen headshots, or duplicated faces. Output one edge-to-edge 16:9 landscape image with critical content inside the central 98%.",
+      "distinguishing_traits": "Ellis's narrow expressive face, close curls and translucent green glasses.",
+      "composition": "Bright lateral architectural cutaway across adjacent balconies divided by a coral wall.",
+      "hairstyle": "Close-cropped textured curls.",
+      "expression": "Private amused smile toward the voice message.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/ellis-ward.jpg|canonical identity",
+        "assets/performer-portraits/ellis-ward.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-1d32215a-efc4-4a78-9837-c0e2d75b8e0a.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-1d32215a-efc4-4a78-9837-c0e2d75b8e0a.png",
+          "status": "accepted",
+          "exact_prompt": "Create one final true 16:9 cinematic key image for LOVE IN THE TIME OF VOICEMAIL, depicted date 2023-02-09, romantic comedy by Open Secret Features. Identity references: Image 1 is Ellis Ward's canonical illustrated identity sheet and controls stable facial structure, eye shape, jaw, skin tone, and identity; Image 2 is his profile portrait and supports realistic texture only. Depict Ellis exactly age 31. Make this an intentionally titleless poster. Composition: a bright architectural cutaway seen in a single wide lateral frame across two neighboring apartment balconies separated by a pale coral wall. Ellis is the only identifiable principal, left balcony, crouched in profile while pushing a small handwritten note under the divider with one hand and listening to a plain contemporary smartphone held loosely away from his ear with the other. He has close-cropped textured hair, round translucent-green reading glasses, an amused private smile, lavender cardigan over a striped cream T-shirt, loose navy trousers and socks. The right balcony is empty except for a ringing phone casting a tiny waveform reflection in a glass of water; Sofia is not depicted. Clear cool February daylight, coral, lavender, mint and sky-blue palette, gentle 2023 production design, airy romantic-comedy realism, no warm brown grade. No readable screen text, title, words, logos, credits, or billing. Realistic anatomy, fingers and phone. Do not copy Ellis's reference-sheet outfit, upright pose, serious expression, or background. No cast row, face montage, centered glamour portrait, direct gaze, split-screen headshots, or duplicated faces. Output one edge-to-edge 16:9 landscape image with critical content inside the central 98%."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "Close-cropped textured curls. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Bright lateral architectural cutaway across adjacent balconies divided by a coral wall. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "undercover-overdressed-2009.jpg",
+      "depicted_date": "2024-07-24",
+      "full_cast_ages": [
+        "Nia Hart|1996-12-01|27",
+        "Dev Malik|1993-06-19|31",
+        "Tess North|1996-04-26|28",
+        "Lucia Ferrer|2002-09-12|21"
+      ],
+      "depicted_performers": [
+        "Nia Hart"
+      ],
+      "prompt": "Create one final 16:9 cinematic poster for UNDERCOVER, OVERDRESSED, depicted date 2024-07-24, espionage comedy by Open Secret Features. Identity references: Image 1 is Nia Hart's canonical illustrated identity sheet and controls stable facial structure, broad cheekbones, deep brown skin tone, eyes, nose, and identity; Image 2 is her profile portrait and supports realistic facial texture only. Depict Nia exactly age 27. Shoot from a very low fisheye viewpoint beneath a transparent convention-center escalator in hard midday daylight. Nia is the only identifiable principal, caught mid-stride riding upward while balancing an absurd tower of empty branded-free hatboxes that nearly conceals her. She looks sideways at a suspicious unattended briefcase on the opposite escalator, not at camera. Give her a sculptural high braided crown with shaved geometric side pattern, alert deadpan expression, oversized sunflower-yellow trench coat over a violet utility jumpsuit, chunky white trainers, one discreet earpiece. Anonymous convention visitors remain motion-blurred and unidentifiable. Palette of bright white glass architecture, cyan sky, sunflower yellow and violet; cool high-contrast daylight, energetic contemporary 2024 editorial action image, no warm brown grade. Put the exact title UNDERCOVER, OVERDRESSED in condensed black lettering across two blank hatbox sides, correctly spelled with comma and trim-safe; no other readable text, logos, credits, or billing. Realistic anatomy, hands, escalator and boxes. Do not copy Nia's reference hairstyle, jacket, upright pose, direct gaze, or background. Ensure she remains distinct from Imani Cole through broad cheekbones, braided crown and shaved sides. No cast row, glamour headshot, centered face, montage, identical disguises, or symmetrical ensemble. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%.",
+      "distinguishing_traits": "Nia's broad cheekbones, braided crown and geometric shaved sides, distinct from Imani.",
+      "composition": "Low fisheye action frame up a glass convention-center escalator behind a tower of hatboxes.",
+      "hairstyle": "High braided crown with shaved geometric sides.",
+      "expression": "Alert deadpan side glance toward a briefcase.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/nia-hart.jpg|canonical identity",
+        "assets/performer-portraits/nia-hart.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-13806a43-9d41-4128-92f6-f5e5eb8f49af.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-13806a43-9d41-4128-92f6-f5e5eb8f49af.png",
+          "status": "accepted",
+          "exact_prompt": "Create one final 16:9 cinematic poster for UNDERCOVER, OVERDRESSED, depicted date 2024-07-24, espionage comedy by Open Secret Features. Identity references: Image 1 is Nia Hart's canonical illustrated identity sheet and controls stable facial structure, broad cheekbones, deep brown skin tone, eyes, nose, and identity; Image 2 is her profile portrait and supports realistic facial texture only. Depict Nia exactly age 27. Shoot from a very low fisheye viewpoint beneath a transparent convention-center escalator in hard midday daylight. Nia is the only identifiable principal, caught mid-stride riding upward while balancing an absurd tower of empty branded-free hatboxes that nearly conceals her. She looks sideways at a suspicious unattended briefcase on the opposite escalator, not at camera. Give her a sculptural high braided crown with shaved geometric side pattern, alert deadpan expression, oversized sunflower-yellow trench coat over a violet utility jumpsuit, chunky white trainers, one discreet earpiece. Anonymous convention visitors remain motion-blurred and unidentifiable. Palette of bright white glass architecture, cyan sky, sunflower yellow and violet; cool high-contrast daylight, energetic contemporary 2024 editorial action image, no warm brown grade. Put the exact title UNDERCOVER, OVERDRESSED in condensed black lettering across two blank hatbox sides, correctly spelled with comma and trim-safe; no other readable text, logos, credits, or billing. Realistic anatomy, hands, escalator and boxes. Do not copy Nia's reference hairstyle, jacket, upright pose, direct gaze, or background. Ensure she remains distinct from Imani Cole through broad cheekbones, braided crown and shaved sides. No cast row, glamour headshot, centered face, montage, identical disguises, or symmetrical ensemble. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "High braided crown with shaved geometric sides. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "Low fisheye action frame up a glass convention-center escalator behind a tower of hatboxes. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "exit-music-for-two-2019.jpg",
+      "depicted_date": "2026-06-19",
+      "full_cast_ages": [
+        "Bella Bloom|1983-11-23|42",
+        "Arun Sen|1995-01-29|31",
+        "Marisol Vega|1979-07-04|46"
+      ],
+      "depicted_performers": [
+        "Bella Bloom",
+        "Arun Sen"
+      ],
+      "prompt": "Create one final 16:9 romantic cinematic poster for EXIT MUSIC FOR TWO, a music-driven comedy-drama by Fourth Wall Pictures. Show exactly two fully clothed adult leads sharing a piano bench at a grand piano on an intimate darkened stage. Bella sits at the keyboard in an elegant dark evening dress with both hands actively playing; Arun sits pressed close beside her with one arm around her waist. Their faces are inches apart in a tender almost-kiss, with warm, affectionate eye contact. Use amber practical lights, a restrained violet stage wash, glossy black piano reflections, and realistic cinematic detail. Put the exact title EXIT MUSIC FOR TWO across the top in refined cream serif lettering, correctly spelled and trim-safe. No other people, readable text, logos, credits, billing, explicit content, or distorted anatomy. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%.",
+      "distinguishing_traits": "Bella's mature angular auburn identity and Arun's lean South Asian face and dark wavy hair.",
+      "composition": "Intimate two-shot of Bella playing a grand piano while Arun sits pressed close beside her on the bench.",
+      "hairstyle": "Bella: softly pinned brunette hair; Arun: short wavy dark hair.",
+      "expression": "Tender mutual gaze with their faces inches apart in an almost-kiss.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/bella-bloom.jpg|canonical identity",
+        "assets/performer-portraits/bella-bloom.jpg|texture support",
+        "assets/performers/arun-sen.jpg|canonical identity",
+        "assets/performer-portraits/arun-sen.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-e591298e-edca-47d1-a302-836c0b6116e4.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-e591298e-edca-47d1-a302-836c0b6116e4.png",
+          "status": "accepted",
+          "exact_prompt": "Create one final 16:9 romantic cinematic poster for EXIT MUSIC FOR TWO, a music-driven comedy-drama by Fourth Wall Pictures. Show exactly two fully clothed adult leads sharing a piano bench at a grand piano on an intimate darkened stage. Bella sits at the keyboard in an elegant dark evening dress with both hands actively playing; Arun sits pressed close beside her with one arm around her waist. Their faces are inches apart in a tender almost-kiss, with warm, affectionate eye contact. Use amber practical lights, a restrained violet stage wash, glossy black piano reflections, and realistic cinematic detail. Put the exact title EXIT MUSIC FOR TWO across the top in refined cream serif lettering, correctly spelled and trim-safe. No other people, readable text, logos, credits, billing, explicit content, or distorted anatomy. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "Bella wears a dark evening dress with softly pinned hair; Arun wears a dark suit with short wavy hair.",
+        "environment_and_technology": "Intimate darkened stage with a modern grand piano, warm practical lights, and a restrained violet wash.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "soft-launch-2021.jpg",
+      "depicted_date": "2021-04-23",
+      "full_cast_ages": [
+        "Amara Okoye|2003-04-05|18",
+        "June Park|1998-07-27|22",
+        "Noor Haddad|2000-12-06|20",
+        "Amina Shaw|1992-09-08|28",
+        "Darius King|1978-02-18|43"
+      ],
+      "depicted_performers": [
+        "Amara Okoye"
+      ],
+      "prompt": "Create one final 16:9 cinematic poster for SOFT LAUNCH, depicted date 2021-04-23, workplace comedy by Open Secret Features. Identity references: Image 1 is Amara Okoye's canonical illustrated identity sheet and controls stable facial structure, eyes, nose, deep brown skin tone, and identity; Image 2 is her profile portrait and supports realistic facial texture only. Depict Amara exactly age 18 years and 18 days, unmistakably an adult, with ordinary age-appropriate workplace styling and no sexualization. Camera viewpoint is from inside a half-inflated translucent mint-green promotional balloon lying on the floor of a borrowed community gym. Through its wrinkled circular opening, Amara is the only identifiable principal, kneeling sideways to reconnect a projector cable while an unexpectedly large anonymous press crowd floods through distant doors. She looks over her shoulder at the crowd, not the viewer. Give her short bead-tipped microbraids under a coral knit cap, wide startled grin, oversized navy staff T-shirt over a striped long-sleeve shirt, loose khaki trousers and practical sneakers. Native April 2021 laptops, projector and taped floor cables; a small box of face masks near the entrance as period context. Bright mint, coral, navy and lemon palette, high-key fluorescent gym light mixed with cool daylight, playful clean graphic realism, no brown/tungsten grade. Render the exact title SOFT LAUNCH in simple navy lettering warped across the translucent balloon surface, correctly spelled and trim-safe; no other readable text, logos, credits, billing, or screen UI. Realistic adult anatomy and hands. Do not copy Amara's reference outfit, long hairstyle, headphones, upright pose, direct gaze, or background. No cast row, face montage, centered glamour portrait, evenly spaced coworkers, or duplicate faces. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%.",
+      "distinguishing_traits": "Amara's youthful long face, deep brown skin and bead-tipped microbraids; depicted as an adult age 18 years 18 days.",
+      "composition": "View from inside a half-inflated translucent promotional balloon toward Amara and a distant press crowd.",
+      "hairstyle": "Short bead-tipped microbraids beneath a coral knit cap.",
+      "expression": "Wide startled grin toward the arriving crowd.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/amara-okoye.jpg|canonical identity",
+        "assets/performer-portraits/amara-okoye.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-983a4fb9-de10-45a8-a84a-de36d2f5ebe1.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-983a4fb9-de10-45a8-a84a-de36d2f5ebe1.png",
+          "status": "accepted",
+          "exact_prompt": "Create one final 16:9 cinematic poster for SOFT LAUNCH, depicted date 2021-04-23, workplace comedy by Open Secret Features. Identity references: Image 1 is Amara Okoye's canonical illustrated identity sheet and controls stable facial structure, eyes, nose, deep brown skin tone, and identity; Image 2 is her profile portrait and supports realistic facial texture only. Depict Amara exactly age 18 years and 18 days, unmistakably an adult, with ordinary age-appropriate workplace styling and no sexualization. Camera viewpoint is from inside a half-inflated translucent mint-green promotional balloon lying on the floor of a borrowed community gym. Through its wrinkled circular opening, Amara is the only identifiable principal, kneeling sideways to reconnect a projector cable while an unexpectedly large anonymous press crowd floods through distant doors. She looks over her shoulder at the crowd, not the viewer. Give her short bead-tipped microbraids under a coral knit cap, wide startled grin, oversized navy staff T-shirt over a striped long-sleeve shirt, loose khaki trousers and practical sneakers. Native April 2021 laptops, projector and taped floor cables; a small box of face masks near the entrance as period context. Bright mint, coral, navy and lemon palette, high-key fluorescent gym light mixed with cool daylight, playful clean graphic realism, no brown/tungsten grade. Render the exact title SOFT LAUNCH in simple navy lettering warped across the translucent balloon surface, correctly spelled and trim-safe; no other readable text, logos, credits, billing, or screen UI. Realistic adult anatomy and hands. Do not copy Amara's reference outfit, long hairstyle, headphones, upright pose, direct gaze, or background. No cast row, face montage, centered glamour portrait, evenly spaced coworkers, or duplicate faces. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "Short bead-tipped microbraids beneath a coral knit cap. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "View from inside a half-inflated translucent promotional balloon toward Amara and a distant press crowd. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    },
+    {
+      "asset": "rook-new-orders-2024.jpg",
+      "depicted_date": "2024-10-18",
+      "full_cast_ages": [
+        "June Park|1998-07-27|26",
+        "Elias Grant|2004-10-15|20",
+        "Gideon Slate|1945-08-28|79",
+        "Lucia Ferrer|2002-09-12|22"
+      ],
+      "depicted_performers": [
+        "June Park",
+        "Elias Grant"
+      ],
+      "prompt": "Create one final 16:9 cinematic poster for ROOK: NEW ORDERS, depicted date 2024-10-18, espionage thriller by Barely Dressed Pictures. Identity roles: Image 1 is June Park's canonical identity sheet and Image 3 her texture-support portrait; preserve her stable East Asian facial identity and depict her exactly age 26. Image 2 is Elias Grant's canonical identity sheet and Image 4 his texture-support portrait; preserve his stable facial identity and depict him exactly age 20. Viewpoint is from inside an overhead luggage rack on a fast contemporary intercity train, looking down through the metal mesh past a red document case in extreme foreground. Elias is below center in a charcoal courier jacket, reaching up toward the case with one hand while the train rounds a curve; close sandy-brown crop, tense focused expression, gaze on the case. June is farther down the aisle in three-quarter profile moving against the train's motion, sharp jaw-length black bob with blunt micro-bangs, dark teal tailored coat, watching an anonymous person leave through the connecting door rather than facing camera. Gideon is in the cast but not depicted. Stagger the figures strongly in depth and action; never arrange them side by side. Native 2024 train interior, luggage and phones. Palette of crisp steel gray, dark teal and one saturated signal-red case, streaking cool autumn daylight, hard diagonal motion, precise high-shutter thriller realism, no brown grade. Put the exact title ROOK: NEW ORDERS in small white type on the red case label, correctly spelled with colon and trim-safe; no other readable text, logos, credits, or billing. Realistic anatomy, hands, luggage rack and train geometry. Do not copy reference outfits, upright poses, expressions, hairstyles, or backgrounds. No cast row, face montage, centered headshots, direct gaze, mirrored agents, guns, or glamour styling. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%.",
+      "distinguishing_traits": "June's sharp East Asian jaw and blunt bob; Elias's young Black identity, close crop and focused brow.",
+      "composition": "View from an overhead train luggage rack past a red case, with Elias foreground and June deep down the aisle.",
+      "hairstyle": "June: jaw-length bob with micro-bangs; Elias: close sandy-brown textured crop.",
+      "expression": "Elias tense on the case; June vigilant toward the connecting door.",
+      "intentional_anachronisms": [],
+      "identity_references": [
+        "assets/performers/june-park.jpg|canonical identity",
+        "assets/performer-portraits/june-park.jpg|texture support",
+        "assets/performers/elias-grant.jpg|canonical identity",
+        "assets/performer-portraits/elias-grant.jpg|texture support"
+      ],
+      "raw_generation_file": "exec-44c24680-5454-414d-b873-1efbf5d609d3.png",
+      "final_dimensions": "1600x900",
+      "prompt_source": "session-exact",
+      "cast_changes_after_generation": [
+        "Lucia Ferrer was added to the cast after generation and remains intentionally offscreen; the exact generation prompt is preserved unchanged."
+      ],
+      "generation_steps": [
+        {
+          "raw_generation_file": "exec-44c24680-5454-414d-b873-1efbf5d609d3.png",
+          "status": "accepted",
+          "exact_prompt": "Create one final 16:9 cinematic poster for ROOK: NEW ORDERS, depicted date 2024-10-18, espionage thriller by Barely Dressed Pictures. Identity roles: Image 1 is June Park's canonical identity sheet and Image 3 her texture-support portrait; preserve her stable East Asian facial identity and depict her exactly age 26. Image 2 is Elias Grant's canonical identity sheet and Image 4 his texture-support portrait; preserve his stable facial identity and depict him exactly age 20. Viewpoint is from inside an overhead luggage rack on a fast contemporary intercity train, looking down through the metal mesh past a red document case in extreme foreground. Elias is below center in a charcoal courier jacket, reaching up toward the case with one hand while the train rounds a curve; close sandy-brown crop, tense focused expression, gaze on the case. June is farther down the aisle in three-quarter profile moving against the train's motion, sharp jaw-length black bob with blunt micro-bangs, dark teal tailored coat, watching an anonymous person leave through the connecting door rather than facing camera. Gideon is in the cast but not depicted. Stagger the figures strongly in depth and action; never arrange them side by side. Native 2024 train interior, luggage and phones. Palette of crisp steel gray, dark teal and one saturated signal-red case, streaking cool autumn daylight, hard diagonal motion, precise high-shutter thriller realism, no brown grade. Put the exact title ROOK: NEW ORDERS in small white type on the red case label, correctly spelled with colon and trim-safe; no other readable text, logos, credits, or billing. Realistic anatomy, hands, luggage rack and train geometry. Do not copy reference outfits, upright poses, expressions, hairstyles, or backgrounds. No cast row, face montage, centered headshots, direct gaze, mirrored agents, guns, or glamour styling. Output one edge-to-edge true 16:9 landscape poster with critical content inside the central 98%."
+        }
+      ],
+      "period_art_brief": {
+        "decade": "2020s",
+        "wardrobe_and_hair": "June: jaw-length bob with micro-bangs; Elias: close sandy-brown textured crop. Wardrobe and styling are explicitly date-native in the exact prompt.",
+        "environment_and_technology": "View from an overhead train luggage rack past a red case, with Elias foreground and June deep down the aisle. Date-specific objects and technology are constrained in the exact prompt.",
+        "photographic_process": "Contemporary cinematic photographic realism appropriate to the depicted production date, with the requested color treatment and camera viewpoint.",
+        "intentional_anachronisms": []
+      }
+    }
+  ]
+}

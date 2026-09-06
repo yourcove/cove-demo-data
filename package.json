@@ -1,0 +1,23 @@
+{
+  "name": "@yourcove/demo-dataset",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Deterministic fictional demo library for Cove",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node src/build.js",
+    "load": "node src/load.js",
+    "sync": "node src/sync.js",
+    "art-brief": "node src/art-direction.js",
+    "serve:stash-box": "node src/stash-box-server.js",
+    "test": "node --test",
+    "check": "node --check src/art-direction.js && node --check src/dates.js && node --check src/build.js && node --check src/load.js && node --check src/sync.js && node --check src/stash-box-data.js && node --check src/stash-box-server.js && node --test"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "graphql": "^16.14.2"
+  }
+}

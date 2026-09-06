@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "accepted_asset": {
+    "asset": "assets/performer-portraits/amina-shaw.jpg",
+    "archived_previous": "gitignored/audit/amina-shaw-profile-before.jpg",
+    "depicted_date": "2024-09-20",
+    "birth_date": "1992-09-08",
+    "calculated_age": 32,
+    "prompt": "Use case: fictional performer profile portrait\nAsset: Amina Shaw primary Cove profile portrait\nDepicted date: 2024-09-20. Amina Shaw was born 1992-09-08 and is exactly 32 years old. She is a fictional British nonbinary radio dialogue writer and supporting actor.\nInput image roles: Image 1 is the authoritative canonical illustrated identity reference. Preserve its specific fictional person: medium olive-brown skin, long narrow oval face, strong straight dark brows, large almond-shaped dark eyes, long narrow straight nose with a defined bridge, slim mouth, angular jaw, lean build, and shoulder-length near-black hair with a side part and soft outward flicks. Image 2 is only a supporting photoreal translation reference; preserve identity continuity but do not copy its frontal pose, cream blouse, outdoor sculpture, direct gaze, lighting, or garden setting.\nCreate one square, realistic editorial workplace portrait from a slightly high three-quarter camera angle. Amina sits sideways at the end of a compact radio script-editing table, torso turned away from camera, one forearm resting beside marked paper pages and a capped pencil. They have just looked up toward a collaborator outside the left edge of frame, not at camera, with a sharp, dry, faintly amused expression as if evaluating a line reading. Frame from mid-torso with meaningful desk context and asymmetric negative space. Keep both hands natural and secondary, with no dramatic gesture.\nHair must remain distinctly Amina's shoulder-length near-black layered bob with side part and outward-flicked ends, worn loose and controlled; no ponytail, curls, high volume, blunt fringe, or Marisol-like cascading hair. Wardrobe: charcoal fine-knit crewneck under a muted plum sleeveless tailored vest, small silver teardrop earrings; practical, contemporary, individual, and not glamour styling. Environment: modest 2024 British radio rehearsal/editing room, pale acoustic wall panels, a softly blurred tabletop microphone well behind her, annotated pages, neutral task lamp, no visible computer UI. Lighting: cool overcast window light with a narrow warm task-lamp edge, restrained natural skin texture, quiet editorial color response. Palette: charcoal, muted plum, paper white, soft gray, minimal warm amber.\nThe result must feel like a working writer caught between takes, materially distinct from the catalog's outdoor glamour portraits, direct head tilts, bright blue jackets, and warm nightlife bokeh. Preserve exact apparent age 32 and canonical facial proportions. PG-13 and fully clothed. No readable text, logos, watermark, border, headphones, camera-facing pose, generic influencer styling, beauty-ad retouching, oversized smile, repeated blue/coral palette, malformed hands, extra fingers, extra people, or celebrity resemblance.",
+    "prompt_source": "session-exact",
+    "identity_reference_files": [
+      {
+        "path": "assets/performers/amina-shaw.jpg",
+        "role": "Authoritative canonical fictional identity, facial proportions and hairstyle."
+      },
+      {
+        "path": "gitignored/audit/amina-shaw-profile-before.jpg",
+        "role": "Supporting photoreal translation reference; pose, wardrobe, setting and lighting explicitly excluded."
+      }
+    ],
+    "intended_distinguishing_traits": "Long narrow oval face, straight brows, large almond eyes, long narrow nose, angular jaw, lean build, shoulder-length near-black bob with outward flicks, dry attentive presence.",
+    "composition": "Square, slightly high three-quarter editorial view at a compact script-editing table; torso turned away, off-camera gaze, desk context and asymmetric negative space.",
+    "hairstyle": "Shoulder-length near-black layered bob, side part, controlled outward-flicked ends; deliberately unlike Marisol Vega’s high-volume curls.",
+    "expression": "Restrained, sharp and faintly amused evaluation of an off-camera collaborator.",
+    "wardrobe": "Charcoal crewneck with muted plum sleeveless tailored vest and small silver teardrop earrings.",
+    "period_art_brief": {
+      "decade": "2020s",
+      "wardrobe": "Practical 2024 writer/editor clothing without glamour styling.",
+      "environment": "Modest radio rehearsal room with acoustic panels, paper pages, capped pencil, task lamp and a blurred tabletop microphone.",
+      "photographic_process": "Natural editorial digital photography with restrained skin texture and cool window light.",
+      "technology": "Plausible 2024 tabletop microphone and paper script workflow; no visible interface or branded device."
+    },
+    "intentional_anachronisms": [],
+    "raw_dimensions": "1254x1254",
+    "normalization": "Proportional Lanczos resize from square source to 1024x1024 JPEG; no crop or stretch.",
+    "final_dimensions": "1024x1024",
+    "full_size_review": {
+      "accepted": true,
+      "findings": [
+        "Canonical face and age read consistently.",
+        "Both visible hands and fingers are anatomically coherent.",
+        "No readable generated text, logo or watermark.",
+        "Workplace action, cool-neutral setting and off-camera gaze distinguish Amina from Marisol and from direct glamour portraits."
+      ]
+    }
+  },
+  "comparison_artifacts": [
+    "gitignored/audit/visual-amina-marisol-final.jpg",
+    "gitignored/audit/visual-all-portraits-post-amina.jpg"
+  ],
+  "remaining_profile_proposals": [
+    {
+      "priority": 1,
+      "performer": "Rafael Sato",
+      "finding": "Rafael, Arun and Velvet still share tousled dark hair, an open dark overshirt, a broad warm smile and nightlife light points.",
+      "proposal": "If another portrait is revised, place Rafael in a cool daylight arrangement session viewed from table height, concentrating on a compact keyboard and marked cue sheet, with a closed-mouth listening expression and shorter controlled hair."
+    },
+    {
+      "priority": 2,
+      "performer": "Velvet Thunder",
+      "finding": "Velvet repeats the same polished dark-shirt, open-collar, warm nightclub-bokeh language used by younger musician portraits.",
+      "proposal": "If another portrait is revised, depict Velvet at age 39 in 2007 during a touring-company sound check from a wider side view, seated at an upright piano or brass-arrangement table under flat work light, thoughtful rather than camera-ready."
+    }
+  ],
+  "audio_cover_direction": {
+    "finding": "All 25 current score-cover files use the poster as a blurred background with the same centered yellow waveform, creating a conspicuous generated-template row.",
+    "implementation_recommendation": "Author an explicit per-audio cover brief or style field in the manifest. Generate or compose 1280x720 film-production audio artwork from production-specific sound objects and environments. Avoid the movie-poster background, the universal centered waveform and a fixed family count. Preserve the existing score-cover.jpg file path and canonical audio IDs.",
+    "shared_constraints": [
+      "Film-production interview, rehearsal, archive or behind-the-scenes context; no standalone-song framing.",
+      "No generic album-cover portrait, concert performance or music-video imagery.",
+      "Vary camera height, focal distance, object scale, negative space, palette, photographic process and whether people appear.",
+      "Use relevant canonical identity references only when a performer is actually depicted; many covers should remain prop- or architecture-led.",
+      "No readable generated notes, brands, logos or malformed equipment."
+    ],
+    "per_production_concepts": {
+      "neon-alibi": "Rain-dark location recorder and nightclub doorway reflections; cyan/magenta documentary still, small silver level marks.",
+      "curtain-call-collect": "Worn rehearsal piano, marked blocking pages and two hands mid-discussion; warm tungsten with faded green stage paint.",
+      "dangerously-overdressed": "Cutting-table close view with a stopwatch, fabric chalk and edit notes; crisp monochrome with one burgundy accent.",
+      "one-more-number-before-dawn": "Empty dance floor after rehearsal with scuffed marks and a portable guide speaker; pale dawn blue and dusty rose.",
+      "the-last-honest-mirror": "Quiet studio mirror reflecting an unused microphone and tape box; restrained black, gray and oxidized silver.",
+      "dial-m-for-makeover": "Desk-phone receiver, timing chart and compact keyboard arranged as a witty overhead still life; high-key white, cobalt and red.",
+      "negative-space": "Concrete street underpass with a field recorder left in deep negative space; charcoal, red safety light and narrow type.",
+      "the-usual-accessories": "Coat-check tickets, metronome and cue cards in a graphic overhead layout; cream paper, ink blue and mustard.",
+      "exposure-compensation": "Rooftop playback cart and camera slate after the crew has stepped away; blue-hour violet and practical work light.",
+      "tomorrow-never-rsvpd": "Empty launch-party table with abandoned headphones and guest-list cards; cool white, midnight navy and one acid-lime detail.",
+      "room-service-for-two": "Hotel-room service cart carrying a small recorder and folded cue sheet; daylight teal, chrome and coral fruit.",
+      "terms-and-conditions-apply": "Continuous paper clause snaking past a desk microphone; fluorescent office gray, paper white and warning orange.",
+      "the-supporting-evidence": "Documentary edit console with one empty interview chair and waveform monitor; cool steel, black and restrained cyan.",
+      "love-in-the-time-of-voicemail": "Two neighboring answering machines separated by a wall edge, no heart graphic; muted peach, sage and telephone gray.",
+      "half-light-at-closing": "Empty theatre seats heard from the stage edge, recorder tiny in the aisle; deep indigo, dim amber and large darkness.",
+      "undercover-overdressed": "Convention-floor movement map, radio earpiece and safe-mark tape; saturated airport daylight, violet and yellow.",
+      "the-unreliable-dress-rehearsal": "Rehearsal floor covered by crossed-out pause marks and room-tone notes; black floor, paper white and red pencil.",
+      "a-very-public-secret": "Press-room microphone cluster seen after the speakers leave, confidential page face down; cool daylight and desaturated green.",
+      "rooms-with-an-alibi": "Hotel corridor sound perspective led by a recorder outside a missing room number; olive carpet, brass and cold window light.",
+      "exit-music-for-two": "Two closed piano lids and a single rehearsal chair from a distant lateral view; soft gray daylight and aged wood.",
+      "soft-launch": "Test-screening feedback cards, tiny projector and audio notebook in an informal overhead spread; mint, cobalt and warm paper.",
+      "everyone-is-muted": "Three domestic room-tone objects—MIDI control, script page and loose cable—in unequal panels; cyan, lilac and acid lime.",
+      "rook-new-orders": "Field recorder and inherited cue notebook on a train luggage rack; severe navy, brushed steel and signal red.",
+      "the-last-take-was-perfect": "Film-set sound cart observed in available light with collaborators blurred beyond; neutral daylight, canvas and slate gray.",
+      "a-favor-between-professionals": "Location sound case beside an unofficial delivery case on wet concrete; cold industrial blue with a narrow amber reflection."
+    }
+  }
+}

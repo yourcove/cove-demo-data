@@ -1,0 +1,2857 @@
+{
+  "schema_version": 1,
+  "method": "Locally synthesized fictional dialogue using stock Kokoro voices. No real-person voice cloning or imitation.",
+  "model": "onnx-community/Kokoro-82M-v1.0-ONNX",
+  "model_source": "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX",
+  "upstream_source": "https://huggingface.co/hexgrad/Kokoro-82M",
+  "model_license": "Apache-2.0",
+  "voice_direction": "Stock English voices chosen as authored fictional performances; accents are not claims about nationality. These are short archive excerpts, not complete interviews.",
+  "voices": {
+    "Velvet Thunder": {
+      "voice": "bm_george",
+      "speed": 0.94
+    },
+    "Marisol Vega": {
+      "voice": "af_bella",
+      "speed": 1.02
+    },
+    "Rafael Sato": {
+      "voice": "am_puck",
+      "speed": 1.03
+    },
+    "Dev Malik": {
+      "voice": "bm_fable",
+      "speed": 1.01
+    },
+    "Ellis Ward": {
+      "voice": "bm_daniel",
+      "speed": 0.96
+    },
+    "Arun Sen": {
+      "voice": "am_michael",
+      "speed": 0.98
+    },
+    "Amara Okoye": {
+      "voice": "af_heart",
+      "speed": 1.04
+    },
+    "Elias Grant": {
+      "voice": "bm_lewis",
+      "speed": 1.03
+    },
+    "June Park": {
+      "voice": "am_fenrir",
+      "speed": 1
+    },
+    "Cressida Maraschino": {
+      "voice": "bf_emma",
+      "speed": 0.91
+    },
+    "Lucia Ferrer": {
+      "voice": "af_sarah",
+      "speed": 1.02
+    },
+    "Darius King": {
+      "voice": "am_onyx",
+      "speed": 0.95
+    }
+  },
+  "records": [
+    {
+      "slug": "neon-alibi",
+      "title": "Neon Alibi: After the nightclub shoot",
+      "date": "2005-10-08",
+      "performers": [
+        "Velvet Thunder"
+      ],
+      "source": "assets/production-audio/neon-alibi.mp3",
+      "turns": [
+        {
+          "speaker": "Velvet Thunder",
+          "text": "The nightclub entrance was too busy in the first arrangement. We had brass answering the footsteps, and another little phrase under the first line. It told you where every joke was going. We took most of it away. You hear the room first, then the shoes, and only then a small bit of music. The lawyer thinks she has entered an ordinary place. I wanted the sound to believe her for a few seconds.",
+          "voice": "bm_george",
+          "speed": 0.94
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          7
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.16,
+            0.2,
+            0.14,
+            0.22,
+            0.18,
+            0.16
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 74,
+          "seconds_per_authored_word": 0.4343,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 32.135,
+          "mean_dbfs": -19.6,
+          "peak_dbfs": -2.4,
+          "size_bytes": 515373,
+          "sha256": "7c464bafb74c0448a78b34ee57dcc5e4271ab3cccd54610b41c21aff453c5d1e",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 74,
+              "recognized_words": 74,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "b6842df10cfd1a60d9f35892cc0dd926e7a90a8c95c094cca32d3703d3278ae5",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 11,
+              "recognized_words": 11,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "820e63627065ce29e41d3b7da1bd1e9206c6fa19e98abeba9b68a4e41bd9c7b3",
+              "recognized_text": "I wanted the sound to believe her for a few seconds.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "curtain-call-collect",
+      "title": "Curtain Call Collect: Touring-company rehearsal debrief",
+      "date": "2007-06-15",
+      "performers": [
+        "Velvet Thunder",
+        "Marisol Vega"
+      ],
+      "source": "assets/production-audio/curtain-call-collect.mp3",
+      "turns": [
+        {
+          "speaker": "Velvet Thunder",
+          "text": "The company knew the number so well that the rehearsal had become quicker than the scene. I kept asking where the argument was supposed to happen. If there is no room to disagree, you have only made a brisk tune.",
+          "voice": "bm_george",
+          "speed": 0.94
+        },
+        {
+          "speaker": "Marisol Vega",
+          "text": "And I kept asking for the old tempo back. The movement had been learned at that speed. In the end we rehearsed the conversation without the number, then put the movement around the pauses. It was less tidy, which was useful. These people are trying to keep a show open. They are not trying to demonstrate how beautifully they rehearse.",
+          "voice": "af_bella",
+          "speed": 1.02
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 2,
+        "sentence_chunk_counts": [
+          3,
+          6
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.2,
+            0.14
+          ],
+          [
+            0.14,
+            0.22,
+            0.18,
+            0.16,
+            0.2
+          ]
+        ],
+        "between_turn_pause_seconds": [
+          0.58
+        ],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 100,
+          "seconds_per_authored_word": 0.3955,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 39.545,
+          "mean_dbfs": -20.1,
+          "peak_dbfs": -2.2,
+          "size_bytes": 634029,
+          "sha256": "b7096e19433654b7725c16bbab4cadf1c0eb5278db4a8307507feca91cb5a409",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 100,
+              "recognized_words": 100,
+              "recognized_word_ratio": 1,
+              "word_errors": 1,
+              "word_error_rate": 0.01,
+              "recognized_text_sha256": "2b349ad6382510893bcc506181c2045263a8828cb755267e2308d25953edd52b",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 10,
+              "recognized_words": 10,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "1a4106775a454df84daa694251e14657085a8917dab588dd8f1f3afd3e639eb6",
+              "recognized_text": "They are not trying to demonstrate how beautifully they rehearse.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "dangerously-overdressed",
+      "title": "Dangerously Overdressed: Timing the costume-room exchange",
+      "date": "2009-09-12",
+      "performers": [
+        "Velvet Thunder"
+      ],
+      "source": "assets/production-audio/dangerously-overdressed.mp3",
+      "turns": [
+        {
+          "speaker": "Velvet Thunder",
+          "text": "The portfolio exchange needed one reliable sound. There were clothes moving, people talking, doors opening. We used the small click of the fastening as an anchor. After that, the audience can lose track of which portfolio belongs to whom without losing the moment when something changed hands. I tried a musical accent there. It was a mistake. The click was already doing the work, and it belonged to the room.",
+          "voice": "bm_george",
+          "speed": 0.94
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          7
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.14,
+            0.22,
+            0.18,
+            0.16,
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 70,
+          "seconds_per_authored_word": 0.4913,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 34.39,
+          "mean_dbfs": -19.5,
+          "peak_dbfs": -2.2,
+          "size_bytes": 551469,
+          "sha256": "b01c54a6a519e022489ef2d1d88f5839bfdf55dc6aeb4bc2fd48c9883caa3cc7",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 70,
+              "recognized_words": 70,
+              "recognized_word_ratio": 1,
+              "word_errors": 1,
+              "word_error_rate": 0.0143,
+              "recognized_text_sha256": "a6badeb1c06278a7c60c0e8737db039f035236eff66b00ef4de819d59a3fdd9d",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 13,
+              "recognized_words": 13,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "15d904e0b024ba703e60aa0db47ca1187724f095b43f87e4846fe3bc08b9a7cf",
+              "recognized_text": "The click was already doing the work, and it belonged to the room.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "one-more-number-before-dawn",
+      "title": "One More Number Before Dawn: Staging the final number",
+      "date": "2011-04-22",
+      "performers": [
+        "Velvet Thunder",
+        "Marisol Vega"
+      ],
+      "source": "assets/production-audio/one-more-number-before-dawn.mp3",
+      "turns": [
+        {
+          "speaker": "Marisol Vega",
+          "text": "For the last rehearsal I asked everyone to stop performing the ending. Just get to the end of the room and see who is still beside you. The scene is about a partnership trying to continue, not a company presenting a final bow.",
+          "voice": "af_bella",
+          "speed": 1.02
+        },
+        {
+          "speaker": "Velvet Thunder",
+          "text": "That changed the guide accompaniment. I left a little space where the neat version would have filled the silence. You can hear the feet making their own argument. It gives the number an unfinished edge, even though the movement itself is very carefully rehearsed.",
+          "voice": "bm_george",
+          "speed": 0.94
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 2,
+        "sentence_chunk_counts": [
+          3,
+          4
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.22,
+            0.18
+          ],
+          [
+            0.18,
+            0.16,
+            0.2
+          ]
+        ],
+        "between_turn_pause_seconds": [
+          0.64
+        ],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 87,
+          "seconds_per_authored_word": 0.421,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 36.63,
+          "mean_dbfs": -19.8,
+          "peak_dbfs": -2.4,
+          "size_bytes": 587565,
+          "sha256": "7e2d8dfacc3c75779046d8e93ecf8216b51a7866e22ba49f57e0fcff83ae48d1",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 87,
+              "recognized_words": 87,
+              "recognized_word_ratio": 1,
+              "word_errors": 1,
+              "word_error_rate": 0.0115,
+              "recognized_text_sha256": "283605d757d4e3d36e4f2edfb036a3dc7e9ced9eea2bf7f4cac9191f2350ea34",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 16,
+              "recognized_words": 16,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "bdda111760708c695cdab22f709b4167be47fac503d2346eacd03ca724476c4c",
+              "recognized_text": "It gives the number an unfinished edge, even though the movement itself is very carefully rehearsed.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "the-last-honest-mirror",
+      "title": "The Last Honest Mirror: Why the mirror scene stays quiet",
+      "date": "2013-11-03",
+      "performers": [
+        "Velvet Thunder"
+      ],
+      "source": "assets/production-audio/the-last-honest-mirror.mp3",
+      "turns": [
+        {
+          "speaker": "Velvet Thunder",
+          "text": "There was a temptation to make the portrait examination sound important from the first frame. I preferred to let it be ordinary work for a while. A chair moves. Somebody puts a tool down. They look again. If every glance has a musical warning underneath it, the audience cannot discover anything. The quiet stretches are not empty. They give the later sound somewhere to arrive.",
+          "voice": "bm_george",
+          "speed": 0.94
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          8
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.18,
+            0.16,
+            0.2,
+            0.14,
+            0.22,
+            0.18,
+            0.16
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 65,
+          "seconds_per_authored_word": 0.5129,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 33.34,
+          "mean_dbfs": -19.7,
+          "peak_dbfs": -3.1,
+          "size_bytes": 534957,
+          "sha256": "d83901fad52e5f23fd70bba3e597c952bcc4dcc96b036475393f117e50355354",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 65,
+              "recognized_words": 65,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "eaf1ec8471d3bd839a294d53e9ddfcac93aea7209600f45011299c7517469d24",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 8,
+              "recognized_words": 8,
+              "recognized_word_ratio": 1,
+              "word_errors": 1,
+              "word_error_rate": 0.125,
+              "expected_text_sha256": "d09af4d3eb4521c081948356d38a59c98a963b2eefaf885bb6be1d300be7dd47",
+              "recognized_text": "They give the latest sound somewhere to arrive.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "dial-m-for-makeover",
+      "title": "Dial M for Makeover: Between two consultations",
+      "date": "2016-02-14",
+      "performers": [
+        "Rafael Sato"
+      ],
+      "source": "assets/production-audio/dial-m-for-makeover.mp3",
+      "turns": [
+        {
+          "speaker": "Rafael Sato",
+          "text": "The two consultations almost became two separate little films. I looked for a sound that could travel between them without announcing a connection. It turned out to be the waiting: a receiver settling into its cradle, somebody tapping a page, the breath before a difficult answer. The arrangement follows those intervals. It does not try to make the consultants agree. Their timing is allowed to remain incompatible.",
+          "voice": "am_puck",
+          "speed": 1.03
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          6
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.16,
+            0.2,
+            0.14,
+            0.22,
+            0.18
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 67,
+          "seconds_per_authored_word": 0.3996,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 26.775,
+          "mean_dbfs": -20.6,
+          "peak_dbfs": -2.4,
+          "size_bytes": 429741,
+          "sha256": "a62fdeb3cb1b0dfca943d5971e758865d90f2dad3802e7f3118f57988b4cbcd1",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 67,
+              "recognized_words": 67,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "c8f828e3a58318b8e52e289ef72c5654ad84531d2459e9041542d7fca8a86a92",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 7,
+              "recognized_words": 7,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "32ba11187336d9b5e6df2fcd7b6e31c5b301601d1a15313abc189596373e59fa",
+              "recognized_text": "Their timing is allowed to remain incompatible.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "negative-space",
+      "title": "Negative Space: Listening to the street route",
+      "date": "2014-10-16",
+      "performers": [
+        "Velvet Thunder"
+      ],
+      "source": "assets/production-audio/negative-space.mp3",
+      "turns": [
+        {
+          "speaker": "Velvet Thunder",
+          "text": "We stood under the road for a long time with very little happening in the frame. The traffic above us kept changing the apparent size of the space. A small vehicle could sound enormous for a moment. I wanted to keep that uncertainty. The recording is part of the location discussion, not an attempt to turn the street into a song. Kenji's figure is small in the image. The place should remain larger than his explanation of it.",
+          "voice": "bm_george",
+          "speed": 0.94
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          7
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.2,
+            0.14,
+            0.22,
+            0.18,
+            0.16,
+            0.2
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 78,
+          "seconds_per_authored_word": 0.4442,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 34.65,
+          "mean_dbfs": -19.5,
+          "peak_dbfs": -2.4,
+          "size_bytes": 555693,
+          "sha256": "a5746c13692460db49d11cd2d67e866caf65fd62f72e8cd2bf8cfec90142e18e",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 78,
+              "recognized_words": 78,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "da662b8b258a1098112c33241fd23dc9780e73982e0e6606aae01e2b549fffea",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 10,
+              "recognized_words": 10,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "1df7c0eebc41a02338ee330703bbc70b999d15f888aa02cf374087626af81298",
+              "recognized_text": "The place should remain larger than his explanation of it.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "the-usual-accessories",
+      "title": "The Usual Accessories: Four coats and a timing problem",
+      "date": "2018-08-19",
+      "performers": [
+        "Rafael Sato"
+      ],
+      "source": "assets/production-audio/the-usual-accessories.mp3",
+      "turns": [
+        {
+          "speaker": "Rafael Sato",
+          "text": "The coat-check sequence has four people carrying different versions of the same problem. In the early edit, I tried giving each one a recognisable cue. It became a diagram. The better solution was one shared pulse that did not quite belong to anybody. You can follow the exchange, but you cannot use the sound to decide who is in control. Darius's very calm movement helped. He makes a ridiculous decision at the speed of a sensible one.",
+          "voice": "am_puck",
+          "speed": 1.03
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          7
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.14,
+            0.22,
+            0.18,
+            0.16,
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 77,
+          "seconds_per_authored_word": 0.3901,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 30.04,
+          "mean_dbfs": -20.6,
+          "peak_dbfs": -2.4,
+          "size_bytes": 481965,
+          "sha256": "b807ff2db3654155bf84493fc61a5876ad13b845c94d8d53c9dc83efcb9dc336",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 78,
+              "recognized_words": 78,
+              "recognized_word_ratio": 1,
+              "word_errors": 2,
+              "word_error_rate": 0.0256,
+              "recognized_text_sha256": "2a617aa43b4d07353697b583cd1613e80e8b878628167eb6e063f28b769002a1",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 12,
+              "recognized_words": 12,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "455a1bbe6c67c920c05c67937e307968d58d6afd4edbf977f49eb49a41d588dc",
+              "recognized_text": "He makes a ridiculous decision at the speed of a sensible one.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "exposure-compensation",
+      "title": "Exposure Compensation: The cover shoot, behind the camera",
+      "date": "2019-05-09",
+      "performers": [
+        "Rafael Sato"
+      ],
+      "source": "assets/production-audio/exposure-compensation.mp3",
+      "turns": [
+        {
+          "speaker": "Rafael Sato",
+          "text": "On the roof, playback was mainly a way of giving the crew a common sense of time. The wind made it difficult to hear little instructions. Tess and I would finish a pass, then compare what we thought the camera had seen. The finished sound is a different construction. It keeps the feeling of that exposed space without asking the listener to fight the wind for every word. I like keeping those two records separate: what helped us work, and what finally belongs to the scene.",
+          "voice": "am_puck",
+          "speed": 1.03
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          6
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.22,
+            0.18,
+            0.16,
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 86,
+          "seconds_per_authored_word": 0.3448,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 29.65,
+          "mean_dbfs": -20.3,
+          "peak_dbfs": -2.1,
+          "size_bytes": 475821,
+          "sha256": "012397566b5fcb75c6ec0023d49f8012095da6a12674c7cc8623a1ae70576445",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 86,
+              "recognized_words": 86,
+              "recognized_word_ratio": 1,
+              "word_errors": 2,
+              "word_error_rate": 0.0233,
+              "recognized_text_sha256": "add14a1e909853e3d5e9ad23bb5d4a4d4656727cd6b582b319d0a47b171ac514",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 18,
+              "recognized_words": 18,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "8154c69c525f04031542dde088d779411e8ec826e524bd086bdf068650c045f0",
+              "recognized_text": "I like keeping those two records separate, what helped us work and what finally belongs to the scene.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "tomorrow-never-rsvpd",
+      "title": "Tomorrow Never RSVP'd: Launch-party sound roundtable",
+      "date": "2020-12-17",
+      "performers": [
+        "Rafael Sato",
+        "Velvet Thunder"
+      ],
+      "source": "assets/production-audio/tomorrow-never-rsvpd.mp3",
+      "turns": [
+        {
+          "speaker": "Rafael Sato",
+          "text": "The launch party looked very clean. I wanted the sound to be slightly less certain. There is a long pause before anyone agrees that the important guest is missing.",
+          "voice": "am_puck",
+          "speed": 1.03
+        },
+        {
+          "speaker": "Velvet Thunder",
+          "text": "I brought in a busier idea, which made the room seem much more confident than the people inside it. We kept the polished surface but took away the easy sense of arrival. The party can continue without the person it was built around. That is the uncomfortable part.",
+          "voice": "bm_george",
+          "speed": 0.94
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 2,
+        "sentence_chunk_counts": [
+          3,
+          4
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.18,
+            0.16
+          ],
+          [
+            0.16,
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [
+          0.41
+        ],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 77,
+          "seconds_per_authored_word": 0.4094,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 31.525,
+          "mean_dbfs": -21.2,
+          "peak_dbfs": -2.3,
+          "size_bytes": 505773,
+          "sha256": "81214c1c0b6203d3f8c03866eb536f57e8c2b80930d19272a38a978e35a9bfbb",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 77,
+              "recognized_words": 77,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "b0990f731b0ac42db825c113ddfd8fc4ffa6f85e962d67e84197e827d1c22e3d",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 5,
+              "recognized_words": 5,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "471325475f8ba4bc4e3e040be02ceeee0480735b737fd4e8ef6754dce8af6f05",
+              "recognized_text": "That is the uncomfortable part.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "room-service-for-two",
+      "title": "Room Service for Two: A conversation after the room-service scene",
+      "date": "2021-04-14",
+      "performers": [
+        "Rafael Sato"
+      ],
+      "source": "assets/production-audio/room-service-for-two.mp3",
+      "turns": [
+        {
+          "speaker": "Rafael Sato",
+          "text": "I did not want the repeated hotel-room assignment to have the same sound each time. The situation repeats, but the travellers have learned different things. On the first visit the room seems inconvenient. Later it seems almost conspiratorial. We kept one little sound from the service cart and changed the space around it. It is a small connection. If you notice it consciously, that is fine, but it does not need to announce itself.",
+          "voice": "am_puck",
+          "speed": 1.03
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          7
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.16,
+            0.2,
+            0.14,
+            0.22,
+            0.18,
+            0.16
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 74,
+          "seconds_per_authored_word": 0.3846,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 28.46,
+          "mean_dbfs": -20.5,
+          "peak_dbfs": -2.2,
+          "size_bytes": 456621,
+          "sha256": "3bd5cfc52c7f04ec8c6038b415b173898a1cd858e62db1ee9a543889db376ee6",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 75,
+              "recognized_words": 75,
+              "recognized_word_ratio": 1,
+              "word_errors": 1,
+              "word_error_rate": 0.0133,
+              "recognized_text_sha256": "07a8bafe98ea33579fc2d1a4eaaf14d3d4dabcffcb9eaa328cd4ff8d8f42866e",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 16,
+              "recognized_words": 16,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "4e785c705e8b128b9daea316e2857cbb0d89f5c76a2ff95a5d0760c461c9fb10",
+              "recognized_text": "If you notice it consciously, that is fine, but it does not need to announce itself.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "terms-and-conditions-apply",
+      "title": "Terms and Conditions Apply: Designing an uncomfortable wait",
+      "date": "2019-03-22",
+      "performers": [
+        "Dev Malik"
+      ],
+      "source": "assets/production-audio/terms-and-conditions-apply.mp3",
+      "turns": [
+        {
+          "speaker": "Dev Malik",
+          "text": "The waiting room was the most useful part of the consultation scene. Nothing dramatic needs to happen there. The character has already agreed to something they have not properly understood. I left the office sounds very plain: paper, ventilation, a distant door. The uncomfortable feeling comes from how long those ordinary sounds continue. Adding a sinister cue would have let the audience stand outside the mistake and laugh at it too easily.",
+          "voice": "bm_fable",
+          "speed": 1.01
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          6
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.2,
+            0.14,
+            0.22,
+            0.18,
+            0.16
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 72,
+          "seconds_per_authored_word": 0.4271,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 30.75,
+          "mean_dbfs": -22,
+          "peak_dbfs": -2.1,
+          "size_bytes": 493485,
+          "sha256": "e77058981c9547a4a7b91f2a7cf9e283382e243c3b2ac704316ac22e75855869",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 72,
+              "recognized_words": 72,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "b1366b7577fb3f7281a50e4dd737f033d468aeec1295c1478b4aa1815ab7ef6e",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 19,
+              "recognized_words": 19,
+              "recognized_word_ratio": 1,
+              "word_errors": 1,
+              "word_error_rate": 0.0526,
+              "expected_text_sha256": "08ad77c151a995cb395a2151531b454ad2e0d104ad0255c41b63560d056037e7",
+              "recognized_text": "Adding a sinister queue would have let the audience stand outside the mistake and laugh at it too easily.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "the-supporting-evidence",
+      "title": "The Supporting Evidence: Scoring around an interview",
+      "date": "2022-09-30",
+      "performers": [
+        "Dev Malik"
+      ],
+      "source": "assets/production-audio/the-supporting-evidence.mp3",
+      "turns": [
+        {
+          "speaker": "Dev Malik",
+          "text": "A documentary interview can be pushed around very easily by music. The person may sound evasive simply because the arrangement has told you to distrust a pause. We discussed that before choosing any cues. For much of this sequence, the room and the editing rhythm have to carry the uncertainty. Where music does enter, it belongs to the film's movement between versions of the interview, rather than pretending to reveal what the speaker secretly means.",
+          "voice": "bm_fable",
+          "speed": 1.01
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          5
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.14,
+            0.22,
+            0.18,
+            0.16
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 75,
+          "seconds_per_authored_word": 0.398,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 29.85,
+          "mean_dbfs": -21.7,
+          "peak_dbfs": -1.5,
+          "size_bytes": 478893,
+          "sha256": "a2a6b6298b19ae855b52833ee76b30465e3f4b1d0b2978ab624588dab7ada670",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 75,
+              "recognized_words": 75,
+              "recognized_word_ratio": 1,
+              "word_errors": 1,
+              "word_error_rate": 0.0133,
+              "recognized_text_sha256": "105db225cf3652185b8d74e001a40b346096f2f73afb2295e08951c82e70e8b8",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 25,
+              "recognized_words": 25,
+              "recognized_word_ratio": 1,
+              "word_errors": 1,
+              "word_error_rate": 0.04,
+              "expected_text_sha256": "116c7dfaa241edfd3448860d640e8fe8825a2aa1004ad741c5e28722b88b3d72",
+              "recognized_text": "When music does enter, it belongs to the film's movement between versions of the interview, rather than pretending to reveal what the speaker secretly means.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "love-in-the-time-of-voicemail",
+      "title": "Love in the Time of Voicemail: Making the messages sound lived-in",
+      "date": "2023-02-09",
+      "performers": [
+        "Dev Malik"
+      ],
+      "source": "assets/production-audio/love-in-the-time-of-voicemail.mp3",
+      "turns": [
+        {
+          "speaker": "Dev Malik",
+          "text": "The neighbours do not hear the same story, even when they hear the same words. That was the interesting sound problem. I kept the recorded messages understandable, then changed what surrounds them: the room, the distance from the machine, the pause before someone presses a button again. You do not need to make a message mysterious by hiding it. Sometimes it becomes stranger because the listener keeps hearing it very clearly.",
+          "voice": "bm_fable",
+          "speed": 1.01
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          5
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.22,
+            0.18,
+            0.16,
+            0.2
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 71,
+          "seconds_per_authored_word": 0.3924,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 27.86,
+          "mean_dbfs": -21.5,
+          "peak_dbfs": -1.6,
+          "size_bytes": 447021,
+          "sha256": "f01eb81883294c51be2268722811f0e55f3fc41e53e27b2e95ef85238bc165b2",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 71,
+              "recognized_words": 71,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "4322f9844bf5bdb89f75216f913b88d90b2ef14fcdd0963848efc6fc73b2e12e",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 12,
+              "recognized_words": 12,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "f108d3f3d39cf1bd9decfd67b842d5498384dc61d7c343d26bd8b53e4d537a73",
+              "recognized_text": "Sometimes it becomes stranger because the listener keeps hearing it very clearly.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "half-light-at-closing",
+      "title": "Half-Light at Closing: Walking the empty theatre",
+      "date": "2018-11-07",
+      "performers": [
+        "Ellis Ward"
+      ],
+      "source": "assets/production-audio/half-light-at-closing.mp3",
+      "turns": [
+        {
+          "speaker": "Ellis Ward",
+          "text": "At closing time, the theatre does not become silent. It changes who is allowed to make noise. You hear the building, and the small practical sounds that an audience would have covered. For this walk I stayed near the stage edge and listened toward the empty seats. The absent voice in the scene should not feel like an effect dropped into a dead room. The room is still working. It simply has fewer people to explain it.",
+          "voice": "bm_daniel",
+          "speed": 0.96
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          7
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.18,
+            0.16,
+            0.2,
+            0.14,
+            0.22,
+            0.18
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 77,
+          "seconds_per_authored_word": 0.3741,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 28.805,
+          "mean_dbfs": -19.9,
+          "peak_dbfs": -2.3,
+          "size_bytes": 462381,
+          "sha256": "28aeb22c4d9f35bd45188166b622d067eeb1f47275630ee553e581d6ba594fbb",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 77,
+              "recognized_words": 77,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "b96cb811575f3c18c1da0d950c0fb935b6c31477e1be78e9a4027214f2c3fdad",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 8,
+              "recognized_words": 8,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "59f6a86ade91eff8fa54e1397d93befd6d67ff833a78cf2c70d47b6c8147463d",
+              "recognized_text": "It simply has fewer people to explain it.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "undercover-overdressed",
+      "title": "Undercover, Overdressed: Choreographing the convention-floor chase",
+      "date": "2024-07-24",
+      "performers": [
+        "Dev Malik",
+        "Rafael Sato"
+      ],
+      "source": "assets/production-audio/undercover-overdressed.mp3",
+      "turns": [
+        {
+          "speaker": "Dev Malik",
+          "text": "The convention floor already supplied more sound than we could use. I kept looking for one interruption that could turn listening into movement.",
+          "voice": "bm_fable",
+          "speed": 1.01
+        },
+        {
+          "speaker": "Rafael Sato",
+          "text": "We tried the public-address cue against several rehearsal passes. The obvious choice landed on the biggest gesture, but that made the whole thing feel illustrated. The better cue begins while Nia is still deciding whether the sound matters. Then the chase can grow out of a thought instead of arriving as a new attraction.",
+          "voice": "am_puck",
+          "speed": 1.03
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 2,
+        "sentence_chunk_counts": [
+          2,
+          4
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.16
+          ],
+          [
+            0.2,
+            0.14,
+            0.22
+          ]
+        ],
+        "between_turn_pause_seconds": [
+          0.58
+        ],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 77,
+          "seconds_per_authored_word": 0.3994,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 30.75,
+          "mean_dbfs": -20.1,
+          "peak_dbfs": -2.2,
+          "size_bytes": 493485,
+          "sha256": "061f619c8fd5615a1a1682aa79e1ab49ea7558d5669fa81c5c0ff6765772bdf5",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 78,
+              "recognized_words": 78,
+              "recognized_word_ratio": 1,
+              "word_errors": 2,
+              "word_error_rate": 0.0256,
+              "recognized_text_sha256": "9c728de475e8b1f2f09b9fd15a450acf7a40e0bb15ddeb1877c6fc8c8934d6e0",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 16,
+              "recognized_words": 16,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "c0cf779fff2bdbf83507b898f9f6d8c1f77ecf6fbddd15a48f0b903b8f0c4765",
+              "recognized_text": "Then the chase can grow out of a thought instead of arriving as a new attraction.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "the-unreliable-dress-rehearsal",
+      "title": "The Unreliable Dress Rehearsal: Leaving room for a missing scene",
+      "date": "2021-10-12",
+      "performers": [
+        "Arun Sen"
+      ],
+      "source": "assets/production-audio/the-unreliable-dress-rehearsal.mp3",
+      "turns": [
+        {
+          "speaker": "Arun Sen",
+          "text": "Imani is reconstructing a performance from notes that do not agree. If the sound becomes too complete, the missing scene stops being missing. I used the rehearsal room as the steady part. The papers, the floor, the little changes in distance stay believable. Around that, there is room for a pause that may belong to the old performance or to the person trying to remember it. I did not want to settle that question for the audience.",
+          "voice": "am_michael",
+          "speed": 0.98
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          6
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.2,
+            0.14,
+            0.22,
+            0.18,
+            0.16
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 77,
+          "seconds_per_authored_word": 0.4224,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 32.525,
+          "mean_dbfs": -20.5,
+          "peak_dbfs": -2.2,
+          "size_bytes": 521901,
+          "sha256": "8aa49744cb26b4c8f8be459c7ed3c80f2bf47180dd1573618d57014d8e5a666b",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 77,
+              "recognized_words": 78,
+              "recognized_word_ratio": 1.013,
+              "word_errors": 3,
+              "word_error_rate": 0.039,
+              "recognized_text_sha256": "43b071a926ee9601566e9faf07e0179e7f49fc2e0f6684ae838a6e4ba3efd604",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 11,
+              "recognized_words": 11,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "e6ca5e2492056eb767b13ecf951af490248d5b160cd17b43e5d0f5dd21372902",
+              "recognized_text": "I did not want to settle that question for the audience.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "a-very-public-secret",
+      "title": "A Very Public Secret: The confidential-agreement scene, discussed",
+      "date": "2025-05-15",
+      "performers": [
+        "Arun Sen"
+      ],
+      "source": "assets/production-audio/a-very-public-secret.mp3",
+      "turns": [
+        {
+          "speaker": "Arun Sen",
+          "text": "The confidential agreement is funny because everybody knows that it exists and nobody will give it a proper name. A strong musical signal would have become the name they refuse to say. We kept the press-room sound quite cool and ordinary. The microphones are there. The questions are there. What is missing is a straight answer. The arrangement only begins to move when the conversation tries to escape its own rules.",
+          "voice": "am_michael",
+          "speed": 0.98
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          7
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.14,
+            0.22,
+            0.18,
+            0.16,
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 71,
+          "seconds_per_authored_word": 0.4639,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 32.94,
+          "mean_dbfs": -20.8,
+          "peak_dbfs": -2.3,
+          "size_bytes": 528429,
+          "sha256": "2ff069164ab69143e8edaffd5f5ec0bec35cb6e640f3f4d180d37e7de17dcdd5",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 72,
+              "recognized_words": 72,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "15596bb36dd6b9b614d0186876c9c5d11ee893aa88094c196f0cd76923218b6d",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 15,
+              "recognized_words": 15,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "352c1a6ee068b01b592fb4d2ecdde819fb9b2104dada076594fe4f2023709e45",
+              "recognized_text": "The arrangement only begins to move when the conversation tries to escape its own rules.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "rooms-with-an-alibi",
+      "title": "Rooms with an Alibi: Finding the sound of the missing room",
+      "date": "2024-09-08",
+      "performers": [
+        "Arun Sen"
+      ],
+      "source": "assets/production-audio/rooms-with-an-alibi.mp3",
+      "turns": [
+        {
+          "speaker": "Arun Sen",
+          "text": "I recorded the corridor from several distances. Close to the door, you hear ordinary hotel business. Farther away, the same sounds seem to arrive from somewhere the plan cannot quite account for. That change in perspective was more useful than an obviously strange noise. Imani's scene already asks the viewer to look carefully. I wanted the sound to reward listening without handing over a neat solution to the missing room.",
+          "voice": "am_michael",
+          "speed": 0.98
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          6
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.22,
+            0.18,
+            0.16,
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 70,
+          "seconds_per_authored_word": 0.4668,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 32.675,
+          "mean_dbfs": -20.9,
+          "peak_dbfs": -2.2,
+          "size_bytes": 524205,
+          "sha256": "0eecd7bb527bb9a6768b8a3b910c77cb11f2fa9ba68e9c8da0e9e179cad951ff",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 70,
+              "recognized_words": 72,
+              "recognized_word_ratio": 1.0286,
+              "word_errors": 7,
+              "word_error_rate": 0.1,
+              "recognized_text_sha256": "5c2696a0c217f95c0756ce25fbbc27e2f93729c16a848eaef726645c2be2bb08",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 17,
+              "recognized_words": 17,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "1c9131c6dcfc077fe5e7d9388c7692c0c0aa04321ff55d73f835ce527491b02b",
+              "recognized_text": "I wanted the sound to reward listening, without handing over a neat solution to the missing room.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "exit-music-for-two",
+      "title": "Exit Music for Two: After the partnership’s final rehearsal",
+      "date": "2026-06-19",
+      "performers": [
+        "Arun Sen"
+      ],
+      "source": "assets/production-audio/exit-music-for-two.mp3",
+      "turns": [
+        {
+          "speaker": "Arun Sen",
+          "text": "Neither member of the partnership is ready to say what they think the other has decided. We talked about giving the ending a final musical statement, but it made the retirement feel settled. The scene is more generous if it stops before that certainty. There is a chair moving and the ordinary room around them. I wanted to leave the possibility that they might begin another conversation after the film has finished.",
+          "voice": "am_michael",
+          "speed": 0.98
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          5
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.18,
+            0.16,
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 72,
+          "seconds_per_authored_word": 0.4233,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 30.48,
+          "mean_dbfs": -20.8,
+          "peak_dbfs": -2.3,
+          "size_bytes": 488877,
+          "sha256": "755fbaecad94b81fecd5bfe3e68d7e598f9dcfb7e936ed4005b2f914e3d9c86c",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 72,
+              "recognized_words": 72,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "aab87515c041363395caa8bb89bcc4499908b36a3556a2c5f38969368df95264",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 17,
+              "recognized_words": 17,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "7d51708f04cdecd0c17e29df670b0449ac13dee0c0db8aca4cecbec908df1a74",
+              "recognized_text": "I wanted to leave the possibility that they might begin another conversation after the film has finished.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "soft-launch",
+      "title": "Soft Launch: Notes from the first test audience",
+      "date": "2021-04-23",
+      "performers": [
+        "Amara Okoye"
+      ],
+      "source": "assets/production-audio/soft-launch.mp3",
+      "turns": [
+        {
+          "speaker": "Amara Okoye",
+          "text": "At the first screening, people laughed at an interruption we had nearly removed. In rehearsal it had felt like a loose end. With an audience, it made the unfinished service seem as though it had already escaped the people presenting it. We kept a note of where the laughter began, but we did not try to rebuild every pause around that one room. The next audience might notice something else. That is part of releasing a thing before you know exactly what it is.",
+          "voice": "af_heart",
+          "speed": 1.04
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          6
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.16,
+            0.2,
+            0.14,
+            0.22,
+            0.18
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 84,
+          "seconds_per_authored_word": 0.336,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 28.226,
+          "mean_dbfs": -20.5,
+          "peak_dbfs": -2.5,
+          "size_bytes": 453165,
+          "sha256": "b7ef7a70db6e6e9cb505cfe478f40f407d280410da4044a05a3ee05433c35cd2",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 84,
+              "recognized_words": 84,
+              "recognized_word_ratio": 1,
+              "word_errors": 1,
+              "word_error_rate": 0.0119,
+              "recognized_text_sha256": "9609ba355eec716375d2c2f174be4ec33dd4cdaa56d76b14511370490a76a44a",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 14,
+              "recognized_words": 14,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "0f912c02602323ba213608064d373501060948e87ce24e8dca829ee399d5862b",
+              "recognized_text": "That is part of releasing a thing before you know exactly what it is.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "everyone-is-muted",
+      "title": "Everyone Is Muted: The remote rehearsal roundtable",
+      "date": "2022-12-09",
+      "performers": [
+        "Amara Okoye",
+        "Elias Grant",
+        "Ellis Ward",
+        "Rafael Sato"
+      ],
+      "source": "assets/production-audio/everyone-is-muted.mp3",
+      "turns": [
+        {
+          "speaker": "Amara Okoye",
+          "text": "I thought the long silence meant the line had failed. Then somebody spoke over the next line and we realised we were all waiting for different things.",
+          "voice": "af_heart",
+          "speed": 1.04
+        },
+        {
+          "speaker": "Elias Grant",
+          "text": "I kept trying to repair the gaps. The useful pass was the one where I stopped apologising for them.",
+          "voice": "bm_lewis",
+          "speed": 1.03
+        },
+        {
+          "speaker": "Ellis Ward",
+          "text": "We recorded a little of each room without speech. The pauses needed to remain inhabited, even when nobody was sure who should speak.",
+          "voice": "bm_daniel",
+          "speed": 0.96
+        },
+        {
+          "speaker": "Rafael Sato",
+          "text": "That gave us something better than a metronome. The rooms have different rhythms. The finished scene can let those rhythms disagree without losing the conversation.",
+          "voice": "am_puck",
+          "speed": 1.03
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 4,
+        "sentence_chunk_counts": [
+          2,
+          2,
+          2,
+          3
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.2
+          ],
+          [
+            0.14
+          ],
+          [
+            0.22
+          ],
+          [
+            0.18,
+            0.16
+          ]
+        ],
+        "between_turn_pause_seconds": [
+          0.46,
+          0.58,
+          0.41
+        ],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 94,
+          "seconds_per_authored_word": 0.4051,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 38.075,
+          "mean_dbfs": -19.4,
+          "peak_dbfs": -2.3,
+          "size_bytes": 610605,
+          "sha256": "a71b4155bea1143aee90cd1a8a9251036593e1822eb21450ab2ef56a316c1618",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 94,
+              "recognized_words": 94,
+              "recognized_word_ratio": 1,
+              "word_errors": 2,
+              "word_error_rate": 0.0213,
+              "recognized_text_sha256": "59f5830c7743aade5f2ee49118fd2f4c1a3a39dbc26f5496eea2967e8a856e64",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 12,
+              "recognized_words": 12,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "587df8fccb5f9b85d691b7c83bb12deee44df8937af2feaeab441bb1c8b5929b",
+              "recognized_text": "The finished scene can let those rhythms disagree without losing the conversation.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "rook-new-orders",
+      "title": "Rook: New Orders: Revisiting Rook’s sound",
+      "date": "2024-10-18",
+      "performers": [
+        "Dev Malik"
+      ],
+      "source": "assets/production-audio/rook-new-orders.mp3",
+      "turns": [
+        {
+          "speaker": "Dev Malik",
+          "text": "There is an inherited sound in the courier story, but I did not want it to arrive as a certificate of authenticity. The new performance needs room to make its own decisions. We tried the familiar idea at the entrance, then moved it later. By then the audience has met this version of the character through action and hesitation. The sound can remember an earlier film without asking the new one to stand still and salute it.",
+          "voice": "bm_fable",
+          "speed": 1.01
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          5
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.14,
+            0.22,
+            0.18,
+            0.16
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 77,
+          "seconds_per_authored_word": 0.362,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 27.875,
+          "mean_dbfs": -21.4,
+          "peak_dbfs": -1.5,
+          "size_bytes": 447405,
+          "sha256": "3dd00fcee46bca2bd03954f6302638cfcd34eabb771f0304069a4f7594f908d6",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 77,
+              "recognized_words": 77,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "recognized_text_sha256": "464ff93ef273fc4f4df153ac8c210e8bdee3880c5541156d05c173422f95cd38",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 18,
+              "recognized_words": 18,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "4cbcdee140c654d115dab8136166a410964a669e6e1144e8b4acb2d87ccaf609",
+              "recognized_text": "The sound can remember an earlier film, without asking the new one to stand still and salute it.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "the-last-take-was-perfect",
+      "title": "The Last Take Was Perfect: Two accounts of the final take",
+      "date": "2025-06-13",
+      "performers": [
+        "Arun Sen",
+        "Amara Okoye"
+      ],
+      "source": "assets/production-audio/the-last-take-was-perfect.mp3",
+      "turns": [
+        {
+          "speaker": "Arun Sen",
+          "text": "My memory of the last rehearsal is quieter than Amara's. I remember waiting for a noise outside the set to stop.",
+          "voice": "am_michael",
+          "speed": 0.98
+        },
+        {
+          "speaker": "Amara Okoye",
+          "text": "I remember somebody laughing just before we began. It changed the first line for me. I was still trying not to smile.",
+          "voice": "af_heart",
+          "speed": 1.04
+        },
+        {
+          "speaker": "Arun Sen",
+          "text": "The recording does not settle which part mattered most. It catches a little of both, and a lot of ordinary work.",
+          "voice": "am_michael",
+          "speed": 0.98
+        },
+        {
+          "speaker": "Amara Okoye",
+          "text": "That is why I like keeping the rehearsal account beside the finished scene. The scene looks inevitable when it works. The day did not feel inevitable at all.",
+          "voice": "af_heart",
+          "speed": 1.04
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 4,
+        "sentence_chunk_counts": [
+          2,
+          3,
+          2,
+          3
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.22
+          ],
+          [
+            0.18,
+            0.16
+          ],
+          [
+            0.16
+          ],
+          [
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [
+          0.41,
+          0.64,
+          0.52
+        ],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 92,
+          "seconds_per_authored_word": 0.4112,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 37.83,
+          "mean_dbfs": -20.5,
+          "peak_dbfs": -2.2,
+          "size_bytes": 606765,
+          "sha256": "8eaef9cff9b677eab081dac09073a24f218d37f6a75dfa9b955139dbdb37dd99",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 92,
+              "recognized_words": 94,
+              "recognized_word_ratio": 1.0217,
+              "word_errors": 3,
+              "word_error_rate": 0.0326,
+              "recognized_text_sha256": "a68ce227445936ae7be555ea81ea74de86904e9f1ff2a80e63fd59f83cbeb956",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 8,
+              "recognized_words": 8,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "7dc3971d2db60d18bcd1dd6aa9b186da43898f76092713e595b705e90e277b60",
+              "recognized_text": "The day did not feel inevitable at all.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "a-favor-between-professionals",
+      "title": "A Favor Between Professionals: A companion film’s sound diary",
+      "date": "2026-02-20",
+      "performers": [
+        "Dev Malik"
+      ],
+      "source": "assets/production-audio/a-favor-between-professionals.mp3",
+      "turns": [
+        {
+          "speaker": "Dev Malik",
+          "text": "Returning to the courier story did not mean using the same sound at the same moments. The delivery is unofficial this time, and the people around it have different reasons for staying quiet. I kept some location material from the earlier discussion, then let the new spaces interrupt it. Lucia's movement and Darius's stillness give the scene two very different kinds of pressure. The arrangement has to leave room for both.",
+          "voice": "bm_fable",
+          "speed": 1.01
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          5
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.18,
+            0.16,
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 71,
+          "seconds_per_authored_word": 0.3944,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 28.005,
+          "mean_dbfs": -21.3,
+          "peak_dbfs": -1.4,
+          "size_bytes": 449325,
+          "sha256": "436e364c04bf5bbf259f819018d0e00ad987aedf1e8fe19856a1198305db50af",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 71,
+              "recognized_words": 71,
+              "recognized_word_ratio": 1,
+              "word_errors": 3,
+              "word_error_rate": 0.0423,
+              "recognized_text_sha256": "93282b66186efe97705a6cb72264803bf5fd95d4dba224d656c80961c9d4717b",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 8,
+              "recognized_words": 8,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "7a631ea16310de79ce46dda4d317d158878a3de214df2d2e3561d0f7ced9c8f9",
+              "recognized_text": "The arrangement has to leave room for both.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "cressida-back-on-set",
+      "code": "BDP-AUD-26",
+      "id": 26,
+      "title": "Cressida Maraschino: Back on Set",
+      "date": "2025-06-13",
+      "details": "June asks Cressida about returning for a guest role after decades away from regular production. A short oral-history exchange recorded during a quiet break.",
+      "studio": "Available Light Cooperative",
+      "performers": [
+        "Cressida Maraschino",
+        "June Park"
+      ],
+      "tags": [
+        "Backstage"
+      ],
+      "source": "assets/production-audio/cressida-back-on-set.mp3",
+      "cover": "assets/performer-photo-sets/cressida-maraschino/2025-06-13-return-to-the-set.jpg",
+      "turns": [
+        {
+          "speaker": "June Park",
+          "text": "Did you want to watch the old films before coming back?",
+          "voice": "am_fenrir",
+          "speed": 1
+        },
+        {
+          "speaker": "Cressida Maraschino",
+          "text": "No. You can end up trying to impersonate yourself. I wanted to know where the chair was, who had been in the room before me and why nobody wanted to mention the missing take. Those are useful questions. Whether I could still raise an eyebrow exactly as I did in nineteen sixty-four was not a useful question.",
+          "voice": "bf_emma",
+          "speed": 0.91
+        },
+        {
+          "speaker": "June Park",
+          "text": "You asked to walk the entrance without the camera.",
+          "voice": "am_fenrir",
+          "speed": 1
+        },
+        {
+          "speaker": "Cressida Maraschino",
+          "text": "At my age, knowing where the floor changes matters. Then I could stop thinking about the floor and listen to the person in front of me.",
+          "voice": "bf_emma",
+          "speed": 0.91
+        },
+        {
+          "speaker": "June Park",
+          "text": "Did the guest part feel like a farewell?",
+          "voice": "am_fenrir",
+          "speed": 1
+        },
+        {
+          "speaker": "Cressida Maraschino",
+          "text": "A working day. A good one. If somebody wants a farewell, they can write one in the programme. I had a scene to do.",
+          "voice": "bf_emma",
+          "speed": 0.91
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 6,
+        "sentence_chunk_counts": [
+          1,
+          5,
+          1,
+          2,
+          1,
+          4
+        ],
+        "within_turn_pause_seconds": [
+          [],
+          [
+            0.2,
+            0.14,
+            0.22,
+            0.18
+          ],
+          [],
+          [
+            0.22
+          ],
+          [],
+          [
+            0.16,
+            0.2,
+            0.14
+          ]
+        ],
+        "between_turn_pause_seconds": [
+          0.52,
+          0.38,
+          0.68,
+          0.46,
+          0.58
+        ],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 135,
+          "seconds_per_authored_word": 0.4008,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 54.105,
+          "mean_dbfs": -21,
+          "peak_dbfs": -2.4,
+          "size_bytes": 867117,
+          "sha256": "4dd3f8819aea58b422b1843068e2228552bf666c36d1e0db8c2f26ed007b6264",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 136,
+              "recognized_words": 134,
+              "recognized_word_ratio": 0.9853,
+              "word_errors": 5,
+              "word_error_rate": 0.0368,
+              "recognized_text_sha256": "95bfb47e24faeee3d4bff0cde439b6521eaa2f6409350e09f205f89f28b0d526",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 6,
+              "recognized_words": 6,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "8fefdc3469d00be9b96e134923b1713903ac2061c65f43aad4944aac30ac3270",
+              "recognized_text": "I had a scene to do.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "lucia-after-the-rain",
+      "code": "BDP-AUD-27",
+      "id": 27,
+      "title": "Lucia Ferrer: After the Rain",
+      "date": "2026-06-21",
+      "details": "A field interview about the previous night’s location wrap, rehearsing physical action and doing her own stunt work. Recorded for Lucia’s working archive rather than a studio press kit.",
+      "studio": null,
+      "performers": [
+        "Lucia Ferrer"
+      ],
+      "tags": [
+        "Stunt Performer",
+        "Backstage"
+      ],
+      "source": "assets/production-audio/lucia-after-the-rain.mp3",
+      "cover": "assets/performer-photo-sets/lucia-ferrer/2026-06-20-rainy-location-wrap.jpg",
+      "turns": [
+        {
+          "speaker": "Lucia Ferrer",
+          "text": "The photograph from last night looks dramatic because of the rain. By then we were mostly thinking about wet coats and the last equipment cases. The interesting preparation had happened much earlier. We walked the route before the camera arrived, then rehearsed the scene until the movement and the dialogue belonged to the same thought. I perform all my own stunts. I have never used a stunt double. That does not make it a solo job. The coordinator, the camera crew and the other performers all know things I need to know. I want the preparation to be shared so that, during the take, I can concentrate on the person in front of me. In this scene the escort is always moving and the handler is almost still. If I add movement simply to make my part look harder, I take something away from his part. The work is knowing when the action has already said enough.",
+          "voice": "af_sarah",
+          "speed": 1.02
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 1,
+        "sentence_chunk_counts": [
+          12
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.2,
+            0.14,
+            0.22,
+            0.18,
+            0.16,
+            0.2,
+            0.14,
+            0.22,
+            0.18,
+            0.16,
+            0.2
+          ]
+        ],
+        "between_turn_pause_seconds": [],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 157,
+          "seconds_per_authored_word": 0.3858,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 60.575,
+          "mean_dbfs": -20.7,
+          "peak_dbfs": -2.2,
+          "size_bytes": 970413,
+          "sha256": "3d9818d54617cef6f57451f2c52d85117e6dfc4544eae8dc19251bae624d454a",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 157,
+              "recognized_words": 157,
+              "recognized_word_ratio": 1,
+              "word_errors": 2,
+              "word_error_rate": 0.0127,
+              "recognized_text_sha256": "cf5d8d055afedf1f86376b094ce88c2ae39ae3209a2309bab398e93e0196cae1",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 11,
+              "recognized_words": 11,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "31e83e9dc4e5c8c74f5b642e28a805d89db6379d4ec7e8a6a41b7bdd784daf8e",
+              "recognized_text": "The work is knowing when the action has already said enough.",
+              "accepted": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "the-doorway-and-the-pause",
+      "code": "BDP-AUD-28",
+      "id": 28,
+      "title": "The Doorway and the Pause",
+      "date": "2026-06-22",
+      "details": "Lucia and Darius compare the moving escort and the watchful handler in their courier-film collaboration. An informal two-person debrief about where action gives way to hesitation.",
+      "studio": "Barely Dressed Pictures",
+      "performers": [
+        "Lucia Ferrer",
+        "Darius King"
+      ],
+      "tags": [
+        "Backstage"
+      ],
+      "source": "assets/production-audio/the-doorway-and-the-pause.mp3",
+      "cover": "assets/posters/a-favor-between-professionals-2026.jpg",
+      "turns": [
+        {
+          "speaker": "Darius King",
+          "text": "I thought the handler should give away very little. Then I saw Lucia rehearse the entrance and realised that doing nothing could become a very large gesture beside that movement.",
+          "voice": "am_onyx",
+          "speed": 0.95
+        },
+        {
+          "speaker": "Lucia Ferrer",
+          "text": "The escort knows where she is going. That is useful until she reaches somebody who refuses to move. We tried making the pause shorter, but it let her win the scene too easily.",
+          "voice": "af_sarah",
+          "speed": 1.02
+        },
+        {
+          "speaker": "Darius King",
+          "text": "In the version we kept, I look at the case before I look at her. It is a small delay. It gives him a history without asking him to explain it.",
+          "voice": "am_onyx",
+          "speed": 0.95
+        },
+        {
+          "speaker": "Lucia Ferrer",
+          "text": "And it gives me something to answer. Not another piece of action, just the decision to stay in the doorway for a moment longer.",
+          "voice": "af_sarah",
+          "speed": 1.02
+        },
+        {
+          "speaker": "Darius King",
+          "text": "The preparation was quite precise. The pleasure is that the finished exchange does not look like two people congratulating themselves on their timing.",
+          "voice": "am_onyx",
+          "speed": 0.95
+        }
+      ],
+      "render": {
+        "status": "accepted",
+        "turn_count": 5,
+        "sentence_chunk_counts": [
+          2,
+          3,
+          3,
+          2,
+          2
+        ],
+        "within_turn_pause_seconds": [
+          [
+            0.14
+          ],
+          [
+            0.22,
+            0.18
+          ],
+          [
+            0.18,
+            0.16
+          ],
+          [
+            0.16
+          ],
+          [
+            0.2
+          ]
+        ],
+        "between_turn_pause_seconds": [
+          0.68,
+          0.46,
+          0.58,
+          0.41
+        ],
+        "processing": "Each sentence-safe chunk is synthesized with the turn's stock voice and speed, chunks are assembled into a raw WAV per authored turn, and turns are concatenated in script order with short conversational silence. The record is then normalized to -19 LUFS integrated / -2 dB true peak and encoded without time stretching.",
+        "checks": {
+          "decoded": true,
+          "nonzero_audio": true,
+          "clipping_detected": false,
+          "transcript_speakers_credited": true,
+          "authored_voice_and_speed_match": true,
+          "authored_word_count": 141,
+          "seconds_per_authored_word": 0.4037,
+          "conservative_duration_truncation_check": true,
+          "duration_seconds": 56.92,
+          "mean_dbfs": -20.8,
+          "peak_dbfs": -2.3,
+          "size_bytes": 912045,
+          "sha256": "c79b1ea3d0bd40e894c15e0d2586e4fcb6e528ba6bafbc4cc720197b058ea37f",
+          "stream": {
+            "codec": "mp3",
+            "sample_rate_hz": 24000,
+            "channels": 1,
+            "bitrate_bps": 128000
+          },
+          "asr_round_trip": {
+            "model": "Xenova/whisper-tiny.en",
+            "machine_only": true,
+            "full_record": {
+              "reference_words": 141,
+              "recognized_words": 110,
+              "recognized_word_ratio": 0.7801,
+              "word_errors": 32,
+              "word_error_rate": 0.227,
+              "recognized_text_sha256": "a671e0149d39a3c0ae7316fa9a72be309b2d05e6f91bfa4f35c1201c707ca90b",
+              "accepted": true
+            },
+            "final_sentence_tail": {
+              "reference_words": 18,
+              "recognized_words": 18,
+              "recognized_word_ratio": 1,
+              "word_errors": 0,
+              "word_error_rate": 0,
+              "expected_text_sha256": "4f7b566e93253627eb35e56e4441a9e0275e53527df2b8fa0edd9657c6d847de",
+              "recognized_text": "The pleasure is that the finished exchange does not look like two people congratulating themselves on their timing.",
+              "accepted": true
+            },
+            "secondary_review": {
+              "model": "Xenova/whisper-base.en",
+              "machine_only": true,
+              "reason": "Highest Whisper tiny English word error rate; stronger local model used to distinguish ASR limitations from a synthesis defect.",
+              "reference_words": 141,
+              "recognized_words": 141,
+              "word_errors": 1,
+              "word_error_rate": 0.0071,
+              "recognized_text_sha256": "c63da804921801b8d9612124c7ee111c98838f6e0e389710797a95a0d9a11c1b",
+              "accepted": true
+            }
+          }
+        }
+      }
+    }
+  ],
+  "render": {
+    "synthesizer": "kokoro-js",
+    "model_dtype": "q8",
+    "device": "cpu",
+    "model_loads": 1,
+    "input_policy": "Each authored speaker turn is split only at sentence boundaries before synthesis with its recorded stock voice and speed. The longest resulting chunk is 168 characters, conservatively below Kokoro's 510 phoneme-token truncation limit.",
+    "assembly": "Sentence chunks are joined with deterministic 0.14 to 0.22 second pauses into one ignored raw WAV per authored turn. Turn WAVs are joined in authored order with deterministic 0.30 to 0.68 second conversational pauses.",
+    "rejected_first_pass": {
+      "reason": "The initial renderer passed whole turns to Kokoro. Kokoro silently truncates tokenized phoneme input at 510 tokens, and a local Whisper check showed the longest Lucia turn was incomplete. Every output from that pass was rejected and replaced using sentence-safe synthesis.",
+      "retained_metrics": {
+        "lucia_after_the_rain_duration_seconds": 25.125,
+        "lucia_after_the_rain_authored_words": 157,
+        "lucia_after_the_rain_recognized_words": 85,
+        "lucia_after_the_rain_word_error_rate": 0.465
+      }
+    },
+    "output": {
+      "container": "MP3",
+      "codec": "MP3",
+      "bitrate_kbps": 128,
+      "sample_rate_hz": 24000,
+      "channels": 1
+    },
+    "raw_intermediates": "Ignored WAV files under gitignored/audit/production-audio-raw; final project assets are stored at each record.source.",
+    "automated_checks": {
+      "checked_records": 28,
+      "unique_hashes": 28,
+      "all_sources_present_and_nonempty": true,
+      "all_sources_decode": true,
+      "all_streams_mono_24khz_mp3": true,
+      "all_sources_have_nonzero_audio": true,
+      "clipping_detected": false,
+      "all_hashes_distinct": true,
+      "all_transcript_speakers_credited": true,
+      "all_turns_match_authored_voice_and_speed": true,
+      "all_sources_pass_conservative_duration_truncation_check": true,
+      "seconds_per_authored_word_range": {
+        "minimum": 0.336,
+        "maximum": 0.5129
+      },
+      "duration_seconds": {
+        "total": 965.386,
+        "minimum": 26.775,
+        "maximum": 60.575
+      },
+      "peak_dbfs_range": {
+        "minimum": -3.1,
+        "maximum": -1.4
+      }
+    },
+    "asr_round_trip": {
+      "purpose": "Automated intelligibility and final-sentence presence checks only; no human listening capability was available.",
+      "model": "Xenova/whisper-tiny.en",
+      "model_loads": 1,
+      "checked_records": 28,
+      "full_record_configuration": "16 kHz mono decode; 20-second chunks with 4-second stride.",
+      "full_record_acceptance": "Recognized word ratio from 0.70 through 1.30 and normalized word error rate no greater than 0.65.",
+      "final_sentence_configuration": "The final sentence's sentence-safe raw WAV chunk is separately decoded and transcribed without chunking.",
+      "final_sentence_acceptance": "At least half of reference words (minimum two) recognized and normalized word error rate no greater than 0.60.",
+      "all_full_records_accepted": true,
+      "all_final_sentence_tails_accepted": true,
+      "results": [
+        {
+          "slug": "neon-alibi",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "curtain-call-collect",
+          "full_record_word_error_rate": 0.01,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "dangerously-overdressed",
+          "full_record_word_error_rate": 0.0143,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "one-more-number-before-dawn",
+          "full_record_word_error_rate": 0.0115,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "the-last-honest-mirror",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0.125,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "dial-m-for-makeover",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "negative-space",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "the-usual-accessories",
+          "full_record_word_error_rate": 0.0256,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "exposure-compensation",
+          "full_record_word_error_rate": 0.0233,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "tomorrow-never-rsvpd",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "room-service-for-two",
+          "full_record_word_error_rate": 0.0133,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "terms-and-conditions-apply",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0.0526,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "the-supporting-evidence",
+          "full_record_word_error_rate": 0.0133,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0.04,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "love-in-the-time-of-voicemail",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "half-light-at-closing",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "undercover-overdressed",
+          "full_record_word_error_rate": 0.0256,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "the-unreliable-dress-rehearsal",
+          "full_record_word_error_rate": 0.039,
+          "full_record_recognized_word_ratio": 1.013,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "a-very-public-secret",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "rooms-with-an-alibi",
+          "full_record_word_error_rate": 0.1,
+          "full_record_recognized_word_ratio": 1.0286,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "exit-music-for-two",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "soft-launch",
+          "full_record_word_error_rate": 0.0119,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "everyone-is-muted",
+          "full_record_word_error_rate": 0.0213,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "rook-new-orders",
+          "full_record_word_error_rate": 0,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "the-last-take-was-perfect",
+          "full_record_word_error_rate": 0.0326,
+          "full_record_recognized_word_ratio": 1.0217,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "a-favor-between-professionals",
+          "full_record_word_error_rate": 0.0423,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "cressida-back-on-set",
+          "full_record_word_error_rate": 0.0368,
+          "full_record_recognized_word_ratio": 0.9853,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "lucia-after-the-rain",
+          "full_record_word_error_rate": 0.0127,
+          "full_record_recognized_word_ratio": 1,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        },
+        {
+          "slug": "the-doorway-and-the-pause",
+          "full_record_word_error_rate": 0.227,
+          "full_record_recognized_word_ratio": 0.7801,
+          "full_record_accepted": true,
+          "final_sentence_word_error_rate": 0,
+          "final_sentence_recognized_word_ratio": 1,
+          "final_sentence_accepted": true
+        }
+      ],
+      "secondary_review": {
+        "slug": "the-doorway-and-the-pause",
+        "model": "Xenova/whisper-base.en",
+        "result": "accepted",
+        "word_error_rate": 0.0071,
+        "recognized_words": 141,
+        "reference_words": 141,
+        "private_transcript": "gitignored/audit/asr-doorway-base.json"
+      }
+    }
+  }
+}

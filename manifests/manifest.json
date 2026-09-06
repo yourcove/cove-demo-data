@@ -1,0 +1,2449 @@
+{
+  "schema_version": 15,
+  "name": "Barely Dressed Pictures Fictional Archive",
+  "description": "A wholly fictional catalog with AI-generated artwork and locally generated fixture media.",
+  "expected_counts": {
+    "videos": 25,
+    "images": 44,
+    "audios": 28,
+    "texts": 32,
+    "studios": 6,
+    "performers": 25,
+    "collections": 5,
+    "tags": 40,
+    "galleries": 7
+  },
+  "studios": [
+    {
+      "name": "Barely Dressed Pictures",
+      "details": "An independent legacy label built around mysteries and the Sebastian Rook character. Recent films mix returning collaborators with short commissions for younger directors."
+    },
+    {
+      "name": "Second Take Features",
+      "parent": "Barely Dressed Pictures",
+      "details": "A small company formed around touring theatre and practical location work. Its intermittent releases follow available rehearsal time rather than an annual slate."
+    },
+    {
+      "name": "Electric Marquee",
+      "parent": "Barely Dressed Pictures",
+      "details": "A producer of capers and music-led comedy, often working with performers who also arrange the recordings. Projects travel between borrowed locations and returning crews."
+    },
+    {
+      "name": "Open Secret Features",
+      "parent": "Barely Dressed Pictures",
+      "details": "A writer-led company commissioning chamber comedies, radio adaptations and small investigative stories. Production documents are an unusually large part of its archive."
+    },
+    {
+      "name": "Fourth Wall Pictures",
+      "parent": "Barely Dressed Pictures",
+      "details": "A theatre-adaptation company whose rehearsal methods connect filmmakers from several generations. Long gaps between projects reflect stage commitments and financing."
+    },
+    {
+      "name": "Available Light Cooperative",
+      "details": "A cooperative of directors, editors and sound recordists. Members share resources while making distinct productions and maintaining their own documentary work."
+    }
+  ],
+  "collections": [
+    {
+      "name": "Electric Evenings: The 1980s",
+      "decade": "1980s",
+      "description": "A collector’s shelf of theatre films, portraits and early independent mysteries.",
+      "title": "Borrowed Stages",
+      "tags": [
+        "2000s",
+        "2010s"
+      ],
+      "studio": null
+    },
+    {
+      "name": "Wrong Coats: The 1990s",
+      "decade": "1990s",
+      "description": "A loosely assembled run of capers, photography stories and working partnerships.",
+      "title": "Coats, Cameras and Contracts",
+      "tags": [
+        "2010s",
+        "2020s"
+      ],
+      "studio": null
+    },
+    {
+      "name": "Fine Print: The 2000s",
+      "decade": "2000s",
+      "description": "Small productions built around rooms, messages, testimony and practical misunderstandings.",
+      "title": "Small Rooms, Big Arguments",
+      "tags": [
+        "2020s",
+        "2010s"
+      ],
+      "studio": null
+    },
+    {
+      "name": "Open Secrets: The 2010s",
+      "decade": "2010s",
+      "description": "Rehearsal films and later collaborations collected across several years.",
+      "title": "Rehearsals and Unreliable Witnesses",
+      "tags": [
+        "2020s"
+      ],
+      "studio": null
+    },
+    {
+      "name": "New Orders: The 2020s",
+      "decade": "2020s",
+      "description": "Recent collective productions alongside the return of a long-running screen character.",
+      "title": "New Voices and Old Orders",
+      "tags": [
+        "2020s"
+      ],
+      "studio": null
+    }
+  ],
+  "tags": [
+    "1980s",
+    "1990s",
+    "2000s",
+    "2010s",
+    "2020s",
+    "Comedy",
+    "Mystery",
+    "Drama",
+    "Romance",
+    "Caper",
+    "Thriller",
+    "Workplace",
+    "Backstage",
+    "Music",
+    "Generated Artwork",
+    "Bodybuilder",
+    "Stunt Performer",
+    "Actor",
+    "Voice Actor",
+    "Comedian",
+    "Director",
+    "Screenwriter",
+    "Composer",
+    "Musician",
+    "Choreographer",
+    "Photographer",
+    "Editor",
+    "Sound Designer",
+    "Sound Recordist",
+    "Stage Performer",
+    "Documentary Filmmaker",
+    "Athlete",
+    "Demo Archive",
+    "Release Decade",
+    "Story Genre",
+    "Story Theme",
+    "People",
+    "Performance",
+    "Filmmaking Craft",
+    "Production Metadata"
+  ],
+  "tag_hierarchy": [
+    {
+      "parent": "Demo Archive",
+      "children": [
+        "Release Decade",
+        "Story Genre",
+        "Story Theme",
+        "People",
+        "Production Metadata"
+      ]
+    },
+    {
+      "parent": "Release Decade",
+      "children": [
+        "1980s",
+        "1990s",
+        "2000s",
+        "2010s",
+        "2020s"
+      ]
+    },
+    {
+      "parent": "Story Genre",
+      "children": [
+        "Comedy",
+        "Mystery",
+        "Drama",
+        "Romance",
+        "Caper",
+        "Thriller"
+      ]
+    },
+    {
+      "parent": "Story Theme",
+      "children": [
+        "Workplace",
+        "Backstage",
+        "Music"
+      ]
+    },
+    {
+      "parent": "People",
+      "children": [
+        "Performance",
+        "Filmmaking Craft"
+      ]
+    },
+    {
+      "parent": "Performance",
+      "children": [
+        "Bodybuilder",
+        "Stunt Performer",
+        "Actor",
+        "Voice Actor",
+        "Comedian",
+        "Stage Performer",
+        "Athlete"
+      ]
+    },
+    {
+      "parent": "Filmmaking Craft",
+      "children": [
+        "Director",
+        "Screenwriter",
+        "Composer",
+        "Musician",
+        "Choreographer",
+        "Photographer",
+        "Editor",
+        "Sound Designer",
+        "Sound Recordist",
+        "Documentary Filmmaker"
+      ]
+    },
+    {
+      "parent": "Production Metadata",
+      "children": [
+        "Generated Artwork"
+      ]
+    }
+  ],
+  "tag_descriptions": {
+    "Demo Archive": "The complete fictional Barely Dressed Pictures demo catalog.",
+    "Release Decade": "Release-era tags spanning the archive's fictional chronology.",
+    "Story Genre": "Genres shared by the fictional films and their companion media.",
+    "Story Theme": "Recurring settings and subjects across the fictional productions.",
+    "People": "Skills and disciplines represented by the fictional cast and crew.",
+    "Performance": "On-camera, voice, stage, stunt, and physical performance disciplines.",
+    "Filmmaking Craft": "Writing, directing, music, editorial, camera, and sound disciplines.",
+    "Production Metadata": "Catalog-only labels describing how demo assets were produced."
+  },
+  "performers": [
+    {
+      "name": "Cressida Maraschino",
+      "slug": "cressida-maraschino",
+      "details": "An Italian screen comedian who later directed chamber films and photographed her collaborators. The surviving publicity archive follows her first decade; she retired from regular production in 1998 and returned for a single guest appearance in 2025.",
+      "birth_date": "1937-03-17",
+      "career_start_year": 1961,
+      "photos": [
+        {
+          "filename": "1961-04-12-debut-publicity.jpg",
+          "date": "1961-04-12",
+          "title": "Debut Publicity Portrait",
+          "details": "A restrained seated monochrome publicity portrait, with Cressida looking down and her hands resting in her lap.",
+          "code": "BDP-IMG-26",
+          "id": 51,
+          "photographer": "Marta Bellini"
+        },
+        {
+          "filename": "1964-07-18-resort-editorial.jpg",
+          "date": "1964-07-18",
+          "title": "Resort Fashion Editorial",
+          "details": "Cressida runs through the shallow surf during a summer resort editorial, her hair tied back with a scarf.",
+          "code": "BDP-IMG-27",
+          "id": 52,
+          "photographer": "Marta Bellini"
+        },
+        {
+          "filename": "1967-09-06-on-set-candid.jpg",
+          "date": "1967-09-06",
+          "title": "On-Set Camera Candid",
+          "details": "Cressida crouches beside an analog motion-picture camera, concentrating on handwritten continuity notes between takes.",
+          "code": "BDP-IMG-28",
+          "id": 53,
+          "photographer": "Unit stills archive"
+        },
+        {
+          "filename": "1969-11-03-premiere-arrival.jpg",
+          "date": "1969-11-03",
+          "title": "Premiere Arrival",
+          "details": "A flash-lit premiere arrival as Cressida steps from a period sedan and answers a reporter.",
+          "code": "BDP-IMG-29",
+          "id": 54,
+          "photographer": "Premiere press pool"
+        },
+        {
+          "filename": "2025-06-13-return-to-the-set.jpg",
+          "date": "2025-06-13",
+          "title": "Return to the Set",
+          "details": "Cressida returns for a small guest appearance at 88, captured in a quiet on-set conversation between takes. A contemporary photograph distinct from the surviving 1960s publicity archive.",
+          "tags": [
+            "Backstage"
+          ],
+          "code": "BDP-IMG-43",
+          "id": 68,
+          "photographer": "Kenji Watanari"
+        }
+      ],
+      "country": "IT",
+      "gender": "Female",
+      "tags": [
+        "Comedian",
+        "Director",
+        "Photographer"
+      ],
+      "career_end_year": 2025,
+      "reference_date": "1961-04-12",
+      "portrait_date": "1969-11-03",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": [],
+      "favorite": true
+    },
+    {
+      "name": "Velvet Thunder",
+      "slug": "velvet-thunder",
+      "details": "Velvet began in touring bands before moving into supporting screen roles. He writes spare brass and keyboard arrangements for small productions, and still takes the occasional comic part when the music work allows it.",
+      "birth_date": "1967-11-02",
+      "career_start_year": 1987,
+      "country": "GB",
+      "gender": "Male",
+      "tags": [
+        "Composer",
+        "Comedian",
+        "Stage Performer"
+      ],
+      "photos": [
+        {
+          "filename": "2007-06-15-between-sets.jpg",
+          "date": "2007-06-15",
+          "title": "Between Sets",
+          "details": "A backstage photograph retained from Velvet’s touring-band years.",
+          "code": "BDP-IMG-30",
+          "id": 55
+        }
+      ],
+      "reference_date": "2007-06-15",
+      "portrait_date": "2007-06-15",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Beatrix Havenly",
+      "slug": "beatrix-havenly",
+      "details": "Beatrix spent her twenties revising scripts for touring theatre in New Zealand. Her screen career grew through rewrites and occasional supporting parts; production notebooks and interviews account for more of this collection than publicity photographs.",
+      "birth_date": "1972-06-12",
+      "career_start_year": 1994,
+      "country": "NZ",
+      "gender": "Female",
+      "tags": [
+        "Screenwriter",
+        "Director"
+      ],
+      "photos": [
+        {
+          "filename": "2008-08-19-writers-festival-walk.jpg",
+          "date": "2008-08-19",
+          "title": "Writers Festival Walk",
+          "details": "Beatrix during a break between script discussions at a coastal writers festival.",
+          "code": "BDP-IMG-31",
+          "id": 56
+        }
+      ],
+      "reference_date": "2008-08-19",
+      "portrait_date": "2008-08-19",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Randolph Dandridge",
+      "slug": "randolph-dandridge",
+      "details": "A nightclub entertainer and screen actor whose brief film career ended in 1967. Randolph kept rehearsal notebooks and correspondence rather than a publicity archive; later production essays revisit those surviving papers.",
+      "birth_date": "1926-02-09",
+      "career_start_year": 1951,
+      "career_end_year": 1967,
+      "country": "US",
+      "gender": "Male",
+      "tags": [
+        "Voice Actor"
+      ],
+      "reference_date": "1951-06-20",
+      "portrait_date": "1951-06-20",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Gideon Slate",
+      "slug": "gideon-slate",
+      "details": "Gideon played the original Sebastian Rook and later directed television. He stopped taking regular acting work in 2008; the 2024 handover film brought him back for a short farewell performance.",
+      "birth_date": "1945-08-28",
+      "career_start_year": 1966,
+      "country": "GB",
+      "gender": "Male",
+      "tags": [
+        "Stage Performer",
+        "Voice Actor"
+      ],
+      "career_end_year": 2024,
+      "reference_date": "2024-10-18",
+      "portrait_date": "2024-10-18",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Simona Valewood",
+      "slug": "simona-valewood",
+      "details": "Simona built a repertory company in Montreal before producing independent mysteries. The archive catches a busy early screen period and a later return to legal comedy, separated by years devoted to stage management.",
+      "birth_date": "1974-01-21",
+      "career_start_year": 1996,
+      "country": "CA",
+      "gender": "Female",
+      "tags": [
+        "Director",
+        "Actor"
+      ],
+      "reference_date": "2005-10-08",
+      "portrait_date": "2005-10-08",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Marisol Vega",
+      "slug": "marisol-vega",
+      "details": "Marisol moved between choreography, ensemble acting and the practical work of keeping touring shows open. Teaching took over after 2020, with a brief return to the screen for the stage partnership’s final number in 2026.",
+      "birth_date": "1979-07-04",
+      "career_start_year": 1998,
+      "country": "MX",
+      "gender": "Female",
+      "tags": [
+        "Choreographer",
+        "Stage Performer"
+      ],
+      "career_end_year": 2026,
+      "reference_date": "2009-09-12",
+      "portrait_date": "2009-09-12",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Kenji Watanari",
+      "slug": "kenji-watanari",
+      "details": "Kenji trained as a still photographer and accepted small film roles while working on location. His quiet solo mystery became a festival calling card, but photography remains his main occupation.",
+      "birth_date": "1980-12-14",
+      "career_start_year": 2002,
+      "country": "JP",
+      "gender": "Male",
+      "tags": [
+        "Photographer",
+        "Actor"
+      ],
+      "reference_date": "2013-11-03",
+      "portrait_date": "2026-03-22",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Julian March",
+      "slug": "julian-march",
+      "details": "Julian alternates touring theatre with recurring supporting parts. His polished public manner has made him a useful screen foil for younger ensembles, and the collection includes work across several production companies.",
+      "birth_date": "1966-05-30",
+      "career_start_year": 1986,
+      "country": "IE",
+      "gender": "Male",
+      "tags": [
+        "Actor",
+        "Director"
+      ],
+      "photos": [
+        {
+          "filename": "2006-10-08-radio-interview.jpg",
+          "date": "2006-10-08",
+          "title": "Radio Interview",
+          "details": "Julian waits beside the studio microphone during an interview about repertory theatre.",
+          "code": "BDP-IMG-34",
+          "id": 59
+        }
+      ],
+      "reference_date": "2006-10-08",
+      "portrait_date": "2006-10-08",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Amina Shaw",
+      "slug": "amina-shaw",
+      "details": "Amina writes brisk dialogue for radio and low-budget comedy. A supporting screen role led to a run of ensemble work; they continue to revise scripts between acting jobs and are frequently credited in production documents.",
+      "birth_date": "1992-09-08",
+      "career_start_year": 2011,
+      "country": "GB",
+      "gender": "NonBinary",
+      "tags": [
+        "Screenwriter",
+        "Actor"
+      ],
+      "reference_date": "2024-09-20",
+      "portrait_date": "2024-09-20",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Darius King",
+      "slug": "darius-king",
+      "details": "Darius built a career in ensemble comedy before taking on quieter dramatic parts. His collaborations span image-consultancy farces, small independent productions and a later turn as a retired intelligence handler. Interviews and candid publicity follow a working actor whose relaxed public manner differs from his guarded screen characters.",
+      "birth_date": "1978-02-18",
+      "career_start_year": 2001,
+      "country": "ZA",
+      "gender": "Male",
+      "tags": [
+        "Comedian",
+        "Actor"
+      ],
+      "reference_date": "2014-08-19",
+      "portrait_date": "2014-08-19",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": [],
+      "favorite": true,
+      "photos": [
+        {
+          "filename": "2018-08-19-publicity-interview.jpg",
+          "date": "2018-08-19",
+          "title": "Publicity Interview",
+          "details": "A restrained monochrome interview portrait from the publicity round for the auction caper.",
+          "tags": [],
+          "code": "BDP-IMG-40",
+          "id": 65,
+          "photographer": "Kenji Watanari"
+        },
+        {
+          "filename": "2022-05-28-rehearsal-break.jpg",
+          "date": "2022-05-28",
+          "title": "Rehearsal Break",
+          "details": "Darius mid-laugh during an informal rehearsal break, still carrying the pages he has been marking.",
+          "tags": [
+            "Backstage"
+          ],
+          "code": "BDP-IMG-41",
+          "id": 66,
+          "photographer": "Company rehearsal archive"
+        },
+        {
+          "filename": "2026-06-16-location-arrival.jpg",
+          "date": "2026-06-16",
+          "title": "Location Arrival",
+          "details": "A wide candid of Darius arriving at a location in daylight, carrying a worn script bag rather than posing for the press.",
+          "tags": [
+            "Backstage"
+          ],
+          "code": "BDP-IMG-42",
+          "id": 67,
+          "photographer": "Location unit stills"
+        }
+      ]
+    },
+    {
+      "name": "Rafael Sato",
+      "slug": "rafael-sato",
+      "details": "Rafael is a Brazilian keyboard player and arranger who began acting through music-video work. The archive follows his film work through production interviews and recording-session discussions, including projects in which he contributed music without appearing on screen.",
+      "birth_date": "1993-10-03",
+      "career_start_year": 2012,
+      "country": "BR",
+      "gender": "Male",
+      "tags": [
+        "Composer",
+        "Musician"
+      ],
+      "photos": [
+        {
+          "filename": "2024-05-09-roof-rehearsal.jpg",
+          "date": "2024-05-09",
+          "title": "Roof Rehearsal",
+          "details": "Rafael tries an arrangement on guitar before the evening recording session.",
+          "code": "BDP-IMG-32",
+          "id": 57
+        }
+      ],
+      "reference_date": "2024-05-09",
+      "portrait_date": "2024-05-09",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Tess North",
+      "slug": "tess-north",
+      "details": "Tess began as a stunt double and gradually took speaking parts. Her credits follow action units across studios, with publicity photographs appearing only after her first substantial screen role.",
+      "birth_date": "1996-04-26",
+      "career_start_year": 2015,
+      "country": "AU",
+      "gender": "Female",
+      "tags": [
+        "Stunt Performer",
+        "Athlete"
+      ],
+      "photos": [
+        {
+          "filename": "2026-04-26-after-movement-rehearsal.jpg",
+          "date": "2026-04-26",
+          "title": "After Movement Rehearsal",
+          "details": "Tess sits beside the crash mats after movement rehearsal, unwinding her wrist wrap while listening to someone just outside the frame.",
+          "code": "BDP-IMG-33",
+          "id": 58
+        }
+      ],
+      "reference_date": "2026-04-26",
+      "portrait_date": "2026-04-26",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Nia Hart",
+      "slug": "nia-hart",
+      "details": "Nia moved from community theatre into small screen ensembles in Canada. She is most often cast as an impatient practical thinker, but production work and a long pause between projects keep her career from following a regular release cycle.",
+      "birth_date": "1996-12-01",
+      "career_start_year": 2016,
+      "country": "CA",
+      "gender": "Female",
+      "tags": [
+        "Actor"
+      ],
+      "reference_date": "2024-07-24",
+      "portrait_date": "2024-07-24",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Dev Malik",
+      "slug": "dev-malik",
+      "details": "Dev composes for theatre and independent film and sometimes plays the parts he has helped rehearse. Production interviews document his collaborations more extensively than his acting, particularly the sound decisions made around dialogue and location recordings.",
+      "birth_date": "1993-06-19",
+      "career_start_year": 2013,
+      "country": "IN",
+      "gender": "Male",
+      "tags": [
+        "Composer"
+      ],
+      "reference_date": "2024-07-24",
+      "portrait_date": "2024-07-24",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Sofia Calderon",
+      "slug": "sofia-calderon",
+      "details": "Sofia began by recording documentary interviews in Uruguay. She now combines small acting roles with producing work; the collection follows her first collaborations and an interest in how testimony changes during editing.",
+      "birth_date": "2001-03-11",
+      "career_start_year": 2020,
+      "country": "UY",
+      "gender": "Female",
+      "tags": [
+        "Documentary Filmmaker",
+        "Editor"
+      ],
+      "reference_date": "2025-05-15",
+      "portrait_date": "2025-05-15",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Ellis Ward",
+      "slug": "ellis-ward",
+      "details": "Ellis is a radio actor and sound recordist who moved into screen work after a theatre residency. They keep an unusually extensive audio record of rooms and rehearsals, alongside a handful of acting credits.",
+      "birth_date": "1991-08-07",
+      "career_start_year": 2010,
+      "country": "US",
+      "gender": "NonBinary",
+      "tags": [
+        "Voice Actor",
+        "Screenwriter"
+      ],
+      "reference_date": "2024-11-07",
+      "portrait_date": "2024-11-07",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Bella Bloom",
+      "slug": "bella-bloom",
+      "details": "Bella worked as an assistant editor before directing theatre adaptations. Her own screen appearances are infrequent; annotated scripts and accounts of rehearsal decisions form the larger part of her record.",
+      "birth_date": "1983-11-23",
+      "career_start_year": 2004,
+      "country": "DE",
+      "gender": "Female",
+      "tags": [
+        "Director",
+        "Actor"
+      ],
+      "reference_date": "2025-05-15",
+      "portrait_date": "2025-05-15",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Imani Cole",
+      "slug": "imani-cole",
+      "details": "Imani came to screen acting through a regional theatre company. A small solo production and a later hotel ensemble account for her short filmography so far; she prefers working photographs to formal publicity.",
+      "birth_date": "1999-05-16",
+      "career_start_year": 2019,
+      "country": "US",
+      "gender": "Female",
+      "tags": [
+        "Stage Performer"
+      ],
+      "reference_date": "2024-09-08",
+      "portrait_date": "2024-09-08",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Arun Sen",
+      "slug": "arun-sen",
+      "details": "Arun arranges music and designs sound for theatre and independent film. Acting grew out of those collaborations, but most of his work happens behind the scenes; the archive includes rehearsal accounts and interviews about productions with other casts.",
+      "birth_date": "1995-01-29",
+      "career_start_year": 2016,
+      "country": "IN",
+      "gender": "Male",
+      "tags": [
+        "Composer",
+        "Sound Designer"
+      ],
+      "reference_date": "2024-11-01",
+      "portrait_date": "2024-11-01",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Lucia Ferrer",
+      "slug": "lucia-ferrer",
+      "details": "Lucia is a Spanish stunt performer-cum-actress whose bodybuilding background informs her physical screen work. Early jobs on independent action units led to recurring speaking parts and a larger courier-film role. She brings the same meticulous preparation to dialogue and action, working closely with stunt coordinators while performing all her own stunts. She has never used a stunt double. Her publicity archive follows training, festival conversations and the practical work between takes.",
+      "birth_date": "2002-09-12",
+      "career_start_year": 2021,
+      "country": "ES",
+      "gender": "Female",
+      "tags": [
+        "Bodybuilder",
+        "Stunt Performer",
+        "Actor"
+      ],
+      "reference_date": "2025-05-15",
+      "portrait_date": "2025-05-15",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": [],
+      "favorite": true,
+      "photos": [
+        {
+          "filename": "2022-06-18-first-location-call.jpg",
+          "date": "2022-06-18",
+          "title": "First Location Call",
+          "details": "An early-career location candid during a quiet interval before Lucia’s first call.",
+          "tags": [
+            "Backstage"
+          ],
+          "code": "BDP-IMG-36",
+          "id": 61,
+          "photographer": "Location unit stills"
+        },
+        {
+          "filename": "2024-03-09-strength-training.jpg",
+          "date": "2024-03-09",
+          "title": "Strength Training",
+          "details": "A working bodybuilding editorial from a training session between film jobs.",
+          "tags": [
+            "Bodybuilder"
+          ],
+          "code": "BDP-IMG-37",
+          "id": 62,
+          "photographer": "Kenji Watanari"
+        },
+        {
+          "filename": "2025-08-22-festival-conversation.jpg",
+          "date": "2025-08-22",
+          "title": "Festival Conversation",
+          "details": "Lucia in conversation after a festival screening, away from the formal arrival photographs.",
+          "tags": [],
+          "code": "BDP-IMG-38",
+          "id": 63,
+          "photographer": "Festival press pool"
+        },
+        {
+          "filename": "2026-06-20-rainy-location-wrap.jpg",
+          "date": "2026-06-20",
+          "title": "Rainy Location Wrap",
+          "details": "An after-dark location wrap in the rain, with Lucia occupied with the practical work of finishing the shoot.",
+          "tags": [
+            "Backstage"
+          ],
+          "code": "BDP-IMG-39",
+          "id": 64,
+          "photographer": "Location unit stills"
+        },
+        {
+          "filename": "2026-08-30-pull-up-training-post.jpg",
+          "date": "2026-08-30",
+          "title": "Pull-Up Training Post",
+          "details": "A bold but non-explicit bodybuilding post framed from behind during a strict pull-up, with the emphasis on Lucia’s back and shoulder strength.",
+          "tags": [
+            "Bodybuilder",
+            "Athlete"
+          ],
+          "code": "BDP-IMG-44",
+          "id": 69,
+          "photographer": "Private training archive"
+        }
+      ]
+    },
+    {
+      "name": "Amara Okoye",
+      "slug": "amara-okoye",
+      "details": "Amara started with community radio in Nigeria and moved into screen comedy. Recorded performance remains central to her work, while a small run of film parts follows collaborators rather than a single studio.",
+      "birth_date": "2003-04-05",
+      "career_start_year": 2021,
+      "country": "NG",
+      "gender": "Female",
+      "tags": [
+        "Actor",
+        "Director"
+      ],
+      "photos": [
+        {
+          "filename": "2026-03-22-collective-exhibition-opening.jpg",
+          "date": "2026-03-22",
+          "title": "Collective Exhibition Opening",
+          "details": "Amara attends a small exhibition organized by collaborators from her first radio collective.",
+          "code": "BDP-IMG-35",
+          "id": 60
+        }
+      ],
+      "reference_date": "2026-03-22",
+      "portrait_date": "2026-03-22",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "June Park",
+      "slug": "june-park",
+      "details": "June directs short-form drama and sometimes acts in their own productions. Early collective work led to the Rook handover film; interviews and annotated shot plans record that change in scale.",
+      "birth_date": "1998-07-27",
+      "career_start_year": 2018,
+      "country": "KR",
+      "gender": "TransgenderMale",
+      "tags": [
+        "Actor"
+      ],
+      "reference_date": "2026-03-22",
+      "portrait_date": "2026-03-22",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Elias Grant",
+      "slug": "elias-grant",
+      "details": "Elias has a deliberately small public filmography. A radio role preceded his first Sebastian Rook appearance, followed by a short companion film; his publicity record is still modest.",
+      "birth_date": "2004-10-15",
+      "career_start_year": 2022,
+      "country": "GB",
+      "gender": "Male",
+      "tags": [
+        "Actor",
+        "Voice Actor"
+      ],
+      "reference_date": "2026-06-20",
+      "portrait_date": "2026-06-20",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    },
+    {
+      "name": "Noor Haddad",
+      "slug": "noor-haddad",
+      "details": "Noor works between documentary sound, editing and small ensemble roles. Their early credits belong to a loose production collective, with longer stretches spent recording other people rather than appearing on screen.",
+      "birth_date": "2000-12-06",
+      "career_start_year": 2020,
+      "country": "LB",
+      "gender": "Female",
+      "tags": [
+        "Sound Recordist",
+        "Editor"
+      ],
+      "reference_date": "2026-03-22",
+      "portrait_date": "2026-03-22",
+      "reference_studio": null,
+      "reference_collection": null,
+      "reference_details": "Canonical illustrated identity sheet, kept separately from dated photographs and production publicity.",
+      "disambiguation": "",
+      "reference_tags": []
+    }
+  ],
+  "videos": [
+    {
+      "slug": "neon-alibi",
+      "poster": "neon-alibi-1982.jpg",
+      "title": "Neon Alibi",
+      "date": "2005-10-08",
+      "studio": "Second Take Features",
+      "performers": [
+        "Simona Valewood",
+        "Julian March",
+        "Velvet Thunder"
+      ],
+      "tags": [
+        "2000s",
+        "Comedy",
+        "Mystery"
+      ],
+      "collection": "Electric Evenings: The 1980s",
+      "genre": "Urban mystery comedy",
+      "details": "A defense attorney enters an after-hours nightclub where every employee has an alibi but everyone is wearing the same coat.",
+      "audio": {
+        "performers": [
+          "Velvet Thunder"
+        ],
+        "tags": [
+          "Music",
+          "Mystery"
+        ],
+        "details": "Velvet discusses how the nightclub entrance was scored around dialogue and footsteps, and why the production dropped a busier early arrangement. An interview about the film’s sound decisions.",
+        "title": "Neon Alibi: After the nightclub shoot",
+        "source": "assets/production-audio/neon-alibi.mp3"
+      },
+      "text": {
+        "performers": [
+          "Simona Valewood"
+        ],
+        "tags": [
+          "Mystery",
+          "Drama"
+        ],
+        "details": "Simona describes rehearsing the nightclub cross-examination around practical exits and a single borrowed coat.",
+        "content": "Simona describes rehearsing the nightclub cross-examination around practical exits and a single borrowed coat.",
+        "title": "Neon Alibi: Nightclub Blocking Notes"
+      },
+      "image_performers": [
+        "Simona Valewood"
+      ],
+      "preview_duration_seconds": 11
+    },
+    {
+      "slug": "curtain-call-collect",
+      "poster": "curtain-call-collect-1984.jpg",
+      "title": "Curtain Call Collect",
+      "date": "2007-06-15",
+      "studio": "Second Take Features",
+      "performers": [
+        "Simona Valewood",
+        "Marisol Vega",
+        "Beatrix Havenly"
+      ],
+      "tags": [
+        "2000s",
+        "Comedy",
+        "Backstage"
+      ],
+      "collection": "Electric Evenings: The 1980s",
+      "genre": "Backstage comedy",
+      "details": "A producer and choreographer keep a touring musical open after its creditors arrive during final rehearsal.",
+      "audio": {
+        "performers": [
+          "Velvet Thunder",
+          "Marisol Vega"
+        ],
+        "tags": [
+          "Music",
+          "Backstage"
+        ],
+        "details": "Velvet and Marisol discuss adjusting the musical entrance to the touring company’s blocking and the practical limits of its rehearsal space.",
+        "title": "Curtain Call Collect: Touring-company rehearsal debrief",
+        "source": "assets/production-audio/curtain-call-collect.mp3"
+      },
+      "text": {
+        "performers": [
+          "Beatrix Havenly",
+          "Marisol Vega"
+        ],
+        "tags": [
+          "Backstage",
+          "Comedy"
+        ],
+        "details": "Beatrix and Marisol compare script revisions with the movement notebook used to keep the touring-show scenes workable.",
+        "content": "Beatrix and Marisol compare script revisions with the movement notebook used to keep the touring-show scenes workable.",
+        "title": "Curtain Call Collect: Touring Script Revisions"
+      },
+      "image_performers": [],
+      "preview_duration_seconds": 14
+    },
+    {
+      "slug": "dangerously-overdressed",
+      "poster": "dangerously-overdressed-1986.jpg",
+      "title": "Dangerously Overdressed",
+      "date": "2009-09-12",
+      "studio": "Barely Dressed Pictures",
+      "performers": [
+        "Marisol Vega",
+        "Kenji Watanari",
+        "Julian March",
+        "Velvet Thunder"
+      ],
+      "tags": [
+        "2000s",
+        "Comedy",
+        "Caper"
+      ],
+      "collection": "Electric Evenings: The 1980s",
+      "genre": "Fashion caper",
+      "details": "Three uninvited strangers discover pieces of a stolen design portfolio sewn into their evening clothes.",
+      "audio": {
+        "performers": [
+          "Velvet Thunder"
+        ],
+        "tags": [
+          "Music",
+          "Caper"
+        ],
+        "details": "A production interview with Velvet about scoring the portfolio exchange, including the timing changes needed when the physical comedy was recut.",
+        "title": "Dangerously Overdressed: Timing the costume-room exchange",
+        "source": "assets/production-audio/dangerously-overdressed.mp3"
+      },
+      "text": {
+        "performers": [
+          "Kenji Watanari",
+          "Julian March"
+        ],
+        "tags": [
+          "Caper"
+        ],
+        "details": "Kenji discusses wardrobe continuity; Julian recalls timing entrances around the concealed portfolio.",
+        "content": "Kenji discusses wardrobe continuity; Julian recalls timing entrances around the concealed portfolio.",
+        "title": "Dangerously Overdressed: Costume Continuity Interview"
+      },
+      "image_performers": [
+        "Marisol Vega",
+        "Kenji Watanari"
+      ],
+      "preview_duration_seconds": 9
+    },
+    {
+      "slug": "one-more-number-before-dawn",
+      "poster": "one-more-number-before-dawn-1988.jpg",
+      "title": "One More Number Before Dawn",
+      "date": "2011-04-22",
+      "studio": "Second Take Features",
+      "performers": [
+        "Marisol Vega",
+        "Velvet Thunder"
+      ],
+      "tags": [
+        "2010s",
+        "Drama",
+        "Music",
+        "Backstage"
+      ],
+      "collection": "Electric Evenings: The 1980s",
+      "genre": "Musical comedy-drama",
+      "details": "A choreographer stages one final nightclub number as former performers return and closing time slips away.",
+      "audio": {
+        "performers": [
+          "Velvet Thunder",
+          "Marisol Vega"
+        ],
+        "tags": [
+          "Music",
+          "Backstage"
+        ],
+        "details": "Marisol and Velvet recall the dance rehearsal, the choice to record a guide accompaniment, and how the camera movement changed the final staging.",
+        "title": "One More Number Before Dawn: Staging the final number",
+        "source": "assets/production-audio/one-more-number-before-dawn.mp3"
+      },
+      "text": {
+        "performers": [
+          "Marisol Vega",
+          "Randolph Dandridge"
+        ],
+        "tags": [
+          "Backstage",
+          "Music"
+        ],
+        "details": "Marisol annotates a final dance rehearsal beside an excerpt from Randolph’s preserved nightclub notebook. The archival quotation is contextual research, not a new performance by Randolph.",
+        "content": "Marisol annotates a final dance rehearsal beside an excerpt from Randolph’s preserved nightclub notebook. The archival quotation is contextual research, not a new performance by Randolph.",
+        "title": "One More Number Before Dawn: Movement Notebook and Archive Excerpt"
+      },
+      "image_performers": [
+        "Marisol Vega"
+      ],
+      "preview_duration_seconds": 16
+    },
+    {
+      "slug": "the-last-honest-mirror",
+      "poster": "the-last-honest-mirror-1989.jpg",
+      "title": "The Last Honest Mirror",
+      "date": "2013-11-03",
+      "studio": "Second Take Features",
+      "performers": [
+        "Simona Valewood",
+        "Kenji Watanari"
+      ],
+      "tags": [
+        "2010s",
+        "Drama",
+        "Mystery"
+      ],
+      "collection": "Electric Evenings: The 1980s",
+      "genre": "Dramatic mystery",
+      "details": "A producer and photographer authenticate a portrait that records an impossible meeting.",
+      "audio": {
+        "performers": [
+          "Velvet Thunder"
+        ],
+        "tags": [
+          "Drama"
+        ],
+        "details": "Velvet explains the decision to leave long stretches of the portrait examination unscored, in an audio conversation recorded for the film’s production archive.",
+        "title": "The Last Honest Mirror: Why the mirror scene stays quiet",
+        "source": "assets/production-audio/the-last-honest-mirror.mp3"
+      },
+      "text": {
+        "performers": [
+          "Simona Valewood",
+          "Kenji Watanari"
+        ],
+        "tags": [
+          "Mystery"
+        ],
+        "details": "The producer and still photographer explain how two apparently incompatible portraits were staged.",
+        "content": "The producer and still photographer explain how two apparently incompatible portraits were staged.",
+        "title": "The Last Honest Mirror: Portrait Authentication Diary",
+        "studio": null
+      },
+      "image_performers": [
+        "Simona Valewood",
+        "Kenji Watanari"
+      ],
+      "preview_duration_seconds": 12
+    },
+    {
+      "slug": "dial-m-for-makeover",
+      "poster": "dial-m-for-makeover-1991.jpg",
+      "title": "Dial M for Makeover",
+      "date": "2016-02-14",
+      "studio": "Electric Marquee",
+      "performers": [
+        "Amina Shaw",
+        "Darius King",
+        "Julian March",
+        "Beatrix Havenly"
+      ],
+      "tags": [
+        "2010s",
+        "Comedy",
+        "Workplace"
+      ],
+      "collection": "Wrong Coats: The 1990s",
+      "genre": "Workplace farce",
+      "details": "An image consultancy must make one client more recognizable and another considerably less so.",
+      "audio": {
+        "performers": [
+          "Rafael Sato"
+        ],
+        "tags": [
+          "Music",
+          "Comedy"
+        ],
+        "details": "Rafael describes finding a sound transition between the clients’ incompatible consultations and working with the editor to avoid telegraphing the joke.",
+        "title": "Dial M for Makeover: Between two consultations",
+        "source": "assets/production-audio/dial-m-for-makeover.mp3"
+      },
+      "text": {
+        "performers": [
+          "Amina Shaw",
+          "Beatrix Havenly"
+        ],
+        "tags": [
+          "Workplace",
+          "Comedy"
+        ],
+        "details": "Amina and Beatrix compare two abandoned consultation scenes and the much shorter version that survived editing.",
+        "content": "Amina and Beatrix compare two abandoned consultation scenes and the much shorter version that survived editing.",
+        "title": "Dial M for Makeover: Consultation Scene Drafts"
+      },
+      "image_performers": [
+        "Amina Shaw",
+        "Darius King",
+        "Julian March",
+        "Beatrix Havenly"
+      ],
+      "preview_duration_seconds": 15
+    },
+    {
+      "slug": "negative-space",
+      "poster": "negative-space-1992.jpg",
+      "title": "Negative Space",
+      "date": "2014-10-16",
+      "studio": "Second Take Features",
+      "performers": [
+        "Kenji Watanari"
+      ],
+      "tags": [
+        "2010s",
+        "Drama",
+        "Mystery"
+      ],
+      "collection": "Wrong Coats: The 1990s",
+      "genre": "Independent mystery",
+      "details": "A photographer finds the same stranger in the margins of unrelated assignments.",
+      "audio": {
+        "performers": [
+          "Velvet Thunder"
+        ],
+        "tags": [
+          "Mystery"
+        ],
+        "details": "A location-sound discussion with Velvet about the photographer’s repeated route, traffic interruptions, and which sounds the finished film leaves untreated.",
+        "title": "Negative Space: Listening to the street route",
+        "studio": null,
+        "source": "assets/production-audio/negative-space.mp3"
+      },
+      "text": {
+        "performers": [
+          "Kenji Watanari"
+        ],
+        "tags": [
+          "Mystery",
+          "Drama"
+        ],
+        "details": "Kenji describes shooting strangers at the edge of a frame and the permissions needed for the crowded street sequence.",
+        "content": "Kenji describes shooting strangers at the edge of a frame and the permissions needed for the crowded street sequence.",
+        "title": "Negative Space: Photographer’s Location Notes",
+        "studio": null
+      },
+      "image_performers": [
+        "Kenji Watanari"
+      ],
+      "preview_duration_seconds": 10
+    },
+    {
+      "slug": "the-usual-accessories",
+      "poster": "the-usual-accessories-1994.jpg",
+      "title": "The Usual Accessories",
+      "date": "2018-08-19",
+      "studio": "Electric Marquee",
+      "performers": [
+        "Amina Shaw",
+        "Darius King",
+        "Rafael Sato",
+        "Tess North"
+      ],
+      "tags": [
+        "2010s",
+        "Comedy",
+        "Caper"
+      ],
+      "collection": "Wrong Coats: The 1990s",
+      "genre": "Ensemble caper comedy",
+      "details": "Four guests leave an auction with the wrong coats and evidence from four crimes.",
+      "audio": {
+        "performers": [
+          "Rafael Sato"
+        ],
+        "tags": [
+          "Music",
+          "Caper",
+          "Thriller"
+        ],
+        "details": "Rafael walks through the coat-check sequence with the production interviewer, explaining how musical accents were adjusted to the actors’ exchanges.",
+        "title": "The Usual Accessories: Four coats and a timing problem",
+        "source": "assets/production-audio/the-usual-accessories.mp3"
+      },
+      "text": {
+        "performers": [
+          "Darius King",
+          "Amina Shaw"
+        ],
+        "tags": [
+          "Caper",
+          "Comedy"
+        ],
+        "details": "Darius and Amina reconstruct the coat exchange, including a comic beat removed because it made the evidence too easy to follow.",
+        "content": "Darius and Amina reconstruct the coat exchange, including a comic beat removed because it made the evidence too easy to follow.",
+        "title": "The Usual Accessories: The Coat Exchange"
+      },
+      "image_performers": [
+        "Amina Shaw",
+        "Darius King"
+      ],
+      "preview_duration_seconds": 17
+    },
+    {
+      "slug": "exposure-compensation",
+      "poster": "exposure-compensation-1997.jpg",
+      "title": "Exposure Compensation",
+      "date": "2019-05-09",
+      "studio": "Electric Marquee",
+      "performers": [
+        "Rafael Sato",
+        "Tess North"
+      ],
+      "tags": [
+        "2010s",
+        "Comedy",
+        "Romance",
+        "Music"
+      ],
+      "collection": "Wrong Coats: The 1990s",
+      "genre": "Romantic action comedy",
+      "details": "A musician photographs a covert exchange during an album-cover shoot.",
+      "audio": {
+        "performers": [
+          "Rafael Sato"
+        ],
+        "tags": [
+          "Music",
+          "Romance"
+        ],
+        "details": "Rafael discusses the film’s album-cover rehearsal sequence: playback on set, communication with the camera team, and the difference between the scene’s prop recording and its final sound mix.",
+        "title": "Exposure Compensation: The cover shoot, behind the camera",
+        "source": "assets/production-audio/exposure-compensation.mp3"
+      },
+      "text": {
+        "performers": [
+          "Tess North"
+        ],
+        "tags": [
+          "Music",
+          "Thriller"
+        ],
+        "details": "Tess diagrams the practical stunt that interrupts the album-cover session.",
+        "content": "Tess diagrams the practical stunt that interrupts the album-cover session.",
+        "title": "Exposure Compensation: Practical Stunt Diagram",
+        "studio": null
+      },
+      "image_performers": [
+        "Rafael Sato",
+        "Tess North"
+      ],
+      "preview_duration_seconds": 13
+    },
+    {
+      "slug": "tomorrow-never-rsvpd",
+      "poster": "tomorrow-never-rsvpd-1999.jpg",
+      "title": "Tomorrow Never RSVP'd",
+      "date": "2020-12-17",
+      "studio": "Electric Marquee",
+      "performers": [
+        "Amina Shaw",
+        "Darius King",
+        "Tess North",
+        "Velvet Thunder",
+        "Julian March"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Workplace"
+      ],
+      "collection": "Wrong Coats: The 1990s",
+      "genre": "Millennium party comedy",
+      "details": "A lavish New Year's launch is ready except for the missing guest list.",
+      "audio": {
+        "performers": [
+          "Rafael Sato",
+          "Velvet Thunder"
+        ],
+        "tags": [
+          "Music",
+          "Comedy",
+          "Backstage"
+        ],
+        "details": "Rafael and Velvet compare their approaches to the empty launch-party sequence, discussing awkward pauses, background playback and the scene’s comic rhythm.",
+        "title": "Tomorrow Never RSVP'd: Launch-party sound roundtable",
+        "source": "assets/production-audio/tomorrow-never-rsvpd.mp3"
+      },
+      "text": {
+        "performers": [
+          "Amina Shaw"
+        ],
+        "tags": [
+          "Workplace"
+        ],
+        "details": "Amina discusses the missing guest list as a rehearsal device, rather than an excuse for improvised crowd scenes.",
+        "content": "Amina discusses the missing guest list as a rehearsal device, rather than an excuse for improvised crowd scenes.",
+        "title": "Tomorrow Never RSVP'd: A Missing Guest List"
+      },
+      "image_performers": [
+        "Amina Shaw",
+        "Darius King"
+      ],
+      "preview_duration_seconds": 18
+    },
+    {
+      "slug": "room-service-for-two",
+      "poster": "room-service-for-two-2000.jpg",
+      "title": "Room Service for Two",
+      "date": "2021-04-14",
+      "studio": "Electric Marquee",
+      "performers": [
+        "Rafael Sato",
+        "Sofia Calderon"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Romance",
+        "Music"
+      ],
+      "collection": "Fine Print: The 2000s",
+      "genre": "Romantic comedy",
+      "details": "A musician and a travel critic are repeatedly assigned the same hotel room.",
+      "audio": {
+        "performers": [
+          "Rafael Sato"
+        ],
+        "tags": [
+          "Music",
+          "Romance",
+          "Drama"
+        ],
+        "details": "Rafael talks about developing a recurring sound idea for the travelers’ room mix-up and revising it after the first picture edit.",
+        "title": "Room Service for Two: A conversation after the room-service scene",
+        "source": "assets/production-audio/room-service-for-two.mp3"
+      },
+      "text": {
+        "performers": [
+          "Sofia Calderon"
+        ],
+        "tags": [
+          "Romance"
+        ],
+        "details": "Sofia explains the travel critic’s interview notes and the decision to leave the musician’s private motives off screen.",
+        "content": "Sofia explains the travel critic’s interview notes and the decision to leave the musician’s private motives off screen.",
+        "title": "Room Service for Two: Travel Critic Interview Notes"
+      },
+      "image_performers": [
+        "Rafael Sato",
+        "Sofia Calderon"
+      ],
+      "preview_duration_seconds": 11
+    },
+    {
+      "slug": "terms-and-conditions-apply",
+      "poster": "terms-and-conditions-apply-2002.jpg",
+      "title": "Terms and Conditions Apply",
+      "date": "2019-03-22",
+      "studio": "Open Secret Features",
+      "performers": [
+        "Nia Hart",
+        "Dev Malik",
+        "Ellis Ward",
+        "Amina Shaw"
+      ],
+      "tags": [
+        "2010s",
+        "Comedy",
+        "Workplace"
+      ],
+      "collection": "Fine Print: The 2000s",
+      "genre": "Workplace comedy",
+      "details": "A forgotten clause promises every subscriber a personal consultation.",
+      "audio": {
+        "performers": [
+          "Dev Malik"
+        ],
+        "tags": [
+          "Music",
+          "Workplace"
+        ],
+        "details": "Dev explains how the production used waiting-room sound to make the subscriber consultation feel interminable without drowning out its dialogue.",
+        "title": "Terms and Conditions Apply: Designing an uncomfortable wait",
+        "source": "assets/production-audio/terms-and-conditions-apply.mp3"
+      },
+      "text": {
+        "performers": [
+          "Amina Shaw"
+        ],
+        "tags": [
+          "Workplace",
+          "Drama"
+        ],
+        "details": "Amina annotates the consultation scene, tracing how one contractual phrase moved between four characters.",
+        "content": "Amina annotates the consultation scene, tracing how one contractual phrase moved between four characters.",
+        "title": "Terms and Conditions Apply: Consultation Clause Annotations"
+      },
+      "image_performers": [],
+      "preview_duration_seconds": 14
+    },
+    {
+      "slug": "the-supporting-evidence",
+      "poster": "the-supporting-evidence-2005.jpg",
+      "title": "The Supporting Evidence",
+      "date": "2022-09-30",
+      "studio": "Open Secret Features",
+      "performers": [
+        "Sofia Calderon",
+        "Ellis Ward",
+        "Beatrix Havenly",
+        "Kenji Watanari"
+      ],
+      "tags": [
+        "2020s",
+        "Drama",
+        "Mystery"
+      ],
+      "collection": "Fine Print: The 2000s",
+      "genre": "Investigative comedy-drama",
+      "details": "A celebrated documentary's best interview may belong to another program.",
+      "audio": {
+        "performers": [
+          "Dev Malik"
+        ],
+        "tags": [
+          "Drama",
+          "Mystery"
+        ],
+        "details": "Dev discusses the ethics and practical choices of underscoring the documentary interview, including where the team removed music altogether.",
+        "title": "The Supporting Evidence: Scoring around an interview",
+        "cover": "assets/audio-covers/the-supporting-evidence.jpg",
+        "source": "assets/production-audio/the-supporting-evidence.mp3"
+      },
+      "text": {
+        "performers": [
+          "Sofia Calderon",
+          "Beatrix Havenly"
+        ],
+        "tags": [
+          "Mystery",
+          "Drama",
+          "Backstage"
+        ],
+        "details": "Sofia interviews Beatrix about an unreliable transcript and a documentary sequence rewritten after rehearsal.",
+        "content": "Sofia interviews Beatrix about an unreliable transcript and a documentary sequence rewritten after rehearsal.",
+        "title": "The Supporting Evidence: Transcript Revision Interview"
+      },
+      "image_performers": [
+        "Sofia Calderon"
+      ],
+      "preview_duration_seconds": 16
+    },
+    {
+      "slug": "love-in-the-time-of-voicemail",
+      "poster": "love-in-the-time-of-voicemail-2007.jpg",
+      "title": "Love in the Time of Voicemail",
+      "date": "2023-02-09",
+      "studio": "Open Secret Features",
+      "performers": [
+        "Ellis Ward",
+        "Sofia Calderon"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Romance"
+      ],
+      "collection": "Fine Print: The 2000s",
+      "genre": "Romantic comedy",
+      "details": "Two neighbors inherit recycled phone numbers and redirect each other's messages.",
+      "audio": {
+        "performers": [
+          "Dev Malik"
+        ],
+        "tags": [
+          "Music",
+          "Romance"
+        ],
+        "details": "An interview with Dev about the neighbors’ recorded messages, the gaps between them, and the sound transitions that connect their separate apartments.",
+        "title": "Love in the Time of Voicemail: Making the messages sound lived-in",
+        "studio": null,
+        "cover": "assets/audio-covers/love-in-the-time-of-voicemail.jpg",
+        "source": "assets/production-audio/love-in-the-time-of-voicemail.mp3"
+      },
+      "text": {
+        "performers": [
+          "Sofia Calderon"
+        ],
+        "tags": [
+          "Romance",
+          "Comedy"
+        ],
+        "details": "Sofia describes the recycled-number premise through the messages her character chooses not to return.",
+        "content": "Sofia describes the recycled-number premise through the messages her character chooses not to return.",
+        "title": "Love in the Time of Voicemail: Messages Not Returned",
+        "studio": null
+      },
+      "image_performers": [
+        "Ellis Ward"
+      ],
+      "preview_duration_seconds": 9
+    },
+    {
+      "slug": "half-light-at-closing",
+      "poster": "half-light-at-closing-2008.jpg",
+      "title": "Half-Light at Closing",
+      "date": "2018-11-07",
+      "studio": "Fourth Wall Pictures",
+      "performers": [
+        "Ellis Ward"
+      ],
+      "tags": [
+        "2010s",
+        "Drama",
+        "Backstage"
+      ],
+      "collection": "Fine Print: The 2000s",
+      "genre": "Chamber drama",
+      "director": "Bella Bloom",
+      "details": "A radio actor records a theatre's rooms on its final night, following the voice of an absent veteran announcer.",
+      "audio": {
+        "performers": [
+          "Ellis Ward"
+        ],
+        "tags": [
+          "Drama",
+          "Backstage"
+        ],
+        "details": "Ellis narrates an acoustic walk through the theatre on its final evening, describing the rehearsal spaces and recording a few fragments of the building’s room tone.",
+        "title": "Half-Light at Closing: Walking the empty theatre",
+        "studio": null,
+        "cover": "assets/audio-covers/half-light-at-closing.jpg",
+        "source": "assets/production-audio/half-light-at-closing.mp3"
+      },
+      "text": {
+        "performers": [
+          "Ellis Ward",
+          "Bella Bloom"
+        ],
+        "tags": [
+          "Backstage"
+        ],
+        "details": "Ellis records room tone and discusses the empty theatre as a scene partner.",
+        "content": "Ellis records room tone and discusses the empty theatre as a scene partner.",
+        "title": "Half-Light at Closing: Rooms After Closing"
+      },
+      "image_performers": [],
+      "preview_duration_seconds": 15
+    },
+    {
+      "slug": "undercover-overdressed",
+      "poster": "undercover-overdressed-2009.jpg",
+      "title": "Undercover, Overdressed",
+      "date": "2024-07-24",
+      "studio": "Open Secret Features",
+      "performers": [
+        "Nia Hart",
+        "Dev Malik",
+        "Tess North",
+        "Lucia Ferrer"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Caper"
+      ],
+      "collection": "Fine Print: The 2000s",
+      "genre": "Espionage comedy",
+      "details": "Two investigators arrive at a trade convention in impossibly conspicuous disguises.",
+      "audio": {
+        "performers": [
+          "Dev Malik",
+          "Rafael Sato"
+        ],
+        "tags": [
+          "Music",
+          "Thriller"
+        ],
+        "details": "Dev and Rafael discuss working with movement rehearsals, testing the chase’s pace and adapting the sound when the convention-floor sequence changed in the edit.",
+        "title": "Undercover, Overdressed: Choreographing the convention-floor chase",
+        "cover": "assets/audio-covers/undercover-overdressed.jpg",
+        "source": "assets/production-audio/undercover-overdressed.mp3"
+      },
+      "text": {
+        "performers": [
+          "Tess North",
+          "Lucia Ferrer"
+        ],
+        "tags": [
+          "Thriller",
+          "Caper"
+        ],
+        "details": "Tess and Lucia document movement rehearsals, safe marks and the convention-floor chase.",
+        "content": "Tess and Lucia document movement rehearsals, safe marks and the convention-floor chase.",
+        "title": "Undercover, Overdressed: Convention Movement Notes"
+      },
+      "image_performers": [
+        "Nia Hart"
+      ],
+      "preview_duration_seconds": 12
+    },
+    {
+      "slug": "the-unreliable-dress-rehearsal",
+      "poster": "the-unreliable-dress-rehearsal-2012.jpg",
+      "title": "The Unreliable Dress Rehearsal",
+      "date": "2021-10-12",
+      "studio": "Fourth Wall Pictures",
+      "performers": [
+        "Imani Cole"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Backstage"
+      ],
+      "collection": "Open Secrets: The 2010s",
+      "genre": "Backstage drama-comedy",
+      "director": "Bella Bloom",
+      "details": "An actor reconstructs an unfinished production from contradictory rehearsal notes.",
+      "audio": {
+        "performers": [
+          "Arun Sen"
+        ],
+        "tags": [
+          "Backstage"
+        ],
+        "details": "Arun reflects on rehearsing the solo reconstruction and developing a restrained sound design that follows the performer’s uncertain account.",
+        "title": "The Unreliable Dress Rehearsal: Leaving room for a missing scene",
+        "source": "assets/production-audio/the-unreliable-dress-rehearsal.mp3"
+      },
+      "text": {
+        "performers": [
+          "Imani Cole",
+          "Bella Bloom"
+        ],
+        "tags": [
+          "Drama",
+          "Backstage"
+        ],
+        "details": "Imani and Bella discuss reconstructing a performance from conflicting rehearsal accounts.",
+        "content": "Imani and Bella discuss reconstructing a performance from conflicting rehearsal accounts.",
+        "title": "The Unreliable Dress Rehearsal: Reconstructing a Solo Performance"
+      },
+      "image_performers": [
+        "Imani Cole"
+      ],
+      "preview_duration_seconds": 17
+    },
+    {
+      "slug": "a-very-public-secret",
+      "poster": "a-very-public-secret-2015.jpg",
+      "title": "A Very Public Secret",
+      "date": "2025-05-15",
+      "studio": "Fourth Wall Pictures",
+      "performers": [
+        "Bella Bloom",
+        "Sofia Calderon",
+        "Arun Sen",
+        "Lucia Ferrer",
+        "Amina Shaw",
+        "Julian March"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Mystery"
+      ],
+      "collection": "Open Secrets: The 2010s",
+      "genre": "Ensemble mystery comedy",
+      "director": "Bella Bloom",
+      "details": "Everyone knows the confidential agreement, but nobody will acknowledge it on camera.",
+      "audio": {
+        "performers": [
+          "Arun Sen"
+        ],
+        "tags": [
+          "Music",
+          "Mystery",
+          "Drama"
+        ],
+        "details": "Arun explains the sound choices around the confidential agreement, including the contrast between the private conversation and the surrounding press event.",
+        "title": "A Very Public Secret: The confidential-agreement scene, discussed",
+        "source": "assets/production-audio/a-very-public-secret.mp3"
+      },
+      "text": {
+        "performers": [
+          "Bella Bloom",
+          "Amina Shaw"
+        ],
+        "tags": [
+          "Comedy",
+          "Mystery",
+          "Workplace"
+        ],
+        "details": "Bella and Amina compare the ensemble read-through with the final confidential-agreement scene.",
+        "content": "Bella and Amina compare the ensemble read-through with the final confidential-agreement scene.",
+        "title": "A Very Public Secret: Ensemble Read-Through"
+      },
+      "image_performers": [
+        "Bella Bloom",
+        "Sofia Calderon"
+      ],
+      "preview_duration_seconds": 10
+    },
+    {
+      "slug": "rooms-with-an-alibi",
+      "poster": "rooms-with-an-alibi-2017.jpg",
+      "title": "Rooms with an Alibi",
+      "date": "2024-09-08",
+      "studio": "Fourth Wall Pictures",
+      "performers": [
+        "Imani Cole",
+        "Arun Sen",
+        "Lucia Ferrer"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Mystery"
+      ],
+      "collection": "Open Secrets: The 2010s",
+      "genre": "Hotel mystery comedy",
+      "details": "Three guests claim to have stayed in a room missing from the floor plan.",
+      "audio": {
+        "performers": [
+          "Arun Sen"
+        ],
+        "tags": [
+          "Music",
+          "Comedy"
+        ],
+        "details": "A behind-the-scenes interview with Arun about the hotel’s shifting geography, location recordings and the decisions that make an absent room feel present.",
+        "title": "Rooms with an Alibi: Finding the sound of the missing room",
+        "studio": null,
+        "cover": "assets/audio-covers/rooms-with-an-alibi.jpg",
+        "source": "assets/production-audio/rooms-with-an-alibi.mp3"
+      },
+      "text": {
+        "performers": [
+          "Imani Cole"
+        ],
+        "tags": [
+          "Mystery",
+          "Comedy"
+        ],
+        "details": "Imani describes blocking a hotel argument when no two characters agree about the room.",
+        "content": "Imani describes blocking a hotel argument when no two characters agree about the room.",
+        "title": "Rooms with an Alibi: Blocking the Missing Room",
+        "studio": null
+      },
+      "image_performers": [
+        "Imani Cole"
+      ],
+      "preview_duration_seconds": 13
+    },
+    {
+      "slug": "exit-music-for-two",
+      "poster": "exit-music-for-two-2019.jpg",
+      "title": "Exit Music for Two",
+      "date": "2026-06-19",
+      "studio": "Fourth Wall Pictures",
+      "performers": [
+        "Bella Bloom",
+        "Arun Sen",
+        "Marisol Vega"
+      ],
+      "tags": [
+        "2020s",
+        "Drama",
+        "Music"
+      ],
+      "collection": "Open Secrets: The 2010s",
+      "genre": "Music-driven comedy-drama",
+      "director": "Bella Bloom",
+      "details": "Two members of a stage partnership each believe the other has decided to retire their act.",
+      "audio": {
+        "performers": [
+          "Arun Sen"
+        ],
+        "tags": [
+          "Music",
+          "Drama",
+          "Romance"
+        ],
+        "details": "Arun discusses the stage partnership’s final scene, working with its performers and leaving the ending unresolved in the sound edit.",
+        "title": "Exit Music for Two: After the partnership’s final rehearsal",
+        "source": "assets/production-audio/exit-music-for-two.mp3"
+      },
+      "text": {
+        "performers": [
+          "Bella Bloom",
+          "Arun Sen"
+        ],
+        "tags": [
+          "Music",
+          "Drama"
+        ],
+        "details": "Bella and Arun discuss the retirement of a stage partnership, distinct from either character ending their career.",
+        "content": "Bella and Arun discuss the retirement of a stage partnership, distinct from either character ending their career.",
+        "title": "Exit Music for Two: Retiring a Stage Partnership"
+      },
+      "image_performers": [
+        "Bella Bloom",
+        "Arun Sen"
+      ],
+      "preview_duration_seconds": 18
+    },
+    {
+      "slug": "soft-launch",
+      "poster": "soft-launch-2021.jpg",
+      "title": "Soft Launch",
+      "date": "2021-04-23",
+      "studio": "Open Secret Features",
+      "performers": [
+        "Amara Okoye",
+        "June Park",
+        "Noor Haddad",
+        "Amina Shaw",
+        "Darius King"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Workplace"
+      ],
+      "collection": "New Orders: The 2020s",
+      "genre": "Workplace comedy",
+      "details": "An unfinished service released to a limited audience attracts national attention.",
+      "audio": {
+        "performers": [
+          "Amara Okoye"
+        ],
+        "tags": [
+          "Workplace",
+          "Comedy"
+        ],
+        "details": "Amara recalls the first audience test, what the collective learned from its screening discussion, and which scenes changed before the film was finished.",
+        "title": "Soft Launch: Notes from the first test audience",
+        "cover": "assets/audio-covers/soft-launch.jpg",
+        "source": "assets/production-audio/soft-launch.mp3"
+      },
+      "text": {
+        "performers": [
+          "June Park"
+        ],
+        "tags": [
+          "Workplace",
+          "Backstage"
+        ],
+        "details": "June annotates the test-screening cut and the unfinished service screens built for the production.",
+        "content": "June annotates the test-screening cut and the unfinished service screens built for the production.",
+        "title": "Soft Launch: Test-Screening Cut Notes"
+      },
+      "image_performers": [
+        "Amara Okoye"
+      ],
+      "preview_duration_seconds": 14
+    },
+    {
+      "slug": "everyone-is-muted",
+      "poster": "everyone-is-muted-2022.jpg",
+      "title": "Everyone Is Muted",
+      "date": "2022-12-09",
+      "studio": "Open Secret Features",
+      "performers": [
+        "Amara Okoye",
+        "Elias Grant",
+        "Rafael Sato"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Workplace"
+      ],
+      "collection": "New Orders: The 2020s",
+      "genre": "Remote ensemble comedy",
+      "details": "A remote radio play cannot tell which silences belong to the script.",
+      "audio": {
+        "performers": [
+          "Amara Okoye",
+          "Elias Grant",
+          "Ellis Ward",
+          "Rafael Sato"
+        ],
+        "tags": [
+          "Drama",
+          "Backstage",
+          "Comedy"
+        ],
+        "details": "Amara, Elias, Ellis and Rafael discuss rehearsing the film’s radio-play sequence remotely: connection delays, written pauses, live accompaniment and the sounds that survived into the final edit.",
+        "title": "Everyone Is Muted: The remote rehearsal roundtable",
+        "cover": "assets/audio-covers/everyone-is-muted.jpg",
+        "source": "assets/production-audio/everyone-is-muted.mp3"
+      },
+      "text": {
+        "performers": [
+          "Amara Okoye",
+          "Ellis Ward"
+        ],
+        "tags": [
+          "Drama",
+          "Music"
+        ],
+        "details": "Amara and Ellis compare recorded silences, room tone and the radio play’s written pauses.",
+        "content": "Amara and Ellis compare recorded silences, room tone and the radio play’s written pauses.",
+        "title": "Everyone Is Muted: Recording Written Silence"
+      },
+      "image_performers": [
+        "Amara Okoye",
+        "Elias Grant",
+        "Rafael Sato"
+      ],
+      "preview_duration_seconds": 11
+    },
+    {
+      "slug": "rook-new-orders",
+      "poster": "rook-new-orders-2024.jpg",
+      "title": "Rook: New Orders",
+      "date": "2024-10-18",
+      "studio": "Barely Dressed Pictures",
+      "performers": [
+        "June Park",
+        "Elias Grant",
+        "Gideon Slate",
+        "Lucia Ferrer"
+      ],
+      "tags": [
+        "2020s",
+        "Thriller",
+        "Mystery"
+      ],
+      "collection": "New Orders: The 2020s",
+      "genre": "Espionage thriller",
+      "director": "June Park",
+      "details": "A new intelligence courier inherits a codename and orders written for his predecessor. A practical escort helps him navigate the assignment while keeping her own loyalties difficult to read.",
+      "audio": {
+        "performers": [
+          "Dev Malik"
+        ],
+        "tags": [
+          "Music",
+          "Thriller",
+          "Mystery"
+        ],
+        "details": "Dev talks through the inherited Rook motif with the production interviewer, explaining what the sequel kept and what changed for the new courier’s first assignment.",
+        "title": "Rook: New Orders: Revisiting Rook’s sound",
+        "cover": "assets/audio-covers/rook-new-orders.jpg",
+        "source": "assets/production-audio/rook-new-orders.mp3"
+      },
+      "text": {
+        "performers": [
+          "June Park",
+          "Gideon Slate"
+        ],
+        "tags": [
+          "Thriller",
+          "Backstage"
+        ],
+        "details": "June interviews Gideon about passing on the Rook character and the short farewell scene.",
+        "content": "June interviews Gideon about passing on the Rook character and the short farewell scene.",
+        "title": "Rook: New Orders: The Rook Handover Interview"
+      },
+      "image_performers": [
+        "June Park",
+        "Elias Grant"
+      ],
+      "preview_duration_seconds": 16
+    },
+    {
+      "slug": "the-last-take-was-perfect",
+      "poster": "the-last-take-was-perfect-2025.jpg",
+      "title": "The Last Take Was Perfect",
+      "date": "2025-06-13",
+      "studio": "Available Light Cooperative",
+      "performers": [
+        "Amara Okoye",
+        "June Park",
+        "Noor Haddad",
+        "Cressida Maraschino",
+        "Bella Bloom",
+        "Simona Valewood"
+      ],
+      "tags": [
+        "2020s",
+        "Comedy",
+        "Drama",
+        "Backstage"
+      ],
+      "collection": "New Orders: The 2020s",
+      "genre": "Production comedy-drama",
+      "details": "A missing final take is remembered differently by every collaborator.",
+      "audio": {
+        "performers": [
+          "Arun Sen",
+          "Amara Okoye"
+        ],
+        "tags": [
+          "Backstage",
+          "Drama"
+        ],
+        "details": "Arun and Amara compare their recollections of the final rehearsal and explain why the collaborators remember the same take differently.",
+        "title": "The Last Take Was Perfect: Two accounts of the final take",
+        "cover": "assets/audio-covers/the-last-take-was-perfect.jpg",
+        "source": "assets/production-audio/the-last-take-was-perfect.mp3"
+      },
+      "text": {
+        "performers": [
+          "Cressida Maraschino",
+          "June Park",
+          "Bella Bloom"
+        ],
+        "tags": [
+          "Backstage",
+          "Drama",
+          "Comedy"
+        ],
+        "details": "Cressida recalls an earlier rehearsal custom; June and Bella discuss adapting it for a contemporary collaborative set.",
+        "content": "Cressida recalls an earlier rehearsal custom; June and Bella discuss adapting it for a contemporary collaborative set.",
+        "title": "The Last Take Was Perfect: A Rehearsal Custom Revisited"
+      },
+      "image_performers": [
+        "Amara Okoye"
+      ],
+      "preview_duration_seconds": 9
+    },
+    {
+      "slug": "a-favor-between-professionals",
+      "poster": "a-favor-between-professionals-2026.jpg",
+      "title": "A Favor Between Professionals",
+      "date": "2026-02-20",
+      "studio": "Barely Dressed Pictures",
+      "performers": [
+        "Elias Grant",
+        "Lucia Ferrer",
+        "Darius King"
+      ],
+      "tags": [
+        "2020s",
+        "Thriller",
+        "Mystery"
+      ],
+      "collection": "New Orders: The 2020s",
+      "genre": "Espionage thriller",
+      "details": "The new Rook delivers a case that everyone calls unofficial and years overdue. An unflappable escort and a retired handler each know a different reason the delivery should never arrive.",
+      "audio": {
+        "performers": [
+          "Dev Malik"
+        ],
+        "tags": [
+          "Thriller"
+        ],
+        "details": "Dev describes returning to the courier story for the companion film, repurposing location sound and keeping its unofficial delivery distinct from the earlier assignment.",
+        "title": "A Favor Between Professionals: A companion film’s sound diary",
+        "cover": "assets/audio-covers/a-favor-between-professionals.jpg",
+        "source": "assets/production-audio/a-favor-between-professionals.mp3"
+      },
+      "text": {
+        "performers": [
+          "Darius King",
+          "Lucia Ferrer"
+        ],
+        "tags": [
+          "Thriller"
+        ],
+        "details": "Darius and Lucia discuss building the uneasy cooperation between a retired handler and the escort assigned to Rook’s unofficial delivery.",
+        "content": "The retired handler has spent years avoiding the delivery that finally brings him back into the story. Darius approaches the part through small hesitations rather than an imposing entrance. Lucia’s escort is practical, physically capable and impatient with evasions; their shared rehearsal notes focus on where each character chooses to stand, and who moves first. This production conversation follows the actors’ work without treating every member of the cast as its subject.",
+        "title": "A Favor Between Professionals: The Escort and the Handler"
+      },
+      "image_performers": [
+        "Lucia Ferrer",
+        "Darius King"
+      ],
+      "preview_duration_seconds": 15
+    }
+  ],
+  "canonical_tag_count": 15,
+  "standalone_audios": [
+    {
+      "slug": "cressida-back-on-set",
+      "code": "BDP-AUD-26",
+      "id": 26,
+      "title": "Cressida Maraschino: Back on Set",
+      "date": "2025-06-13",
+      "details": "June asks Cressida about returning for a guest role after decades away from regular production. A short oral-history exchange recorded during a quiet break.",
+      "studio": "Available Light Cooperative",
+      "performers": [
+        "Cressida Maraschino",
+        "June Park"
+      ],
+      "tags": [
+        "Backstage"
+      ],
+      "source": "assets/production-audio/cressida-back-on-set.mp3",
+      "cover": "assets/performer-photo-sets/cressida-maraschino/2025-06-13-return-to-the-set.jpg"
+    },
+    {
+      "slug": "lucia-after-the-rain",
+      "code": "BDP-AUD-27",
+      "id": 27,
+      "title": "Lucia Ferrer: After the Rain",
+      "date": "2026-06-21",
+      "details": "A field interview about the previous night’s location wrap, rehearsing physical action and doing her own stunt work. Recorded for Lucia’s working archive rather than a studio press kit.",
+      "studio": null,
+      "performers": [
+        "Lucia Ferrer"
+      ],
+      "tags": [
+        "Stunt Performer",
+        "Backstage"
+      ],
+      "source": "assets/production-audio/lucia-after-the-rain.mp3",
+      "cover": "assets/performer-photo-sets/lucia-ferrer/2026-06-20-rainy-location-wrap.jpg"
+    },
+    {
+      "slug": "the-doorway-and-the-pause",
+      "code": "BDP-AUD-28",
+      "id": 28,
+      "title": "The Doorway and the Pause",
+      "date": "2026-06-22",
+      "details": "Lucia and Darius compare the moving escort and the watchful handler in their courier-film collaboration. An informal two-person debrief about where action gives way to hesitation.",
+      "studio": "Barely Dressed Pictures",
+      "performers": [
+        "Lucia Ferrer",
+        "Darius King"
+      ],
+      "tags": [
+        "Backstage"
+      ],
+      "source": "assets/production-audio/the-doorway-and-the-pause.mp3",
+      "cover": "assets/posters/a-favor-between-professionals-2026.jpg"
+    }
+  ],
+  "standalone_texts": [
+    {
+      "slug": "returning-without-repeating",
+      "code": "BDP-TXT-26",
+      "id": 26,
+      "title": "A Return, Not a Reprise",
+      "date": "2025-06-13",
+      "details": "An oral-history transcript about Cressida’s guest appearance and the difference between repeating an old performance and returning to work.",
+      "studio": "Available Light Cooperative",
+      "performers": [
+        "Cressida Maraschino",
+        "June Park"
+      ],
+      "tags": [
+        "Backstage"
+      ],
+      "content": "**Excerpt from a conversation during a break on the final day. June's questions and Cressida's replies were lightly edited for length.**\n\n**June:** Did you want to see the old films before coming back?\n\n**Cressida:** No. You can end up trying to impersonate yourself. I wanted to know where the chair was, who had been in the room before me and why nobody wanted to mention the missing take. Those are useful questions. Whether I could still raise an eyebrow exactly as I did in nineteen sixty-four was not a useful question.\n\n**June:** You asked to rehearse the entrance without the camera.\n\n**Cressida:** I asked to walk it. Rehearsal sounds grand. At my age, knowing where the floor changes matters. Then I could stop thinking about the floor and listen to the person in front of me.\n\n**June:** Was the set very different?\n\n**Cressida:** Quieter in some ways. There were more people watching little screens, but the person beside the camera was still waiting for something truthful to happen. I recognised that. I also recognised the rush to get a scene finished before the light went. Nobody has invented a longer afternoon.\n\n**June:** Did the guest part feel like a farewell?\n\n**Cressida:** A working day. A good one. If somebody wants a farewell, they can write one in the programme. I had a scene to do.\n\n*Archive note: this conversation concerns the 2025 guest appearance. The photographs from the 1960s remain a separate publicity series.*"
+    },
+    {
+      "slug": "lucia-movement-notebook",
+      "code": "BDP-TXT-27",
+      "id": 27,
+      "title": "Lucia Ferrer: Movement Notebook",
+      "date": "2026-06-21",
+      "details": "Selected working notes on physical preparation, camera blocking and the link between a speaking part and its action.",
+      "studio": null,
+      "performers": [
+        "Lucia Ferrer"
+      ],
+      "tags": [
+        "Stunt Performer",
+        "Backstage"
+      ],
+      "content": "## Before the camera arrives\n\nWalk the route in ordinary shoes first. Mark the change from dry ground to wet ground. Move the bags that will not be in the finished frame; do not learn a route around temporary clutter and then forget why the route changed.\n\nThe rehearsal is also an acting rehearsal. The escort knows where she is going. Lucia must know where the camera is going. Those are different pieces of information, and the second should not be visible in the first.\n\n## The pause at the door\n\nThe handler has the stillest part of the scene. Give him the space to remain still. An extra adjustment from the escort can make his hesitation look like a reaction to movement instead of a choice he has already made.\n\nTry the line before the turn, then after it. Keep the version in which the breath belongs to the thought. Do not choose the version only because it makes the action look harder.\n\n## After the rain\n\nThe photograph everybody likes was taken after the interesting work had finished. We were dealing with wet coats and the last equipment cases. That is part of a location day too.\n\nI perform all my own stunts. I have never used a stunt double. That does not make the preparation a solo job: the coordinator, camera crew and other performers all know things I need to know. The point is to arrive at the take with enough shared preparation that I can play the scene.\n\n*Personal notebook selection, assembled the morning after the location wrap. This is a record of creative decisions, not a stunt instruction sheet.*"
+    },
+    {
+      "slug": "darius-coat-check-pages",
+      "code": "BDP-TXT-28",
+      "id": 28,
+      "title": "Darius King: The Coat-Check Pages",
+      "date": "2018-08-19",
+      "details": "An annotated interview excerpt about building the auction-caper character around what he does with a borrowed coat.",
+      "studio": "Electric Marquee",
+      "performers": [
+        "Darius King"
+      ],
+      "tags": [
+        "Comedy"
+      ],
+      "content": "**Interview fragment, retained with the auction-caper publicity material.**\n\nThe coat was useful because it let Darius give the character a small private task. He did not want to keep checking the stolen object. He wanted to keep checking whether the coat still looked as though it belonged to him.\n\n“In the first rehearsal I straightened the lapel every time someone spoke. It was too much. You could see the actor demonstrating a nervous man. We kept one adjustment and let the rest of the worry move into the listening.”\n\nThe upward camera angle made an ordinary step look more decisive. Darius and the camera operator tried the movement at several speeds before choosing the unhurried version. The joke needed the character to believe that he was proceeding sensibly.\n\nAmina's dialogue was quicker than his first reading. The scene improved when he stopped trying to put a joke on every line. The coat-check attendant could do the noticing; his character only needed to remain magnificently unaware of it.\n\n### Margin added after the screening\n\nThe audience laughed before the explanation. Leave that space in future performances. The silence is doing a job, even when it feels long from inside the scene.\n\n*The surviving page ends here. A later publicity summary describes the same exchange more neatly, but this version keeps the hesitation.*"
+    },
+    {
+      "slug": "stakeout-listening-notes",
+      "code": "BDP-TXT-29",
+      "id": 29,
+      "title": "Listening Before the Chase",
+      "date": "2024-07-24",
+      "details": "Nia and Dev compare the actor’s listening cues with the sound edit in a convention-floor stakeout.",
+      "studio": "Open Secret Features",
+      "performers": [
+        "Nia Hart",
+        "Dev Malik"
+      ],
+      "tags": [
+        "Backstage"
+      ],
+      "content": "### Nia's note\n\nThe stakeout only works if listening looks active. I tried watching each person who passed the table, but that made the character seem certain of what she was looking for. The better version was to stay with the conversation while letting one unfamiliar sound pull my attention away.\n\n### Dev's reply\n\nWe had three possible cues in the early sound edit: the lift, the public-address system and the noise from the exhibition stand. Using all three explained the room too completely. We kept the public-address interruption and let the other sounds remain part of the general crowd.\n\n### What changed in the next pass\n\nNia's reaction no longer landed exactly on the loudest sound. It came slightly before the audience could confidently identify it. That made the character seem observant without turning the moment into a demonstration.\n\nThe chase begins later. This page belongs to the waiting scene. Keeping the two rhythms separate gave the movement somewhere to grow.\n\nThere is no claim here that the sound cue was present during every take. The location recording and the finished scene are different records of the same work. The interview preserves that distinction because it explains why a convincing reaction can be built from several small decisions rather than one perfectly timed accident."
+    },
+    {
+      "slug": "one-screening-two-cuts",
+      "code": "BDP-TXT-30",
+      "id": 30,
+      "title": "One Screening, Two Cuts",
+      "date": "2025-06-14",
+      "details": "An exchange between an editor and a performer after a small screening, preserving their disagreement over a reaction shot.",
+      "studio": "Available Light Cooperative",
+      "performers": [
+        "Noor Haddad",
+        "Amara Okoye"
+      ],
+      "tags": [
+        "Drama",
+        "Backstage"
+      ],
+      "content": "**Noor to Amara, after the small screening**\n\nI think we should keep the longer reaction. In the short version you seem to understand the missing take immediately. In the room, people were still deciding whether to trust the story. Your extra moment gives them permission to wait.\n\n**Amara's reply**\n\nI like the uncertainty, but I do not think it comes from holding my face. Listen to the breath before the answer. That is where I am deciding what to tell them. If we stay after the answer, it begins to look as though I am inviting the audience to judge it.\n\n**Noor**\n\nI tried your version without the room sound dropping away. You were right about the breath. I still miss the glance toward the empty chair.\n\n**Amara**\n\nCould the glance belong earlier, while somebody else is talking? Then it is something the character does, rather than an illustration of the line.\n\n### Screening note\n\nBoth cuts were retained in the working folder. The next screening used the earlier glance and the shorter hold after the answer. Nobody recorded a final vote. The useful part of the exchange was the distinction between uncertainty in the performance and uncertainty added by the edit.\n\n*Correspondence retained with the screening notes; both working cuts remained in the edit folder.*"
+    },
+    {
+      "slug": "elias-radio-margin",
+      "code": "BDP-TXT-31",
+      "id": 31,
+      "title": "Elias Grant: Notes in the Radio Margin",
+      "date": "2022-12-10",
+      "details": "A young actor’s marked-up radio rehearsal pages, kept separately from the later Rook publicity.",
+      "studio": null,
+      "performers": [
+        "Elias Grant"
+      ],
+      "tags": [
+        "Drama"
+      ],
+      "content": "## Page with the first entrance\n\n**Crossed out:** sound older.\n\n**Written underneath:** know why you are calling.\n\nThe first recording has too much weight on the opening words. I was trying to make the listener understand the whole character before the scene had begun. The later pass is lighter. It leaves room for the character to be wrong.\n\n## A useful direction\n\nDo not answer the pause. Answer the person.\n\nThe delay in the remote session made every gap feel meaningful, even when someone was only waiting for the connection. We ran the exchange once without trying to repair those gaps. Some of the awkwardness belonged to the scene after all.\n\n## Kept for the next job\n\nMark the thought, not only the breath. If I mark every breath I start obeying the pencil. If I know what changes halfway through the sentence, the breath usually finds its own place.\n\n*These pages were kept after the December 2022 radio rehearsal. Elias had recently turned eighteen. They precede the later screen publicity and do not describe a Rook performance.*"
+    },
+    {
+      "slug": "kenji-location-ledger",
+      "code": "BDP-TXT-32",
+      "id": 32,
+      "title": "Kenji Watanari: A Location Ledger",
+      "date": "2024-10-16",
+      "details": "A photographer’s retrospective location ledger recording what changed between a first visit and a later return.",
+      "studio": null,
+      "performers": [
+        "Kenji Watanari"
+      ],
+      "tags": [
+        "Mystery"
+      ],
+      "content": "- **First survey:** A long concrete passage, a red maintenance light and traffic heard above the frame.\n- **Camera rehearsal:** The apparent exit falls outside the selected view. The actor can leave without the image explaining where he has gone.\n- **Return visit:** New paint has made the wall brighter. The sound of the road is still more useful than the signs.\n\nA photograph can make an empty place look as though it is waiting for a person. The location film needed the opposite: a person who briefly enters a place that already has its own business.\n\nKenji's first contact prints gave the figure too much weight. He moved the camera back and kept the awkward strip of wall at the edge. That strip is not a clue. It is the part of the place that refuses to become a clue.\n\nTen years later, the notebook is less useful as a map than as a record of attention. Several details that seemed essential on the survey never reached the finished frame. One sound, written down almost as an afterthought, remained in the discussion of the scene.\n\n*Retrospective ledger assembled from location notes and later observations. Dates refer to the archive entry; the associated film retains its original production date.*"
+    }
+  ],
+  "standalone_galleries": [
+    {
+      "slug": "lucia-working-archive",
+      "code": "BDP-GAL-06",
+      "id": 6,
+      "title": "Lucia Ferrer: Between Calls",
+      "date": "2026-06-21",
+      "details": "Four selected photographs following Lucia from her first location call through training, festival conversation and a rain-soaked wrap.",
+      "photographer": "Various photographers",
+      "studio": null,
+      "performers": [
+        "Lucia Ferrer"
+      ],
+      "tags": [
+        "Backstage"
+      ],
+      "image_refs": [
+        "BDP-IMG-36",
+        "BDP-IMG-37",
+        "BDP-IMG-38",
+        "BDP-IMG-39"
+      ],
+      "video_slugs": []
+    },
+    {
+      "slug": "three-working-lives",
+      "code": "BDP-GAL-07",
+      "id": 7,
+      "title": "Three Working Lives",
+      "date": "2026-06-22",
+      "details": "A small editorial selection of Cressida, Lucia and Darius at work across different generations. Portraits, rehearsal breaks and quiet intervals sit together without pretending to be one photo shoot.",
+      "photographer": "Various photographers",
+      "studio": null,
+      "performers": [
+        "Cressida Maraschino",
+        "Lucia Ferrer",
+        "Darius King"
+      ],
+      "tags": [
+        "Backstage"
+      ],
+      "image_refs": [
+        "BDP-IMG-26",
+        "BDP-IMG-28",
+        "BDP-IMG-43",
+        "BDP-IMG-36",
+        "BDP-IMG-37",
+        "BDP-IMG-38",
+        "BDP-IMG-40",
+        "BDP-IMG-41",
+        "BDP-IMG-42"
+      ],
+      "video_slugs": []
+    }
+  ]
+}
