@@ -10,6 +10,13 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 const entityCode = (kind, index) => `BDP-${kind ? `${kind}-` : ""}${String(index + 1).padStart(2, "0")}`;
 const same = (left, right) => isDeepStrictEqual(left, right);
 
+export function demoUrls(kind, identifier, authored = []) {
+  const stableIdentifier = String(identifier); const checksum = [...stableIdentifier].reduce((total, character) => total + character.codePointAt(0), 0);
+  const visibility = checksum % 4 === 0 ? "private" : "public";
+  const demoUrl = `https://archive.example/${visibility}/${kind}/${encodeURIComponent(stableIdentifier)}`;
+  return [...new Set([...(authored ?? []), demoUrl])];
+}
+
 export class CoveApi {
   constructor(baseUrl, token) { const base = baseUrl.replace(/\/$/, ""); this.baseUrl = base.endsWith("/api") ? base : `${base}/api`; this.token = token; }
   async request(method, endpoint, payload) { const response = await fetch(`${this.baseUrl}${endpoint}`, { method, headers: { accept: "application/json", authorization: `Bearer ${this.token}`, ...(payload === undefined ? {} : { "content-type": "application/json" }) }, body: payload === undefined ? undefined : JSON.stringify(payload) }); if (!response.ok) throw new Error(`Cove API ${method} ${endpoint} failed (${response.status}): ${await response.text()}`); const text = await response.text(); return text ? JSON.parse(text) : {}; }
@@ -123,7 +130,7 @@ export function performerPayload(performer, ids) {
     birthdate: performer.birth_date, country: performer.country, gender: performer.gender,
     careerStart: performer.career_start_year ? String(performer.career_start_year) : null,
     careerEnd: performer.career_end_year ? String(performer.career_end_year) : null,
-    organized: true, urls: performer.urls ?? [], aliases: performer.aliases ?? [],
+    organized: true, urls: demoUrls("performers", performer.slug, performer.urls), aliases: performer.aliases ?? [],
     tagIds: relationIds(performer.tags ?? [], ids.tags, "tag"),
     ...(performer.favorite == null ? {} : { favorite: performer.favorite }),
     clearFields: [...(disambiguation ? [] : ["disambiguation"]), ...(performer.career_end_year ? [] : ["careerEnd"])],
@@ -131,21 +138,21 @@ export function performerPayload(performer, ids) {
 }
 
 export function studioPayload(studio, ids) {
-  return { name: studio.name, parentId: studio.parent ? ids.studios[studio.parent] : null, details: studio.details, organized: true, urls: studio.urls ?? [], aliases: studio.aliases ?? [], tagIds: relationIds(studio.tags ?? [], ids.tags, "tag"), clearFields: studio.parent ? [] : ["parentId"] };
+  return { name: studio.name, parentId: studio.parent ? ids.studios[studio.parent] : null, details: studio.details, organized: true, urls: demoUrls("studios", assetSlug(studio.name), studio.urls), aliases: studio.aliases ?? [], tagIds: relationIds(studio.tags ?? [], ids.tags, "tag"), clearFields: studio.parent ? [] : ["parentId"] };
 }
 
 export function videoPayload(video, index, ids) {
   return {
     title: video.title, code: videoCode(video, index), details: `${video.details}\n\nDemo media: a ${video.preview_duration_seconds}-second silent poster-based art preview, not feature-film footage.`, date: video.date, organized: true,
     studioId: ids.studios[video.studio], director: video.director ?? "", captions: video.captions ?? `${video.title}. ${video.genre}.`,
-    urls: video.urls ?? [], tagIds: relationIds(video.tags, ids.tags, "tag"), performerIds: relationIds(video.performers, ids.performers, "performer"),
+    urls: demoUrls("videos", video.slug, video.urls), tagIds: relationIds(video.tags, ids.tags, "tag"), performerIds: relationIds(video.performers, ids.performers, "performer"),
     galleryIds: [], groups: [{ groupId: ids.collections[video.collection], videoIndex: index }],
     remoteIds: [{ endpoint: "cove-demo", remoteId: video.slug }],
   };
 }
 
 export function collectionPayload(collection, ids) {
-  return { name: collection.title ?? collection.name, description: collection.description, urls: collection.urls ?? [], tagIds: relationIds(collection.tags ?? [collection.decade], ids.tags, "tag"), allowedHostTypes: ["video"], showInVideoLists: true };
+  return { name: collection.title ?? collection.name, description: collection.description, urls: demoUrls("groups", assetSlug(collection.name), collection.urls), tagIds: relationIds(collection.tags ?? [collection.decade], ids.tags, "tag"), allowedHostTypes: ["video"], showInVideoLists: true };
 }
 
 function derivativePayload(kind, video, index, ids) {
@@ -155,7 +162,7 @@ function derivativePayload(kind, video, index, ids) {
   return {
     title: record.title ?? `${video.title}: ${isAudio ? "Production Audio" : "Production Notes"}`,
     code: isAudio ? audioCode(video, index) : textCode(video, index),
-    details: record.details, date: record.date ?? video.date, organized: true, urls: record.urls ?? [],
+    details: record.details, date: record.date ?? video.date, organized: true, urls: demoUrls(isAudio ? "audios" : "texts", record.slug ?? video.slug, record.urls),
     studioId: studio == null ? null : ids.studios[studio],
     tagIds: relationIds(record.tags, ids.tags, "tag"), performerIds: relationIds(record.performers, ids.performers, "performer"), groupIds: [], clearFields: studio == null ? ["studioId"] : [],
   };
@@ -163,9 +170,9 @@ function derivativePayload(kind, video, index, ids) {
 
 export function audioPayload(video, index, ids) { return derivativePayload("audio", video, index, ids); }
 export function textPayload(video, index, ids) { return derivativePayload("text", video, index, ids); }
-function standaloneMediaPayload(record, ids) {
+function standaloneMediaPayload(kind, record, ids) {
   return {
-    title: record.title, code: record.code, details: record.details, date: record.date, organized: true, urls: record.urls ?? [],
+    title: record.title, code: record.code, details: record.details, date: record.date, organized: true, urls: demoUrls(kind, record.slug, record.urls),
     studioId: record.studio == null ? null : ids.studios[record.studio],
     tagIds: relationIds(record.tags, ids.tags, "tag"), performerIds: relationIds(record.performers, ids.performers, "performer"),
     groupIds: [], clearFields: record.studio == null ? ["studioId"] : [],
@@ -175,14 +182,14 @@ export function audioPlans(library, manifest, ids) {
   return audiosFor(manifest).map((audio, index) => ({
     code: audio.code, expectedId: ids.audios[audio.code] ?? audio.id, filename: path.join(library, audio.output_path), label: audio.slug,
     standalone: audio.standalone,
-    payload: audio.standalone ? standaloneMediaPayload(audio, ids) : audioPayload(audio.video, index, ids),
+    payload: audio.standalone ? standaloneMediaPayload("audios", audio, ids) : audioPayload(audio.video, index, ids),
   })).sort((left, right) => left.expectedId - right.expectedId);
 }
 export function textPlans(library, manifest, ids) {
   return textsFor(manifest).map((text, index) => ({
     code: text.code, expectedId: ids.texts[text.code] ?? text.id, filename: path.join(library, text.output_path), label: text.slug,
     standalone: text.standalone,
-    payload: text.standalone ? standaloneMediaPayload(text, ids) : textPayload(text.video, index, ids),
+    payload: text.standalone ? standaloneMediaPayload("texts", text, ids) : textPayload(text.video, index, ids),
   })).sort((left, right) => left.expectedId - right.expectedId);
 }
 export function performerMetadataUpdates(manifest, ids) { return manifest.performers.map((performer) => ({ endpoint: `/performers/${ids.performers[performer.name]}`, payload: performerPayload(performer, ids) })); }
@@ -200,7 +207,7 @@ export function performerPhotoPlans(library, manifest, ids) {
     const expectedId = photo.id ?? ids.images[code];
     return {
       code, expectedId, filename: path.join(library, "performers", photo.performer.slug, "photos", photo.filename),
-      payload: { title: `${photo.performer.name}: ${photo.title}`, code, details: photo.details, photographer: photo.photographer ?? "Cove Demo Art Department", organized: true, studioId: photo.studio ? ids.studios[photo.studio] : null, date: photo.date, urls: photo.urls ?? [], tagIds: relationIds(photo.tags ?? [], ids.tags, "tag"), performerIds: relationIds(photo.performers ?? [photo.performer.name], ids.performers, "performer"), galleryIds: curatedGalleryIds(manifest, ids, code), groupIds: photo.collection ? [{ groupId: ids.collections[photo.collection], videoIndex: 0 }] : [], clearFields: photo.studio ? [] : ["studioId"] },
+      payload: { title: `${photo.performer.name}: ${photo.title}`, code, details: photo.details, photographer: photo.photographer ?? "Cove Demo Art Department", organized: true, studioId: photo.studio ? ids.studios[photo.studio] : null, date: photo.date, urls: demoUrls("images", code.toLowerCase(), photo.urls), tagIds: relationIds(photo.tags ?? [], ids.tags, "tag"), performerIds: relationIds(photo.performers ?? [photo.performer.name], ids.performers, "performer"), galleryIds: curatedGalleryIds(manifest, ids, code), groupIds: photo.collection ? [{ groupId: ids.collections[photo.collection], videoIndex: 0 }] : [], clearFields: photo.studio ? [] : ["studioId"] },
     };
   }).sort((left, right) => left.expectedId - right.expectedId);
 }
@@ -215,7 +222,7 @@ export function performerReferencePlans(library, manifest, ids) {
         details: performer.reference_details ?? "AI-generated artwork for a fictional performer.",
         photographer: performer.reference_photographer ?? "Cove Demo Art Department", organized: true,
         studioId: studio ? ids.studios[studio] : null, date,
-        urls: performer.reference_urls ?? [], tagIds: relationIds(performer.reference_tags ?? [], ids.tags, "tag"),
+        urls: demoUrls("images", code.toLowerCase(), performer.reference_urls), tagIds: relationIds(performer.reference_tags ?? [], ids.tags, "tag"),
         performerIds: [ids.performers[performer.name]], galleryIds: curatedGalleryIds(manifest, ids, code),
         groupIds: collection ? [{ groupId: ids.collections[collection], videoIndex: 0 }] : [], clearFields: [...(studio ? [] : ["studioId"]), ...(date ? [] : ["date"])],
       },
@@ -229,7 +236,7 @@ export function galleryPlans(library, manifest, ids) {
     const studio = Object.hasOwn(record, "studio") ? record.studio : record.videos[0].studio;
     return {
       code, expectedId: ids.galleries[code], filename: path.join(library, "galleries", `${record.decade} - Feature Posters.zip`), label: record.decade,
-      payload: { title: record.title ?? record.name, code, date: record.date ?? record.videos[0].date, details: record.description, photographer: "Cove Demo Art Department", organized: true, studioId: studio == null ? null : ids.studios[studio], urls: [], tagIds: relationIds(record.tags ?? [record.decade], ids.tags, "tag"), performerIds: relationIds(performers, ids.performers, "performer"), videoIds: record.videos.map((video) => ids.videos[videoCode(video, manifest.videos.indexOf(video))]), clearFields: studio == null ? ["studioId"] : [] },
+      payload: { title: record.title ?? record.name, code, date: record.date ?? record.videos[0].date, details: record.description, photographer: "Cove Demo Art Department", organized: true, studioId: studio == null ? null : ids.studios[studio], urls: demoUrls("galleries", code.toLowerCase(), record.urls), tagIds: relationIds(record.tags ?? [record.decade], ids.tags, "tag"), performerIds: relationIds(performers, ids.performers, "performer"), videoIds: record.videos.map((video) => ids.videos[videoCode(video, manifest.videos.indexOf(video))]), clearFields: studio == null ? ["studioId"] : [] },
     };
   });
 }
@@ -246,7 +253,7 @@ export function standaloneGalleryPlans(manifest, ids) {
     }),
     payload: {
       title: gallery.title, code: gallery.code, date: gallery.date, details: gallery.details, photographer: gallery.photographer,
-      organized: true, studioId: gallery.studio == null ? null : ids.studios[gallery.studio], urls: gallery.urls ?? [],
+      organized: true, studioId: gallery.studio == null ? null : ids.studios[gallery.studio], urls: demoUrls("galleries", gallery.slug, gallery.urls),
       tagIds: relationIds(gallery.tags, ids.tags, "tag"), performerIds: relationIds(gallery.performers, ids.performers, "performer"),
       videoIds: relationIds(gallery.video_slugs, Object.fromEntries(manifest.videos.map((video, index) => [video.slug, ids.videos[videoCode(video, index)]])), "video"),
       clearFields: gallery.studio == null ? ["studioId"] : [],
@@ -257,7 +264,7 @@ export function standaloneGalleryPlans(manifest, ids) {
 export function galleryImagePlans(library, manifest, ids) {
   return galleriesFor(manifest).flatMap((gallery, galleryIndex) => gallery.videos.map((video, imageIndex) => {
     const galleryIdentity = galleryCode(gallery, galleryIndex); const basename = `${String(imageIndex + 1).padStart(2, "0")}-${video.slug}.jpg`; const key = `${galleryIdentity}/${basename}`;
-    return { type: "images", id: ids.gallery_images[key], filename: `${path.join(library, "galleries", `${gallery.decade} - Feature Posters.zip`)}#virtual/${basename}`, label: key, endpoint: `/images/${ids.gallery_images[key]}`, payload: { performerIds: relationIds(video.image_performers ?? video.performers, ids.performers, "performer") } };
+    return { type: "images", id: ids.gallery_images[key], filename: `${path.join(library, "galleries", `${gallery.decade} - Feature Posters.zip`)}#virtual/${basename}`, label: key, endpoint: `/images/${ids.gallery_images[key]}`, payload: { urls: demoUrls("images", `${galleryIdentity.toLowerCase()}-${video.slug}`), performerIds: relationIds(video.image_performers ?? video.performers, ids.performers, "performer") } };
   }));
 }
 

@@ -6,7 +6,7 @@ import test from "node:test";
 import { performerArtBrief, videoArtBrief } from "../src/art-direction.js";
 import { build, sourceArtworkInventory, validateDistinctAssets } from "../src/build.js";
 import { ageOnDate } from "../src/dates.js";
-import { expectedBundlePaths, identityMaps, isOwnedVideo, managedImageUploads, performerBirthdateUpdates, scannedArtworkTargets, syncIntoCove, validateBuiltArtwork, validateBundle, validateScanCompletion, validateScanTargetAssociations, verifyFreshSequences, verifyNextImageSequence, verifyNextTagSequence, withLibraryScanning } from "../src/load.js";
+import { canonicalMetadataUpdates, demoUrls, expectedBundlePaths, identityMaps, isOwnedVideo, managedImageUploads, performerBirthdateUpdates, scannedArtworkTargets, syncIntoCove, validateBuiltArtwork, validateBundle, validateScanCompletion, validateScanTargetAssociations, verifyFreshSequences, verifyNextImageSequence, verifyNextTagSequence, withLibraryScanning } from "../src/load.js";
 import { assetSlug, galleriesFor, loadAllManifests, loadManifest, validateManifest } from "../src/manifests.js";
 
 test("manifest contains the complete fictional catalog in deterministic order", async () => {
@@ -26,6 +26,23 @@ test("manifest contains the complete fictional catalog in deterministic order", 
 test("catalog has no remote or public-domain source metadata", async () => {
   const source = JSON.stringify(await loadManifest()).toLowerCase().replaceAll(/[-_]+/g, " ");
   for (const forbidden of ["nasa", "wikimedia", "public domain", "http://", "https://", "cherry poppins", "bea haven", "randy dandy", "kenji watanabe", "simone vale", "open secret films"]) assert.equal(source.includes(forbidden), false, forbidden);
+});
+
+test("canonical metadata gives every URL-capable demo record a filterable archive URL", async () => {
+  const { manifest, expectedIds } = await loadAllManifests(); const updates = canonicalMetadataUpdates("/demo/library", manifest, expectedIds);
+  const urlUpdates = updates.filter(({ endpoint }) => /^\/(videos|images|galleries|audios|texts|performers|studios|groups)\//.test(endpoint));
+  const actualCounts = Object.groupBy(urlUpdates, ({ endpoint }) => endpoint.split("/")[1]);
+  const expectedCounts = {
+    audios: Object.keys(expectedIds.audios).length, galleries: Object.keys(expectedIds.galleries).length, groups: manifest.collections.length,
+    images: Object.keys(expectedIds.images).length + Object.keys(expectedIds.gallery_images).length, performers: manifest.performers.length,
+    studios: manifest.studios.length, texts: Object.keys(expectedIds.texts).length, videos: manifest.videos.length,
+  };
+  assert.deepEqual(Object.fromEntries(Object.entries(actualCounts).map(([kind, records]) => [kind, records.length])), expectedCounts);
+  assert.equal(new Set(urlUpdates.map(({ endpoint }) => endpoint)).size, urlUpdates.length);
+  assert.equal(urlUpdates.every(({ payload }) => payload.urls?.some((url) => url.startsWith("https://archive.example/"))), true);
+  const videoUrls = urlUpdates.filter(({ endpoint }) => endpoint.startsWith("/videos/")).flatMap(({ payload }) => payload.urls);
+  assert.equal(videoUrls.some((url) => url.includes("/public/")), true); assert.equal(videoUrls.some((url) => url.includes("/private/")), true);
+  assert.deepEqual(demoUrls("videos", "stable-record", ["https://source.example/item"]), ["https://source.example/item", demoUrls("videos", "stable-record")[0]]);
 });
 
 test("performers have exact fictional birthdates and plausible adult careers", async () => {

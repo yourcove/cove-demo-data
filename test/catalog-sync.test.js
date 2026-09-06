@@ -38,7 +38,7 @@ function fixture() {
 
 test("performer payload is shared, complete, and preserves authored demographic metadata", () => {
   const { manifest, ids } = fixture(); const payload = performerPayload(manifest.performers[0], ids);
-  assert.deepEqual(payload, { name: "Alex Example", disambiguation: "", details: "A director and writer.", birthdate: "1995-04-10", country: "NZ", gender: "NonBinary", careerStart: "2015", careerEnd: null, organized: true, urls: [], aliases: [], tagIds: [2, 5], favorite: true, clearFields: ["disambiguation", "careerEnd"] });
+  assert.deepEqual(payload, { name: "Alex Example", disambiguation: "", details: "A director and writer.", birthdate: "1995-04-10", country: "NZ", gender: "NonBinary", careerStart: "2015", careerEnd: null, organized: true, urls: ["https://archive.example/public/performers/alex-example"], aliases: [], tagIds: [2, 5], favorite: true, clearFields: ["disambiguation", "careerEnd"] });
   assert.deepEqual(performerPayload(manifest.performers[1], ids).tagIds, []);
   assert.equal(Object.hasOwn(performerPayload(manifest.performers[1], ids), "favorite"), false);
   assert.equal(performerPayload(manifest.performers[1], ids).careerEnd, "2024");
@@ -60,7 +60,7 @@ test("canonical metadata plans cover every mutable relationship including galler
   assert.deepEqual(updates.find(({ endpoint }) => endpoint === "/groups/4").payload.name, "Contemporary Stories");
   assert.deepEqual(updates.find(({ endpoint }) => endpoint === "/audios/1").payload.performerIds, [2]);
   assert.deepEqual(updates.find(({ endpoint }) => endpoint === "/texts/1").payload.performerIds, [1]);
-  assert.deepEqual(updates.find(({ endpoint }) => endpoint === "/images/3").payload, { performerIds: [1] });
+  assert.deepEqual(updates.find(({ endpoint }) => endpoint === "/images/3").payload, { urls: ["https://archive.example/public/images/bdp-gal-01-example-film"], performerIds: [1] });
   assert.equal(updates.find(({ endpoint }) => endpoint === "/studios/1").payload.details, "A studio.");
   assert.match(updates.find(({ endpoint }) => endpoint === "/videos/1").payload.details, /12-second silent poster-based art preview, not feature-film footage/);
   assert.equal(updates.find(({ endpoint }) => endpoint === "/images/1").payload.title, "Alex Example: Design Reference");
